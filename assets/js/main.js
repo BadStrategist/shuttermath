@@ -118,7 +118,7 @@
 
   /* --- GoatCounter analytics: privacy-friendly, cookieless, GDPR-friendly.
      Inert until GOATCOUNTER_CODE is set (see SETUP_GUIDE.md). --- */
-  const GOATCOUNTER_CODE = "kulture"; // e.g. "kulture" -> https://kulture.goatcounter.com/count
+  const GOATCOUNTER_CODE = ""; // INERT until a ShutterMath-owned site code exists (kulture = BakersfieldBrief's counter — do not use)
   function loadAnalytics() {
     if (GOATCOUNTER_CODE === "") return;
     const s = document.createElement("script");
