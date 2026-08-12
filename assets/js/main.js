@@ -118,7 +118,7 @@
 
   /* --- GoatCounter analytics: privacy-friendly, cookieless, GDPR-friendly.
      Inert until GOATCOUNTER_CODE is set (see SETUP_GUIDE.md). --- */
-  const GOATCOUNTER_CODE = ""; // INERT until a ShutterMath-owned site code exists (kulture = BakersfieldBrief's counter — do not use)
+  const GOATCOUNTER_CODE = "shuttermath"; // ShutterMath's own site (kulture = BakersfieldBrief's — never mix)
   function loadAnalytics() {
     if (GOATCOUNTER_CODE === "") return;
     const s = document.createElement("script");
