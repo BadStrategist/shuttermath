@@ -118,7 +118,7 @@
 
   /* --- GoatCounter analytics: privacy-friendly, cookieless, GDPR-friendly.
      Inert until GOATCOUNTER_CODE is set (see SETUP_GUIDE.md). --- */
-  const GOATCOUNTER_CODE = "shuttermath"; // e.g. "shuttermath" -> https://shuttermath.goatcounter.com
+  const GOATCOUNTER_CODE = "kulture"; // e.g. "kulture" -> https://kulture.goatcounter.com/count
   function loadAnalytics() {
     if (GOATCOUNTER_CODE === "") return;
     const s = document.createElement("script");
