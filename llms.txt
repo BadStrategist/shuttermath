@@ -1,0 +1,122 @@
+# ShutterMath
+
+> Free photography calculators that use your real camera's sensor. Depth of field, hyperfocal distance, ND filter exposure, flash guide number, astro pixel scale, field of view, exposure equivalence and more - computed from exact sensor dimensions and textbook formulas, verified against known values. Every tool is 100% free with no sign-up. Includes camera-by-camera guides, charts and plain-English photography tutorials.
+
+ShutterMath is a free, ad-supported suite of photography calculators and guides. Everything runs in the browser, calculations use exact sensor sizes and verified optical formulas, and no account is required.
+
+## Key Facts
+
+- Free, no sign-up, no limits; tools are `isAccessibleForFree`.
+- Sensor database covers 30+ real cameras (mirrorless, DSLR, phones) with exact sensor dimensions.
+- Formulas validated against textbook values (DoF, hyperfocal, ND, guide number, pixel scale).
+- Owned by a small independent publisher; supported by ads shown only after consent.
+
+## Tools & Calculators
+
+- [Free Background Blur (Bokeh) Calculator](https://shuttermath.com/tools/background-blur.html)
+- [Free Depth of Field Calculator](https://shuttermath.com/tools/depth-of-field.html)
+- [Free Exposure Calculator — EV & Equivalents](https://shuttermath.com/tools/exposure.html)
+- [Free Field of View Calculator](https://shuttermath.com/tools/field-of-view.html)
+- [Free Flash Guide Number Calculator](https://shuttermath.com/tools/flash-guide-number.html)
+- [Free Hyperfocal Distance Calculator](https://shuttermath.com/tools/hyperfocal.html)
+- [Photography Calculators — All Free Tools](https://shuttermath.com/tools/index.html)
+- [Free Macro Depth of Field Calculator](https://shuttermath.com/tools/macro-dof.html)
+- [Moon Exposure Calculator — Looney 11 & Phase Guide](https://shuttermath.com/tools/moon-exposure.html)
+- [Which ND Filter Do I Need? — ND Buying Calculator](https://shuttermath.com/tools/nd-filter-buyer.html)
+- [Free ND Filter Calculator](https://shuttermath.com/tools/nd-filter.html)
+- [Free Astro Pixel Scale Calculator](https://shuttermath.com/tools/pixel-scale.html)
+- [Print Size Planner — How Many Megapixels Do I Need?](https://shuttermath.com/tools/print-planner.html)
+- [Free Print Resolution Calculator](https://shuttermath.com/tools/print-resolution.html)
+- [Free Shutter Angle Calculator — 180° Rule for Video](https://shuttermath.com/tools/shutter-angle.html)
+- [Free 500 Rule & NPF Calculator](https://shuttermath.com/tools/star-trails.html)
+- [Free Video ND Filter Calculator — 180° Rule Stops](https://shuttermath.com/tools/video-nd.html)
+
+## Camera Pages
+
+- [Depth of Field for Canon EOS 5D Mark IV](https://shuttermath.com/pages/cameras/canon-eos-5d-mark-iv.html)
+- [Depth of Field for Canon EOS 90D](https://shuttermath.com/pages/cameras/canon-eos-90d.html)
+- [Depth of Field for Canon EOS R10](https://shuttermath.com/pages/cameras/canon-eos-r10.html)
+- [Depth of Field for Canon EOS R100](https://shuttermath.com/pages/cameras/canon-eos-r100.html)
+- [Depth of Field for Canon EOS R5 II](https://shuttermath.com/pages/cameras/canon-eos-r5-ii.html)
+- [Depth of Field for Canon EOS R5](https://shuttermath.com/pages/cameras/canon-eos-r5.html)
+- [Depth of Field for Canon EOS R50](https://shuttermath.com/pages/cameras/canon-eos-r50.html)
+- [Depth of Field for Canon EOS R6 II](https://shuttermath.com/pages/cameras/canon-eos-r6-ii.html)
+- [Depth of Field for Canon EOS R6](https://shuttermath.com/pages/cameras/canon-eos-r6.html)
+- [Depth of Field for Canon EOS R7](https://shuttermath.com/pages/cameras/canon-eos-r7.html)
+- [Depth of Field for Canon EOS R8](https://shuttermath.com/pages/cameras/canon-eos-r8.html)
+- [Depth of Field for Canon EOS Rebel T7](https://shuttermath.com/pages/cameras/canon-eos-rebel-t7.html)
+- [Depth of Field for Fujifilm X-H2](https://shuttermath.com/pages/cameras/fujifilm-x-h2.html)
+- [Depth of Field for Fujifilm X-S20](https://shuttermath.com/pages/cameras/fujifilm-x-s20.html)
+- [Depth of Field for Fujifilm X-T5](https://shuttermath.com/pages/cameras/fujifilm-x-t5.html)
+- [Depth of Field for Fujifilm X-T50](https://shuttermath.com/pages/cameras/fujifilm-x-t50.html)
+- [Depth of Field for Fujifilm X100VI](https://shuttermath.com/pages/cameras/fujifilm-x100vi.html)
+- [Depth of Field for Google Pixel 9 Pro](https://shuttermath.com/pages/cameras/google-pixel-9-pro.html)
+- [Depth of Field by Camera](https://shuttermath.com/pages/cameras/index.html)
+- [Depth of Field for iPhone 15 Pro Max](https://shuttermath.com/pages/cameras/iphone-15-pro-max.html)
+- [Depth of Field for iPhone 16 Pro](https://shuttermath.com/pages/cameras/iphone-16-pro.html)
+- [Depth of Field for Leica Q3](https://shuttermath.com/pages/cameras/leica-q3.html)
+- [Depth of Field for Nikon D3500](https://shuttermath.com/pages/cameras/nikon-d3500.html)
+- [Depth of Field for Nikon D7500](https://shuttermath.com/pages/cameras/nikon-d7500.html)
+- [Depth of Field for Nikon D850](https://shuttermath.com/pages/cameras/nikon-d850.html)
+- [Depth of Field for Nikon Z30](https://shuttermath.com/pages/cameras/nikon-z30.html)
+- [Depth of Field for Nikon Z5](https://shuttermath.com/pages/cameras/nikon-z5.html)
+- [Depth of Field for Nikon Z50 II](https://shuttermath.com/pages/cameras/nikon-z50-ii.html)
+- [Depth of Field for Nikon Z6 III](https://shuttermath.com/pages/cameras/nikon-z6-iii.html)
+- [Depth of Field for Nikon Z7 II](https://shuttermath.com/pages/cameras/nikon-z7-ii.html)
+- [Depth of Field for Nikon Z8](https://shuttermath.com/pages/cameras/nikon-z8.html)
+- [Depth of Field for Nikon Z9](https://shuttermath.com/pages/cameras/nikon-z9.html)
+- [Depth of Field for Nikon Zf](https://shuttermath.com/pages/cameras/nikon-zf.html)
+- [Depth of Field for OM System OM-1 II](https://shuttermath.com/pages/cameras/om-system-om-1-ii.html)
+- [Depth of Field for OM System OM-5](https://shuttermath.com/pages/cameras/om-system-om-5.html)
+- [Depth of Field for Panasonic Lumix G9 II](https://shuttermath.com/pages/cameras/panasonic-lumix-g9-ii.html)
+- [Depth of Field for Panasonic Lumix GH7](https://shuttermath.com/pages/cameras/panasonic-lumix-gh7.html)
+- [Depth of Field for Panasonic Lumix S5 II](https://shuttermath.com/pages/cameras/panasonic-lumix-s5-ii.html)
+- [Depth of Field for Ricoh GR III](https://shuttermath.com/pages/cameras/ricoh-gr-iii.html)
+- [Depth of Field for Samsung Galaxy S25 Ultra](https://shuttermath.com/pages/cameras/samsung-galaxy-s25-ultra.html)
+- [Depth of Field for Sony A1 II](https://shuttermath.com/pages/cameras/sony-a1-ii.html)
+- [Depth of Field for Sony A6000](https://shuttermath.com/pages/cameras/sony-a6000.html)
+- [Depth of Field for Sony A6700](https://shuttermath.com/pages/cameras/sony-a6700.html)
+- [Depth of Field for Sony A7 III](https://shuttermath.com/pages/cameras/sony-a7-iii.html)
+- [Depth of Field for Sony A7 IV](https://shuttermath.com/pages/cameras/sony-a7-iv.html)
+- [Depth of Field for Sony A7C II](https://shuttermath.com/pages/cameras/sony-a7c-ii.html)
+- [Depth of Field for Sony A7R V](https://shuttermath.com/pages/cameras/sony-a7r-v.html)
+- [Depth of Field for Sony FX3](https://shuttermath.com/pages/cameras/sony-fx3.html)
+- [Depth of Field for Sony ZV-E10](https://shuttermath.com/pages/cameras/sony-zv-e10.html)
+
+## Guides & Tutorials
+
+- [About ShutterMath — Free Photography Calculators](https://shuttermath.com/pages/about.html)
+- [Aperture Explained: f-Stops, Depth of Field & Light](https://shuttermath.com/pages/aperture-explained.html)
+- [Camera Sensor Sizes Compared](https://shuttermath.com/pages/camera-sensor-sizes.html)
+- [Circle of Confusion Explained](https://shuttermath.com/pages/circle-of-confusion.html)
+- [Contact ShutterMath — Report a Bug or Request a Camera](https://shuttermath.com/pages/contact.html)
+- [Crop Factor Explained — Full Frame, APS-C & M4/3](https://shuttermath.com/pages/crop-factor-explained.html)
+- [Astrophotography Focus & Depth of Field](https://shuttermath.com/pages/depth-of-field-astro.html)
+- [Depth of Field for Landscape Photography](https://shuttermath.com/pages/depth-of-field-landscape.html)
+- [Depth of Field for Macro Photography](https://shuttermath.com/pages/depth-of-field-macro.html)
+- [Depth of Field for Portrait Photography](https://shuttermath.com/pages/depth-of-field-portrait.html)
+- [Depth of Field for Real Estate Photography](https://shuttermath.com/pages/depth-of-field-real-estate.html)
+- [Depth of Field for Sports & Action Photography](https://shuttermath.com/pages/depth-of-field-sports.html)
+- [135mm Depth of Field Table — Near & Far Limits](https://shuttermath.com/pages/dof-table-135mm.html)
+- [24mm Depth of Field Table — Near & Far Limits](https://shuttermath.com/pages/dof-table-24mm.html)
+- [35mm Depth of Field Table — Near & Far Limits](https://shuttermath.com/pages/dof-table-35mm.html)
+- [50mm Depth of Field Table — Near & Far Limits](https://shuttermath.com/pages/dof-table-50mm.html)
+- [85mm Depth of Field Table — Near & Far Limits](https://shuttermath.com/pages/dof-table-85mm.html)
+- [Exposure Triangle Explained](https://shuttermath.com/pages/exposure-triangle.html)
+- [Exposure Value (EV) Chart — Reference for Any Light](https://shuttermath.com/pages/exposure-value-chart.html)
+- [Focal Length Explained: 24mm to 200mm](https://shuttermath.com/pages/focal-length-explained.html)
+- [Free Photography Calculators — No Sign-Up](https://shuttermath.com/pages/free-photography-calculators.html)
+- [Photography Guides & Reference Charts](https://shuttermath.com/pages/guides.html)
+- [Free Hyperfocal Distance Chart](https://shuttermath.com/pages/hyperfocal-chart.html)
+- [Long Exposure Photography — Settings & ND](https://shuttermath.com/pages/long-exposure.html)
+- [Low Light Photography — Noise vs Blur Settings](https://shuttermath.com/pages/low-light.html)
+- [Free ND Filter Long Exposure Chart](https://shuttermath.com/pages/nd-filter-long-exposure-chart.html)
+- [Privacy Policy — ShutterMath](https://shuttermath.com/pages/privacy.html)
+- [Sharpest Aperture — Diffraction Explained](https://shuttermath.com/pages/sharpest-aperture.html)
+- [Shutter Speed Chart](https://shuttermath.com/pages/shutter-speed-chart.html)
+- [Terms of Use — ShutterMath](https://shuttermath.com/pages/terms.html)
+
+## Site
+
+- [Field-Ready Kits & Printable Cards](https://shuttermath.com/products.html)
+
