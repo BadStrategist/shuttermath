@@ -2,6 +2,15 @@
 
 Generated 2026-09-01. Targets verified by research. Email sending is BLOCKED until an email channel is configured (himalaya or Google OAuth).
 
+## Progress log
+
+| Date | Action | Result |
+|---|---|---|
+| 2026-09-01 | PR to lunohodov/awesome-astrophotography (160★, curated astro tools list) | OPEN: github.com/lunohodov/awesome-astrophotography/pull/23 — added ShutterMath to Planning section (star-trails 500/NPF, pixel scale). CI awaiting maintainer approval (first-time contributor). |
+| 2026-09-01 | Built linkable asset: embeddable ND filter widget + embed instructions page | Deployed 3f9798f. Live: /embed/ (200), /embed/nd-filter-widget.html (200), /embed→301. Sitemap now 100 locs. Widget computes correctly, "Powered by ShutterMath" link built in. |
+
+## Email outreach queue (BLOCKED — needs email channel)
+
 | # | Site | Target URL | Type | Why it fits | Status |
 |---|---|---|---|---|---|
 | 1 | rwphotos.com.au | https://www.rwphotos.com.au/blog/my-list-of-handy-photography-apps-and-websites | roundup | Blog 'handy photography apps and websites' lists ND filter app + PhotoPills calculators but NO free web calculator. Perfect fit for ShutterMath (free, no signup). | prepped |
