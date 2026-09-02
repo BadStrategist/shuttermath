@@ -8,6 +8,7 @@ Generated 2026-09-01. Targets verified by research. Email sending is BLOCKED unt
 |---|---|---|
 | 2026-09-01 | PR to lunohodov/awesome-astrophotography (160★, curated astro tools list) | OPEN: github.com/lunohodov/awesome-astrophotography/pull/23 — added ShutterMath to Planning section (star-trails 500/NPF, pixel scale). CI awaiting maintainer approval (first-time contributor). |
 | 2026-09-01 | Built linkable asset: embeddable ND filter widget + embed instructions page | Deployed 3f9798f. Live: /embed/ (200), /embed/nd-filter-widget.html (200), /embed→301. Sitemap now 100 locs. Widget computes correctly, "Powered by ShutterMath" link built in. |
+| 2026-09-01 | Built 3 more embeddable widgets (star-trails, DoF, pixel-scale) + showcase gallery | Deployed 57e6e3f. All 4 widgets live (200 each), /embed/ gallery live, sitemap 103 locs. Math verified against FC engine (pixel-scale 2.15″/px exact; NPF scales with pixel size; DoF correct). Each embeds with "Calculated with ShutterMath" link. |
 
 ## Email outreach queue (BLOCKED — needs email channel)
 
