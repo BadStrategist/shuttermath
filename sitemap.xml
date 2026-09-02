@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://shuttermath.com/</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://shuttermath.com/pages/about.html</loc><lastmod>2026-09-01</lastmod></url>
@@ -98,4 +98,4 @@
   <url><loc>https://shuttermath.com/tools/shutter-angle.html</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://shuttermath.com/tools/star-trails.html</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://shuttermath.com/tools/video-nd.html</loc><lastmod>2026-09-01</lastmod></url>
-</urlset>
+<url><loc>https://shuttermath.com/embed/</loc><lastmod>2026-09-01</lastmod></url><url><loc>https://shuttermath.com/embed/nd-filter-widget.html</loc><lastmod>2026-09-01</lastmod></url></urlset>
