@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Depth of Field Calculator Widget</title>
+<style>
+  :root { --ink:#1a1a1a; --mut:#6b7280; --line:#e5e7eb; --acc:#2563eb; --bg:#ffffff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); }
+  .widget { padding:16px 18px 10px; }
+  .widget h1 { font-size:16px; font-weight:700; margin:0 0 2px; }
+  .widget .sub { font-size:12px; color:var(--mut); margin:0 0 12px; }
+  .field { margin-bottom:10px; }
+  .field label { display:block; font-size:12px; font-weight:600; margin-bottom:4px; }
+  .field input, .field select { width:100%; padding:8px 10px; font-size:14px; border:1px solid var(--line); border-radius:8px; background:#fff; color:var(--ink); }
+  .field .hint { font-size:11px; color:var(--mut); margin-top:3px; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .result { background:#f8fafc; border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-top:12px; }
+  .result .k { font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--mut); }
+  .result .v { font-size:22px; font-weight:700; margin-top:2px; color:var(--acc); }
+  .result .s { font-size:12px; color:var(--mut); }
+  .rrow { display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; }
+  .note { font-size:11px; color:var(--mut); margin-top:10px; line-height:1.45; }
+  .brand { text-align:center; font-size:11px; color:var(--mut); padding:8px 0 4px; border-top:1px solid var(--line); margin-top:12px; }
+  .brand a { color:var(--acc); text-decoration:none; font-weight:600; }
+  .brand a:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+<div class="widget">
+  <h1>Depth of Field Calculator</h1>
+  <p class="sub">Near, far, and total depth of field for your lens.</p>
+
+  <div class="grid2">
+    <div class="field"><label for="focal">Focal length (mm)</label>
+      <input id="focal" type="number" min="1" max="2000" step="any" value="50" inputmode="decimal">
+    </div>
+    <div class="field"><label for="aperture">Aperture (f/)</label>
+      <select id="aperture"></select>
+    </div>
+  </div>
+
+  <div class="field"><label for="dist">Focus distance</label>
+    <input id="dist" type="number" min="0.01" step="any" value="5" inputmode="decimal">
+    <div class="hint" id="distunit">in meters</div>
+  </div>
+
+  <div class="rrow">
+    <div class="result"><div class="k">Near</div><div class="v" id="r-near">—</div></div>
+    <div class="result"><div class="k">Focus</div><div class="v" id="r-focus">—</div></div>
+    <div class="result"><div class="k">Far</div><div class="v" id="r-far">—</div></div>
+  </div>
+  <div class="result" style="margin-top:10px">
+    <div class="k">Total depth of field</div>
+    <div class="v" id="r-total">—</div>
+    <div class="s" id="r-ratio"></div>
+  </div>
+
+  <div class="note">📷 <strong>Reading:</strong> with a <span id="r-fmeta"></span>, everything from <strong id="r-near2"></strong> to <strong id="r-far2"></strong> is acceptably sharp at your chosen focus distance.</div>
+</div>
+
+<div class="brand">Calculated with <a href="https://shuttermath.com/tools/depth-of-field.html" target="_blank" rel="noopener">ShutterMath&rsquo;s depth of field calculator</a></div>
+
+<script>
+(function () {
+  "use strict";
+  var el = function (id) { return document.getElementById(id); };
+  var APERTURES = ["1.2","1.4","1.8","2","2.5","2.8","3.5","4","5.6","8","11","16","22"];
+  APERTURES.forEach(function (a) {
+    var o = document.createElement("option"); o.value = a; o.textContent = "f/" + a;
+    el("aperture").appendChild(o);
+  });
+  el("aperture").value = "4";
+  var UNIT = "m";
+
+  function hyperfocal(f, N, coc) { return (f*f)/(N*coc) + f; }
+  function dofCalc(f, N, coc, s) {
+    var H = hyperfocal(f, N, coc);
+    var near, far;
+    if (s >= H) { near = H/2; far = Infinity; }
+    else { near = (H*s)/(H + (s - f)); far = (H*s)/(H - (s - f)); }
+    return { H:H, near:near, far:far, dof: far===Infinity ? Infinity : far-near };
+  }
+  function fmtDist(mm) {
+    if (!isFinite(mm)) return "∞";
+    if (UNIT === "m") { var m = mm/1000; if (m < 0.05) return Math.round(mm) + " mm"; if (m >= 100) return Math.round(m) + " m"; return Math.round(m*100)/100 + " m"; }
+    var ft = mm/304.8; if (ft < 0.2) return Math.round(mm/25.4*100)/100 + " in"; if (ft >= 100) return Math.round(ft) + " ft"; return Math.round(ft*100)/100 + " ft";
+  }
+  function compute() {
+    var f = parseFloat(el("focal").value);
+    var N = parseFloat(el("aperture").value);
+    var d = parseFloat(el("dist").value);
+    if (!f || !N || !d) return;
+    var coc = 0.029; // 35mm full-frame standard
+    var s = UNIT === "m" ? d*1000 : d*304.8;
+    var r = dofCalc(f, N, coc, s);
+    el("r-near").textContent = fmtDist(r.near);
+    el("r-focus").textContent = fmtDist(s);
+    el("r-far").textContent = fmtDist(r.far);
+    el("r-total").textContent = r.dof===Infinity ? "∞ (to hyperfocal)" : fmtDist(r.dof);
+    el("r-ratio").textContent = "in front / behind: " + (r.far===Infinity ? "—" : (fmtDist(s-r.near)+" / "+fmtDist(r.far-s)));
+    el("r-near2").textContent = fmtDist(r.near);
+    el("r-far2").textContent = fmtDist(r.far);
+    el("r-fmeta").textContent = f + "mm at f/" + N + " focused at " + fmtDist(s);
+  }
+  ["focal","aperture","dist"].forEach(function (id) { el(id).addEventListener("input", compute); });
+  el("aperture").addEventListener("change", compute);
+  compute();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Astro Pixel Scale Calculator Widget</title>
+<style>
+  :root { --ink:#1a1a1a; --mut:#6b7280; --line:#e5e7eb; --acc:#2563eb; --bg:#ffffff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); }
+  .widget { padding:16px 18px 10px; }
+  .widget h1 { font-size:16px; font-weight:700; margin:0 0 2px; }
+  .widget .sub { font-size:12px; color:var(--mut); margin:0 0 12px; }
+  .field { margin-bottom:10px; }
+  .field label { display:block; font-size:12px; font-weight:600; margin-bottom:4px; }
+  .field input, .field select { width:100%; padding:8px 10px; font-size:14px; border:1px solid var(--line); border-radius:8px; background:#fff; color:var(--ink); }
+  .field .hint { font-size:11px; color:var(--mut); margin-top:3px; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .result { background:#f8fafc; border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-top:12px; }
+  .result .k { font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--mut); }
+  .result .v { font-size:24px; font-weight:700; margin-top:2px; color:var(--acc); }
+  .result .s { font-size:12px; color:var(--mut); }
+  .note { font-size:11px; color:var(--mut); margin-top:10px; line-height:1.45; }
+  .brand { text-align:center; font-size:11px; color:var(--mut); padding:8px 0 4px; border-top:1px solid var(--line); margin-top:12px; }
+  .brand a { color:var(--acc); text-decoration:none; font-weight:600; }
+  .brand a:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+<div class="widget">
+  <h1>Astro Pixel Scale Calculator</h1>
+  <p class="sub">Is your sampling matched to your optics and seeing?</p>
+
+  <div class="grid2">
+    <div class="field"><label for="px">Pixel size (µm)</label>
+      <input id="px" type="number" min="0.1" step="any" value="4.17" inputmode="decimal">
+      <div class="hint" id="camhint">e.g. 4.17 µm = Sony A1 II</div>
+    </div>
+    <div class="field"><label for="focal">Focal length (mm)</label>
+      <input id="focal" type="number" min="1" max="10000" step="any" value="400" inputmode="decimal">
+    </div>
+  </div>
+
+  <div class="field"><label for="seeing">Typical seeing (arcsec FWHM)</label>
+    <select id="seeing">
+      <option value="1.5">Excellent — 1.5″</option>
+      <option value="2.0" selected>Good — 2.0″</option>
+      <option value="3.0">Average — 3.0″</option>
+      <option value="4.0">Poor — 4.0″</option>
+    </select>
+  </div>
+
+  <div class="result">
+    <div class="k">Pixel scale</div>
+    <div class="v" id="r-scale">—</div>
+    <div class="s" id="r-verdict"></div>
+  </div>
+
+  <div class="note">🔭 <strong>Rule of thumb:</strong> sample at 1/3 to 1/2 of your local seeing. If your pixel scale is much below ~1″/px you&rsquo;re over-sampling (fine for deep-sky detail); much above ~2–3″/px you&rsquo;re under-sampling (soft stars).</div>
+</div>
+
+<div class="brand">Calculated with <a href="https://shuttermath.com/tools/pixel-scale.html" target="_blank" rel="noopener">ShutterMath&rsquo;s astro pixel scale calculator</a></div>
+
+<script>
+(function () {
+  "use strict";
+  var el = function (id) { return document.getElementById(id); };
+  function compute() {
+    var px = parseFloat(el("px").value);
+    var f = parseFloat(el("focal").value);
+    var seeing = parseFloat(el("seeing").value);
+    if (!px || !f || !seeing) return;
+    var scale = (206.265 * px) / f; // arcsec per pixel
+    el("r-scale").textContent = scale.toFixed(2) + "″/px";
+    // sampling ratio vs Nyquist on seeing
+    var ratio = scale / seeing;
+    var verdict;
+    if (ratio > 0.5) verdict = "under-sampled (soft stars) — consider longer focal length";
+    else if (ratio >= 0.25) verdict = "well-matched to seeing";
+    else verdict = "over-sampled — great for deep-sky detail, more data per image";
+    el("r-verdict").textContent = verdict + " · " + ratio.toFixed(2) + "× seeing";
+  }
+  ["px","focal","seeing"].forEach(function (id) { el(id).addEventListener("input", compute); });
+  el("seeing").addEventListener("change", compute);
+  compute();
+})();
+</script>
+</body>
+</html>

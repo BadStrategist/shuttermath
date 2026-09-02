@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Star Trails Calculator Widget</title>
+<style>
+  :root { --ink:#1a1a1a; --mut:#6b7280; --line:#e5e7eb; --acc:#2563eb; --bg:#ffffff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--bg); }
+  .widget { padding:16px 18px 10px; }
+  .widget h1 { font-size:16px; font-weight:700; margin:0 0 2px; }
+  .widget .sub { font-size:12px; color:var(--mut); margin:0 0 12px; }
+  .field { margin-bottom:10px; }
+  .field label { display:block; font-size:12px; font-weight:600; margin-bottom:4px; }
+  .field input, .field select { width:100%; padding:8px 10px; font-size:14px; border:1px solid var(--line); border-radius:8px; background:#fff; color:var(--ink); }
+  .field .hint { font-size:11px; color:var(--mut); margin-top:3px; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .result { background:#f8fafc; border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-top:12px; }
+  .result .k { font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--mut); }
+  .result .v { font-size:22px; font-weight:700; margin-top:2px; color:var(--acc); }
+  .result .s { font-size:12px; color:var(--mut); }
+  .rrow { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .note { font-size:11px; color:var(--mut); margin-top:10px; line-height:1.45; }
+  .brand { text-align:center; font-size:11px; color:var(--mut); padding:8px 0 4px; border-top:1px solid var(--line); margin-top:12px; }
+  .brand a { color:var(--acc); text-decoration:none; font-weight:600; }
+  .brand a:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+<div class="widget">
+  <h1>Star Trails Calculator</h1>
+  <p class="sub">Max shutter time for sharp stars — NPF, 500, and 300 rules.</p>
+
+  <div class="field"><label for="camera">Camera</label>
+    <select id="camera"></select>
+    <div class="hint" id="camhint">Pick your camera to use its real pixel size.</div>
+  </div>
+
+  <div class="grid2">
+    <div class="field"><label for="focal">Focal length (mm)</label>
+      <input id="focal" type="number" min="1" max="2000" step="any" value="24" inputmode="decimal">
+    </div>
+    <div class="field"><label for="aperture">Aperture (f/)</label>
+      <select id="aperture"></select>
+    </div>
+  </div>
+
+  <div class="rrow">
+    <div class="result"><div class="k">NPF rule (accurate)</div><div class="v" id="r-npf">—</div><div class="s">pixel-size aware</div></div>
+    <div class="result"><div class="k">500 rule</div><div class="v" id="r-500">—</div><div class="s">classic, forgiving</div></div>
+  </div>
+  <div class="rrow" style="margin-top:10px">
+    <div class="result"><div class="k">300 rule</div><div class="v" id="r-300">—</div><div class="s">safer, high-res</div></div>
+    <div class="result"><div class="k">600 rule</div><div class="v" id="r-600">—</div><div class="s">forgiving, film-era</div></div>
+  </div>
+
+  <div class="note">🌌 <strong>How to use it:</strong> set your shutter to <strong id="r-npf-inline"></strong> (or just under), open the aperture fully, then raise ISO until the histogram is ⅓–½ from the left. Check at 100% zoom — if stars are elongated, shorten by 20%.</div>
+</div>
+
+<div class="brand">Calculated with <a href="https://shuttermath.com/tools/star-trails.html" target="_blank" rel="noopener">ShutterMath&rsquo;s star trails calculator</a></div>
+
+<script>
+(function () {
+  "use strict";
+  var el = function (id) { return document.getElementById(id); };
+  var APERTURES = ["1.2","1.4","1.8","2","2.5","2.8","3.5","4","5.6","8"];
+  var CAMERAS = [
+    {"name":"iPhone 15 Pro Max / 16 Pro","sensor_w":9.8,"px_w":8064},
+    {"name":"Canon EOS 5D Mark IV","sensor_w":36.0,"px_w":6720},
+    {"name":"Canon EOS R5","sensor_w":36.0,"px_w":8192},
+    {"name":"Canon EOS R6 / R6 II","sensor_w":36.0,"px_w":6000},
+    {"name":"Sony A1 / A1 II","sensor_w":35.9,"px_w":8640},
+    {"name":"Sony A7 III / A7 IV","sensor_w":35.6,"px_w":6000},
+    {"name":"Sony A7R V","sensor_w":35.7,"px_w":9504},
+    {"name":"Nikon Z8 / Z9","sensor_w":35.9,"px_w":8256},
+    {"name":"Nikon Z6 / Z6 II","sensor_w":35.9,"px_w":6048},
+    {"name":"Nikon D850","sensor_w":35.9,"px_w":8256},
+    {"name":"Fujifilm X-T5","sensor_w":23.5,"px_w":7728},
+    {"name":"Fujifilm X-T4 / X-S20","sensor_w":23.5,"px_w":6240},
+    {"name":"APS-C (generic 24MP)","sensor_w":23.6,"px_w":6000},
+    {"name":"Micro Four Thirds (generic)","sensor_w":17.3,"px_w":5184},
+    {"name":"Full Frame (generic)","sensor_w":36.0,"px_w":6000}
+  ];
+  CAMERAS.forEach(function (c) {
+    var o = document.createElement("option"); o.value = JSON.stringify(c); o.textContent = c.name;
+    el("camera").appendChild(o);
+  });
+  APERTURES.forEach(function (a) {
+    var o = document.createElement("option"); o.value = a; o.textContent = "f/" + a;
+    el("aperture").appendChild(o);
+  });
+  el("aperture").value = "2";
+
+  function fmtTime(s) {
+    if (s >= 60) { var m = Math.floor(s/60); var r = Math.round((s - m*60)*10)/10; return r>0 ? m+" min "+r+" s" : m+" min"; }
+    if (s >= 1) return Math.round(s*10)/10 + " s";
+    return Math.round(s*1000) + " ms";
+  }
+  function compute() {
+    var cam = JSON.parse(el("camera").value);
+    var focal = parseFloat(el("focal").value);
+    var N = parseFloat(el("aperture").value);
+    if (!focal || !N) return;
+    // crop factor relative to full frame (36mm width)
+    var crop = 36.0 / cam.sensor_w;
+    // pixel size in microns
+    var px_um = (cam.sensor_w * 1000) / cam.px_w;
+    var effFocal = focal * crop; // full-frame equivalent
+    var npf = (35 * N + 30 * px_um) / effFocal;
+    var r500 = 500 / effFocal;
+    var r300 = 300 / effFocal;
+    var r600 = 600 / effFocal;
+    el("r-npf").textContent = fmtTime(npf);
+    el("r-500").textContent = fmtTime(r500);
+    el("r-300").textContent = fmtTime(r300);
+    el("r-600").textContent = fmtTime(r600);
+    el("r-npf-inline").textContent = fmtTime(npf);
+    el("camhint").textContent = cam.name + " · crop " + crop.toFixed(2) + "× · " + px_um.toFixed(2) + " µm pixels";
+  }
+  ["camera","focal","aperture"].forEach(function (id) { el(id).addEventListener("input", compute); });
+  el("camera").addEventListener("change", compute);
+  el("aperture").addEventListener("change", compute);
+  compute();
+})();
+</script>
+</body>
+</html>
