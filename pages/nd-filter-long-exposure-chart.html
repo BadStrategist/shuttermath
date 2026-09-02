@@ -14,6 +14,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📷</text></svg>">
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+  { "@type": "Question", "name": "What is an ND filter long exposure chart?", "acceptedAnswer": { "@type": "Answer", "text": "A lookup table that tells you your final shutter time after placing an ND filter, starting from your base (unfiltered) exposure. Meter without the filter, find the base exposure in the left column, then read across to the filter you own." } },
+  { "@type": "Question", "name": "How do you calculate ND filter exposure time?", "acceptedAnswer": { "@type": "Answer", "text": "Multiply the base shutter time by 2 to the power of the filter's stops: t_out = t_base × 2^stops. ND4 is 2 stops (4×), ND64 is 6 stops (64×), ND1000 is 10 stops (1000×)." } },
+  { "@type": "Question", "name": "What ND filter is a 10-stop filter?", "acceptedAnswer": { "@type": "Answer", "text": "A 10-stop filter is ND1000, which multiplies shutter time by 1000 (2^10). A 1/60 s base exposure becomes about 16.4 seconds through an ND1000." } },
+  { "@type": "Question", "name": "Do ND filters cause reciprocity failure?", "acceptedAnswer": { "@type": "Answer", "text": "Reciprocity failure affects long exposures on film, not digital sensors. Budget filters can also be off by a third of a stop from their rated density, so bracket ±1 stop and check the histogram." } }
+] }
+</script>
 </head>
 <body>
 <header class="site-header"></header>
@@ -42,5 +50,6 @@
   </div>
 </div>
 <script src="../assets/js/main.js?v=20260806a"></script>
+  <script src="../assets/js/webmcp.js" defer></script>
 </body>
 </html>
