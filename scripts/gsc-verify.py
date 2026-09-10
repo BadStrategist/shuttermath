@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the Google Search Console HTML verification file for FocalCalc.
+"""Generate the Google Search Console HTML verification file for ShutterMath.
 
 Usage (from the photography-calc repo root):
     python scripts/gsc-verify.py <TOKEN>
@@ -28,12 +28,12 @@ def main():
         "<!DOCTYPE html>\n<html>\n<head>\n"
         '<meta charset="utf-8">\n<title>Verification</title>\n'
         '<meta name="google-site-verification" content="google' + token + '">\n'
-        "</head>\n<body>\n<p>FocalCalc verification file.</p>\n</body>\n</html>\n"
+        "</head>\n<body>\n<p>ShutterMath verification file.</p>\n</body>\n</html>\n"
     )
     with open(filename, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"Wrote {filename}. Commit + push, then click Verify in Search Console.")
-    print("After verifying, submit the sitemap: https://focalcalc.com/sitemap.xml")
+    print("After verifying, submit the sitemap: https://shuttermath.com/sitemap.xml")
 
 if __name__ == "__main__":
     main()

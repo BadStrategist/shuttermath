@@ -1,3 +1,7 @@
 products-build/
 .venv/
 __pycache__/
+
+# Outreach PII — recipient addresses must never enter git history
+scripts/outreach_sent.json
+scripts/outreach_targets.json
