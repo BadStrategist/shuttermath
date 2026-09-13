@@ -295,7 +295,7 @@ def main():
     if missing:
         raise SystemExit(f"! not in data/cameras.json: {missing}")
 
-    print(f"{'page':<34} {'status'}")
+    changed = 0
     for name in CURATED:
         c = db[name]
         path = CAMDIR / f"{slugify(name)}.html"
@@ -303,8 +303,10 @@ def main():
             print(f"{path.name:<34} MISSING FILE")
             continue
         _, notes = patch_page(path, c, db, check=args.check)
+        if notes != ["no change"]:
+            changed += 1
         print(f"{path.name:<34} {', '.join(notes)}")
-    print(f"\n{len(CURATED)} pages {'checked' if args.check else 'updated'}")
+    print(f"\n{len(CURATED)} pages {'checked' if args.check else 'processed'}, {changed} changed")
 
 
 if __name__ == "__main__":
