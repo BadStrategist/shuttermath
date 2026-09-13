@@ -150,9 +150,11 @@ def body_block(c, db):
             f'\n  <div class="callout warn">📱 <strong>About that megapixel count:</strong> the '
             f'{name} lists its {s["mp"]:.0f} MP mode, which is a special full-resolution capture. '
             f'Normal shots come out binned to roughly {s["binned_mp"]:.0f} MP, which multiplies the '
-            f'effective pixel pitch to about {s["binned_pitch"]:.2f} µm and moves the practical '
-            f'diffraction limit out to roughly f/{s["binned_dla"]:.1f} — that is the number that '
-            f'governs everyday frames, not the {s["pitch"]:.2f} µm best case.</div>')
+            f'effective pixel pitch to about {s["binned_pitch"]:.2f} µm and moves the diffraction '
+            f'limit out to roughly f/{s["binned_dla"]:.1f} — so the {s["pitch"]:.2f} µm figure is a '
+            f'best case, not what everyday frames are made of. Phone lenses sit near f/1.7–f/2.4 and '
+            f'rarely stop down at all, so diffraction is not what limits a phone photo — the lens and '
+            f'the sensor\'s size are.</div>')
 
     return f'''{START}
   <p class="muted mt1">{name} key specs: {s["mp"]:.0f} MP · {s["crop"]:.2f}× crop factor · {s["pitch"]:.2f} µm pixels · CoC {s["coc"]:.4f} mm (standard diagonal ÷ 1500). The depth-of-field values below assume focus at 5 m.</p>
