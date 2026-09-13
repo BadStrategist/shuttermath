@@ -7,7 +7,7 @@
 <meta name="description" content="Free depth of field calculator for the Sony FX3: near and far limits, total DoF and hyperfocal distance from its exact 36.0×24.0 mm sensor.">
 <link rel="canonical" href="https://shuttermath.com/pages/cameras/sony-fx3.html">
 <meta property="og:title" content="Depth of Field for Sony FX3 | ShutterMath">
-<meta property="og:description" content="Free depth of field calculator preset for the Sony FX3: near/far limits, total DoF and hyperfocal distance at every common focal length and aperture — computed from its exact 36.0×24.0 mm sensor.">
+<meta property="og:description" content="Sony FX3 depth of field, computed from its exact 36.0×24.0 mm sensor, 12 MP resolution and 0.0288 mm circle of confusion — the numbers its own calculators use, not a generic preset. It is a full-frame sensor, so depth of field depends only on focal length, aperture and focus distance — no crop conversion needed, and f/8 still behaves like f/8.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://shuttermath.com/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -20,7 +20,8 @@
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"What is the circle of confusion for the Sony FX3?","acceptedAnswer":{"@type":"Answer","text":"The Sony FX3 has a 36.0×24.0 mm sensor, so the standard circle of confusion is 0.029 mm (sensor diagonal ÷ 1500)."}},
 {"@type":"Question","name":"What is the hyperfocal distance for a 50 mm lens on the Sony FX3?","acceptedAnswer":{"@type":"Answer","text":"At f/8 the hyperfocal distance is about 10.9 m; focus there and everything from half that distance to infinity is acceptably sharp."}},
-{"@type":"Question","name":"Is the Sony FX3 depth of field calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes — every ShutterMath calculator is free, with no sign-up, no watermarks and no limits. This page is preset to the Sony FX3 but any camera in the database works."}}
+{"@type":"Question","name":"Is the Sony FX3 depth of field calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes — every ShutterMath calculator is free, with no sign-up, no watermarks and no limits. This page is preset to the Sony FX3 but any camera in the database works."}},
+{"@type":"Question","name":"What is the diffraction limit of the Sony FX3?","acceptedAnswer":{"@type":"Answer","text":"About f/12.7. At a 8.49 \u00b5m effective pixel pitch there comes a point where the airy disc from an ever-smaller aperture covers more than a pixel can resolve, so sharpness stops improving. That is the number to stop at, not f/16 or f/22."}}
 ]}
 </script>
 </head>
@@ -29,12 +30,53 @@
 <main class="container">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="../guides.html">Guides</a> › <a href="index.html">Cameras</a> › Sony FX3</nav>
   <h1>Depth of Field for the Sony FX3</h1>
-  <p class="muted">Depth of field is the range of distances in a scene that appears acceptably sharp in front of and behind the focus point. This page computes it for the Sony FX3 using the exact dimensions of its 36.0×24.0 mm sensor — no generic presets.</p>
+  <p class="muted">Sony FX3 depth of field, computed from its exact 36.0×24.0 mm sensor, 12 MP resolution and 0.0288 mm circle of confusion — the numbers its own calculators use, not a generic preset. It is a full-frame sensor, so depth of field depends only on focal length, aperture and focus distance — no crop conversion needed, and f/8 still behaves like f/8.</p>
 
   <div class="ad-slot" id="ad-content" data-ad="guide"></div>
 
   <p><a class="btn" href="https://shuttermath.com/tools/depth-of-field.html?cam=Sony%20FX3&f=50&a=2.8&d=5">🎯 Open the interactive calculator with this camera →</a></p>
-  <p class="muted mt1">Sony FX3 key specs: 12 MP · 1.00× crop factor · 8.48 µm pixels · CoC 0.029 mm (standard diagonal ÷ 1500). The values below assume focus at 5 m.</p>
+<!-- CAMP:START -->
+  <p class="muted mt1">Sony FX3 key specs: 12 MP · 1.00× crop factor · 8.49 µm pixels · CoC 0.0288 mm (standard diagonal ÷ 1500). The depth-of-field values below assume focus at 5 m.</p>
+
+  <h2>Sensor profile: what the Sony FX3 sensor means for depth of field</h2>
+  <p>A 36×24 mm chip is the reference size every other format is measured against, so its depth of field is the shallowest per framing and its sensors tolerate the smallest apertures before diffraction shows.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Property</th><th>Value</th><th>What it changes</th></tr></thead>
+    <tbody>
+      <tr><td>Sensor size</td><td class="num">36.0 × 24.0 mm</td><td>Full Frame — 100% of a full-frame sensor's area</td></tr>
+      <tr><td>Crop factor</td><td class="num">1.00×</td><td>a Full Frame sensor records 1.00× the focal length, so a 50 mm lens frames like 50 mm on full frame</td></tr>
+      <tr><td>Native resolution</td><td class="num">12 MP (4240 × 2832)</td><td>prints 14.1 × 9.4 in at 300 ppi</td></tr>
+      <tr><td>Pixel pitch</td><td class="num">8.49 µm</td><td>how much sensor area each pixel gets — the smaller the pitch, the sooner diffraction bites</td></tr>
+      <tr><td>Circle of confusion</td><td class="num">0.0288 mm</td><td>the sharpness yardstick this page's depth-of-field numbers are built on (sensor diagonal ÷ 1500)</td></tr>
+      <tr><td>Diffraction limit</td><td class="num">≈ f/12.7</td><td>past this aperture the airy disc outgrows a pixel pair and resolution falls, even though depth of field keeps growing</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Framing on the Sony FX3: focal length vs angle of view</h2>
+  <p>Because this is a 1.00× sensor, focal lengths land differently than on full frame. Horizontal angle of view below is computed from the sensor's exact 36.0 mm width.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Focal length</th><th>Horizontal angle of view</th><th>35 mm equivalent</th><th>Full-frame angle for that equivalent</th></tr></thead>
+    <tbody>
+      <tr><td class="num">16 mm</td><td class="num">96.7°</td><td class="num">16 mm</td><td class="num">96.7°</td></tr>
+      <tr><td class="num">24 mm</td><td class="num">73.7°</td><td class="num">24 mm</td><td class="num">73.7°</td></tr>
+      <tr><td class="num">35 mm</td><td class="num">54.4°</td><td class="num">35 mm</td><td class="num">54.4°</td></tr>
+      <tr><td class="num">50 mm</td><td class="num">39.6°</td><td class="num">50 mm</td><td class="num">39.6°</td></tr>
+      <tr><td class="num">85 mm</td><td class="num">23.9°</td><td class="num">85 mm</td><td class="num">23.9°</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>How the Sony FX3 compares to other Full Frame bodies</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Body</th><th>Sensor area</th><th>Resolution</th><th>Pixel pitch</th><th>Diffraction limit</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Sony FX3</strong></td><td class="num">864 mm²</td><td class="num">12 MP</td><td class="num">8.49 µm</td><td class="num">≈ f/12.7</td></tr>
+      <tr><td><a href="canon-eos-5d-mark-iv.html">Canon EOS 5D Mark IV</a></td><td class="num">864 mm²</td><td class="num">30 MP</td><td class="num">5.36 µm</td><td class="num">≈ f/8.0</td></tr>
+      <tr><td><a href="canon-eos-r5.html">Canon EOS R5</a></td><td class="num">864 mm²</td><td class="num">45 MP</td><td class="num">4.39 µm</td><td class="num">≈ f/6.5</td></tr>
+      <tr><td><a href="canon-eos-r5-ii.html">Canon EOS R5 II</a></td><td class="num">864 mm²</td><td class="num">45 MP</td><td class="num">4.39 µm</td><td class="num">≈ f/6.5</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">All values computed from the same sensor database the calculators use. Datasheet dimensions vary by a tenth of a millimetre between sources; the relative ordering here is what matters.</p>
+<!-- CAMP:END -->
 
   <h2>Near limit – far limit at 5 m focus</h2>
   <div class="table-wrap"><table>
@@ -45,7 +87,7 @@
   </table></div>
 
   <h2>How to use this page</h2>
-  <p>Find your lens and aperture, read the near–far range, and either compose within it or click the button to open the interactive calculator and drag the focus distance live. Landscape shooters should look at the hyperfocal column: set the lens to that distance and everything from half of it to infinity is sharp. For a full explanation of the formula and the circle-of-confusion convention, see the <a href="../circle-of-confusion.html">circle of confusion guide</a>.</p>
+  <p>Find your lens and aperture, read the near–far range, and compose inside it — or open the interactive calculator to drag the focus distance live. On the Sony FX3 the practical ceiling is about f/12.7: stopping down past that deepens the sharp zone but starts costing detail to diffraction, so lean on the hyperfocal column instead of the smallest aperture on the dial. For the formula and the circle-of-confusion convention behind these numbers, see the <a href="../circle-of-confusion.html">circle of confusion guide</a>.</p>
 
   <h2>Other Sony cameras</h2>
   <div class="grid grid-3">
@@ -54,6 +96,7 @@
 
   <h2>Frequently asked questions</h2>
   <div class="faq">
+    <details><summary>What is the diffraction limit of the Sony FX3?</summary><p>About f/12.7. At a 8.49 µm effective pixel pitch there comes a point where the airy disc from an ever-smaller aperture covers more than a pixel can resolve, so sharpness stops improving. That is the number to stop at, not f/16 or f/22.</p></details>
     <details><summary>What is the circle of confusion for the Sony FX3?</summary><p>0.029 mm — the standard sensor diagonal ÷ 1500 convention, applied to the Sony FX3's exact sensor.</p></details>
     <details><summary>What is the hyperfocal distance for a 50 mm lens on the Sony FX3?</summary><p>About 10.9 m at f/8 — focus there and everything from 5.44 m to infinity is acceptably sharp.</p></details>
     <details><summary>Does the Sony FX3 have a crop factor?</summary><p>1.00× — a 50 mm lens frames like a 50 mm lens on full frame. See the <a href="../crop-factor-explained.html">crop factor guide</a>.</p></details>

@@ -7,7 +7,7 @@
 <meta name="description" content="Free depth of field calculator for the Sony A6000: near and far limits, total DoF and hyperfocal distance from its exact 23.5×15.6 mm sensor.">
 <link rel="canonical" href="https://shuttermath.com/pages/cameras/sony-a6000.html">
 <meta property="og:title" content="Depth of Field for Sony A6000 | ShutterMath">
-<meta property="og:description" content="Free depth of field calculator preset for the Sony A6000: near/far limits, total DoF and hyperfocal distance at every common focal length and aperture — computed from its exact 23.5×15.6 mm sensor.">
+<meta property="og:description" content="Sony A6000 depth of field, computed from its exact 23.5×15.6 mm sensor, 24 MP resolution and 0.0188 mm circle of confusion — the numbers its own calculators use, not a generic preset. Matching the field of view of a 50 mm lens on full frame takes only 33 mm here, and at that matched framing an f/2.8 lens gives the same depth of field as f/4.3 on full frame.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://shuttermath.com/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -20,7 +20,8 @@
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"What is the circle of confusion for the Sony A6000?","acceptedAnswer":{"@type":"Answer","text":"The Sony A6000 has a 23.5×15.6 mm sensor, so the standard circle of confusion is 0.019 mm (sensor diagonal ÷ 1500)."}},
 {"@type":"Question","name":"What is the hyperfocal distance for a 50 mm lens on the Sony A6000?","acceptedAnswer":{"@type":"Answer","text":"At f/8 the hyperfocal distance is about 16.7 m; focus there and everything from half that distance to infinity is acceptably sharp."}},
-{"@type":"Question","name":"Is the Sony A6000 depth of field calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes — every ShutterMath calculator is free, with no sign-up, no watermarks and no limits. This page is preset to the Sony A6000 but any camera in the database works."}}
+{"@type":"Question","name":"Is the Sony A6000 depth of field calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes — every ShutterMath calculator is free, with no sign-up, no watermarks and no limits. This page is preset to the Sony A6000 but any camera in the database works."}},
+{"@type":"Question","name":"What is the diffraction limit of the Sony A6000?","acceptedAnswer":{"@type":"Answer","text":"About f/5.8. At a 3.92 \u00b5m effective pixel pitch there comes a point where the airy disc from an ever-smaller aperture covers more than a pixel can resolve, so sharpness stops improving. That is the number to stop at, not f/16 or f/22."}}
 ]}
 </script>
 </head>
@@ -29,12 +30,53 @@
 <main class="container">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="../guides.html">Guides</a> › <a href="index.html">Cameras</a> › Sony A6000</nav>
   <h1>Depth of Field for the Sony A6000</h1>
-  <p class="muted">Depth of field is the range of distances in a scene that appears acceptably sharp in front of and behind the focus point. This page computes it for the Sony A6000 using the exact dimensions of its 23.5×15.6 mm sensor — no generic presets.</p>
+  <p class="muted">Sony A6000 depth of field, computed from its exact 23.5×15.6 mm sensor, 24 MP resolution and 0.0188 mm circle of confusion — the numbers its own calculators use, not a generic preset. Matching the field of view of a 50 mm lens on full frame takes only 33 mm here, and at that matched framing an f/2.8 lens gives the same depth of field as f/4.3 on full frame.</p>
 
   <div class="ad-slot" id="ad-content" data-ad="guide"></div>
 
   <p><a class="btn" href="https://shuttermath.com/tools/depth-of-field.html?cam=Sony%20A6000&f=50&a=2.8&d=5">🎯 Open the interactive calculator with this camera →</a></p>
-  <p class="muted mt1">Sony A6000 key specs: 24 MP · 1.53× crop factor · 3.91 µm pixels · CoC 0.019 mm (standard diagonal ÷ 1500). The values below assume focus at 5 m.</p>
+<!-- CAMP:START -->
+  <p class="muted mt1">Sony A6000 key specs: 24 MP · 1.53× crop factor · 3.92 µm pixels · CoC 0.0188 mm (standard diagonal ÷ 1500). The depth-of-field values below assume focus at 5 m.</p>
+
+  <h2>Sensor profile: what the Sony A6000 sensor means for depth of field</h2>
+  <p>This is a crop sensor: the same lens frames tighter, so depth of field is deeper at matched framing — good for reach and handholdable landscapes, less so for the thinnest possible background melt.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Property</th><th>Value</th><th>What it changes</th></tr></thead>
+    <tbody>
+      <tr><td>Sensor size</td><td class="num">23.5 × 15.6 mm</td><td>APS-C — 42% of a full-frame sensor's area</td></tr>
+      <tr><td>Crop factor</td><td class="num">1.53×</td><td>a APS-C sensor records 1.53× the focal length, so a 50 mm lens frames like 77 mm on full frame</td></tr>
+      <tr><td>Native resolution</td><td class="num">24 MP (6000 × 4000)</td><td>prints 20.0 × 13.3 in at 300 ppi</td></tr>
+      <tr><td>Pixel pitch</td><td class="num">3.92 µm</td><td>how much sensor area each pixel gets — the smaller the pitch, the sooner diffraction bites</td></tr>
+      <tr><td>Circle of confusion</td><td class="num">0.0188 mm</td><td>the sharpness yardstick this page's depth-of-field numbers are built on (sensor diagonal ÷ 1500)</td></tr>
+      <tr><td>Diffraction limit</td><td class="num">≈ f/5.8</td><td>past this aperture the airy disc outgrows a pixel pair and resolution falls, even though depth of field keeps growing</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Framing on the Sony A6000: focal length vs angle of view</h2>
+  <p>Because this is a 1.53× sensor, focal lengths land differently than on full frame. Horizontal angle of view below is computed from the sensor's exact 23.5 mm width.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Focal length</th><th>Horizontal angle of view</th><th>35 mm equivalent</th><th>Full-frame angle for that equivalent</th></tr></thead>
+    <tbody>
+      <tr><td class="num">16 mm</td><td class="num">72.6°</td><td class="num">25 mm</td><td class="num">96.7°</td></tr>
+      <tr><td class="num">24 mm</td><td class="num">52.2°</td><td class="num">37 mm</td><td class="num">73.7°</td></tr>
+      <tr><td class="num">35 mm</td><td class="num">37.1°</td><td class="num">54 mm</td><td class="num">54.4°</td></tr>
+      <tr><td class="num">50 mm</td><td class="num">26.4°</td><td class="num">77 mm</td><td class="num">39.6°</td></tr>
+      <tr><td class="num">85 mm</td><td class="num">15.7°</td><td class="num">130 mm</td><td class="num">23.9°</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>How the Sony A6000 compares to other APS-C bodies</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Body</th><th>Sensor area</th><th>Resolution</th><th>Pixel pitch</th><th>Diffraction limit</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Sony A6000</strong></td><td class="num">367 mm²</td><td class="num">24 MP</td><td class="num">3.92 µm</td><td class="num">≈ f/5.8</td></tr>
+      <tr><td><a href="fujifilm-x-h2.html">Fujifilm X-H2</a></td><td class="num">367 mm²</td><td class="num">40 MP</td><td class="num">3.04 µm</td><td class="num">≈ f/4.5</td></tr>
+      <tr><td><a href="fujifilm-x-s20.html">Fujifilm X-S20</a></td><td class="num">367 mm²</td><td class="num">26 MP</td><td class="num">3.77 µm</td><td class="num">≈ f/5.6</td></tr>
+      <tr><td><a href="fujifilm-x-t5.html">Fujifilm X-T5</a></td><td class="num">367 mm²</td><td class="num">40 MP</td><td class="num">3.04 µm</td><td class="num">≈ f/4.5</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">All values computed from the same sensor database the calculators use. Datasheet dimensions vary by a tenth of a millimetre between sources; the relative ordering here is what matters.</p>
+<!-- CAMP:END -->
 
   <h2>Near limit – far limit at 5 m focus</h2>
   <div class="table-wrap"><table>
@@ -45,7 +87,7 @@
   </table></div>
 
   <h2>How to use this page</h2>
-  <p>Find your lens and aperture, read the near–far range, and either compose within it or click the button to open the interactive calculator and drag the focus distance live. Landscape shooters should look at the hyperfocal column: set the lens to that distance and everything from half of it to infinity is sharp. For a full explanation of the formula and the circle-of-confusion convention, see the <a href="../circle-of-confusion.html">circle of confusion guide</a>.</p>
+  <p>Find your lens and aperture, read the near–far range, and compose inside it — or open the interactive calculator to drag the focus distance live. On the Sony A6000 the practical ceiling is about f/5.8: stopping down past that deepens the sharp zone but starts costing detail to diffraction, so lean on the hyperfocal column instead of the smallest aperture on the dial. For the formula and the circle-of-confusion convention behind these numbers, see the <a href="../circle-of-confusion.html">circle of confusion guide</a>.</p>
 
   <h2>Other Sony cameras</h2>
   <div class="grid grid-3">
@@ -54,6 +96,7 @@
 
   <h2>Frequently asked questions</h2>
   <div class="faq">
+    <details><summary>What is the diffraction limit of the Sony A6000?</summary><p>About f/5.8. At a 3.92 µm effective pixel pitch there comes a point where the airy disc from an ever-smaller aperture covers more than a pixel can resolve, so sharpness stops improving. That is the number to stop at, not f/16 or f/22.</p></details>
     <details><summary>What is the circle of confusion for the Sony A6000?</summary><p>0.019 mm — the standard sensor diagonal ÷ 1500 convention, applied to the Sony A6000's exact sensor.</p></details>
     <details><summary>What is the hyperfocal distance for a 50 mm lens on the Sony A6000?</summary><p>About 16.7 m at f/8 — focus there and everything from 8.33 m to infinity is acceptably sharp.</p></details>
     <details><summary>Does the Sony A6000 have a crop factor?</summary><p>1.53× — a 50 mm lens frames like a 77 mm lens on full frame. See the <a href="../crop-factor-explained.html">crop factor guide</a>.</p></details>

@@ -7,7 +7,7 @@
 <meta name="description" content="Free depth of field calculator for the iPhone 15 Pro Max: near and far limits, total DoF and hyperfocal distance from its exact 9.8×7.3 mm sensor.">
 <link rel="canonical" href="https://shuttermath.com/pages/cameras/iphone-15-pro-max.html">
 <meta property="og:title" content="Depth of Field for iPhone 15 Pro Max | ShutterMath">
-<meta property="og:description" content="Free depth of field calculator preset for the iPhone 15 Pro Max: near/far limits, total DoF and hyperfocal distance at every common focal length and aperture — computed from its exact 9.8×7.3 mm sensor.">
+<meta property="og:description" content="iPhone 15 Pro Max depth of field, computed from its exact 9.8×7.3 mm sensor, 49 MP resolution and 0.0081 mm circle of confusion — the numbers its own calculators use, not a generic preset. Matching the field of view of a 50 mm lens on full frame takes only 14 mm here, and at that matched framing an f/2.8 lens gives the same depth of field as f/9.9 on full frame.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://shuttermath.com/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -20,7 +20,8 @@
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"What is the circle of confusion for the iPhone 15 Pro Max?","acceptedAnswer":{"@type":"Answer","text":"The iPhone 15 Pro Max has a 9.8×7.3 mm sensor, so the standard circle of confusion is 0.008 mm (sensor diagonal ÷ 1500)."}},
 {"@type":"Question","name":"What is the hyperfocal distance for a 50 mm lens on the iPhone 15 Pro Max?","acceptedAnswer":{"@type":"Answer","text":"At f/8 the hyperfocal distance is about 38.4 m; focus there and everything from half that distance to infinity is acceptably sharp."}},
-{"@type":"Question","name":"Is the iPhone 15 Pro Max depth of field calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes — every ShutterMath calculator is free, with no sign-up, no watermarks and no limits. This page is preset to the iPhone 15 Pro Max but any camera in the database works."}}
+{"@type":"Question","name":"Is the iPhone 15 Pro Max depth of field calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes — every ShutterMath calculator is free, with no sign-up, no watermarks and no limits. This page is preset to the iPhone 15 Pro Max but any camera in the database works."}},
+{"@type":"Question","name":"What is the diffraction limit of the iPhone 15 Pro Max?","acceptedAnswer":{"@type":"Answer","text":"About f/3.6. At a 2.43 \u00b5m effective pixel pitch there comes a point where the airy disc from an ever-smaller aperture covers more than a pixel can resolve, so sharpness stops improving. That is the number to stop at, not f/16 or f/22."}}
 ]}
 </script>
 </head>
@@ -29,12 +30,54 @@
 <main class="container">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="../guides.html">Guides</a> › <a href="index.html">Cameras</a> › iPhone 15 Pro Max</nav>
   <h1>Depth of Field for the iPhone 15 Pro Max</h1>
-  <p class="muted">Depth of field is the range of distances in a scene that appears acceptably sharp in front of and behind the focus point. This page computes it for the iPhone 15 Pro Max using the exact dimensions of its 9.8×7.3 mm sensor — no generic presets.</p>
+  <p class="muted">iPhone 15 Pro Max depth of field, computed from its exact 9.8×7.3 mm sensor, 49 MP resolution and 0.0081 mm circle of confusion — the numbers its own calculators use, not a generic preset. Matching the field of view of a 50 mm lens on full frame takes only 14 mm here, and at that matched framing an f/2.8 lens gives the same depth of field as f/9.9 on full frame.</p>
 
   <div class="ad-slot" id="ad-content" data-ad="guide"></div>
 
   <p><a class="btn" href="https://shuttermath.com/tools/depth-of-field.html?cam=iPhone%2015%20Pro%20Max&f=50&a=2.8&d=5">🎯 Open the interactive calculator with this camera →</a></p>
-  <p class="muted mt1">iPhone 15 Pro Max key specs: 49 MP · 3.54× crop factor · 1.21 µm pixels · CoC 0.008 mm (standard diagonal ÷ 1500). The values below assume focus at 5 m.</p>
+<!-- CAMP:START -->
+  <p class="muted mt1">iPhone 15 Pro Max key specs: 49 MP · 3.54× crop factor · 1.22 µm pixels · CoC 0.0081 mm (standard diagonal ÷ 1500). The depth-of-field values below assume focus at 5 m.</p>
+
+  <h2>Sensor profile: what the iPhone 15 Pro Max sensor means for depth of field</h2>
+  <p>A phone sensor is tiny, so depth of field at matched framing is enormous — real background blur comes from computational processing, not optics.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Property</th><th>Value</th><th>What it changes</th></tr></thead>
+    <tbody>
+      <tr><td>Sensor size</td><td class="num">9.8 × 7.3 mm</td><td>Phone — 8% of a full-frame sensor's area</td></tr>
+      <tr><td>Crop factor</td><td class="num">3.54×</td><td>a Phone sensor records 3.54× the focal length, so a 50 mm lens frames like 177 mm on full frame</td></tr>
+      <tr><td>Native resolution</td><td class="num">49 MP (8064 × 6048)</td><td>prints 26.9 × 20.2 in at 300 ppi from the full-resolution file — lens and noise, not pixel count, cap a real print</td></tr>
+      <tr><td>Pixel pitch</td><td class="num">1.22 µm</td><td>how much sensor area each pixel gets — the smaller the pitch, the sooner diffraction bites</td></tr>
+      <tr><td>Circle of confusion</td><td class="num">0.0081 mm</td><td>the sharpness yardstick this page's depth-of-field numbers are built on (sensor diagonal ÷ 1500)</td></tr>
+      <tr><td>Diffraction limit</td><td class="num">≈ f/1.8 native / ≈ f/3.6 binned</td><td>past this aperture the airy disc outgrows a pixel pair and resolution falls, even though depth of field keeps growing</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="callout warn">📱 <strong>About that megapixel count:</strong> the iPhone 15 Pro Max lists its 49 MP mode, which is a special full-resolution capture. Normal shots come out binned to roughly 12 MP, which multiplies the effective pixel pitch to about 2.43 µm and moves the practical diffraction limit out to roughly f/3.6 — that is the number that governs everyday frames, not the 1.22 µm best case.</div>
+  <h2>Framing on the iPhone 15 Pro Max: focal length vs angle of view</h2>
+  <p>Because this is a 3.54× sensor, focal lengths land differently than on full frame. Horizontal angle of view below is computed from the sensor's exact 9.8 mm width.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Focal length</th><th>Horizontal angle of view</th><th>35 mm equivalent</th><th>Full-frame angle for that equivalent</th></tr></thead>
+    <tbody>
+      <tr><td class="num">16 mm</td><td class="num">34.1°</td><td class="num">57 mm</td><td class="num">96.7°</td></tr>
+      <tr><td class="num">24 mm</td><td class="num">23.1°</td><td class="num">85 mm</td><td class="num">73.7°</td></tr>
+      <tr><td class="num">35 mm</td><td class="num">15.9°</td><td class="num">124 mm</td><td class="num">54.4°</td></tr>
+      <tr><td class="num">50 mm</td><td class="num">11.2°</td><td class="num">177 mm</td><td class="num">39.6°</td></tr>
+      <tr><td class="num">85 mm</td><td class="num">6.6°</td><td class="num">301 mm</td><td class="num">23.9°</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>How the iPhone 15 Pro Max compares to other Phone bodies</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Body</th><th>Sensor area</th><th>Resolution</th><th>Pixel pitch</th><th>Diffraction limit</th></tr></thead>
+    <tbody>
+      <tr><td><strong>iPhone 15 Pro Max</strong></td><td class="num">72 mm²</td><td class="num">49 MP</td><td class="num">1.22 µm</td><td class="num">≈ f/1.8</td></tr>
+      <tr><td><a href="iphone-16-pro.html">iPhone 16 Pro</a></td><td class="num">72 mm²</td><td class="num">49 MP</td><td class="num">1.22 µm</td><td class="num">≈ f/1.8</td></tr>
+      <tr><td><a href="samsung-galaxy-s25-ultra.html">Samsung Galaxy S25 Ultra</a></td><td class="num">73 mm²</td><td class="num">200 MP</td><td class="num">0.60 µm</td><td class="num">≈ f/0.9</td></tr>
+      <tr><td><a href="google-pixel-9-pro.html">Google Pixel 9 Pro</a></td><td class="num">73 mm²</td><td class="num">50 MP</td><td class="num">1.21 µm</td><td class="num">≈ f/1.8</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">All values computed from the same sensor database the calculators use. Datasheet dimensions vary by a tenth of a millimetre between sources; the relative ordering here is what matters.</p>
+<!-- CAMP:END -->
 
   <h2>Near limit – far limit at 5 m focus</h2>
   <div class="table-wrap"><table>
@@ -45,7 +88,7 @@
   </table></div>
 
   <h2>How to use this page</h2>
-  <p>Find your lens and aperture, read the near–far range, and either compose within it or click the button to open the interactive calculator and drag the focus distance live. Landscape shooters should look at the hyperfocal column: set the lens to that distance and everything from half of it to infinity is sharp. For a full explanation of the formula and the circle-of-confusion convention, see the <a href="../circle-of-confusion.html">circle of confusion guide</a>.</p>
+  <p>Find your lens and aperture, read the near–far range, and compose inside it — or open the interactive calculator to drag the focus distance live. On the iPhone 15 Pro Max the practical ceiling is about f/3.6: stopping down past that deepens the sharp zone but starts costing detail to diffraction, so lean on the hyperfocal column instead of the smallest aperture on the dial. For the formula and the circle-of-confusion convention behind these numbers, see the <a href="../circle-of-confusion.html">circle of confusion guide</a>.</p>
 
   <h2>Other Apple cameras</h2>
   <div class="grid grid-3">
@@ -54,6 +97,7 @@
 
   <h2>Frequently asked questions</h2>
   <div class="faq">
+    <details><summary>What is the diffraction limit of the iPhone 15 Pro Max?</summary><p>About f/3.6. At a 2.43 µm effective pixel pitch there comes a point where the airy disc from an ever-smaller aperture covers more than a pixel can resolve, so sharpness stops improving. That is the number to stop at, not f/16 or f/22.</p></details>
     <details><summary>What is the circle of confusion for the iPhone 15 Pro Max?</summary><p>0.008 mm — the standard sensor diagonal ÷ 1500 convention, applied to the iPhone 15 Pro Max's exact sensor.</p></details>
     <details><summary>What is the hyperfocal distance for a 50 mm lens on the iPhone 15 Pro Max?</summary><p>About 38.4 m at f/8 — focus there and everything from 19.2 m to infinity is acceptably sharp.</p></details>
     <details><summary>Does the iPhone 15 Pro Max have a crop factor?</summary><p>3.54× — a 50 mm lens frames like a 177 mm lens on full frame. See the <a href="../crop-factor-explained.html">crop factor guide</a>.</p></details>

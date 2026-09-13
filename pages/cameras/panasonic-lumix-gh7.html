@@ -7,7 +7,7 @@
 <meta name="description" content="Free depth of field calculator for the Panasonic Lumix GH7: near and far limits, total DoF and hyperfocal distance from its exact 17.3×13.0 mm sensor.">
 <link rel="canonical" href="https://shuttermath.com/pages/cameras/panasonic-lumix-gh7.html">
 <meta property="og:title" content="Depth of Field for Panasonic Lumix GH7 | ShutterMath">
-<meta property="og:description" content="Free depth of field calculator preset for the Panasonic Lumix GH7: near/far limits, total DoF and hyperfocal distance at every common focal length and aperture — computed from its exact 17.3×13.0 mm sensor.">
+<meta property="og:description" content="Panasonic Lumix GH7 depth of field, computed from its exact 17.3×13.0 mm sensor, 25 MP resolution and 0.0144 mm circle of confusion — the numbers its own calculators use, not a generic preset. Matching the field of view of a 50 mm lens on full frame takes only 25 mm here, and at that matched framing an f/2.8 lens gives the same depth of field as f/5.6 on full frame.">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://shuttermath.com/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -20,7 +20,8 @@
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"What is the circle of confusion for the Panasonic Lumix GH7?","acceptedAnswer":{"@type":"Answer","text":"The Panasonic Lumix GH7 has a 17.3×13.0 mm sensor, so the standard circle of confusion is 0.014 mm (sensor diagonal ÷ 1500)."}},
 {"@type":"Question","name":"What is the hyperfocal distance for a 50 mm lens on the Panasonic Lumix GH7?","acceptedAnswer":{"@type":"Answer","text":"At f/8 the hyperfocal distance is about 21.7 m; focus there and everything from half that distance to infinity is acceptably sharp."}},
-{"@type":"Question","name":"Is the Panasonic Lumix GH7 depth of field calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes — every ShutterMath calculator is free, with no sign-up, no watermarks and no limits. This page is preset to the Panasonic Lumix GH7 but any camera in the database works."}}
+{"@type":"Question","name":"Is the Panasonic Lumix GH7 depth of field calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes — every ShutterMath calculator is free, with no sign-up, no watermarks and no limits. This page is preset to the Panasonic Lumix GH7 but any camera in the database works."}},
+{"@type":"Question","name":"What is the diffraction limit of the Panasonic Lumix GH7?","acceptedAnswer":{"@type":"Answer","text":"About f/4.5. At a 3.00 \u00b5m effective pixel pitch there comes a point where the airy disc from an ever-smaller aperture covers more than a pixel can resolve, so sharpness stops improving. That is the number to stop at, not f/16 or f/22."}}
 ]}
 </script>
 </head>
@@ -29,12 +30,53 @@
 <main class="container">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="../guides.html">Guides</a> › <a href="index.html">Cameras</a> › Panasonic Lumix GH7</nav>
   <h1>Depth of Field for the Panasonic Lumix GH7</h1>
-  <p class="muted">Depth of field is the range of distances in a scene that appears acceptably sharp in front of and behind the focus point. This page computes it for the Panasonic Lumix GH7 using the exact dimensions of its 17.3×13.0 mm sensor — no generic presets.</p>
+  <p class="muted">Panasonic Lumix GH7 depth of field, computed from its exact 17.3×13.0 mm sensor, 25 MP resolution and 0.0144 mm circle of confusion — the numbers its own calculators use, not a generic preset. Matching the field of view of a 50 mm lens on full frame takes only 25 mm here, and at that matched framing an f/2.8 lens gives the same depth of field as f/5.6 on full frame.</p>
 
   <div class="ad-slot" id="ad-content" data-ad="guide"></div>
 
   <p><a class="btn" href="https://shuttermath.com/tools/depth-of-field.html?cam=Panasonic%20Lumix%20GH7&f=50&a=2.8&d=5">🎯 Open the interactive calculator with this camera →</a></p>
-  <p class="muted mt1">Panasonic Lumix GH7 key specs: 25 MP · 2.00× crop factor · 3.00 µm pixels · CoC 0.014 mm (standard diagonal ÷ 1500). The values below assume focus at 5 m.</p>
+<!-- CAMP:START -->
+  <p class="muted mt1">Panasonic Lumix GH7 key specs: 25 MP · 2.00× crop factor · 3.00 µm pixels · CoC 0.0144 mm (standard diagonal ÷ 1500). The depth-of-field values below assume focus at 5 m.</p>
+
+  <h2>Sensor profile: what the Panasonic Lumix GH7 sensor means for depth of field</h2>
+  <p>A 2× crop gives the deepest depth of field per framing of any interchangeable-lens format here, which is why it is popular for macro and handheld landscape — the sharp zone starts sooner.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Property</th><th>Value</th><th>What it changes</th></tr></thead>
+    <tbody>
+      <tr><td>Sensor size</td><td class="num">17.3 × 13.0 mm</td><td>Micro 4/3 — 26% of a full-frame sensor's area</td></tr>
+      <tr><td>Crop factor</td><td class="num">2.00×</td><td>a Micro 4/3 sensor records 2.00× the focal length, so a 50 mm lens frames like 100 mm on full frame</td></tr>
+      <tr><td>Native resolution</td><td class="num">25 MP (5776 × 4336)</td><td>prints 19.3 × 14.5 in at 300 ppi</td></tr>
+      <tr><td>Pixel pitch</td><td class="num">3.00 µm</td><td>how much sensor area each pixel gets — the smaller the pitch, the sooner diffraction bites</td></tr>
+      <tr><td>Circle of confusion</td><td class="num">0.0144 mm</td><td>the sharpness yardstick this page's depth-of-field numbers are built on (sensor diagonal ÷ 1500)</td></tr>
+      <tr><td>Diffraction limit</td><td class="num">≈ f/4.5</td><td>past this aperture the airy disc outgrows a pixel pair and resolution falls, even though depth of field keeps growing</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Framing on the Panasonic Lumix GH7: focal length vs angle of view</h2>
+  <p>Because this is a 2.00× sensor, focal lengths land differently than on full frame. Horizontal angle of view below is computed from the sensor's exact 17.3 mm width.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Focal length</th><th>Horizontal angle of view</th><th>35 mm equivalent</th><th>Full-frame angle for that equivalent</th></tr></thead>
+    <tbody>
+      <tr><td class="num">16 mm</td><td class="num">56.8°</td><td class="num">32 mm</td><td class="num">96.7°</td></tr>
+      <tr><td class="num">24 mm</td><td class="num">39.6°</td><td class="num">48 mm</td><td class="num">73.7°</td></tr>
+      <tr><td class="num">35 mm</td><td class="num">27.8°</td><td class="num">70 mm</td><td class="num">54.4°</td></tr>
+      <tr><td class="num">50 mm</td><td class="num">19.6°</td><td class="num">100 mm</td><td class="num">39.6°</td></tr>
+      <tr><td class="num">85 mm</td><td class="num">11.6°</td><td class="num">170 mm</td><td class="num">23.9°</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>How the Panasonic Lumix GH7 compares to other Micro 4/3 bodies</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Body</th><th>Sensor area</th><th>Resolution</th><th>Pixel pitch</th><th>Diffraction limit</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Panasonic Lumix GH7</strong></td><td class="num">225 mm²</td><td class="num">25 MP</td><td class="num">3.00 µm</td><td class="num">≈ f/4.5</td></tr>
+      <tr><td><a href="om-system-om-5.html">OM System OM-5</a></td><td class="num">225 mm²</td><td class="num">20 MP</td><td class="num">3.34 µm</td><td class="num">≈ f/5.0</td></tr>
+      <tr><td><a href="panasonic-lumix-g9-ii.html">Panasonic Lumix G9 II</a></td><td class="num">225 mm²</td><td class="num">25 MP</td><td class="num">3.00 µm</td><td class="num">≈ f/4.5</td></tr>
+      <tr><td><a href="om-system-om-1-ii.html">OM System OM-1 II</a></td><td class="num">226 mm²</td><td class="num">20 MP</td><td class="num">3.36 µm</td><td class="num">≈ f/5.0</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">All values computed from the same sensor database the calculators use. Datasheet dimensions vary by a tenth of a millimetre between sources; the relative ordering here is what matters.</p>
+<!-- CAMP:END -->
 
   <h2>Near limit – far limit at 5 m focus</h2>
   <div class="table-wrap"><table>
@@ -45,7 +87,7 @@
   </table></div>
 
   <h2>How to use this page</h2>
-  <p>Find your lens and aperture, read the near–far range, and either compose within it or click the button to open the interactive calculator and drag the focus distance live. Landscape shooters should look at the hyperfocal column: set the lens to that distance and everything from half of it to infinity is sharp. For a full explanation of the formula and the circle-of-confusion convention, see the <a href="../circle-of-confusion.html">circle of confusion guide</a>.</p>
+  <p>Find your lens and aperture, read the near–far range, and compose inside it — or open the interactive calculator to drag the focus distance live. On the Panasonic Lumix GH7 the practical ceiling is about f/4.5: stopping down past that deepens the sharp zone but starts costing detail to diffraction, so lean on the hyperfocal column instead of the smallest aperture on the dial. For the formula and the circle-of-confusion convention behind these numbers, see the <a href="../circle-of-confusion.html">circle of confusion guide</a>.</p>
 
   <h2>Other Panasonic cameras</h2>
   <div class="grid grid-3">
@@ -54,6 +96,7 @@
 
   <h2>Frequently asked questions</h2>
   <div class="faq">
+    <details><summary>What is the diffraction limit of the Panasonic Lumix GH7?</summary><p>About f/4.5. At a 3.00 µm effective pixel pitch there comes a point where the airy disc from an ever-smaller aperture covers more than a pixel can resolve, so sharpness stops improving. That is the number to stop at, not f/16 or f/22.</p></details>
     <details><summary>What is the circle of confusion for the Panasonic Lumix GH7?</summary><p>0.014 mm — the standard sensor diagonal ÷ 1500 convention, applied to the Panasonic Lumix GH7's exact sensor.</p></details>
     <details><summary>What is the hyperfocal distance for a 50 mm lens on the Panasonic Lumix GH7?</summary><p>About 21.7 m at f/8 — focus there and everything from 10.9 m to infinity is acceptably sharp.</p></details>
     <details><summary>Does the Panasonic Lumix GH7 have a crop factor?</summary><p>2.00× — a 50 mm lens frames like a 100 mm lens on full frame. See the <a href="../crop-factor-explained.html">crop factor guide</a>.</p></details>
