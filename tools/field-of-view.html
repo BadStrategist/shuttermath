@@ -24,7 +24,7 @@
   <h1>Free Field of View Calculator</h1>
   <p class="muted">Field of view is the angular extent of the scene a lens captures, set by the sensor size and focal length. Angle of view = <code>2 × atan(sensor ÷ (2 × focal length))</code>. See exactly how much of the scene any lens sees on your camera — before you buy or frame.</p>
 
-  <div class="tool-wrap mt1">
+  <div class="tool-wrap mt1" id="fov-tool">
     <section class="panel" aria-label="Calculator inputs">
       <h2>Your setup</h2>
       <div class="field"><label for="camera">Camera</label><select id="camera"></select><div class="hint" id="sensor-info"></div></div>
@@ -64,6 +64,16 @@
 
   <h2>Worked example</h2>
   <p>You're choosing a lens for an indoor shoot and the room is 4&nbsp;m across. With a full-frame body, a 24&nbsp;mm lens (73.7° horizontal) frames the whole wall from about 2.8&nbsp;m back, while a 35&nbsp;mm (54.4°) needs ~4&nbsp;m — the calculator tells you exactly which lens fits before you carry it there. The same math works in reverse for video: pick your shot size, then check whether your zoom range covers it at the working distance. This is also how you compare across sensor formats — a 23&nbsp;mm lens on APS-C frames like 35&nbsp;mm on full frame, and the calculator shows both angles side by side.</p>
+<!-- FOV-REFTABLE:START -->
+  <h2>Field of view reference table (focal length × sensor)</h2>
+  <p>Horizontal angle of view in degrees for each focal length and sensor format. Divide-by-two, roughly: a 24 mm lens on full frame sees about 74°, and the same lens on APS-C sees about 52° — which is why a 24 mm on a crop body frames like a 36 mm on full frame.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Focal length</th><th class="num">Full frame<br><span style="font-weight:400;text-transform:none">36 × 24 mm</span></th><th class="num">APS-C (1.5×)<br><span style="font-weight:400;text-transform:none">23.5 × 15.6 mm</span></th><th class="num">APS-C Canon (1.6×)<br><span style="font-weight:400;text-transform:none">22.3 × 14.9 mm</span></th><th class="num">Micro 4/3<br><span style="font-weight:400;text-transform:none">17.3 × 13 mm</span></th><th class="num">1-inch<br><span style="font-weight:400;text-transform:none">13.2 × 8.8 mm</span></th></tr></thead>
+    <tbody><tr><td><strong>14 mm</strong></td><td class="num">104.3°</td><td class="num">80.0°</td><td class="num">77.1°</td><td class="num">63.4°</td><td class="num">50.5°</td></tr><tr><td><strong>16 mm</strong></td><td class="num">96.7°</td><td class="num">72.6°</td><td class="num">69.7°</td><td class="num">56.8°</td><td class="num">44.8°</td></tr><tr><td><strong>20 mm</strong></td><td class="num">84.0°</td><td class="num">60.9°</td><td class="num">58.3°</td><td class="num">46.8°</td><td class="num">36.5°</td></tr><tr><td><strong>24 mm</strong></td><td class="num">73.7°</td><td class="num">52.2°</td><td class="num">49.8°</td><td class="num">39.6°</td><td class="num">30.8°</td></tr><tr><td><strong>28 mm</strong></td><td class="num">65.5°</td><td class="num">45.5°</td><td class="num">43.4°</td><td class="num">34.3°</td><td class="num">26.5°</td></tr><tr><td><strong>35 mm</strong></td><td class="num">54.4°</td><td class="num">37.1°</td><td class="num">35.3°</td><td class="num">27.8°</td><td class="num">21.4°</td></tr><tr><td><strong>50 mm</strong></td><td class="num">39.6°</td><td class="num">26.4°</td><td class="num">25.1°</td><td class="num">19.6°</td><td class="num">15.0°</td></tr><tr><td><strong>85 mm</strong></td><td class="num">23.9°</td><td class="num">15.7°</td><td class="num">14.9°</td><td class="num">11.6°</td><td class="num">8.9°</td></tr><tr><td><strong>100 mm</strong></td><td class="num">20.4°</td><td class="num">13.4°</td><td class="num">12.7°</td><td class="num">9.9°</td><td class="num">7.6°</td></tr><tr><td><strong>135 mm</strong></td><td class="num">15.2°</td><td class="num">9.9°</td><td class="num">9.4°</td><td class="num">7.3°</td><td class="num">5.6°</td></tr><tr><td><strong>200 mm</strong></td><td class="num">10.3°</td><td class="num">6.7°</td><td class="num">6.4°</td><td class="num">5.0°</td><td class="num">3.8°</td></tr><tr><td><strong>300 mm</strong></td><td class="num">6.9°</td><td class="num">4.5°</td><td class="num">4.3°</td><td class="num">3.3°</td><td class="num">2.5°</td></tr><tr><td><strong>400 mm</strong></td><td class="num">5.2°</td><td class="num">3.4°</td><td class="num">3.2°</td><td class="num">2.5°</td><td class="num">1.9°</td></tr></tbody>
+  </table></div>
+  <p class="muted">Values are horizontal angles of view computed as 2·atan(sensor width ÷ (2 × focal length)), rounded to 0.1°. Vertical and diagonal angles, and the 35 mm equivalent for your exact body, are in the <a href="#fov-tool">calculator above</a>.</p>
+  <div class="callout mt1">📐 <strong>Rule of thumb:</strong> doubling the focal length halves the angle of view. 24 mm → 74°, 48 mm → 37°, 96 mm → 18°. Equally, moving a lens from full frame to Micro 4/3 (2.0× crop) halves it again.</div>
+<!-- FOV-REFTABLE:END -->
 
     <h2>Related tools &amp; guides</h2>
   <div class="grid grid-3">
