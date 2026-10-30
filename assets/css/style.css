@@ -64,6 +64,7 @@ main { min-height: 60vh; padding: 1.5rem 0 3rem; overflow-x: clip; }
   .nav a { font-size: 1.05rem; padding: .55rem 0; display: block; min-height: 40px; }
   .site-footer .fnav { gap: .2rem 1.2rem; }
   .site-footer .fnav a { display: inline-block; padding: .5rem 0; min-height: 40px; }
+  .site-footer a { display: inline-block; padding: .4rem 0; min-height: 40px; }
   .crumbs { font-size: .82rem; padding-top: .5rem; }
   .crumbs a { display: inline-block; padding: .45rem .1rem; }
   .row2 label { min-height: 3.2em; display: block; }
