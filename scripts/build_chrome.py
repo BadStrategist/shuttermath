@@ -18,6 +18,8 @@ NAV = [
     ("Pixel Scale", "/tools/pixel-scale.html"),
     ("Shutter Angle", "/tools/shutter-angle.html"),
     ("Crop Factor", "/tools/crop-factor.html"),
+    ("Time Lapse", "/tools/time-lapse.html"),
+    ("Stacking", "/tools/focus-stacking.html"),
     ("Blur", "/tools/background-blur.html"),
     ("Guides", "/pages/guides.html"),
 ]

@@ -115,7 +115,7 @@ Home › Calculators › Crop Factor Calculator
 
  Focal length (mm) 
 
- Aperture (f-number) 
+ Aperture (f-stop) 
 
  Result
 
@@ -3237,7 +3237,7 @@ SUMMARY: Free photography calculators, all of them: depth of field, hyperfocal d
 
 Free Photography Calculators — No Sign-Up | ShutterMath 
 
- Shutter Math Depth of Field Hyperfocal ND Filter Flash GN Pixel Scale Shutter Angle Crop Factor Blur Guides &#9776; 
+ Shutter Math Depth of Field Hyperfocal ND Filter Flash GN Pixel Scale Shutter Angle Crop Factor Time Lapse Stacking Blur Guides &#9776; 
 
  Home › Free Photography Calculators 
  Free Photography Calculators
