@@ -17,6 +17,7 @@ NAV = [
     ("Flash GN", "/tools/flash-guide-number.html"),
     ("Pixel Scale", "/tools/pixel-scale.html"),
     ("Shutter Angle", "/tools/shutter-angle.html"),
+    ("Crop Factor", "/tools/crop-factor.html"),
     ("Blur", "/tools/background-blur.html"),
     ("Guides", "/pages/guides.html"),
 ]
@@ -74,12 +75,18 @@ def main(check=False):
             src = open(path, encoding="utf-8").read()
             orig = src
             cur = "" if rel in ("/index.html", "/") else rel
-            src = re.sub(r'<header class="site-header">.*?</header>',
-                         '<header class="site-header">' + header_html(cur) + "</header>",
-                         src, count=1, flags=re.S)
-            src = re.sub(r'<footer class="site-footer">.*?</footer>',
-                         '<footer class="site-footer">' + footer_html() + "</footer>",
-                         src, count=1, flags=re.S)
+            if '<header class="site-header">' in src:
+                src = re.sub(r'<header class="site-header">.*?</header>',
+                             '<header class="site-header">' + header_html(cur) + "</header>",
+                             src, count=1, flags=re.S)
+            elif not rel.startswith("/embed/"):
+                src = src.replace("<body>", '<body>\n<header class="site-header">' + header_html(cur) + "</header>", 1)
+            if '<footer class="site-footer">' in src:
+                src = re.sub(r'<footer class="site-footer">.*?</footer>',
+                             '<footer class="site-footer">' + footer_html() + "</footer>",
+                             src, count=1, flags=re.S)
+            elif not rel.startswith("/embed/"):
+                src = src.replace("</body>", '<footer class="site-footer">' + footer_html() + "</footer>\n</body>", 1)
             if src != orig:
                 changed += 1
                 if not check:

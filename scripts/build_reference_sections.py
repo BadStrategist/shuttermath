@@ -14,6 +14,8 @@ CSS = """<style>
 .aeo-tbl{width:100%;border-collapse:collapse;margin:.6rem 0 1rem;font-size:.9rem}
 .aeo-tbl th,.aeo-tbl td{border-bottom:1px solid var(--line,#e5e7eb);padding:.45rem .5rem;text-align:right}
 .aeo-tbl th:first-child,.aeo-tbl td:first-child{text-align:left}
+.aeo-tbl th,.aeo-tbl td{white-space:nowrap}
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
 .aeo-tbl thead th{background:var(--bg2,#f6f8fb);font-weight:700}
 .aeo-tbl caption{text-align:left;font-size:.8rem;color:var(--muted,#5b6577);padding-bottom:.3rem}
 .aeo-note{font-size:.9rem;color:var(--muted,#5b6577)}
@@ -25,8 +27,8 @@ CSS = """<style>
 def tbl(headers, rows, caption):
     h = "".join(f"<th>{c}</th>" for c in headers)
     body = "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows)
-    return (f'<table class="aeo-tbl"><caption>{caption}</caption>'
-            f"<thead><tr>{h}</tr></thead><tbody>{body}</tbody></table>")
+    return (f'<div class="tbl-scroll"><table class="aeo-tbl"><caption>{caption}</caption>'
+            f"<thead><tr>{h}</tr></thead><tbody>{body}</tbody></table></div>")
 
 
 def dof_section():

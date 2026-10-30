@@ -17,6 +17,7 @@
     ["Flash GN", "/tools/flash-guide-number.html"],
     ["Pixel Scale", "/tools/pixel-scale.html"],
     ["Shutter Angle", "/tools/shutter-angle.html"],
+    ["Crop Factor", "/tools/crop-factor.html"],
     ["Blur", "/tools/background-blur.html"],
     ["Guides", "/pages/guides.html"]
   ];

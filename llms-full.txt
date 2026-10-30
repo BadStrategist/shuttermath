@@ -81,6 +81,124 @@ Home › Background Blur Calculator
 
 
 ------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/crop-factor.html
+TITLE: Crop Factor Calculator: Focal Length and Aperture Equivalent
+SUMMARY: Enter a sensor and focal length to get the crop factor, the full frame equivalent focal length and the equivalent aperture for depth of field. 1.5x, 1.6x, 2x and medium format included.
+
+Home › Calculators › Crop Factor Calculator 
+ Crop Factor Calculator
+
+ Crop factor is the diagonal of a full frame sensor (43.27 mm) divided by the diagonal of yours. It tells you what focal length and aperture give the same picture on full frame. Enter your sensor and lens below.
+
+ Your camera and lens
+
+ Sensor 
+
+ Full frame (36 × 24 mm) 
+ APS-C, Nikon Sony Fuji Pentax (23.5 × 15.6) 
+ APS-C, Canon (22.3 × 14.9) 
+ APS-C, Samsung (23.6 × 15.7) 
+ Micro Four Thirds (17.3 × 13) 
+ 1 inch (13.2 × 8.8) 
+ 1/1.7 inch compact (7.6 × 5.7) 
+ 1/2.3 inch phone or compact (6.17 × 4.55) 
+ Fujifilm GFX medium format (43.8 × 32.9) 
+ Leica S medium format (45 × 30) 
+ Phase One IQ4 (53.4 × 40) 
+ Other, enter the size 
+
+ Sensor sizes are the active imaging area, not the package size.
+
+ Sensor width (mm) 
+
+ Sensor height (mm) 
+
+ Focal length (mm) 
+
+ Aperture (f-number) 
+
+ Result
+
+ Crop factor
+ —
+ × full frame
+
+ Full frame equivalent
+ —
+ mm, same angle of view
+
+ Equivalent aperture
+ —
+ for the same depth of field
+
+ Angle of view
+ —
+ horizontal
+
+ —
+
+ How the crop factor is calculated
+
+ Short answer: crop factor = 43.27 mm ÷ your sensor diagonal. A Canon APS-C body is 1.61×, a Nikon or Sony APS-C body 1.53×, Micro Four Thirds 2.0× and Fujifilm GFX 0.79×. Multiply the focal length by the crop factor to get the full frame equivalent, and do the same to the f-number to compare depth of field.
+
+ The diagonal of a 36 × 24 mm frame is √(36² + 24²) = 43.27 mm. Dividing that by your sensor's diagonal gives a single number that converts every lens you own into full frame terms:
+
+ Focal length: 50 mm on a 1.5× body frames like 75 mm on full frame. The lens does not change; the sensor simply records a narrower part of the image circle.
+
+ Aperture: multiply as well. An f/2 lens on Micro Four Thirds matches the depth of field of f/4 on full frame, and gathers the same total light as f/4 spread over a quarter of the area. Exposure per unit area is unchanged, which is why your meter still reads f/2.
+
+ ISO: do not multiply. ISO is a per-area sensitivity; the smaller sensor simply has less area, which is why its low light performance is worse by roughly the same factor.
+
+ Crop factor by sensor size
+
+ Reference sensor dimensions and the focal length that matches a 50 mm lens on full frame 
+ Sensor Dimensions (mm) Diagonal Crop factor Matches 50 mm with Matches f/2.8 with 
+
+ Full frame 36 × 24 43.27 1.00× 50 mm f/2.8 
+
+ APS-C (Nikon, Sony, Fuji) 23.5 × 15.6 28.21 1.53× 32.6 mm f/1.8 
+
+ APS-C (Canon) 22.3 × 14.9 26.82 1.61× 31.0 mm f/1.7 
+
+ Micro Four Thirds 17.3 × 13.0 21.64 2.00× 25.0 mm f/1.4 
+
+ 1 inch 13.2 × 8.8 15.86 2.73× 18.3 mm f/1.0 
+
+ 1/1.7 inch 7.6 × 5.7 9.50 4.55× 11.0 mm f/0.6 
+
+ 1/2.3 inch 6.17 × 4.55 7.67 5.64× 8.9 mm f/0.5 
+
+ Fujifilm GFX 43.8 × 32.9 54.78 0.79× 63.3 mm f/3.5 
+
+ Phase One IQ4 53.4 × 40.0 66.72 0.65× 77.1 mm f/4.3 
+
+ Common questions
+
+ Does crop factor change depth of field?
+
+ Yes, if you frame the subject the same way. To match the framing you either move back or use a shorter lens, and both increase depth of field. The full frame camera at f/2.8 therefore separates the subject more than a 2× sensor at f/2.8. Multiply the f-number by the crop factor to compare the two fairly: f/2.8 on Micro Four Thirds equals f/5.6 on full frame.
+
+ Is crop factor the same as zoom?
+
+ No. Crop factor describes how much of the image circle the sensor records. A 1.5× sensor records a smaller area, so the picture looks like a longer lens was used, but the lens magnification and the perspective are unchanged. Nothing is optically zoomed.
+
+ Does crop factor change exposure?
+
+ No. f/2 at 1/100 s and ISO 100 gives the same brightness on any sensor size. Only the total light collected and the depth of field change, because the sensor area changes.
+
+ Related tools and guides
+
+ Field of View Calculator
+ The angle and frame size a lens gives on your sensor.
+
+ Depth of Field Calculator
+ Near and far limits from your real sensor.
+
+ Crop Factor Explained
+ Why a 50 mm looks different on every body.
+
+
+------------------------------------------------------------------------------
 SOURCE: https://shuttermath.com/tools/depth-of-field.html
 TITLE: Depth of Field Calculator: Exact Near and Far Limits
 SUMMARY: Enter focal length, aperture and focus distance for the exact near limit, far limit and total depth of field, using your camera's real circle of confusion.
@@ -383,7 +501,7 @@ Home › Field of View Calculator
 
  How field of view works
 
- Field of view (angle of view) is set by two things: the sensor dimensions and the focal length. A 50 mm lens on full frame sees 39.6° horizontally; the same lens on APS-C sees about 26.5° — which is why crop sensors "crop" the frame (1.5× crop ≈ 75 mm equivalent).
+ Field of view (angle of view) is set by two things: the sensor dimensions and the focal length. A 50 mm lens on full frame sees 39.6° horizontally; the same lens on APS-C sees about 25 to 27° (1.6x and 1.5x crops) — which is why crop sensors "crop" the frame (1.5× crop ≈ 75 mm equivalent).
 
  The 35 mm equivalent is the focal length that would give the same framing on a full-frame body. It's how photographers compare lenses across sensor sizes: Micro 4/3 has a 2× crop, APS-C ≈ 1.5× (Canon ≈ 1.6×), phones ≈ 5-7×.
 
@@ -2840,8 +2958,6 @@ TITLE: Free Photography Calculators — No Sign-Up | ShutterMath
 SUMMARY: Free photography calculators, all of them: depth of field, hyperfocal distance, ND filter, exposure equivalence, flash guide number, star trails, macro DoF.
 
 Free Photography Calculators — No Sign-Up | ShutterMath 
-
- 🎁 ">
 
  Shutter Math Depth of Field Hyperfocal ND Filter Flash GN Pixel Scale Shutter Angle Blur Guides &#9776; 
 

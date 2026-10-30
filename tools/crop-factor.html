@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crop Factor Calculator: Focal Length and Aperture Equivalent</title>
+<meta name="description" content="Enter a sensor and focal length to get the crop factor, the full frame equivalent focal length and the equivalent aperture for depth of field. 1.5x, 1.6x, 2x and medium format included.">
+<link rel="canonical" href="https://shuttermath.com/tools/crop-factor.html">
+<meta property="og:title" content="Crop Factor Calculator: Focal Length and Aperture Equivalent">
+<meta property="og:description" content="Crop factor, full frame equivalent focal length and equivalent aperture for any sensor size.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://shuttermath.com/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>.aeo-tbl{width:100%;border-collapse:collapse;margin:.6rem 0 1rem;font-size:.9rem}
+.aeo-tbl th,.aeo-tbl td{border-bottom:1px solid #e5e7eb;padding:.45rem .5rem;text-align:right;white-space:nowrap}
+.aeo-tbl th:first-child,.aeo-tbl td:first-child{text-align:left}
+.aeo-tbl thead th{background:#f6f8fb;font-weight:700}
+.aeo-tbl caption{text-align:left;font-size:.8rem;color:#5b6577;padding-bottom:.3rem;white-space:normal}
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+.aeo-answer{border-left:4px solid #2563eb;background:#f6f8fb;padding:.8rem 1rem;border-radius:6px;margin:1rem 0}</style>
+<!-- SEO:LINKS:START --><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' font-weight='700' fill='%23fff' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E"><link rel="apple-touch-icon" href="/assets/img/thumbnail.png"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"><meta property="og:url" content="https://shuttermath.com/tools/crop-factor.html"><meta property="og:site_name" content="ShutterMath"><meta name="twitter:title" content="Crop Factor Calculator: Focal Length and Aperture Equivalent"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://shuttermath.com/#organization","name":"ShutterMath","url":"https://shuttermath.com/","logo":"https://shuttermath.com/assets/img/og.png","description":"Free, sensor-accurate photography calculators and reference charts for depth of field, hyperfocal distance, exposure, ND filters, field of view and video shutter angle."},{"@type":"BreadcrumbList","@id":"https://shuttermath.com/tools/crop-factor.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shuttermath.com/"},{"@type":"ListItem","position":2,"name":"Calculators","item":"/tools/index.html"},{"@type":"ListItem","position":3,"name":"Crop Factor","item":"https://shuttermath.com/tools/crop-factor.html"}]},{"@type":"WebPage","@id":"https://shuttermath.com/tools/crop-factor.html#webpage","url":"https://shuttermath.com/tools/crop-factor.html","name":"Crop Factor Calculator: Focal Length and Aperture Equivalent","dateModified":"2026-10-30","isPartOf":{"@id":"https://shuttermath.com/#organization"},"breadcrumb":{"@id":"https://shuttermath.com/tools/crop-factor.html#breadcrumb"}}]}</script><!-- SEO:LINKS:END -->
+</head>
+<body>
+<header class="site-header"><!-- CHROME:HEADER:START --><div class="container"><a class="brand" href="/">Shutter<span>Math</span></a><nav class="nav" aria-label="Main navigation"><a href="/tools/depth-of-field.html">Depth of Field</a><a href="/tools/hyperfocal.html">Hyperfocal</a><a href="/tools/nd-filter.html">ND Filter</a><a href="/tools/flash-guide-number.html">Flash GN</a><a href="/tools/pixel-scale.html">Pixel Scale</a><a href="/tools/shutter-angle.html">Shutter Angle</a><a href="/tools/crop-factor.html" aria-current="page">Crop Factor</a><a href="/tools/background-blur.html">Blur</a><a href="/pages/guides.html">Guides</a></nav><button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button></div><!-- CHROME:HEADER:END --></header>
+<main class="container">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/tools/index.html">Calculators</a> › Crop Factor Calculator</nav>
+  <h1>Crop Factor Calculator</h1>
+  <p class="muted">Crop factor is the diagonal of a full frame sensor (43.27 mm) divided by the diagonal of yours. It tells you what focal length and aperture give the same picture on full frame. Enter your sensor and lens below.</p>
+
+  <div class="tool-wrap mt1">
+    <section class="panel" aria-label="Calculator inputs">
+      <h2>Your camera and lens</h2>
+      <div class="field"><label for="sensor">Sensor</label>
+        <select id="sensor">
+          <option value="36,24" selected>Full frame (36 × 24 mm)</option>
+          <option value="23.5,15.6">APS-C, Nikon Sony Fuji Pentax (23.5 × 15.6)</option>
+          <option value="22.3,14.9">APS-C, Canon (22.3 × 14.9)</option>
+          <option value="23.6,15.7">APS-C, Samsung (23.6 × 15.7)</option>
+          <option value="17.3,13">Micro Four Thirds (17.3 × 13)</option>
+          <option value="13.2,8.8">1 inch (13.2 × 8.8)</option>
+          <option value="7.6,5.7">1/1.7 inch compact (7.6 × 5.7)</option>
+          <option value="6.17,4.55">1/2.3 inch phone or compact (6.17 × 4.55)</option>
+          <option value="43.8,32.9">Fujifilm GFX medium format (43.8 × 32.9)</option>
+          <option value="45,30">Leica S medium format (45 × 30)</option>
+          <option value="53.4,40">Phase One IQ4 (53.4 × 40)</option>
+          <option value="custom">Other, enter the size</option>
+        </select>
+        <div class="hint">Sensor sizes are the active imaging area, not the package size.</div>
+      </div>
+      <div class="row2" id="custom-row" style="display:none">
+        <div class="field"><label for="cw">Sensor width (mm)</label><input id="cw" type="number" min="1" max="120" step="any" value="36" inputmode="decimal"></div>
+        <div class="field"><label for="ch">Sensor height (mm)</label><input id="ch" type="number" min="1" max="120" step="any" value="24" inputmode="decimal"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="focal">Focal length (mm)</label><input id="focal" type="number" min="1" max="2000" step="any" value="50" inputmode="decimal"></div>
+        <div class="field"><label for="aperture">Aperture (f-number)</label><input id="aperture" type="number" min="0.7" max="64" step="any" value="2.8" inputmode="decimal"></div>
+      </div>
+    </section>
+
+    <section class="panel" aria-label="Results">
+      <h2>Result</h2>
+      <div class="result-grid">
+        <div class="result warn"><div class="k">Crop factor</div><div class="v" id="r-crop">—</div><div class="s">× full frame</div></div>
+        <div class="result"><div class="k">Full frame equivalent</div><div class="v" id="r-eq">—</div><div class="s">mm, same angle of view</div></div>
+        <div class="result"><div class="k">Equivalent aperture</div><div class="v" id="r-eqa">—</div><div class="s">for the same depth of field</div></div>
+        <div class="result inf"><div class="k">Angle of view</div><div class="v" id="r-aov">—</div><div class="s">horizontal</div></div>
+      </div>
+      <div class="callout good mt1" id="r-note">—</div>
+    </section>
+  </div>
+
+  <h2>How the crop factor is calculated</h2>
+  <div class="aeo-answer"><p><strong>Short answer:</strong> crop factor = 43.27 mm ÷ your sensor diagonal. A Canon APS-C body is 1.61×, a Nikon or Sony APS-C body 1.53×, Micro Four Thirds 2.0× and Fujifilm GFX 0.79×. Multiply the focal length by the crop factor to get the full frame equivalent, and do the same to the f-number to compare depth of field.</p></div>
+  <p>The diagonal of a 36 × 24 mm frame is √(36² + 24²) = 43.27 mm. Dividing that by your sensor's diagonal gives a single number that converts every lens you own into full frame terms:</p>
+  <ul>
+    <li><strong>Focal length:</strong> 50 mm on a 1.5× body frames like 75 mm on full frame. The lens does not change; the sensor simply records a narrower part of the image circle.</li>
+    <li><strong>Aperture:</strong> multiply as well. An f/2 lens on Micro Four Thirds matches the depth of field of f/4 on full frame, and gathers the same total light as f/4 spread over a quarter of the area. Exposure per unit area is unchanged, which is why your meter still reads f/2.</li>
+    <li><strong>ISO:</strong> do not multiply. ISO is a per-area sensitivity; the smaller sensor simply has less area, which is why its low light performance is worse by roughly the same factor.</li>
+  </ul>
+
+  <h2>Crop factor by sensor size</h2>
+  <div class="tbl-scroll"><table class="aeo-tbl">
+    <caption>Reference sensor dimensions and the focal length that matches a 50 mm lens on full frame</caption>
+    <thead><tr><th>Sensor</th><th>Dimensions (mm)</th><th>Diagonal</th><th>Crop factor</th><th>Matches 50 mm with</th><th>Matches f/2.8 with</th></tr></thead>
+    <tbody>
+      <tr><td>Full frame</td><td>36 × 24</td><td>43.27</td><td>1.00×</td><td>50 mm</td><td>f/2.8</td></tr>
+      <tr><td>APS-C (Nikon, Sony, Fuji)</td><td>23.5 × 15.6</td><td>28.21</td><td>1.53×</td><td>32.6 mm</td><td>f/1.8</td></tr>
+      <tr><td>APS-C (Canon)</td><td>22.3 × 14.9</td><td>26.82</td><td>1.61×</td><td>31.0 mm</td><td>f/1.7</td></tr>
+      <tr><td>Micro Four Thirds</td><td>17.3 × 13.0</td><td>21.64</td><td>2.00×</td><td>25.0 mm</td><td>f/1.4</td></tr>
+      <tr><td>1 inch</td><td>13.2 × 8.8</td><td>15.86</td><td>2.73×</td><td>18.3 mm</td><td>f/1.0</td></tr>
+      <tr><td>1/1.7 inch</td><td>7.6 × 5.7</td><td>9.50</td><td>4.55×</td><td>11.0 mm</td><td>f/0.6</td></tr>
+      <tr><td>1/2.3 inch</td><td>6.17 × 4.55</td><td>7.67</td><td>5.64×</td><td>8.9 mm</td><td>f/0.5</td></tr>
+      <tr><td>Fujifilm GFX</td><td>43.8 × 32.9</td><td>54.78</td><td>0.79×</td><td>63.3 mm</td><td>f/3.5</td></tr>
+      <tr><td>Phase One IQ4</td><td>53.4 × 40.0</td><td>66.72</td><td>0.65×</td><td>77.1 mm</td><td>f/4.3</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Common questions</h2>
+  <h3>Does crop factor change depth of field?</h3>
+  <p>Yes, if you frame the subject the same way. To match the framing you either move back or use a shorter lens, and both increase depth of field. The full frame camera at f/2.8 therefore separates the subject more than a 2× sensor at f/2.8. Multiply the f-number by the crop factor to compare the two fairly: f/2.8 on Micro Four Thirds equals f/5.6 on full frame.</p>
+  <h3>Is crop factor the same as zoom?</h3>
+  <p>No. Crop factor describes how much of the image circle the sensor records. A 1.5× sensor records a smaller area, so the picture looks like a longer lens was used, but the lens magnification and the perspective are unchanged. Nothing is optically zoomed.</p>
+  <h3>Does crop factor change exposure?</h3>
+  <p>No. f/2 at 1/100 s and ISO 100 gives the same brightness on any sensor size. Only the total light collected and the depth of field change, because the sensor area changes.</p>
+
+  <h2>Related tools and guides</h2>
+  <div class="grid grid-3">
+    <a class="card" href="/tools/field-of-view.html"><h3>Field of View Calculator</h3><p>The angle and frame size a lens gives on your sensor.</p></a>
+    <a class="card" href="/tools/depth-of-field.html"><h3>Depth of Field Calculator</h3><p>Near and far limits from your real sensor.</p></a>
+    <a class="card" href="/pages/crop-factor-explained.html"><h3>Crop Factor Explained</h3><p>Why a 50 mm looks different on every body.</p></a>
+  </div>
+</main>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Crop Factor Calculator","url":"https://shuttermath.com/tools/crop-factor.html","applicationCategory":"UtilityApplication","operatingSystem":"Any","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Does crop factor change depth of field?","acceptedAnswer":{"@type":"Answer","text":"Yes, when you frame the subject the same way. Multiply the f-number by the crop factor to compare: f/2.8 on Micro Four Thirds matches f/5.6 on full frame."}},
+{"@type":"Question","name":"Is crop factor the same as zoom?","acceptedAnswer":{"@type":"Answer","text":"No. Crop factor describes how much of the image circle the sensor records. The lens magnification and perspective do not change."}},
+{"@type":"Question","name":"Does crop factor change exposure?","acceptedAnswer":{"@type":"Answer","text":"No. f/2 at 1/100 s and ISO 100 is the same brightness on any sensor size. Only depth of field and total light change."}},
+{"@type":"Question","name":"What is the crop factor of APS-C?","acceptedAnswer":{"@type":"Answer","text":"1.53x for Nikon, Sony, Fuji and Pentax (23.5 x 15.6 mm), and 1.61x for Canon (22.3 x 14.9 mm)."}}
+]}
+</script>
+<script>
+(function () {
+  var el = function (id) { return document.getElementById(id); };
+  var FF = Math.sqrt(36 * 36 + 24 * 24);
+
+  function dims() {
+    var v = el("sensor").value;
+    if (v === "custom") return [parseFloat(el("cw").value), parseFloat(el("ch").value)];
+    return v.split(",").map(parseFloat);
+  }
+
+  function compute() {
+    var d = dims(), w = d[0], h = d[1];
+    if (!(w > 0) || !(h > 0)) return;
+    var diag = Math.sqrt(w * w + h * h);
+    var crop = FF / diag;
+    var f = parseFloat(el("focal").value);
+    var N = parseFloat(el("aperture").value);
+    el("r-crop").textContent = crop.toFixed(2) + "\u00d7";
+    if (f > 0) el("r-eq").textContent = Math.round(f * crop) + " mm";
+    if (N > 0) el("r-eqa").textContent = "f/" + (N * crop).toFixed(1);
+    var aov = 2 * Math.atan(w / (2 * f)) * 180 / Math.PI;
+    el("r-aov").textContent = aov.toFixed(1) + "\u00b0";
+    var parts = [];
+    parts.push(crop < 1 ? "Larger than full frame: " + Math.round(100 / crop) + "% of the area, shallower depth of field at the same framing." :
+               crop < 1.2 ? "Full frame class: the reference for every equivalent number." :
+               "About " + Math.round(100 / (crop * crop)) + "% of a full frame area.");
+    if (f > 0 && N > 0) parts.push(Math.round(f) + " mm at f/" + N + " frames like " + Math.round(f * crop) + " mm at f/" + (N * crop).toFixed(1) + " on full frame.");
+    el("r-note").textContent = parts.join(" ");
+  }
+
+  el("sensor").addEventListener("change", function () {
+    el("custom-row").style.display = this.value === "custom" ? "" : "none";
+    compute();
+  });
+  ["cw", "ch", "focal", "aperture"].forEach(function (id) { el(id).addEventListener("input", compute); });
+  var P = new URLSearchParams(location.search);
+  if (P.get("w") && P.get("h")) {
+    el("sensor").value = "custom";
+    el("custom-row").style.display = "";
+    el("cw").value = P.get("w");
+    el("ch").value = P.get("h");
+  } else if (P.get("sensor")) {
+    var want = P.get("sensor");
+    Array.prototype.forEach.call(el("sensor").options, function (o) {
+      if (o.value === want || o.text.toLowerCase().indexOf(want.toLowerCase()) === 0) el("sensor").value = o.value;
+    });
+    el("custom-row").style.display = el("sensor").value === "custom" ? "" : "none";
+  }
+  if (P.get("f")) el("focal").value = P.get("f");
+  if (P.get("a")) el("aperture").value = P.get("a");
+  compute();
+})();
+</script>
+<footer class="site-footer"><!-- CHROME:FOOTER:START --><div class="container"><div><strong style="color:#fff">ShutterMath</strong><br>Photography calculators that know the camera you own</div><nav class="fnav" aria-label="Footer navigation"><a href="/pages/free-photography-calculators.html">Free Tools</a><a href="/products.html">Field Kit</a><a href="/pages/about.html">About</a><a href="/pages/contact.html">Contact</a><a href="/pages/privacy.html">Privacy Policy</a><a href="/pages/terms.html">Terms</a></nav></div><!-- CHROME:FOOTER:END --></footer>
+</body>
+</html>

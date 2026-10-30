@@ -22,6 +22,7 @@ ShutterMath is an independent, ad-supported reference site for photographers and
 ## Calculators
 
 - [Free Background Blur (Bokeh) Calculator | ShutterMath](https://shuttermath.com/tools/background-blur.html) — Background blur calculator: the exact blur disk size in millimetres and as a percentage of frame height, for any camera, lens and distance — computed from your sensor's real dimensions.
+- [Crop Factor Calculator: Focal Length and Aperture Equivalent](https://shuttermath.com/tools/crop-factor.html) — Enter a sensor and focal length to get the crop factor, the full frame equivalent focal length and the equivalent aperture for depth of field. 1.5x, 1.6x, 2x and medium format included.
 - [Depth of Field Calculator: Exact Near and Far Limits](https://shuttermath.com/tools/depth-of-field.html) — Enter focal length, aperture and focus distance for the exact near limit, far limit and total depth of field, using your camera's real circle of confusion.
 - [Free Exposure Calculator — EV & Equivalents | ShutterMath](https://shuttermath.com/tools/exposure.html) — Free exposure calculator: exposure value (EV) and equivalent aperture/shutter/ISO combinations that keep brightness identical. The exposure triangle, computed.
 - [Angle of View Calculator: Focal Length to Field of View](https://shuttermath.com/tools/field-of-view.html) — A 50mm lens on full frame sees 39.6° across and 27° high. Enter focal length and sensor for the angle of view and the frame you fill at any distance.

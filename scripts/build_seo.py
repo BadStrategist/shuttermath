@@ -99,6 +99,10 @@ def graph(rel, title, date_mod):
 def strip_block(text):
     """Remove our own block plus any legacy favicon tags, so re-runs are stable."""
     text = re.sub(re.escape(START) + r".*?" + re.escape(END), "", text, flags=re.S)
+    # multi-line legacy favicon: <link rel="icon" href="data:image/svg+xml,<svg ...
+    #   <text ...>X</text></svg>">
+    text = re.sub(r'[ \t]*<link rel="icon"[^\n]*\n(?:[^\n]*\n)?[^\n]*</svg>">[ \t]*\n?', "", text)
+    text = re.sub(r"[ \t]*<text y='\.9em'[^\n]*\n?", "", text)
     text = re.sub(r'[ \t]*<link rel="icon"[^\n]*?>\n?', "", text)
     text = re.sub(r'[ \t]*<link rel="apple-touch-icon"[^\n]*?>\n?', "", text)
     while "\n\n</head>" in text:
