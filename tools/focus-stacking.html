@@ -42,26 +42,27 @@
       <div class="row2">
         <div class="field"><label for="coc">Circle of confusion (mm)</label>
           <select id="coc">
-            <option value="0.030" selected>0.030, full frame, standard</option>
-            <option value="0.029">0.029, full frame, 24 MP</option>
-            <option value="0.020">0.020, APS-C</option>
-            <option value="0.015">0.015, Micro Four Thirds</option>
-            <option value="0.011">0.011, 1 inch sensor</option>
+            <option value="0.030" selected>0.030 FF</option>
+            <option value="0.029">0.029 FF 24MP</option>
+            <option value="0.020">0.020 APS-C</option>
+            <option value="0.015">0.015 MFT</option>
+            <option value="0.011">0.011 1 inch</option>
           </select>
         </div>
         <div class="field"><label for="overlap">Frame overlap</label>
           <select id="overlap">
-            <option value="0.30" selected>30% (recommended)</option>
-            <option value="0.20">20% (fewer frames)</option>
-            <option value="0.50">50% (safest, handheld)</option>
+            <option value="0.30" selected>30% overlap</option>
+            <option value="0.20">20% overlap</option>
+            <option value="0.50">50% overlap</option>
           </select>
         </div>
       </div>
+      <div class="hint">Circle of confusion: 0.030 mm for full frame, 0.020 mm for APS-C, 0.015 mm for Micro Four Thirds. 30% overlap is the usual start; use 50% for a handheld burst.</div>
     </section>
 
     <section class="panel" aria-label="Results">
       <h2>Result</h2>
-      <div class="result-grid">
+      <div class="result-grid cols2">
         <div class="result warn"><div class="k">Frames needed</div><div class="v" id="r-frames">—</div><div class="s">shots in the stack</div></div>
         <div class="result"><div class="k">Focus step</div><div class="v" id="r-step">—</div><div class="s">between frames</div></div>
         <div class="result inf"><div class="k">Depth per frame</div><div class="v" id="r-dof">—</div><div class="s">at the middle of the range</div></div>
@@ -136,8 +137,8 @@
   function fmt(m) {
     if (!isFinite(m)) return "\u221e";
     if (Math.abs(m) < 0.01) return Math.round(m * 1000) + " mm";
-    if (Math.abs(m) < 1) return (m * 100).toFixed(1) + " cm";
-    return (m < 10 ? m.toFixed(2) : Math.round(m)) + " m";
+    if (Math.abs(m) < 1) { var cm = m * 100; return (cm < 10 ? cm.toFixed(1) : Math.round(cm)) + " cm"; }
+    return (m < 10 ? m.toFixed(1) : Math.round(m)) + " m";
   }
   function compute() {
     var f = parseFloat(el("focal").value), N = parseFloat(el("aperture").value);
