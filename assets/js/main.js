@@ -1,4 +1,4 @@
-/* ShutterMath — shared chrome: header/footer inject, consent gate, ad-slot renderer.
+/* ShutterMath — shared chrome: consent gate, ad-slot renderer, analytics.
    Ad code is fully inert until ADSENSE_CLIENT is set post-approval — the site is
    self-sufficient without ads, per Google Publisher Policies. */
 (function () {
@@ -30,55 +30,50 @@
     ["Terms", "/pages/terms.html"]
   ];
 
+  /* Header and footer are static HTML in every page: crawlers and AI answer
+     engines do not run JavaScript, so a JS-injected nav was invisible to them and
+     (because the base-path guess failed) broken for readers too. This only fills a
+     shell that is genuinely empty; it never rewrites an existing nav. */
   function injectChrome() {
     const header = document.querySelector(".site-header");
-    if (header) {
+    if (header && !header.querySelector(".brand")) {
       header.innerHTML =
         '<div class="container">' +
         '<a class="brand" href="/">Shutter<span>Math</span></a>' +
         '<nav class="nav" aria-label="Main navigation">' +
         NAV.map(n => '<a href="' + n[1] + '">' + n[0] + "</a>").join("") +
-        '</nav><button class="nav-toggle" aria-label="Menu">☰</button></div>';
+        '</nav><button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button></div>';
+    }
+    if (header) {
       const t = header.querySelector(".nav-toggle");
       const nav = header.querySelector(".nav");
-      t.addEventListener("click", () => {
-        const open = nav.classList.toggle("open");
-        t.setAttribute("aria-expanded", open ? "true" : "false");
-      });
-      nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
-        nav.classList.remove("open");
-        t.setAttribute("aria-expanded", "false");
-      }));
+      if (t && nav) {
+        t.addEventListener("click", () => {
+          const open = nav.classList.toggle("open");
+          t.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+        nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
+          nav.classList.remove("open");
+          t.setAttribute("aria-expanded", "false");
+        }));
+      }
     }
     const footer = document.querySelector(".site-footer");
-    if (footer) {
+    if (footer && !footer.querySelector("strong")) {
       footer.innerHTML =
         '<div class="container">' +
         '<div><strong style="color:#fff">' + SITE.name + "</strong><br>" + SITE.tagline + "</div>" +
         '<nav class="fnav" aria-label="Footer navigation">' +
         FOOT_LINKS.map(l => '<a href="' + l[1] + '">' + l[0] + "</a>").join("") +
         "</nav></div>";
-      // above-footer ad slot (renders only post-approval + consent; inert otherwise)
+    }
+    if (footer && !document.getElementById("ad-footer")) {
       const slot = document.createElement("div");
       slot.className = "ad-slot";
       slot.id = "ad-footer";
       slot.dataset.ad = "footer";
       footer.parentNode.insertBefore(slot, footer);
     }
-  }
-
-  /* --- Relative-link fix (GitHub Pages project sites).
-     Pages live under /<repo>/ (and later a custom domain), so root-absolute
-     hrefs like /tools/x.html 404. Compute the base from this script's own src
-     ("../" per directory level) and rewrite every root-absolute link. --- */
-  function fixRootLinks() {
-    const src = (document.querySelector('script[src$="main.js"]') || {}).getAttribute ? document.querySelector('script[src$="main.js"]').getAttribute("src") : "assets/js/main.js";
-    const depth = (src.match(/\.\.\//g) || []).length;
-    const base = "../".repeat(depth);
-    document.querySelectorAll('a[href^="/"]').forEach(function (a) {
-      const clean = a.getAttribute("href").replace(/^\//, "");
-      a.setAttribute("href", base + (clean === "" ? "index.html" : clean));
-    });
   }
 
   /* --- consent (GDPR/EEA; Google-certified CMP script slot) --- */
@@ -97,8 +92,8 @@
     const accept = bar.querySelector(".consent-accept");
     const deny = bar.querySelector(".consent-deny");
     const dismiss = () => { bar.classList.remove("show"); document.body.classList.remove("consent-open"); };
-    accept.addEventListener("click", () => { localStorage.setItem("fc-consent", "granted"); dismiss(); });
-    deny.addEventListener("click", () => { localStorage.setItem("fc-consent", "denied"); dismiss(); });
+    if (accept) accept.addEventListener("click", () => { localStorage.setItem("fc-consent", "granted"); dismiss(); });
+    if (deny) deny.addEventListener("click", () => { localStorage.setItem("fc-consent", "denied"); dismiss(); });
   }
 
   /* --- AdSense gate: inert until approval; renders only with consent --- */
@@ -116,8 +111,7 @@
     }
   };
 
-  /* --- GoatCounter analytics: privacy-friendly, cookieless, GDPR-friendly.
-     Inert until GOATCOUNTER_CODE is set (see SETUP_GUIDE.md). --- */
+  /* --- GoatCounter analytics: privacy-friendly, cookieless, GDPR-friendly. --- */
   const GOATCOUNTER_CODE = "shuttermath"; // ShutterMath's own site (kulture = BakersfieldBrief's — never mix)
   function loadAnalytics() {
     if (GOATCOUNTER_CODE === "") return;
@@ -130,7 +124,6 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     injectChrome();
-    fixRootLinks();
     showConsent();
     loadAnalytics();
     document.querySelectorAll("[data-ad]").forEach(el => window.FC_ADS.render(el.id || "ad-" + el.dataset.ad));

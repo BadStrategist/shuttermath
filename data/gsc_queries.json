@@ -1,0 +1,4128 @@
+{
+ "start": "2025-08-13",
+ "end": "2026-09-17",
+ "rows": [
+  {
+   "keys": [
+    "1 2 sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 46
+  },
+  {
+   "keys": [
+    "1 2.3 sensor size in mm"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 64
+  },
+  {
+   "keys": [
+    "1 inch crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "keys": [
+    "1 inch sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 35
+  },
+  {
+   "keys": [
+    "1 inch sensor size in mm"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 69
+  },
+  {
+   "keys": [
+    "1/3.2 sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "10 stop nd filter calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 68
+  },
+  {
+   "keys": [
+    "12000 x 18000"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 77
+  },
+  {
+   "keys": [
+    "150 resolution"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "150 x 4000"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "keys": [
+    "172.8"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 26
+  },
+  {
+   "keys": [
+    "172.8 shutter angle"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 48
+  },
+  {
+   "keys": [
+    "180 shutter angle to shutter speed"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 58
+  },
+  {
+   "keys": [
+    "200mm focal length"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 67.5
+  },
+  {
+   "keys": [
+    "2268 x 4032 resolution"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 96
+  },
+  {
+   "keys": [
+    "24 1.2"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 46
+  },
+  {
+   "keys": [
+    "24/1.2"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 68
+  },
+  {
+   "keys": [
+    "24mm focal length"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 66
+  },
+  {
+   "keys": [
+    "24mm length"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "24mm lens angle of view"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 48
+  },
+  {
+   "keys": [
+    "2880 x 365"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 94
+  },
+  {
+   "keys": [
+    "2940 x 25"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 88
+  },
+  {
+   "keys": [
+    "300 dpi to mp"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "keys": [
+    "3024 x 4032 resolution print size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 55
+  },
+  {
+   "keys": [
+    "3042 x 4032 resolution"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 91
+  },
+  {
+   "keys": [
+    "3072 x 4080"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 60
+  },
+  {
+   "keys": [
+    "350 x 0.9"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 71
+  },
+  {
+   "keys": [
+    "4032x2268 resolution"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "keys": [
+    "4800 dpi to megapixels"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 56.5
+  },
+  {
+   "keys": [
+    "4x5 crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 84
+  },
+  {
+   "keys": [
+    "500 rule calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 89
+  },
+  {
+   "keys": [
+    "50mm depth of field"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 18.5
+  },
+  {
+   "keys": [
+    "6 dof table"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 61.5
+  },
+  {
+   "keys": [
+    "65mm sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "6x8 crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "720 x 24"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 85
+  },
+  {
+   "keys": [
+    "7200 x 24"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 68.5
+  },
+  {
+   "keys": [
+    "7200 x 365"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "keys": [
+    "a6000 crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 26
+  },
+  {
+   "keys": [
+    "angle of view"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 86
+  },
+  {
+   "keys": [
+    "angle of view calculator"
+   ],
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 89.92307692307692
+  },
+  {
+   "keys": [
+    "angle of view formula"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 94
+  },
+  {
+   "keys": [
+    "angle of view lens calculator"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 88
+  },
+  {
+   "keys": [
+    "angle shutter"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 57
+  },
+  {
+   "keys": [
+    "apc crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 45
+  },
+  {
+   "keys": [
+    "aperture and depth of field chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "aperture depth of field chart"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "aperture diameter"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 71.66666666666667
+  },
+  {
+   "keys": [
+    "aperture distance chart"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 55
+  },
+  {
+   "keys": [
+    "aperture function"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 76.33333333333333
+  },
+  {
+   "keys": [
+    "aperture half stops"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 58
+  },
+  {
+   "keys": [
+    "aperture is measured in"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 67
+  },
+  {
+   "keys": [
+    "aperture is measured in what"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 58.5
+  },
+  {
+   "keys": [
+    "aperture measurement"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 67
+  },
+  {
+   "keys": [
+    "aperture time"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 68
+  },
+  {
+   "keys": [
+    "aperture vs depth of field chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "aps c crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 28.666666666666668
+  },
+  {
+   "keys": [
+    "aps c sensor crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 31
+  },
+  {
+   "keys": [
+    "aps-c crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 34.5
+  },
+  {
+   "keys": [
+    "aps-c crop factor calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 55
+  },
+  {
+   "keys": [
+    "aps-c sensor crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 29
+  },
+  {
+   "keys": [
+    "aps-h crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "aps-h sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 51.5
+  },
+  {
+   "keys": [
+    "apsc crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 64
+  },
+  {
+   "keys": [
+    "astro focus lock"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 46.5
+  },
+  {
+   "keys": [
+    "astrophotography focus"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 54
+  },
+  {
+   "keys": [
+    "astrophotography pixel size calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "keys": [
+    "astropixel"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 27
+  },
+  {
+   "keys": [
+    "bokeh calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "keys": [
+    "c70 crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 32
+  },
+  {
+   "keys": [
+    "calculate camera field of view"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 85.6
+  },
+  {
+   "keys": [
+    "calculate crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "keys": [
+    "calculate depth of field"
+   ],
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 87.1
+  },
+  {
+   "keys": [
+    "calculate dof"
+   ],
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 85.08333333333333
+  },
+  {
+   "keys": [
+    "calculate exposure"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 75.33333333333333
+  },
+  {
+   "keys": [
+    "calculate exposure factor"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 87.4
+  },
+  {
+   "keys": [
+    "calculate exposure value"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 77
+  },
+  {
+   "keys": [
+    "calculate field of view"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 89
+  },
+  {
+   "keys": [
+    "calculate fov"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 84
+  },
+  {
+   "keys": [
+    "calculate hyperfocal distance"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "calculate shutter speed"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 88.5
+  },
+  {
+   "keys": [
+    "calculate the field of view"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 90
+  },
+  {
+   "keys": [
+    "calculating exposure"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "calculator flash"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 55
+  },
+  {
+   "keys": [
+    "calculator photography"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "keys": [
+    "camcorder sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 58
+  },
+  {
+   "keys": [
+    "camera angle calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "camera angle simulator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "camera by sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 49.333333333333336
+  },
+  {
+   "keys": [
+    "camera ccd size comparison"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 63
+  },
+  {
+   "keys": [
+    "camera crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 32.5
+  },
+  {
+   "keys": [
+    "camera depth of field calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "camera dimension"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 61
+  },
+  {
+   "keys": [
+    "camera dimensions"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "keys": [
+    "camera exposure calculator"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 69.16666666666667
+  },
+  {
+   "keys": [
+    "camera field of view calculator"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 86.66666666666667
+  },
+  {
+   "keys": [
+    "camera flash guide number"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 66.5
+  },
+  {
+   "keys": [
+    "camera format sizes"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 24
+  },
+  {
+   "keys": [
+    "camera fov calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 89
+  },
+  {
+   "keys": [
+    "camera frame sizes"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 31
+  },
+  {
+   "keys": [
+    "camera image sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 40
+  },
+  {
+   "keys": [
+    "camera image sensor sizes"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 55
+  },
+  {
+   "keys": [
+    "camera lens calculator field view"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 85
+  },
+  {
+   "keys": [
+    "camera lens field of view calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 85
+  },
+  {
+   "keys": [
+    "camera sensor crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 37
+  },
+  {
+   "keys": [
+    "camera sensor dimensions"
+   ],
+   "clicks": 0,
+   "impressions": 20,
+   "ctr": 0,
+   "position": 43.85
+  },
+  {
+   "keys": [
+    "camera sensor format"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 29
+  },
+  {
+   "keys": [
+    "camera sensor formats"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 53.5
+  },
+  {
+   "keys": [
+    "camera sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 34.57142857142857
+  },
+  {
+   "keys": [
+    "camera sensor size chart"
+   ],
+   "clicks": 0,
+   "impressions": 36,
+   "ctr": 0,
+   "position": 46.55555555555556
+  },
+  {
+   "keys": [
+    "camera sensor size compare"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 54.5
+  },
+  {
+   "keys": [
+    "camera sensor size comparison"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 54
+  },
+  {
+   "keys": [
+    "camera sensor size comparison chart"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 52.5
+  },
+  {
+   "keys": [
+    "camera sensor sizes"
+   ],
+   "clicks": 0,
+   "impressions": 25,
+   "ctr": 0,
+   "position": 33.84
+  },
+  {
+   "keys": [
+    "camera sensor sizes chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 50
+  },
+  {
+   "keys": [
+    "camera sensor sizes comparison"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 57
+  },
+  {
+   "keys": [
+    "camera sensor sizes explained"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 39
+  },
+  {
+   "keys": [
+    "camera sensor width"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "camera sensors sizes"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 33.333333333333336
+  },
+  {
+   "keys": [
+    "camera size"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 53
+  },
+  {
+   "keys": [
+    "camera sizes"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 53
+  },
+  {
+   "keys": [
+    "camerasize"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "canon aps c crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 23
+  },
+  {
+   "keys": [
+    "canon aps-c crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 24
+  },
+  {
+   "keys": [
+    "canon apsc crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "keys": [
+    "canon crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 44.5
+  },
+  {
+   "keys": [
+    "canon r50 dimensions"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "keys": [
+    "canon r6 pixel size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 32
+  },
+  {
+   "keys": [
+    "canon r7 crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 50
+  },
+  {
+   "keys": [
+    "ccd sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 62.5
+  },
+  {
+   "keys": [
+    "ccd sensor size chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 55
+  },
+  {
+   "keys": [
+    "ccd sensor size comparison"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 66.33333333333333
+  },
+  {
+   "keys": [
+    "ccd sensor sizes"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 60.5
+  },
+  {
+   "keys": [
+    "cinema camera sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "keys": [
+    "circle confusion"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 68
+  },
+  {
+   "keys": [
+    "circle of confusion"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 90
+  },
+  {
+   "keys": [
+    "circle of confusion calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 96
+  },
+  {
+   "keys": [
+    "circle of confusion camera"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 61.5
+  },
+  {
+   "keys": [
+    "circle of confusion for digital cameras"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 77
+  },
+  {
+   "keys": [
+    "circle of confusion formula"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 43
+  },
+  {
+   "keys": [
+    "circle of confusion in photography"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "circles of confusion"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 93.66666666666667
+  },
+  {
+   "keys": [
+    "circles of confusion photography"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 85
+  },
+  {
+   "keys": [
+    "cmos sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 53.44444444444444
+  },
+  {
+   "keys": [
+    "cmos sensor size chart"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 51.5
+  },
+  {
+   "keys": [
+    "cmos sensor sizes"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 61
+  },
+  {
+   "keys": [
+    "confusion circle"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 79
+  },
+  {
+   "keys": [
+    "crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 33.75
+  },
+  {
+   "keys": [
+    "crop factor aps c"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 29.5
+  },
+  {
+   "keys": [
+    "crop factor apsc to full frame"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 45
+  },
+  {
+   "keys": [
+    "crop factor camera"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 35
+  },
+  {
+   "keys": [
+    "crop factor canon"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 71
+  },
+  {
+   "keys": [
+    "crop factor chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 66
+  },
+  {
+   "keys": [
+    "crop factor formula"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "keys": [
+    "crop factors"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 26.5
+  },
+  {
+   "keys": [
+    "crop faktor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 25
+  },
+  {
+   "keys": [
+    "crop m4"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "cropping factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 28
+  },
+  {
+   "keys": [
+    "deep of field calculator"
+   ],
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 83.28571428571429
+  },
+  {
+   "keys": [
+    "depth field calculator"
+   ],
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 76.9
+  },
+  {
+   "keys": [
+    "depth of field aperture chart"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 62
+  },
+  {
+   "keys": [
+    "depth of field calc"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "depth of field calculations"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 95
+  },
+  {
+   "keys": [
+    "depth of field calculator"
+   ],
+   "clicks": 0,
+   "impressions": 39,
+   "ctr": 0,
+   "position": 79.33333333333333
+  },
+  {
+   "keys": [
+    "depth of field calculator canon"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "keys": [
+    "depth of field calculator online"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 85.5
+  },
+  {
+   "keys": [
+    "depth of field chart"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 86.66666666666667
+  },
+  {
+   "keys": [
+    "depth of field photography calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 86
+  },
+  {
+   "keys": [
+    "depth of field simulator"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 83.25
+  },
+  {
+   "keys": [
+    "depth of field table"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "keys": [
+    "depth of field test"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 91
+  },
+  {
+   "keys": [
+    "depth of field website"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 86
+  },
+  {
+   "keys": [
+    "depth of focus calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 85.5
+  },
+  {
+   "keys": [
+    "depth of view calculator"
+   ],
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 87.15384615384616
+  },
+  {
+   "keys": [
+    "diagonal field of view"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 93
+  },
+  {
+   "keys": [
+    "diagonal fov calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "different sensor sizes"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "digital camera sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 64
+  },
+  {
+   "keys": [
+    "digital cameras sensor sizes"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 53
+  },
+  {
+   "keys": [
+    "dof calculator"
+   ],
+   "clicks": 0,
+   "impressions": 30,
+   "ctr": 0,
+   "position": 78.36666666666666
+  },
+  {
+   "keys": [
+    "dof calculator online"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 83
+  },
+  {
+   "keys": [
+    "dof chart"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 98.5
+  },
+  {
+   "keys": [
+    "dof master"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 64
+  },
+  {
+   "keys": [
+    "dofcalculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 86
+  },
+  {
+   "keys": [
+    "dofmaster"
+   ],
+   "clicks": 0,
+   "impressions": 9,
+   "ctr": 0,
+   "position": 58.333333333333336
+  },
+  {
+   "keys": [
+    "dofmaster app"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 36
+  },
+  {
+   "keys": [
+    "dofmaster depth of field calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "keys": [
+    "dpi to resolution"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 83
+  },
+  {
+   "keys": [
+    "dslr camera sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 54
+  },
+  {
+   "keys": [
+    "equivalent exposure"
+   ],
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 69.6
+  },
+  {
+   "keys": [
+    "equivalent exposure calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 49
+  },
+  {
+   "keys": [
+    "equivalent exposure chart"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 46.5
+  },
+  {
+   "keys": [
+    "equivalent exposures"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 62
+  },
+  {
+   "keys": [
+    "ev calculator photography"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "keys": [
+    "ev values photography"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 100
+  },
+  {
+   "keys": [
+    "exposure calc"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "keys": [
+    "exposure calculation"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "exposure calculation formula"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 76.33333333333333
+  },
+  {
+   "keys": [
+    "exposure calculations"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 83
+  },
+  {
+   "keys": [
+    "exposure calculator"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 74.33333333333333
+  },
+  {
+   "keys": [
+    "exposure calculator film"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 66
+  },
+  {
+   "keys": [
+    "exposure calculator photography"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 71
+  },
+  {
+   "keys": [
+    "exposure count"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "exposure difference calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "exposure equation"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "exposure equivalent calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 53.5
+  },
+  {
+   "keys": [
+    "exposure factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 92
+  },
+  {
+   "keys": [
+    "exposure formula"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 78.33333333333333
+  },
+  {
+   "keys": [
+    "exposure measure"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 73.33333333333333
+  },
+  {
+   "keys": [
+    "exposure simulator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 83.5
+  },
+  {
+   "keys": [
+    "exposure triangle calculator"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 79
+  },
+  {
+   "keys": [
+    "exposure triangle formula"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 60
+  },
+  {
+   "keys": [
+    "exposure triangle simulation"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 64
+  },
+  {
+   "keys": [
+    "exposure value calculator"
+   ],
+   "clicks": 0,
+   "impressions": 32,
+   "ctr": 0,
+   "position": 57.03125
+  },
+  {
+   "keys": [
+    "exposure value formula"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 94.66666666666667
+  },
+  {
+   "keys": [
+    "exposure value table"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 75.5
+  },
+  {
+   "keys": [
+    "f stop calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 82
+  },
+  {
+   "keys": [
+    "f/4-5.6 meaning"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 69
+  },
+  {
+   "keys": [
+    "f7.1 aperture"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "field angle"
+   ],
+   "clicks": 0,
+   "impressions": 35,
+   "ctr": 0,
+   "position": 89
+  },
+  {
+   "keys": [
+    "field of depth calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 71.5
+  },
+  {
+   "keys": [
+    "field of view"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "keys": [
+    "field of view angle"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 76.25
+  },
+  {
+   "keys": [
+    "field of view angle calculator"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 79.66666666666667
+  },
+  {
+   "keys": [
+    "field of view calc"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 88.33333333333333
+  },
+  {
+   "keys": [
+    "field of view calculation"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 71
+  },
+  {
+   "keys": [
+    "field of view calculator"
+   ],
+   "clicks": 0,
+   "impressions": 66,
+   "ctr": 0,
+   "position": 86.33333333333333
+  },
+  {
+   "keys": [
+    "field of view calculator camera"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 82.2
+  },
+  {
+   "keys": [
+    "field of view calculator lens"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 83
+  },
+  {
+   "keys": [
+    "field of view camera calculator"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 83
+  },
+  {
+   "keys": [
+    "field of view chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 79
+  },
+  {
+   "keys": [
+    "field of view converter"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 74
+  },
+  {
+   "keys": [
+    "field of view formula"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 83
+  },
+  {
+   "keys": [
+    "field of view in degrees"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 80.5
+  },
+  {
+   "keys": [
+    "field of view lens calculator"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 88.33333333333333
+  },
+  {
+   "keys": [
+    "field of view simulator"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 94.66666666666667
+  },
+  {
+   "keys": [
+    "field view calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 82
+  },
+  {
+   "keys": [
+    "film exposure calculator"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 73
+  },
+  {
+   "keys": [
+    "find nd"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 79
+  },
+  {
+   "keys": [
+    "flash distance calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 69
+  },
+  {
+   "keys": [
+    "flash gn number"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 65
+  },
+  {
+   "keys": [
+    "flash guide number"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 69.6
+  },
+  {
+   "keys": [
+    "flash guide number calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 77
+  },
+  {
+   "keys": [
+    "flash guide number chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "flash guide number meaning"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 60
+  },
+  {
+   "keys": [
+    "flash guide numbers"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 70.5
+  },
+  {
+   "keys": [
+    "flash power chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "flashgun guide number"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 79
+  },
+  {
+   "keys": [
+    "focal length 200mm"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 67
+  },
+  {
+   "keys": [
+    "focal length 24mm"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 68
+  },
+  {
+   "keys": [
+    "focal number"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 61.142857142857146
+  },
+  {
+   "keys": [
+    "focus calculator"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 79
+  },
+  {
+   "keys": [
+    "format sensor"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 59.666666666666664
+  },
+  {
+   "keys": [
+    "fov calculation"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 92
+  },
+  {
+   "keys": [
+    "fov calculator"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 73
+  },
+  {
+   "keys": [
+    "fov calculator camera"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 87.33333333333333
+  },
+  {
+   "keys": [
+    "fov calculator lens"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 86.5
+  },
+  {
+   "keys": [
+    "fov of camera"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 91
+  },
+  {
+   "keys": [
+    "fov tool"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "guide number"
+   ],
+   "clicks": 0,
+   "impressions": 39,
+   "ctr": 0,
+   "position": 76.51282051282051
+  },
+  {
+   "keys": [
+    "guide number flash"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 72.5
+  },
+  {
+   "keys": [
+    "guide number flash calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 74
+  },
+  {
+   "keys": [
+    "guide number formula"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 74
+  },
+  {
+   "keys": [
+    "guide number of flash"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "keys": [
+    "guide number on flash"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 63.666666666666664
+  },
+  {
+   "keys": [
+    "how do you calculate field of view"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 82
+  },
+  {
+   "keys": [
+    "how does shutter speed work"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 91
+  },
+  {
+   "keys": [
+    "how far is 200 mm"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 53
+  },
+  {
+   "keys": [
+    "how is aperture calculated"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 67.5
+  },
+  {
+   "keys": [
+    "how is aperture measured"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "keys": [
+    "how is shutter speed measured"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "keys": [
+    "how many flash are there"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 74
+  },
+  {
+   "keys": [
+    "how much blur"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 5.6
+  },
+  {
+   "keys": [
+    "how small can a camera be"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 77
+  },
+  {
+   "keys": [
+    "how to calculate aperture"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 75.75
+  },
+  {
+   "keys": [
+    "how to calculate equivalent exposure"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 80.5
+  },
+  {
+   "keys": [
+    "how to calculate exposure"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 88
+  },
+  {
+   "keys": [
+    "how to calculate exposure factor"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 93.66666666666667
+  },
+  {
+   "keys": [
+    "how to calculate exposure value"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 93
+  },
+  {
+   "keys": [
+    "how to calculate field of view"
+   ],
+   "clicks": 0,
+   "impressions": 12,
+   "ctr": 0,
+   "position": 90.58333333333333
+  },
+  {
+   "keys": [
+    "how to calculate the field of view"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 92
+  },
+  {
+   "keys": [
+    "how to pixel scale"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 51
+  },
+  {
+   "keys": [
+    "how wide is 24 mm"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 64
+  },
+  {
+   "keys": [
+    "how wide is 24mm"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 57
+  },
+  {
+   "keys": [
+    "hyperfocal calculator"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 67.75
+  },
+  {
+   "keys": [
+    "hyperfocal distance calculator"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 80.25
+  },
+  {
+   "keys": [
+    "hyperfocal distance chart"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 42.666666666666664
+  },
+  {
+   "keys": [
+    "hyperfocal distance table"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "hyperfocal formula"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 69
+  },
+  {
+   "keys": [
+    "hyperfocal length"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 57.666666666666664
+  },
+  {
+   "keys": [
+    "hyperfocal length calculator"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 76.33333333333333
+  },
+  {
+   "keys": [
+    "hyperfocal range"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "hyperfocus calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 57
+  },
+  {
+   "keys": [
+    "image scale calculator astrophotography"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 69
+  },
+  {
+   "keys": [
+    "image sensor formats"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 51
+  },
+  {
+   "keys": [
+    "image sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 39
+  },
+  {
+   "keys": [
+    "image sensor size chart"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 41.333333333333336
+  },
+  {
+   "keys": [
+    "imx462 sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 73
+  },
+  {
+   "keys": [
+    "is 24mm wide angle"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 41
+  },
+  {
+   "keys": [
+    "iso aperture shutter speed calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "keys": [
+    "iso calculator"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 78.2
+  },
+  {
+   "keys": [
+    "iso calculator photography"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 79.5
+  },
+  {
+   "keys": [
+    "iso triangle"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 71
+  },
+  {
+   "keys": [
+    "large format print resolution calculator"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 69.66666666666667
+  },
+  {
+   "keys": [
+    "lens angle calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 100
+  },
+  {
+   "keys": [
+    "lens angle of view calculator"
+   ],
+   "clicks": 0,
+   "impressions": 11,
+   "ctr": 0,
+   "position": 93.0909090909091
+  },
+  {
+   "keys": [
+    "lens field of view calculator"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 88.16666666666667
+  },
+  {
+   "keys": [
+    "lens fov calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 90
+  },
+  {
+   "keys": [
+    "light stop calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "keys": [
+    "macro depth of field"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "macro lens depth of field"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 67.5
+  },
+  {
+   "keys": [
+    "macro photography depth of field"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 63
+  },
+  {
+   "keys": [
+    "math in photography"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 65.4
+  },
+  {
+   "keys": [
+    "mathematics in photography"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "max print size calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 62
+  },
+  {
+   "keys": [
+    "maximum sensor format"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 44
+  },
+  {
+   "keys": [
+    "medium format crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 66
+  },
+  {
+   "keys": [
+    "megapixel print size calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 53
+  },
+  {
+   "keys": [
+    "megapixel to print size calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "mft crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 68
+  },
+  {
+   "keys": [
+    "micro four thirds crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "nd calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 66.5
+  },
+  {
+   "keys": [
+    "nd chart"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 72.25
+  },
+  {
+   "keys": [
+    "nd conversion chart"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 71.33333333333333
+  },
+  {
+   "keys": [
+    "nd expert"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 50
+  },
+  {
+   "keys": [
+    "nd filter berechnen"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 65
+  },
+  {
+   "keys": [
+    "nd filter calculation"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 36
+  },
+  {
+   "keys": [
+    "nd filter calculator"
+   ],
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 58.785714285714285
+  },
+  {
+   "keys": [
+    "nd filter chart"
+   ],
+   "clicks": 0,
+   "impressions": 63,
+   "ctr": 0,
+   "position": 66.34920634920636
+  },
+  {
+   "keys": [
+    "nd filter exposure calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 73
+  },
+  {
+   "keys": [
+    "nd filter formula"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 90.33333333333333
+  },
+  {
+   "keys": [
+    "nd filter rechner"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 55.75
+  },
+  {
+   "keys": [
+    "nd filter shutter speed chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 73
+  },
+  {
+   "keys": [
+    "nd filter stacking calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "nd filter stops chart"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 67.5
+  },
+  {
+   "keys": [
+    "nd filters chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "keys": [
+    "nd measures"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 55
+  },
+  {
+   "keys": [
+    "nd numbers"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "keys": [
+    "nd stops chart"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 64
+  },
+  {
+   "keys": [
+    "nd timer"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 42.166666666666664
+  },
+  {
+   "keys": [
+    "nd to stops conversion"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 84
+  },
+  {
+   "keys": [
+    "neutral density calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 63
+  },
+  {
+   "keys": [
+    "neutral density filter calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "neutral density filter chart"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 57.333333333333336
+  },
+  {
+   "keys": [
+    "nikon cx sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "nikon z30 crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 48
+  },
+  {
+   "keys": [
+    "nikon z9 shutter speed"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 49
+  },
+  {
+   "keys": [
+    "nikon zf max shutter speed"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "keys": [
+    "nikon zf resolution"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 55
+  },
+  {
+   "keys": [
+    "nikon zf specifications"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "npf calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 70
+  },
+  {
+   "keys": [
+    "npf calculator astrophotography"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 87
+  },
+  {
+   "keys": [
+    "npf formula"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "keys": [
+    "npf rule"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 87.16666666666667
+  },
+  {
+   "keys": [
+    "npf rule calculator"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 75
+  },
+  {
+   "keys": [
+    "numero guida flash"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 78
+  },
+  {
+   "keys": [
+    "online depth of field calculator"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 77.66666666666667
+  },
+  {
+   "keys": [
+    "oversampling calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 81
+  },
+  {
+   "keys": [
+    "perspective calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 64
+  },
+  {
+   "keys": [
+    "phfx format compare"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 68
+  },
+  {
+   "keys": [
+    "photo exposure calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "keys": [
+    "photography calculator"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 84.25
+  },
+  {
+   "keys": [
+    "photography circle of confusion"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "photography exposure calculator"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 72.85714285714286
+  },
+  {
+   "keys": [
+    "photography formula"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "photography math"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "keys": [
+    "pixel scale"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 52.714285714285715
+  },
+  {
+   "keys": [
+    "pixel scale calculator"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 43
+  },
+  {
+   "keys": [
+    "plate scale calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 62
+  },
+  {
+   "keys": [
+    "point and shoot camera sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 57
+  },
+  {
+   "keys": [
+    "point of confusion"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 58
+  },
+  {
+   "keys": [
+    "print resolution"
+   ],
+   "clicks": 0,
+   "impressions": 15,
+   "ctr": 0,
+   "position": 81.13333333333334
+  },
+  {
+   "keys": [
+    "print resolution calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "print resolution comparison"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "printable resolution"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 78.5
+  },
+  {
+   "keys": [
+    "printer resolution"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 95
+  },
+  {
+   "keys": [
+    "printer resolution measure"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 93
+  },
+  {
+   "keys": [
+    "resolution print"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "keys": [
+    "resolution to print size"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 88
+  },
+  {
+   "keys": [
+    "resolution to print size calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 72.5
+  },
+  {
+   "keys": [
+    "ricoh gr iii size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 96
+  },
+  {
+   "keys": [
+    "rule of 500 calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 89
+  },
+  {
+   "keys": [
+    "sensor camera size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 51
+  },
+  {
+   "keys": [
+    "sensor comparison size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 69
+  },
+  {
+   "keys": [
+    "sensor crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 38
+  },
+  {
+   "keys": [
+    "sensor formats"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 40.5
+  },
+  {
+   "keys": [
+    "sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 57.93939393939394
+  },
+  {
+   "keys": [
+    "sensor size camera"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 74.66666666666667
+  },
+  {
+   "keys": [
+    "sensor size cameras"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 45
+  },
+  {
+   "keys": [
+    "sensor size chart"
+   ],
+   "clicks": 0,
+   "impressions": 25,
+   "ctr": 0,
+   "position": 46.32
+  },
+  {
+   "keys": [
+    "sensor size compare"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 68
+  },
+  {
+   "keys": [
+    "sensor size in cameras"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 37.5
+  },
+  {
+   "keys": [
+    "sensor size of camera"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 72
+  },
+  {
+   "keys": [
+    "sensor sizes"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 58.666666666666664
+  },
+  {
+   "keys": [
+    "sensor sizes camera"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 40.5
+  },
+  {
+   "keys": [
+    "sensor sizes cameras"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 35
+  },
+  {
+   "keys": [
+    "sensor sizes chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 44
+  },
+  {
+   "keys": [
+    "sensor sizes comparison"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 54
+  },
+  {
+   "keys": [
+    "sensor sizes explained"
+   ],
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 59.4
+  },
+  {
+   "keys": [
+    "sensor width of camera"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "sensorstorlek"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 58
+  },
+  {
+   "keys": [
+    "shutter 172.8"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 40.666666666666664
+  },
+  {
+   "keys": [
+    "shutter angle"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 44.666666666666664
+  },
+  {
+   "keys": [
+    "shutter angle 180"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "shutter angle 180 to shutter speed"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 59.5
+  },
+  {
+   "keys": [
+    "shutter angle calculator"
+   ],
+   "clicks": 0,
+   "impressions": 14,
+   "ctr": 0,
+   "position": 29.571428571428573
+  },
+  {
+   "keys": [
+    "shutter angle chart"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 46
+  },
+  {
+   "keys": [
+    "shutter angle formula"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 64.5
+  },
+  {
+   "keys": [
+    "shutter angle to shutter speed"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 63
+  },
+  {
+   "keys": [
+    "shutter angle to shutter speed calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 65.5
+  },
+  {
+   "keys": [
+    "shutter angle to shutter speed conversion"
+   ],
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 71
+  },
+  {
+   "keys": [
+    "shutter angle to speed"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 62
+  },
+  {
+   "keys": [
+    "shutter angle vs shutter speed chart"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
+  },
+  {
+   "keys": [
+    "shutter angles"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 42
+  },
+  {
+   "keys": [
+    "shutter calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "shutter degree"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 63
+  },
+  {
+   "keys": [
+    "shutter speed calculator"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 88.66666666666667
+  },
+  {
+   "keys": [
+    "shutter speed calculator astrophotography"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 86
+  },
+  {
+   "keys": [
+    "shutter speed formula"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 71
+  },
+  {
+   "keys": [
+    "shutter speed in degrees"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 76
+  },
+  {
+   "keys": [
+    "shutter speed to shutter angle"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 61
+  },
+  {
+   "keys": [
+    "size of camera"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 44
+  },
+  {
+   "keys": [
+    "size of camera sensors"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 50
+  },
+  {
+   "keys": [
+    "size of image sensor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "size of sensor in camera"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 39
+  },
+  {
+   "keys": [
+    "size-sensor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 49
+  },
+  {
+   "keys": [
+    "sony a6000 crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 20.5
+  },
+  {
+   "keys": [
+    "sony a7c ii dimensions"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "keys": [
+    "sony crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 27
+  },
+  {
+   "keys": [
+    "sony imx766 sensor size"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 56
+  },
+  {
+   "keys": [
+    "speedlight guide number"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 59
+  },
+  {
+   "keys": [
+    "star photography calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "strobe guide number"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "tama\u00f1o sensores camaras"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 91
+  },
+  {
+   "keys": [
+    "the image size dialog shows my photo is 42x28 inches at 72 ppi. in photoshop if i want to print it at 14x9 inches, what resolution should i set it to?"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "twilight factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "view angle calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 90
+  },
+  {
+   "keys": [
+    "view of field"
+   ],
+   "clicks": 0,
+   "impressions": 5,
+   "ctr": 0,
+   "position": 83.8
+  },
+  {
+   "keys": [
+    "viewing angle calculator"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 83.5
+  },
+  {
+   "keys": [
+    "viewing field"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 83
+  },
+  {
+   "keys": [
+    "what are the apps available for 180 degree rule in video production?"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 11.5
+  },
+  {
+   "keys": [
+    "what are the best free tools available for 180 degree rule in video production?"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6.5
+  },
+  {
+   "keys": [
+    "what are the free online tools available for 180 degree rule in video production?"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 4
+  },
+  {
+   "keys": [
+    "what are the free tools available for what is the 180 degree rule in video production?"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 7
+  },
+  {
+   "keys": [
+    "what are the online tools available for what is the 180 degree rule in video production?"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 5
+  },
+  {
+   "keys": [
+    "what is 4032 x 3024 resolution"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "what is a flash guide number"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 62
+  },
+  {
+   "keys": [
+    "what is aperture measured in"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 49
+  },
+  {
+   "keys": [
+    "what is circle of confusion in photography"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 45
+  },
+  {
+   "keys": [
+    "what is crop factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 26
+  },
+  {
+   "keys": [
+    "what is exposure factor"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 82
+  },
+  {
+   "keys": [
+    "what is guide number"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 80
+  },
+  {
+   "keys": [
+    "what is guide number in flash"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 63.5
+  },
+  {
+   "keys": [
+    "what is pixel scale"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 52
+  },
+  {
+   "keys": [
+    "what resolution is 3024 x 4032"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 54
+  },
+  {
+   "keys": [
+    "x100vi minimum focus distance"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 23
+  },
+  {
+   "keys": [
+    "zone focus calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 88
+  },
+  {
+   "keys": [
+    "zone focusing calculator"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 77
+  }
+ ]
+}

@@ -3,22 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Free Field of View Calculator | ShutterMath</title>
-<meta name="description" content="Free field of view calculator: horizontal, vertical and diagonal angles for any sensor and focal length, with 35 mm equivalent. Plan framing and lens purchases.">
+<title>Angle of View Calculator: Focal Length to Field of View</title>
+<meta name="description" content="A 50mm lens on full frame sees 39.6° across and 27° high. Enter focal length and sensor for the angle of view and the frame you fill at any distance.">
 <link rel="canonical" href="https://shuttermath.com/tools/field-of-view.html">
-<meta property="og:title" content="Field of View Calculator — ShutterMath">
-<meta property="og:description" content="Angle of view in degrees for any sensor and focal length.">
+<meta property="og:title" content="Angle of View Calculator: Focal Length to Field of View">
+<meta property="og:description" content="A 50mm lens on full frame sees 39.6° across and 27° high. Enter focal length and sensor for the angle of view and the frame you fill at any distance.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://shuttermath.com/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📷</text></svg>">
+<text y='.9em' font-size='90'>📷</text></svg>">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebApplication","name":"Field of View Calculator","url":"https://shuttermath.com/tools/field-of-view.html","applicationCategory":"UtilityApplication","operatingSystem":"Any","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
 </script>
+<!-- SEO:LINKS:START --><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' font-weight='700' fill='%23fff' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E"><link rel="apple-touch-icon" href="/assets/img/thumbnail.png"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"><meta property="og:url" content="https://shuttermath.com/tools/field-of-view.html"><meta property="og:site_name" content="ShutterMath"><meta name="twitter:title" content="Angle of View Calculator: Focal Length to Field of View"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://shuttermath.com/#organization","name":"ShutterMath","url":"https://shuttermath.com/","logo":"https://shuttermath.com/assets/img/og.png","description":"Free, sensor-accurate photography calculators and reference charts for depth of field, hyperfocal distance, exposure, ND filters, field of view and video shutter angle."},{"@type":"BreadcrumbList","@id":"https://shuttermath.com/tools/field-of-view.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shuttermath.com/"},{"@type":"ListItem","position":2,"name":"Calculators","item":"/tools/index.html"},{"@type":"ListItem","position":3,"name":"Field Of View","item":"https://shuttermath.com/tools/field-of-view.html"}]},{"@type":"WebPage","@id":"https://shuttermath.com/tools/field-of-view.html#webpage","url":"https://shuttermath.com/tools/field-of-view.html","name":"Angle of View Calculator: Focal Length to Field of View","dateModified":"2026-10-30","isPartOf":{"@id":"https://shuttermath.com/#organization"},"breadcrumb":{"@id":"https://shuttermath.com/tools/field-of-view.html#breadcrumb"}}]}</script><!-- SEO:LINKS:END -->
 </head>
 <body>
-<header class="site-header"></header>
+<header class="site-header"><!-- CHROME:HEADER:START --><div class="container"><a class="brand" href="/">Shutter<span>Math</span></a><nav class="nav" aria-label="Main navigation"><a href="/tools/depth-of-field.html">Depth of Field</a><a href="/tools/hyperfocal.html">Hyperfocal</a><a href="/tools/nd-filter.html">ND Filter</a><a href="/tools/flash-guide-number.html">Flash GN</a><a href="/tools/pixel-scale.html">Pixel Scale</a><a href="/tools/shutter-angle.html">Shutter Angle</a><a href="/tools/background-blur.html">Blur</a><a href="/pages/guides.html">Guides</a></nav><button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button></div><!-- CHROME:HEADER:END --></header>
 <main class="container">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › Field of View Calculator</nav>
   <h1>Free Field of View Calculator</h1>
@@ -59,7 +60,7 @@
   </svg>
 
   <h2>How field of view works</h2>
-  <p>Field of view (angle of view) is set by two things: the sensor dimensions and the focal length. A 50 mm lens on full frame sees 39.6° horizontally; the same lens on APS-C sees about 26.5° — which is why crop sensors "crop" the frame (1.5× crop ≈ 75 mm equivalent).</p>
+  <p>Field of view (angle of view) is set by two things: the sensor dimensions and the focal length. A 50 mm lens on full frame sees 39.6° horizontally; the same lens on APS-C sees about 25 to 27° (1.6x and 1.5x crops) — which is why crop sensors "crop" the frame (1.5× crop ≈ 75 mm equivalent).</p>
   <p>The <strong>35 mm equivalent</strong> is the focal length that would give the same framing on a full-frame body. It's how photographers compare lenses across sensor sizes: Micro 4/3 has a 2× crop, APS-C ≈ 1.5× (Canon ≈ 1.6×), phones ≈ 5-7×.</p>
 
   <h2>Worked example</h2>
@@ -87,8 +88,36 @@
     <details><summary>How is field of view calculated?</summary><p>FOV = 2 × atan(sensor dimension ÷ (2 × focal length)), in degrees. Horizontal uses sensor width, vertical uses height, diagonal uses the diagonal.</p></details>
     <details><summary>Does field of view change when I crop in post?</summary><p>Yes — cropping changes the effective sensor area, so the FOV narrows exactly like using a longer lens. The calculator's distance fields show you the scene dimensions your final crop will cover.</p></details>
   </div>
+
+
+<!-- AEO:TABLE:START --><style>
+.aeo-tbl{width:100%;border-collapse:collapse;margin:.6rem 0 1rem;font-size:.9rem}
+.aeo-tbl th,.aeo-tbl td{border-bottom:1px solid var(--line,#e5e7eb);padding:.45rem .5rem;text-align:right}
+.aeo-tbl th:first-child,.aeo-tbl td:first-child{text-align:left}
+.aeo-tbl thead th{background:var(--bg2,#f6f8fb);font-weight:700}
+.aeo-tbl caption{text-align:left;font-size:.8rem;color:var(--muted,#5b6577);padding-bottom:.3rem}
+.aeo-note{font-size:.9rem;color:var(--muted,#5b6577)}
+.aeo-answer{border-left:4px solid var(--accent,#2563eb);background:var(--bg2,#f6f8fb);padding:.8rem 1rem;border-radius:6px;margin:1rem 0}
+.aeo-answer p{margin:0}
+</style>
+<section id="fov-table">
+<h2>Angle of view and frame size (full frame 36 &times; 24 mm)</h2>
+<div class="aeo-answer"><p><strong>Short answer:</strong> a 50 mm lens on a full frame body sees
+39.6&deg; across and covers 7.20 m at 10 m. A 24 mm lens sees 73.7&deg; and covers
+15.00 m at the same distance. Diagonal angle of view is the number in most lens specs;
+horizontal is the one that decides whether a group or a room fits.</p></div>
+<table class="aeo-tbl"><caption>Full frame. Frame size scales linearly with distance: halve the distance, halve the width.</caption><thead><tr><th>Focal length</th><th>Horizontal angle</th><th>Vertical angle</th><th>Frame width at 10 m</th><th>Frame height at 10 m</th></tr></thead><tbody><tr><td>14 mm</td><td>104.3°</td><td>81.2°</td><td>25.71 m</td><td>17.14 m</td></tr><tr><td>16 mm</td><td>96.7°</td><td>73.7°</td><td>22.50 m</td><td>15.00 m</td></tr><tr><td>20 mm</td><td>84.0°</td><td>61.9°</td><td>18.00 m</td><td>12.00 m</td></tr><tr><td>24 mm</td><td>73.7°</td><td>53.1°</td><td>15.00 m</td><td>10.00 m</td></tr><tr><td>28 mm</td><td>65.5°</td><td>46.4°</td><td>12.86 m</td><td>8.57 m</td></tr><tr><td>35 mm</td><td>54.4°</td><td>37.8°</td><td>10.29 m</td><td>6.86 m</td></tr><tr><td>40 mm</td><td>48.5°</td><td>33.4°</td><td>9.00 m</td><td>6.00 m</td></tr><tr><td>50 mm</td><td>39.6°</td><td>27.0°</td><td>7.20 m</td><td>4.80 m</td></tr><tr><td>70 mm</td><td>28.8°</td><td>19.5°</td><td>5.14 m</td><td>3.43 m</td></tr><tr><td>85 mm</td><td>23.9°</td><td>16.1°</td><td>4.24 m</td><td>2.82 m</td></tr><tr><td>100 mm</td><td>20.4°</td><td>13.7°</td><td>3.60 m</td><td>2.40 m</td></tr><tr><td>135 mm</td><td>15.2°</td><td>10.2°</td><td>2.67 m</td><td>1.78 m</td></tr><tr><td>200 mm</td><td>10.3°</td><td>6.9°</td><td>1.80 m</td><td>1.20 m</td></tr><tr><td>300 mm</td><td>6.9°</td><td>4.6°</td><td>1.20 m</td><td>0.80 m</td></tr><tr><td>400 mm</td><td>5.2°</td><td>3.4°</td><td>0.90 m</td><td>0.60 m</td></tr></tbody></table>
+<h3>Reading the table</h3>
+<p>Field of view depends on the sensor, not just the lens. The same 50 mm is a normal lens on
+full frame (39.5&deg; across), a short telephoto on APS-C (25.3&deg;, because a
+1.6&times; body frames 50 mm like 80 mm) and a mild telephoto on Micro Four Thirds
+(20.4&deg;). Divide by the crop factor to compare focal lengths across formats.</p>
+<p>Angle of view is not linear with focal length, which is why the jump from 14 mm to 24 mm
+looks enormous and the jump from 200 mm to 400 mm looks modest. Doubling focal length halves
+the frame width; it does not halve the angle.</p>
+</section><!-- AEO:TABLE:END -->
 </main>
-<footer class="site-footer"></footer>
+<footer class="site-footer"><!-- CHROME:FOOTER:START --><div class="container"><div><strong style="color:#fff">ShutterMath</strong><br>Photography calculators that know the camera you own</div><nav class="fnav" aria-label="Footer navigation"><a href="/pages/free-photography-calculators.html">Free Tools</a><a href="/products.html">Field Kit</a><a href="/pages/about.html">About</a><a href="/pages/contact.html">Contact</a><a href="/pages/privacy.html">Privacy Policy</a><a href="/pages/terms.html">Terms</a></nav></div><!-- CHROME:FOOTER:END --></footer>
 <div class="consent" role="dialog" aria-label="Cookie consent">
   <div class="container">
     <p>We use cookies to measure traffic and, if you consent, to show ads that keep this tool free. See our <a href="../pages/privacy.html">Privacy Policy</a>.</p>

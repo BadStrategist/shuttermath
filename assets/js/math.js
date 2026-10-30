@@ -25,14 +25,15 @@
     // --- depth of field: all inputs mm; returns mm (Infinity where unbounded) ---
     dof: function (f_mm, N, coc_mm, s_mm) {
       const H = FC.hyperfocal(f_mm, N, coc_mm);
-      let near, far, front, back;
-      if (s_mm >= H) {
-        near = H / 2; far = Infinity; front = s_mm - near; back = Infinity;
-      } else {
-        near = (H * s_mm) / (H + (s_mm - f_mm));
-        far = (H * s_mm) / (H - (s_mm - f_mm));
-        front = s_mm - near; back = far - s_mm;
-      }
+      /* General thin-lens limits. They hold on both sides of the hyperfocal
+         distance: the old shortcut of clamping the near limit to H/2 whenever the
+         focus distance passed H understated the near limit badly (16 mm f/8 at
+         3 m claimed 0.56 m sharp when the true near limit is 0.82 m). */
+      const near = (H * s_mm) / (H + (s_mm - f_mm));
+      const denom = H - (s_mm - f_mm);
+      const far = denom > 0 ? (H * s_mm) / denom : Infinity;
+      const front = s_mm - near;
+      const back = far === Infinity ? Infinity : far - s_mm;
       return { H: H, near: near, far: far, front: front, back: back, dof: far === Infinity ? Infinity : far - near };
     },
     // --- ND filter ---

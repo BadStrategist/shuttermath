@@ -1,0 +1,3606 @@
+# ShutterMath full text
+
+Complete text of every calculator and guide, for retrieval and citation. Sections are separated by a line of dashes.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/background-blur.html
+TITLE: Free Background Blur (Bokeh) Calculator | ShutterMath
+SUMMARY: Background blur calculator: the exact blur disk size in millimetres and as a percentage of frame height, for any camera, lens and distance — computed from your sensor's real dimensions.
+
+Home › Background Blur Calculator 
+ Background Blur (Bokeh) Calculator
+
+ Background blur is the size of the out-of-focus disk that distant points of light become in a photograph — the quality most people mean when they say "bokeh". This calculator computes the exact blur disk for your camera and lens, in millimetres on the sensor and as a percentage of frame height.
+
+ Your setup
+
+ CAMERA 
+
+ FOCAL LENGTH (MM) 
+
+ APERTURE (F/) 
+
+ FOCUS DISTANCE 
+
+ UNIT 
+ m ft 
+
+ BACKGROUND DISTANCE 
+
+ UNIT 
+ m ft 
+ Background at infinity 
+
+ 🖨 Print cheat sheet 
+ 📋 Copy summary 
+
+ Result
+
+ Blur disk
+ –
+ diameter on sensor
+
+ –
+ of frame height
+
+ –
+ if background were at ∞
+
+ How to use this bokeh calculator
+
+ Pick your camera (48 bodies in the database — the sensor dimensions are exact, not "full frame approximations"), set the lens, aperture and distances, and read the blur disk. Three things drive background blur: aperture (wider = more blur), focal length (longer = more blur), and how far behind the subject the background sits . Doubling the background distance roughly doubles the blur until it approaches the infinity value — which is why a compressed background (long lens, subject far from both you and the backdrop) blurs hardest.
+
+ Worked example
+
+ 85 mm f/1.8, focused at 3 m, background 30 m away on full frame: blur disk = 85²·(30−3)/(1.8·3·(30−0.085)) ≈ 1.21 mm — about 5.0% of frame height . That's the classic "creamy separation" portrait look. The same lens on Micro 4/3 (17.3×13 mm sensor) gives the same 1.21 mm disk but 9.3% of frame height — the smaller sensor makes the blur look stronger relative to the frame, which is why M4/3 portraits with fast lenses still blur nicely.
+
+ 🎒 Want this as a laminated field card? The ShutterMath Field Kit has all six, print-ready.
+
+ Background blur FAQ
+
+ How is background blur calculated? b = f²·(x−s) / (N·s·(x−f)) with all lengths in millimetres; at infinity it simplifies to f²/(N·s). This is the standard geometric formula for the out-of-focus disk diameter on the sensor.
+
+ What does the blur disk size mean for bokeh? As a percentage of frame height: under ~2% looks nearly sharp, 3–5% is gentle separation, 6%+ is the strong blur portrait shooters chase. The disk's edges (smooth vs. busy) are the lens's optical character — that's the part of bokeh no number can capture.
+
+ Does sensor size affect background blur? Yes — same lens and distances, the blur disk is the same physical size, but it occupies a bigger slice of a smaller sensor's frame. That's why Micro 4/3 can look more blurred at the same settings, and why full frame "isolates" subjects with normal lenses.
+
+ What's the difference between blur and depth of field? DoF is about what's acceptably sharp ; blur is about how soft the out-of-focus areas are. You can have a thin DoF with modest background blur (wide-angle close-up) or a deep DoF with strong blur (telephoto at f/5.6). They follow different math.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ Near/far limits and total DoF for any camera + lens.
+ Open → 
+ Aperture Explained
+ What f-stops do to light, sharpness and blur — with examples.
+ Open → 
+ Sharpest Aperture
+ Diffraction limits and the f-stop sweet spot per camera.
+ Open →
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/depth-of-field.html
+TITLE: Depth of Field Calculator: Exact Near and Far Limits
+SUMMARY: Enter focal length, aperture and focus distance for the exact near limit, far limit and total depth of field, using your camera's real circle of confusion.
+
+Home › Depth of Field Calculator 
+ Depth of Field Calculator
+
+ Depth of field is the range of distances in a scene that appears acceptably sharp in front of and behind the focus point. This calculator computes that range — near limit, far limit, total depth of field, and hyperfocal distance — using the exact sensor of the camera you own.
+
+ Your setup
+
+ Camera 
+
+ Lens preset (optional) 
+ Custom focal length… 
+
+ Focal length (mm) 
+
+ Aperture (f/) 
+
+ Focus distance 
+
+ m ft 
+
+ Circle of confusion (mm) 
+
+ Auto-set from sensor (diagonal ÷ 1500). Override for custom print/viewing standards.
+
+ 💾 Save this setup 
+ 🖨 Print cheat sheet 
+
+ Results
+
+ Hyperfocal
+ —
+ focus here = ∞ DoF
+
+ Near limit
+ —
+ closest sharp point
+
+ Far limit
+ —
+ farthest sharp point
+
+ Total DoF
+ —
+ near → far
+
+ In front / behind
+
+ camera 
+
+ 0 focus ∞ 
+
+ 📋 Copy summary 
+ 🔗 Copy link 
+
+ Focus distance is at or beyond hyperfocal — everything from to infinity will be acceptably sharp. Set your lens to the hyperfocal distance for maximum sharpness.
+
+ 💡 Rule of thumb: at distances well below hyperfocal, about ⅓ of the DoF is in front of your focus point and ⅔ behind it. Use the visual bar above as your guide.
+
+ How to use this depth of field calculator
+
+ Pick your camera — the sensor size and circle of confusion are applied automatically (no more guessing your CoC).
+
+ Select your lens or type the focal length and choose the aperture you plan to shoot at.
+
+ Enter your focus distance (m or ft) and read the near limit, far limit, and total depth of field.
+
+ Save setups you use often — they're stored in your browser and reload instantly next time.
+
+ For landscape work, check the hyperfocal distance : focus there and everything from half that distance to infinity is sharp. For portraits, you'll usually want a wide aperture so the far limit stays comfortably behind your subject's head.
+
+ Related tools & guides
+
+ Hyperfocal Calculator
+ Find the exact focus point that maximizes sharp depth.
+ Open → 
+ ND Filter Calculator
+ Long-exposure shutter times for any filter strength.
+ Open → 
+ Field of View Calculator
+ Horizontal and vertical angles for any sensor + lens.
+ Open → 
+ Hyperfocal Distance Chart
+ Printable full-frame & APS-C charts, no math needed.
+ Open → 
+ Circle of Confusion Guide
+ What CoC is, why it matters, and which standard to use.
+ Open → 
+ Camera Sensor Sizes
+ Full frame vs APS-C vs Micro 4/3 vs phone — side by side.
+ Open → 
+
+ 🎒 Want this as a laminated field card? The ShutterMath Field Kit has all six, print-ready.
+
+ Depth of field FAQ
+
+ What is depth of field, in plain English? Depth of field is the distance range in your scene that looks acceptably sharp. Only one plane is truly in focus; everything else falls within the depth of field if it's close enough to that plane that the blur stays below the circle of confusion.
+
+ Does sensor size change depth of field? Yes — at the same focal length and aperture, a larger sensor produces shallower depth of field because it needs a longer lens to achieve the same framing. The circle of confusion also scales with sensor diagonal, which the calculator handles automatically.
+
+ What aperture gives maximum depth of field? Diffraction starts softening images around f/8–f/11 on full frame, f/5.6–f/8 on APS-C and Micro 4/3. The sharpest "landscape" choice is usually the smallest aperture before diffraction — use the hyperfocal distance at that aperture.
+
+ Depth of field tables (full frame, sharpness circle 0.029 mm)
+
+ Short answer: at 3 m with a 50 mm lens, f/8 gives a
+depth of field of 1.77 m (sharp from 2.36 m to 4.12 m).
+Opening up to f/1.4 shrinks that to 0.29 m; stopping down to f/16 grows it to 4.61 m.
+Every figure below is computed with the same formula the calculator uses.
+
+ Changing aperture while focal length and focus distance stay fixed Aperture (50 mm, 3 m) Near limit Far limit Total DoF Hyperfocal 
+ f/1.4 2.86 m 3.15 m 0.29 m 61.63 m 
+ f/2 2.81 m 3.22 m 0.41 m 43.15 m 
+ f/2.8 2.74 m 3.32 m 0.58 m 30.84 m 
+ f/4 2.64 m 3.47 m 0.83 m 21.6 m 
+ f/5.6 2.52 m 3.71 m 1.19 m 15.44 m 
+ f/8 2.36 m 4.12 m 1.77 m 10.83 m 
+ f/11 2.18 m 4.79 m 2.61 m 7.89 m 
+ f/16 1.94 m 6.56 m 4.61 m 5.44 m 
+ f/22 1.72 m 11.69 m 9.97 m 3.97 m 
+
+ Changing focal length at f/8 from the same 3 m focus distance Focal length (f/8, 3 m) Near limit Far limit Total DoF Hyperfocal 
+ 16 mm 0.82 m ∞ ∞ 1.12 m 
+ 24 mm 1.37 m ∞ ∞ 2.51 m 
+ 28 mm 1.6 m 23.48 m 21.88 m 3.41 m 
+ 35 mm 1.93 m 6.78 m 4.86 m 5.32 m 
+ 50 mm 2.36 m 4.12 m 1.77 m 10.83 m 
+ 85 mm 2.74 m 3.31 m 0.57 m 31.23 m 
+ 135 mm 2.89 m 3.11 m 0.22 m 78.69 m 
+ 200 mm 2.95 m 3.05 m 0.1 m 173 m 
+
+ Changing focus distance at 50 mm f/2.8 Focus distance (50 mm, f/2.8) Near limit Far limit Total DoF 
+ 0.5 m 0.49 m 0.51 m 15 mm 
+ 1 m 0.97 m 1.03 m 0.06 m 
+ 2 m 1.88 m 2.14 m 0.25 m 
+ 3 m 2.74 m 3.32 m 0.58 m 
+ 5 m 4.31 m 5.96 m 1.65 m 
+ 10 m 7.56 m 14.76 m 7.2 m 
+ 20 m 12.14 m 56.65 m 44.5 m 
+
+ Why the numbers move the way they do
+
+ Depth of field grows with the square of focus distance, so doubling the focus distance
+roughly quadruples the sharp zone at the same aperture. It shrinks with the square of focal
+length, which is why an 85 mm portrait lens at f/8 has less depth than a 24 mm wide angle at
+the same f/8. Aperture acts linearly: one stop down adds about 41% more depth, not double.
+
+ The formulas behind the table are standard thin-lens equations. Hyperfocal distance is
+ H = f² / (N × c) + f , where f is focal length in mm, N the f-number and
+ c the circle of confusion. The near limit is H × s / (H + (s − f)) and the far
+limit is H × s / (H − (s − f)) , with s the focus distance. Once s reaches
+ H the far limit becomes infinity, which is the hyperfocal trick: focus at H and
+everything from H/2 to infinity is acceptably sharp.
+
+ Circle of confusion here is the sensor diagonal divided by 1500, the
+classic 35 mm standard (0.029 mm on full frame). A print viewed closer than the standard
+0.25 m viewing distance needs a smaller circle: divide the CoC by the same factor you enlarge
+the print.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/exposure.html
+TITLE: Free Exposure Calculator — EV & Equivalents | ShutterMath
+SUMMARY: Free exposure calculator: exposure value (EV) and equivalent aperture/shutter/ISO combinations that keep brightness identical. The exposure triangle, computed.
+
+Home › Exposure Equivalence Calculator 
+ Free Exposure Equivalence Calculator
+
+ Exposure value (EV) is a single number describing how much light a camera captures for a given aperture and shutter time at ISO 100. One exposure, many settings. Enter what your meter says, then find every aperture/shutter/ISO combination that captures the identical amount of light — the exposure triangle, without the guesswork.
+
+ Your current exposure
+
+ Aperture (f/) 
+
+ Shutter speed 
+
+ ISO 
+
+ What to change (equivalence) 
+ Aperture → find new shutter 
+ Shutter → find new aperture 
+ ISO → find new shutter 
+
+ New value 
+
+ Result
+
+ Exposure value (EV100)
+ —
+ same light, any combo
+
+ EV at your ISO
+ —
+ scene brightness
+
+ Equivalent setting
+ —
+ identical exposure
+
+ 💡 Reading: your exposure is . To keep the same exposure after your change, use . The camera will show the same brightness — only depth of field, motion blur, or noise change.
+
+ Equivalent exposure pairs (same EV, full frame reference)
+
+ Aperture Shutter (at ISO 100) EV100 
+
+ f/1.4 1/1000 s 10 
+
+ f/2.0 1/500 s 10 
+
+ f/2.8 1/250 s 10 
+
+ f/4.0 1/125 s 10 
+
+ f/5.6 1/60 s 10 
+
+ f/8.0 1/30 s 10 
+
+ f/11 1/15 s 10 
+
+ f/16 1/8 s 10 
+
+ Each row captures the same amount of light (EV 10): closing the aperture one stop halves the light, so the shutter must double in length. This is the exposure triangle in its purest form. For the full explanation see the exposure triangle guide .
+
+ Worked example
+
+ You're shooting f/2.8 at 1/250 s, ISO 100 — the calculator reports EV ≈ 11. You want more depth of field: open to f/4 costs one stop of light, so the equivalent exposure becomes 1/125 s (one stop slower). Same EV 11, same brightness, twice the depth of field. That's the entire point of the tool: instead of guessing, set the aperture you want , read the shutter you need , and only reach for ISO when neither aperture nor shutter can move. In practice this kills the most common exposure error — changing one setting and forgetting to compensate the other.
+
+ 🎒 Want this as a laminated field card? The ShutterMath Field Kit has all six, print-ready.
+
+ Related tools & guides
+
+ Exposure Value Chart
+ EV ↔ stops ↔ light reference table.
+ Open → 
+ Shutter Angle Calculator
+ Convert angle to shutter speed for any frame rate.
+ Open → 
+ ND Filter Calculator
+ Find the ND strength for long exposures in daylight.
+ Open → 
+
+ Exposure value FAQ
+
+ What is exposure value (EV)? EV = log₂(N²/t) — a single number describing how much light reaches the sensor for a given aperture N and shutter time t. EV100 is the EV at ISO 100. Higher EV = brighter scene or more light collected.
+
+ Do equivalent exposures look identical? Brightness: yes. But each parameter changes the image: aperture changes depth of field, shutter changes motion blur, ISO changes noise. Equivalence lets you trade one for another while keeping brightness constant.
+
+ How does ISO fit into EV? ISO doesn't change the light — it changes amplification. The scene-brightness value is EV100 − log₂(ISO/100): at ISO 400 (2 stops), the same scene reads as 2 EVs lower, which is why you can shoot at 1/4 the shutter speed or 2 stops narrower aperture.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/field-of-view.html
+TITLE: Angle of View Calculator: Focal Length to Field of View
+SUMMARY: A 50mm lens on full frame sees 39.6° across and 27° high. Enter focal length and sensor for the angle of view and the frame you fill at any distance.
+
+Home › Field of View Calculator 
+ Free Field of View Calculator
+
+ Field of view is the angular extent of the scene a lens captures, set by the sensor size and focal length. Angle of view = 2 × atan(sensor ÷ (2 × focal length)) . See exactly how much of the scene any lens sees on your camera — before you buy or frame.
+
+ Your setup
+
+ Camera 
+
+ Focal length (mm) 
+
+ Distance (m, optional) 
+
+ 🖨 Print 
+
+ Results
+
+ Horizontal FOV
+ —
+ across the frame
+
+ Vertical FOV
+ —
+ top to bottom
+
+ Diagonal FOV
+ —
+ corner to corner
+
+ 35 mm equiv.
+ —
+ full-frame focal length
+
+ Scene width @ distance
+ —
+ left to right
+
+ Scene height @ distance
+ —
+ top to bottom
+
+ camera 
+
+ How field of view works
+
+ Field of view (angle of view) is set by two things: the sensor dimensions and the focal length. A 50 mm lens on full frame sees 39.6° horizontally; the same lens on APS-C sees about 26.5° — which is why crop sensors "crop" the frame (1.5× crop ≈ 75 mm equivalent).
+
+ The 35 mm equivalent is the focal length that would give the same framing on a full-frame body. It's how photographers compare lenses across sensor sizes: Micro 4/3 has a 2× crop, APS-C ≈ 1.5× (Canon ≈ 1.6×), phones ≈ 5-7×.
+
+ Worked example
+
+ You're choosing a lens for an indoor shoot and the room is 4 m across. With a full-frame body, a 24 mm lens (73.7° horizontal) frames the whole wall from about 2.8 m back, while a 35 mm (54.4°) needs ~4 m — the calculator tells you exactly which lens fits before you carry it there. The same math works in reverse for video: pick your shot size, then check whether your zoom range covers it at the working distance. This is also how you compare across sensor formats — a 23 mm lens on APS-C frames like 35 mm on full frame, and the calculator shows both angles side by side.
+
+ Field of view reference table (focal length × sensor)
+
+ Horizontal angle of view in degrees for each focal length and sensor format. Divide-by-two, roughly: a 24 mm lens on full frame sees about 74°, and the same lens on APS-C sees about 52° — which is why a 24 mm on a crop body frames like a 36 mm on full frame.
+
+ Focal length Full frame
+ 36 × 24 mm APS-C (1.5×)
+ 23.5 × 15.6 mm APS-C Canon (1.6×)
+ 22.3 × 14.9 mm Micro 4/3
+ 17.3 × 13 mm 1-inch
+ 13.2 × 8.8 mm 
+
+ 14 mm 104.3° 80.0° 77.1° 63.4° 50.5° 
+ 16 mm 96.7° 72.6° 69.7° 56.8° 44.8° 
+ 20 mm 84.0° 60.9° 58.3° 46.8° 36.5° 
+ 24 mm 73.7° 52.2° 49.8° 39.6° 30.8° 
+ 28 mm 65.5° 45.5° 43.4° 34.3° 26.5° 
+ 35 mm 54.4° 37.1° 35.3° 27.8° 21.4° 
+ 50 mm 39.6° 26.4° 25.1° 19.6° 15.0° 
+ 85 mm 23.9° 15.7° 14.9° 11.6° 8.9° 
+ 100 mm 20.4° 13.4° 12.7° 9.9° 7.6° 
+ 135 mm 15.2° 9.9° 9.4° 7.3° 5.6° 
+ 200 mm 10.3° 6.7° 6.4° 5.0° 3.8° 
+ 300 mm 6.9° 4.5° 4.3° 3.3° 2.5° 
+ 400 mm 5.2° 3.4° 3.2° 2.5° 1.9° 
+
+ Values are horizontal angles of view computed as 2·atan(sensor width ÷ (2 × focal length)), rounded to 0.1°. Vertical and diagonal angles, and the 35 mm equivalent for your exact body, are in the calculator above .
+
+ 📐 Rule of thumb: doubling the focal length halves the angle of view. 24 mm → 74°, 48 mm → 37°, 96 mm → 18°. Equally, moving a lens from full frame to Micro 4/3 (2.0× crop) halves it again.
+
+ Related tools & guides
+
+ Camera Sensor Sizes
+ Full sensor dimensions and crop factors, explained.
+ Open → 
+ Astro Pixel Scale Calculator
+ Arcsec/pixel sampling for your camera + scope.
+ Open → 
+ Focal Length Explained
+ What focal length actually does to your frame.
+ Open → 
+
+ Field of view FAQ
+
+ What's the difference between FOV and focal length? Focal length is a property of the lens; field of view is the result on a given sensor. The same lens gives different FOV on different bodies. That's why "35 mm equivalent" exists.
+
+ How is field of view calculated? FOV = 2 × atan(sensor dimension ÷ (2 × focal length)), in degrees. Horizontal uses sensor width, vertical uses height, diagonal uses the diagonal.
+
+ Does field of view change when I crop in post? Yes — cropping changes the effective sensor area, so the FOV narrows exactly like using a longer lens. The calculator's distance fields show you the scene dimensions your final crop will cover.
+
+ Angle of view and frame size (full frame 36 × 24 mm)
+
+ Short answer: a 50 mm lens on a full frame body sees
+39.6° across and covers 7.20 m at 10 m. A 24 mm lens sees 73.7° and covers
+15.00 m at the same distance. Diagonal angle of view is the number in most lens specs;
+horizontal is the one that decides whether a group or a room fits.
+
+ Full frame. Frame size scales linearly with distance: halve the distance, halve the width. Focal length Horizontal angle Vertical angle Frame width at 10 m Frame height at 10 m 
+ 14 mm 104.3° 81.2° 25.71 m 17.14 m 
+ 16 mm 96.7° 73.7° 22.50 m 15.00 m 
+ 20 mm 84.0° 61.9° 18.00 m 12.00 m 
+ 24 mm 73.7° 53.1° 15.00 m 10.00 m 
+ 28 mm 65.5° 46.4° 12.86 m 8.57 m 
+ 35 mm 54.4° 37.8° 10.29 m 6.86 m 
+ 40 mm 48.5° 33.4° 9.00 m 6.00 m 
+ 50 mm 39.6° 27.0° 7.20 m 4.80 m 
+ 70 mm 28.8° 19.5° 5.14 m 3.43 m 
+ 85 mm 23.9° 16.1° 4.24 m 2.82 m 
+ 100 mm 20.4° 13.7° 3.60 m 2.40 m 
+ 135 mm 15.2° 10.2° 2.67 m 1.78 m 
+ 200 mm 10.3° 6.9° 1.80 m 1.20 m 
+ 300 mm 6.9° 4.6° 1.20 m 0.80 m 
+ 400 mm 5.2° 3.4° 0.90 m 0.60 m 
+
+ Reading the table
+
+ Field of view depends on the sensor, not just the lens. The same 50 mm is a normal lens on
+full frame (39.5° across), a short telephoto on APS-C (25.3°, because a
+1.6× body frames 50 mm like 80 mm) and a mild telephoto on Micro Four Thirds
+(20.4°). Divide by the crop factor to compare focal lengths across formats.
+
+ Angle of view is not linear with focal length, which is why the jump from 14 mm to 24 mm
+looks enormous and the jump from 200 mm to 400 mm looks modest. Doubling focal length halves
+the frame width; it does not halve the angle.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/flash-guide-number.html
+TITLE: Free Flash Guide Number Calculator | ShutterMath
+SUMMARY: Free flash guide number calculator: solve aperture, distance, or required GN with ISO scaling. Works for speedlights, strobes and built-in flashes.
+
+Home › Flash Guide Number Calculator 
+ Free Flash Guide Number Calculator
+
+ Guide number is the measure of a flash's power: the distance at which it delivers correct exposure at f/1.0, ISO 100. The guide number rule: GN = aperture × distance . Give it two of the three (plus your ISO) and ShutterMath solves the rest — including scaling the GN when you change sensitivity.
+
+ Solve for
+
+ Aperture 
+ Distance 
+ Required GN 
+
+ Guide number (at ISO 100 ) Speedlight GN ≈ 30–60 (m, ISO 100, 50 mm zoom) · built-in ≈ 10–15
+
+ Flash distance (m) 
+
+ Aperture (f/) 
+
+ ISO GN scales by √2 per stop: ISO 400 doubles the effective GN.
+
+ GN is usually quoted at ISO 100 — this calculator adjusts it for your selected ISO automatically.
+
+ Result
+
+ Required aperture
+ —
+ at full power
+
+ Effective GN at ISO
+ —
+ GN scaled to your ISO
+
+ Distance (m)
+ —
+ working distance for this GN
+
+ 💡 Reading: at full power and ISO 100 , your flash covers . Open the aperture, raise ISO, or move closer to use less power / get faster recycle.
+
+ How guide numbers work
+
+ At a given ISO (traditionally 100) and zoom head setting, a flash's guide number is the product of aperture × distance that gives a correct exposure at full power : GN = f-stop × metres.
+
+ Same GN, bigger aperture → shorter reach: GN 32 at f/2.8 reaches 11.4 m; at f/8 it reaches 4 m.
+
+ ISO scaling: the effective GN multiplies by √2 for each ISO stop — ISO 100 → 400 (2 stops) doubles the GN, so GN 32 @ ISO 100 behaves like GN 64 @ ISO 400.
+
+ Power fractions: ½ power reduces GN by √2 (one stop); ¼ power by 2 (two stops).
+
+ Related tools & guides
+
+ Exposure Calculator
+ Convert aperture, shutter, ISO and EV.
+ Open → 
+ Background Blur Calculator
+ How much blur your lens and distance give you.
+ Open → 
+ Aperture Explained
+ What f-stops really mean for light and depth.
+ Open → 
+
+ Flash GN FAQ
+
+ What does "GN 60 at ISO 100" actually mean? It means the flash produces correct exposure at full power when aperture × distance = 60 (metres): e.g. f/2 at 30 m, f/4 at 15 m, f/8 at 7.5 m. Real-world reach is always shorter once ceilings, modifiers, and shutter limits are factored in.
+
+ Do softboxes and bounce reduce effective GN? Yes, a lot. A softbox typically costs 1–2 stops (GN ÷ 1.4–2), bouncing off a ceiling costs 2–4 stops. Add those losses before trusting the calculator for off-camera work.
+
+ Why does my camera meter differently than this? TTL metering measures the actual reflected flash and is usually more accurate for close work. The GN math is the planning tool — it tells you if the flash can reach before you set anything up.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/hyperfocal.html
+TITLE: Hyperfocal Distance Calculator: Focus Once, Sharp to Infinity
+SUMMARY: 24mm at f/8 on full frame is hyperfocal at 2.5 m, so everything from 1.25 m to infinity is sharp. Enter your focal length, aperture and sensor for the exact distance.
+
+Home › Hyperfocal Distance Calculator 
+ Free Hyperfocal Distance Calculator
+
+ Hyperfocal distance is the focus distance at which everything from half that distance to infinity appears acceptably sharp. Set your lens to the hyperfocal distance and everything from half that distance to infinity will be acceptably sharp — the classic landscape technique for maximum depth of field without focus stacking.
+
+ Your setup
+
+ Camera 
+
+ Focal length (mm) 
+
+ Aperture (f/) 
+
+ Circle of confusion (mm) Auto-set from sensor (diagonal ÷ 1500).
+
+ 🖨 Print 
+ Open in DoF calculator → 
+
+ Result
+
+ Hyperfocal distance
+ —
+ focus here
+
+ Near limit at H
+ —
+ half of H — closest sharp point
+
+ Far limit
+ ∞
+ everything to infinity sharp
+
+ 📸 How to use it: switch your lens to manual focus, set the distance scale to the hyperfocal distance shown, and shoot. Everything from to the horizon will be sharp.
+
+ 💡 Tip: stopping down one full stop (e.g. f/8 → f/11) roughly halves the hyperfocal distance — check the difference before you shoot.
+
+ focus at H 
+ H/2 — sharp 
+ ∞ — sharp 
+ camera 
+
+ What is hyperfocal distance?
+
+ The hyperfocal distance H is the focus distance at which the far limit of your depth of field just touches infinity. Focus closer and you lose the horizon; focus farther and you waste depth of field in front of you. It's calculated as:
+
+ H = f² / (N × c) + f 
+
+ where f is focal length (mm), N is the aperture number, and c is the circle of confusion (mm). For a 24 mm lens at f/8 on full frame (CoC 0.030 mm): H = 576 / 0.24 + 24 = 2,424 mm ≈ 2.42 m — focus at ~2.4 m and everything from ~1.2 m to infinity is sharp.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ Near/far limits and total DoF for any focus distance.
+ Open → 
+ Hyperfocal Distance Chart
+ Printable charts for full frame & APS-C — no math needed.
+ Open → 
+ Depth of Field for Landscape
+ Hyperfocal, focus stacking, and the f-stop sweet spot.
+ Read → 
+
+ 🎒 Want this as a laminated field card? The ShutterMath Field Kit has all six, print-ready.
+
+ Hyperfocal FAQ
+
+ Is the hyperfocal distance the same as the infinity mark on my lens? No. The infinity mark is where distant subjects are sharp, but the near limit may be far away. Hyperfocal is the specific distance that maximizes sharpness from near to infinity — usually closer than you think.
+
+ Does hyperfocal focusing work for wide-angle lenses only? It works for any focal length, but the numbers get impractical at longer focal lengths — a 200 mm lens at f/8 has a hyperfocal distance of ~170 m on full frame, so it's mainly useful for wide and standard lenses.
+
+ Is hyperfocal focusing accurate enough for modern high-resolution sensors? With the standard CoC convention, hyperfocal is "acceptably sharp" for normal viewing. On high-megapixel sensors some photographers use a stricter CoC (e.g. diagonal ÷ 2000) or focus stack instead — the stricter CoC makes H roughly 33% farther.
+
+ Hyperfocal distance chart (full frame)
+
+ Short answer: focus at the hyperfocal distance and
+everything from half that distance to infinity looks sharp. On full frame, 24 mm at f/8 is
+hyperfocal at 2.51 m, so the frame is sharp from 1.25 m to infinity. A 50 mm
+lens at f/8 needs 10.83 m. Wide lenses buy depth far faster than small apertures do.
+
+ Hyperfocal distance in metres, full frame, CoC 0.029 mm. Focus at this distance, not at infinity. Focal length f/2.8 f/4 f/5.6 f/8 f/11 f/16 
+ 14 mm 2.43 m 1.7 m 1.22 m 0.86 m 0.63 m 0.44 m 
+ 16 mm 3.17 m 2.22 m 1.59 m 1.12 m 0.82 m 0.57 m 
+ 20 mm 4.95 m 3.47 m 2.48 m 1.74 m 1.27 m 0.88 m 
+ 24 mm 7.12 m 4.99 m 3.57 m 2.51 m 1.83 m 1.27 m 
+ 28 mm 9.68 m 6.79 m 4.86 m 3.41 m 2.49 m 1.72 m 
+ 35 mm 15.12 m 10.6 m 7.58 m 5.32 m 3.88 m 2.68 m 
+ 50 mm 30.84 m 21.6 m 15.44 m 10.83 m 7.89 m 5.44 m 
+ 85 mm 89.06 m 62.37 m 44.57 m 31.23 m 22.73 m 15.66 m 
+ 100 mm 123 m 86.31 m 61.68 m 43.2 m 31.45 m 21.65 m 
+ 135 mm 225 m 157 m 112 m 78.69 m 57.27 m 39.41 m 
+ 200 mm 493 m 345 m 247 m 173 m 126 m 86.41 m 
+
+ How to use the chart in the field
+
+ Set the lens to the focal length and aperture in the left columns, then focus at the
+distance in the cell. Most lenses show the distance scale on the barrel, and many have a
+depth of field scale that lines up the near and far limits for you. On mirrorless bodies with
+focus-by-wire lenses, use the calculator, then set focus with focus peaking or by
+half-pressing on an object at that distance.
+
+ Two rules of thumb are worth memorising: halving the focal length quarters the hyperfocal
+distance, and opening one stop doubles it. That is why a 16 mm at f/8 is sharp from
+0.56 m to infinity once focused at 1.12 m, while a 135 mm at
+the same aperture needs 79 m of focus distance before infinity is in reach.
+
+ Hyperfocal focusing trades some sharpness at the subject for sharpness at
+infinity. For a landscape with a close foreground, focus slightly beyond the hyperfocal
+distance (about one third into the scene) rather than exactly at it.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/macro-dof.html
+TITLE: Free Macro Depth of Field Calculator | ShutterMath
+SUMMARY: Free macro DoF calculator: depth of field at your reproduction ratio, effective aperture, and the exact focus-stacking step size for razor-sharp macro.
+
+Home › Macro DoF Calculator 
+ Free Macro Depth of Field Calculator
+
+ Depth of field at macro magnifications is the narrow band of sharpness around the focus point — so thin that effective aperture and stacking step size matter as much as the f-number. At macro distances the normal DoF formulas break down — magnification takes over. This calculator uses the magnification-based approximation, reports your effective aperture , and gives you the exact focus-stacking step size .
+
+ Your setup
+
+ Camera 
+
+ Magnification (reproduction ratio) 
+ 1:10 (0.1×) 
+ 1:4 (0.25×) 
+ 1:2 (0.5×) 
+ 1:1 (1.0×) 
+ 2:1 (2.0×) 
+ 3:1 (3.0×) 
+ 5:1 (5.0×) 
+ 1:1 = subject is life-size on the sensor · most macro lenses reach 1:1, extension tubes/reversing rings go beyond
+
+ Set aperture (f/) Macro lenses report the set f-stop; the effective aperture is wider (more light loss) as magnification rises
+
+ Result
+
+ Depth of field
+ —
+ at this magnification
+
+ Effective aperture
+ —
+ what the sensor sees
+
+ Stacking step
+ —
+ move focus this far per shot
+
+ 🔬 Reading: at your total DoF is — thinner than paper. To photograph a whole insect, shoot a stack: move focus between frames (overlap 20–30% for safety), then merge in Helicon Focus or Photoshop.
+
+ Why macro DoF is different
+
+ At 1:1 magnification, depth of field is roughly DoF ≈ 2·N·c·(m+1)/m² — it scales with the square of magnification, which is why 2:1 has about a quarter of the DoF of 1:1 at the same f-stop. Two practical consequences:
+
+ Stopping down barely helps. f/16 at 1:1 gives ~1.9 mm of DoF on full frame — and diffraction (plus effective-aperture light loss) is already visible.
+
+ Effective aperture widens. At 1:1 the effective aperture is 2 stops slower than set: f/8 set = f/16 effective. Your meter and exposure need the compensation, which is why macro images look underexposed at high magnification.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ The standard near/far calculator for non-macro work.
+ Open → 
+ Depth of Field for Macro
+ Stacking workflow, lighting, and lens choices.
+ Read → 
+ Exposure Equivalence
+ Recompute exposure when effective aperture kicks in.
+ Open → 
+
+ Macro DoF FAQ
+
+ Why is my sharp area so thin even at f/16? Because DoF falls with the square of magnification. At 2:1, f/16 gives under 1 mm. Diffraction also erodes sharpness beyond ~f/11 effective — which is exactly why macro photographers focus-stack instead of stopping down.
+
+ What does effective aperture mean for exposure? The effective aperture is N × (1 + m). At 1:1 it's two stops narrower than set, so your camera's through-the-lens metering compensates automatically — but manual flash calculations must add those stops or your macro shots come out dark.
+
+ How do I choose a stacking step size? Move focus by roughly 80% of the DoF per frame (the calculator's step uses this with safety overlap). Too big → gaps that even software can't stitch; too small → hundreds of redundant frames.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/moon-exposure.html
+TITLE: Moon Exposure Calculator: Shutter Speed by Lunar Phase
+SUMMARY: Looney 11 is f/11 at 1/ISO. At ISO 100 a full moon needs 1/100 s; a thin crescent needs 8 stops more. Enter phase, ISO and aperture for the exact time.
+
+Home › Moon Exposure Calculator 
+ Moon Exposure Calculator
+
+ Moon exposure is the shutter speed that correctly exposes the moon's surface — and it follows a fixed rule, because the moon is simply a sunlit subject at a known brightness. This calculator applies the Looney 11 rule with phase adjustments to give you the exact settings.
+
+ Your setup
+
+ MOON PHASE 
+
+ Full moon 
+ Gibbous (¾ lit) 
+ Quarter (½ lit) 
+ Crescent (¼ lit) 
+ Thin crescent 
+
+ ISO 
+
+ 50 100 200 400 800 1600 3200 
+
+ APERTURE (F/) 
+
+ 🖨 Print cheat sheet 
+ 📋 Copy summary 
+
+ Result
+
+ Shutter speed
+ –
+
+ Equivalent EV
+ –
+
+ Looney 11 baseline
+ –
+
+ How to use this moon exposure calculator
+
+ Pick the moon's phase and your ISO, and the calculator returns the shutter speed at your chosen aperture. The math: a full moon is a sunlit surface worth about EV 13.6 — the Looney 11 baseline (f/11 at 1/ISO). Each phase step dims the lit surface by roughly one stop. Meter with spot mode directly on the moon if your camera supports it; the Looney 11 numbers are the failsafe when the meter lies (it will, because the sky around the moon is black).
+
+ Worked example
+
+ A full moon at ISO 100, f/11: Looney 11 gives 1/100 s . Shoot the same moon at ISO 400 and you'd use 1/400 s (or f/22 at 1/100 s). A quarter moon is two stops dimmer: at ISO 100, f/8, that's about 1/50 s . Handheld is fine for the moon — at these shutter speeds camera shake is rarely the problem; a tripod matters when you zoom to 300 mm+ or shoot the moon with a landscape.
+
+ Moon exposure FAQ
+
+ What is the Looney 11 rule for moon photography? Looney 11 (the moon's equivalent of sunny 16): full moon at f/11, shutter 1/ISO. At ISO 100 that's 1/100 s at f/11 — the moon is a sunlit subject, so it needs a daylight exposure, not a night exposure.
+
+ How do I expose the moon at different phases? Start from full moon (f/11 at 1/ISO). Add one stop for gibbous, two for quarter, three to four for a crescent — the lit fraction of the face gets dimmer as it narrows.
+
+ Why is my moon overexposed when I shoot at night? Your camera meters the dark sky and stretches the exposure — but the moon itself is sunlit and bright. Meter directly off the moon (spot mode) or use the Looney 11 settings and let the sky go black.
+
+ Can I photograph the moon and landscape in one shot? The moon is about 12 stops brighter than a blue-hour landscape, so one exposure can't hold both. Shoot two frames and blend, or catch a crescent moon in twilight, which is much closer in brightness.
+
+ 🎒 Want this as a laminated field card? The ShutterMath Field Kit has all six, print-ready.
+
+ Related tools & guides
+
+ 500 Rule & NPF Calculator
+ Max shutter time for sharp stars — 500/400/300 rules + NPF with declination.
+ Open → 
+ Exposure Calculator
+ EV and equivalent settings for any scene.
+ Open → 
+ DoF for Astro
+ Focus, hyperfocal and star sharpness for night landscapes.
+ Open →
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/nd-filter-buyer.html
+TITLE: Which ND Filter Do I Need? — ND Buying Calculator | ShutterMath
+SUMMARY: Which ND filter should you buy? Enter your current exposure and the shutter time you want — the calculator tells you the exact filter strength in stops and which filters to get.
+
+Home › Which ND Filter Do I Need? 
+ Which ND Filter Do I Need?
+
+ An ND (neutral density) filter reduces light by a fixed number of stops so you can use longer shutter speeds in bright conditions. This calculator answers the buying question: given your current exposure and the shutter time you want, exactly how many stops do you need — and which filters to buy.
+
+ Your situation
+
+ SCENE (sets the unmetered base exposure) 
+
+ Bright sun — sunny 16 (EV 15) 
+ Bright daylight, light clouds (EV 12) 
+ Overcast, soft light (EV 11) 
+ Heavy shade / overcast evening (EV 9) 
+ Dusk / very dark indoor (EV 6) 
+
+ Or skip the preset and type your own metered exposure below.
+
+ CURRENT EXPOSURE WITHOUT FILTER (SHUTTER TIME) 
+
+ seconds 
+ milliseconds 
+ as a fraction (1/x) 
+
+ ISO 
+
+ 100 200 400 800 1600 3200 
+
+ APERTURE (F/) 
+
+ DESIRED SHUTTER TIME 
+
+ seconds 
+ minutes 
+
+ 🖨 Print cheat sheet 
+
+ Result
+
+ Stops needed
+ –
+
+ Recommended filter
+ –
+
+ Actual time with it
+ –
+
+ How to use this ND filter calculator
+
+ Pick the closest scene preset, or type the shutter time you'd get without a filter at your aperture and ISO. Set the shutter speed you want for your shot. The calculator counts the stops between them and recommends the filter — rounding up to a real filter strength, because buying a filter one stop stronger than needed is safer than one stop weaker (you can always open the aperture or lower the ISO to compensate).
+
+ Worked example
+
+ Bright sun at f/8, ISO 100 (sunny 16 → EV 15): your base exposure without a filter is about 1/500 s. You want a 2-second exposure to smooth a waterfall: that's log₂(500×2) ≈ 10 stops → grab an ND1000 , which gives exactly 2 s at 1/500 s base. Want 30 s instead? Add 4 more stops — an ND1000 plus a 2-stop ND4 stacked, or a single ND16000.
+
+ ND filter FAQ
+
+ How do I know which ND filter I need? Meter the scene without a filter (or use the scene presets), decide the shutter time you want, then count the stops between them: every 3 stops ≈ 8× the exposure time. A 6-stop filter (ND64) is the all-rounder for daylight waterfalls; 10 stops (ND1000) for midday mist.
+
+ What does each ND filter do? ND8 (3 stops) — gentle motion blur in shade. ND64 (6 stops) — moving water at dusk or in bright light. ND1000 (10 stops) — cotton-soft water at midday, empty streets. ND100000 (17 stops) — blackout-style exposures in full sun.
+
+ Should I buy a fixed ND or a variable ND? Fixed filters give consistent colour and sharpness — best for landscape. Variable (VND) filters are convenient for video and run-and-gun, but can show X-shaped darkening at the wide end and are less colour-accurate.
+
+ Can I stack ND filters? Yes — stops add: ND64 + ND8 = 9 stops. Watch for vignetting on wide lenses and a slight colour cast with cheap glass; a single filter is always optically better.
+
+ 🎒 Want this as a laminated field card? The ShutterMath Field Kit has all six, print-ready.
+
+ Related tools & guides
+
+ ND Filter Calculator
+ Base exposure → exact result time for any filter strength.
+ Open → 
+ Video ND Calculator
+ The 180° rule shutter speed and the filter to keep it in daylight.
+ Open → 
+ ND Long Exposure Chart
+ Base to shutter time for every common filter — printable.
+ Open →
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/nd-filter.html
+TITLE: Free ND Filter Calculator | ShutterMath
+SUMMARY: Free ND filter calculator: exact shutter times for ND2 to ND100000 with exposure compensation. Includes the stops reference table and long-exposure chart.
+
+Home › ND Filter Calculator 
+ Free ND Filter Calculator
+
+ An ND (neutral density) filter cuts light by a fixed number of stops, allowing longer shutter speeds in bright conditions. Enter your base exposure (the shutter speed without the filter) and the filter strength — get the exact shutter time for a silky-smooth long exposure.
+
+ Exposure
+
+ Base shutter speed (seconds) e.g. 0.5 = 1/2 s · 0.008 = 1/125 s · 4 = 4 s
+
+ ND filter 
+
+ …or enter stops directly 
+
+ Exposure compensation to apply (stops) Optional: e.g. +0.33 for the half-stop between 10 and 13 stops.
+
+ 🖨 Print chart 
+
+ Result
+
+ Shutter time
+ —
+ with filter
+
+ Effective stops
+ —
+ filter + compensation
+
+ Base
+ —
+ without filter
+
+ 🌊 Reading: with a on top of a base exposure, you need a shutter speed. Bulb mode + a remote release (or the camera's 2-second timer) is the reliable way to shoot it.
+
+ ND filter stops reference
+
+ Filter name Optical density Stops 
+
+ ND2 0.3 1 
+
+ ND4 0.6 2 
+
+ ND8 0.9 3 
+
+ ND16 1.2 4 
+
+ ND32 1.5 5 
+
+ ND64 1.8 6 
+
+ ND100 2.0 6.7 
+
+ ND128 2.1 7 
+
+ ND256 2.4 8 
+
+ ND400 2.6 8.7 
+
+ ND512 2.7 9 
+
+ ND1000 3.0 10 
+
+ ND2000 3.3 11 
+
+ ND4000 3.6 12 
+
+ ND8000 3.9 13 
+
+ ND16000 4.2 14 
+
+ ND32000 4.5 15 
+
+ ND64000 4.8 16 
+
+ ND100000 5.0 16.7 
+
+ Related guides
+
+ ND Filter Long Exposure Chart
+ The full chart: base exposure → shutter time for every filter, printable.
+ Read → 
+ Depth of Field Calculator
+ Pair your long exposure with the right aperture for the scene.
+ Open → 
+
+ Worked example
+
+ Say you're shooting a waterfall at 1/125 s and want silky motion blur. Stack an ND1000 (10 stops): 1/125 × 2¹⁰ = 8.2 seconds — set the calculator to ND1000 and it shows exactly that. The pattern to internalize: every 3 stops ≈ 8× the shutter time (ND8 at 1/125 → ~1 s), every 10 stops ≈ 1000×. That's why ND64 (6 stops) is the "moving water at dusk" filter and ND1000 (10 stops) is the "bright midday" filter. Shooting in aperture priority, the camera meters through the filter, so the calculator's real job is telling you before you compose whether the resulting time is 2 s (nice streaks) or 30 s (cotton-candy water).
+
+ 🎒 Want this as a laminated field card? The ShutterMath Field Kit has all six, print-ready.
+
+ Related tools & guides
+
+ Video ND Filter Calculator
+ ND stops for the 180° shutter at any frame rate.
+ Open → 
+ ND Filter Long Exposure Chart
+ The full stops reference table.
+ Open → 
+ Long Exposure Photography Guide
+ Timing, filters and technique.
+ Open → 
+
+ ND filter FAQ
+
+ Why does shutter time double with every stop? Each ND stop halves the light reaching the sensor, so the shutter must stay open twice as long to record the same exposure: 1/60 s at 1 stop becomes 1/30 s, 1/15 s, 1/8 s… With a 10-stop ND1000, a 1/60 s base becomes 1/60 × 2¹⁰ = ~17 s.
+
+ What ND strength should I buy first? ND64 (6 stops) or ND1000 (10 stops) are the two most useful. ND64 suits moving water at mid-day; ND1000 is the classic choice for long exposures of 15–30 s in daylight.
+
+ Does stacking two filters add their stops? Yes — optical densities add, so ND8 (3 stops) + ND64 (6 stops) = 9 stops total. Watch for vignetting and color cast when stacking.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/pixel-scale.html
+TITLE: Free Astro Pixel Scale Calculator | ShutterMath
+SUMMARY: Free astro pixel scale calculator: arcseconds per pixel for any camera and lens, with the 1–2″/px sweet spot for sharp stars. Popular astro cameras included.
+
+Home › Astro Pixel Scale Calculator 
+ Free Astro Pixel Scale Calculator
+
+ Pixel scale is the angular size of one sensor pixel on the sky, measured in arcseconds per pixel — the number that decides whether your camera can resolve stars. Image scale = 206.265 × pixel size (µm) ÷ focal length (mm) . The result, in arcseconds per pixel, tells you whether your seeing, tracking, and optics are matched to your sensor.
+
+ Your setup
+
+ Camera 
+
+ Focal length (mm) 
+
+ Pixel size (µm) 
+
+ Typical seeing (arcsec FWHM) 
+ Excellent (1.5″) Good (2.0″) 
+ Average (3.0″) Poor (4.0″) 
+
+ Result
+
+ Pixel scale
+ —
+ arcsec / pixel
+
+ Seeing sampling
+ —
+ pixels per seeing disk
+
+ Verdict
+ —
+ for sharp round stars
+
+ 🔭 The 1–2″/px rule: most amateur setups land between 1 and 2 arcseconds per pixel — a good match for typical seeing (2″) and common mounts. Below ~0.5″/px you're oversampling (huge files, no new detail, tracking demands explode); above ~4″/px you're undersampling (blocky stars, wasted resolution).
+
+ Why pixel scale matters
+
+ Pixel scale determines how much sky each pixel covers. It's the single best number for judging whether a camera + lens/telescope pairing makes sense before you buy:
+
+ Undersampled (&gt; 3–4″/px): stars land on single pixels — square, blocky stars that don't improve with more exposure.
+
+ Sweet spot (1–2″/px): several pixels across each star image; good for most mounts and skies.
+
+ Oversampled (&lt; 0.7″/px): the optics or seeing can't deliver that detail — you collect noise and huge files for nothing, and tracking errors become visible.
+
+ Rule of thumb: pixel scale ≈ seeing ÷ 3 gives near-critical sampling. With 2″ seeing that's ~0.67″/px — most hobbyists choose slightly coarser to keep guiding easy.
+
+ Related tools & guides
+
+ Star Trails Calculator
+ NPF / 500 / 300 / 600 rule exposure times.
+ Open → 
+ Field of View Calculator
+ How much sky your camera + lens sees.
+ Open → 
+ Hyperfocal Distance Chart
+ The focus distance that maximizes sharp depth.
+ Open → 
+
+ Pixel scale FAQ
+
+ What's the formula for pixel scale? Pixel scale (″/px) = 206.265 × pixel size (µm) ÷ focal length (mm). Example: a camera with 3.8 µm pixels behind a 400 mm lens gives 206.265 × 3.8 ÷ 400 ≈ 1.96″/px.
+
+ Is smaller pixel scale always better? No. Below the seeing limit you're oversampling — more pixels per star than the atmosphere delivers. The result is larger files, longer exposures for the same signal, and stricter guiding for zero real resolution gain.
+
+ How do I find my camera's pixel size? Pixel size = sensor height (mm) × 1000 ÷ vertical resolution. ShutterMath stores this for every camera in the list automatically — just pick your camera.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/print-planner.html
+TITLE: Print Size Planner — How Many Megapixels Do I Need? | ShutterMath
+SUMMARY: Print planner: enter the print size and quality you want, and it tells you the pixel dimensions and megapixels required — and whether your camera has enough.
+
+Home › Print Size Planner 
+ Print Size Planner — How Many Megapixels Do I Need?
+
+ Print resolution is the number of pixels per inch in a print — it decides how large you can print before a photo starts to look soft. This planner works the way photographers actually think: start with the print size and quality you want, and it tells you the pixels and megapixels required, then checks it against your camera.
+
+ Your print
+
+ PRINT WIDTH 
+
+ cm 
+ inches 
+
+ PRINT HEIGHT 
+
+ cm 
+ inches 
+
+ QUALITY (DPI) 
+
+ 300 — gallery / close-up (recommended) 
+ 240 — standard wall print 
+ 150 — large print, viewed from ~1 m 
+ 100 — poster / viewing from several metres 
+
+ YOUR CAMERA (for the comparison) 
+
+ 🖨 Print cheat sheet 
+
+ Result
+
+ Required pixels
+ –
+
+ Required megapixels
+ –
+
+ Your camera
+ –
+
+ How to use this print planner
+
+ Enter the print dimensions you're aiming for, pick the quality your viewing distance demands, and choose your camera from the database (48 bodies — or just read the required number and compare your own). The planner returns the minimum pixels and megapixels, and tells you whether your camera prints it natively or needs upscaling.
+
+ Worked example
+
+ A 40×60 cm gallery print at 300 DPI: 40 cm ≈ 15.7 in and 60 cm ≈ 23.6 in, so you need 15.7×300 × 23.6×300 = 4724 × 7087 px — about 33.5 MP . A 24 MP camera prints it at ~253 DPI — perfectly sharp at arm's length. The same 40×60 cm at 150 DPI (viewed from a metre) needs only 8.4 MP , which is why phone photos make fine large prints.
+
+ Print resolution FAQ
+
+ How many megapixels do I need for printing? It depends on print size and viewing distance. A 10×8-inch print held in the hand needs about 7 MP (300 DPI); a 40×60 cm wall print viewed from a metre away needs only about 3 MP (150 DPI). More pixels than needed only add file size, not visible quality.
+
+ What DPI should I print at? 300 DPI for small prints viewed up close, 240 for typical wall prints, 150 is plenty for large prints viewed from a metre or more. Viewing distance is the real driver — beyond about a metre the eye can't resolve 300 DPI.
+
+ Can I print larger than my camera's megapixels allow? Yes — modern upscaling (including AI upscalers) handles +50% gracefully for large prints, and the viewing-distance rule means large prints are forgiving. The planner shows exactly how far above native resolution you'd be.
+
+ 🎒 Want this as a laminated field card? The ShutterMath Field Kit has all six, print-ready.
+
+ Related tools & guides
+
+ Print Resolution Calculator
+ Pixels and DPI → the print sizes you can make.
+ Open → 
+ Camera Sensor Sizes
+ Full frame vs APS-C vs Micro 4/3 vs phone, side by side.
+ Open → 
+ All Guides & Charts
+ Printable reference charts for every discipline.
+ Open →
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/print-resolution.html
+TITLE: Free Print Resolution Calculator | ShutterMath
+SUMMARY: Free print resolution calculator: how big can you print? Pixels, DPI and print size with the megapixel print chart for 150–600 DPI. No sign-up.
+
+Home › Print Resolution Calculator 
+ Free Print Resolution Calculator
+
+ Print resolution is the number of pixels per inch in a print — it decides how large you can print a photo before it starts to look soft. The honest answer to "how big can I print?" — based on your camera's real pixel dimensions and the DPI your print lab actually uses.
+
+ 1 · Your image
+
+ Camera (or Custom) 
+
+ Width (pixels) 
+
+ Height (pixels) 
+
+ 2 · Print DPI
+
+ DPI 
+ 150 DPI — large format / viewing from distance 
+ 200 DPI — good general print 
+ 240 DPI — photo-lab standard 
+ 300 DPI — max detail / fine art 
+ 600 DPI — reproduction / line art 
+
+ 💡 Reality check: most photo labs print at 240–300 DPI , and big-wall canvases are usually printed at 150 DPI . 300 DPI is not "required" for large prints — viewing distance matters more than the number.
+
+ Result
+
+ Print size @ DPI
+ —
+ width × height
+
+ Megapixels
+ —
+ native resolution
+
+ Pixels per cm
+ —
+ at selected DPI
+
+ Other common DPIs
+
+ DPI Print size Use case 
+
+ Megapixel print size chart
+
+ Maximum print dimensions at the three most common DPIs, for typical camera resolutions (3:2 aspect):
+
+ Megapixels Pixel dimensions @ 150 DPI @ 240 DPI @ 300 DPI 
+
+ 12 MP 4,288 × 2,848 28.6 × 19.0 in 17.9 × 11.9 in 14.3 × 9.5 in 
+
+ 20 MP 5,472 × 3,648 36.5 × 24.3 in 22.8 × 15.2 in 18.2 × 12.2 in 
+
+ 24 MP 6,000 × 4,000 40.0 × 26.7 in 25.0 × 16.7 in 20.0 × 13.3 in 
+
+ 33 MP 7,008 × 4,672 46.7 × 31.1 in 29.2 × 19.5 in 23.4 × 15.6 in 
+
+ 45 MP 8,192 × 5,464 54.6 × 36.4 in 34.1 × 22.8 in 27.3 × 18.2 in 
+
+ 50 MP 8,640 × 5,760 57.6 × 38.4 in 36.0 × 24.0 in 28.8 × 19.2 in 
+
+ 61 MP 9,504 × 6,336 63.4 × 42.2 in 39.6 × 26.4 in 31.7 × 21.1 in 
+
+ 100 MP 11,600 × 8,700 77.3 × 58.0 in 48.3 × 36.3 in 38.7 × 29.0 in 
+
+ What DPI do you actually need?
+
+ 300 DPI — the fine-art standard for prints viewed up close (A4 and smaller).
+
+ 240 DPI — the typical photo-lab ceiling; most labs print at this and it's indistinguishable from 300 in practice.
+
+ 150 DPI — perfectly fine for large wall prints and canvases viewed from arm's length or more. A 24 MP camera prints 40×27 in at 150 DPI.
+
+ Below ~100 DPI — softness becomes visible at normal viewing distances; resize with care.
+
+ 🎒 Want this as a laminated field card? The ShutterMath Field Kit has all six, print-ready.
+
+ Related tools & guides
+
+ Print Planner
+ Pixel dimensions and DPI for any print size.
+ Open → 
+ Camera Sensor Sizes
+ Megapixel and sensor dimension reference.
+ Open → 
+ Field of View Calculator
+ Angle of view for any lens + sensor.
+ Open → 
+
+ Print resolution FAQ
+
+ Can I print bigger than the calculator says? Yes — software upscaling (or the lab's own upscaler) can print any size; the calculator shows the size at which every pixel maps cleanly to the DPI grid. Most labs upsample to 300 DPI automatically, and modern AI upscalers make modest enlargements invisible.
+
+ Is 300 DPI always better than 150 DPI? For the same print size, higher DPI means more detail only if the viewing distance is close. A 40-inch print viewed from 6 feet at 150 DPI looks identical to 300 DPI to most eyes. Choose DPI by viewing distance, not by the maximum number.
+
+ What DPI should I use for a canvas or metal print? Canvas: 150 DPI is the norm (the texture hides detail anyway). Metal and acrylic: 240–300 DPI recommended since they're glossy and often viewed close.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/shutter-angle.html
+TITLE: Shutter Angle Calculator: 180° Rule Speed by Frame Rate
+SUMMARY: 24 fps at 180° is 1/48 s and 60 fps at 180° is 1/120 s. Enter frame rate and shutter angle for the exact speed, plus the full 180° reference table.
+
+Home › Shutter Angle Calculator 
+ Free Shutter Angle Calculator
+
+ Shutter angle expresses shutter speed as a fraction of the frame interval, with 360° being one full frame. In video, shutter speed is described as an angle. The cinematic standard — the 180° rule — sets the shutter to 1/(2 × frame rate) : 1/48 s at 24 fps, 1/60 s at 30 fps, 1/120 s at 60 fps. That's the natural motion blur your eye expects.
+
+ Angle → speed
+
+ Frame rate (fps) 
+ 23.976 (cinema) 
+ 24 
+ 25 (PAL) 
+ 30 
+ 50 (PAL) 
+ 60 
+ 120 (slow-mo) 
+
+ Shutter angle (°) 
+ 360 — max motion blur 
+ 270 
+ 180 — the standard 
+ 90 — crisper motion 
+ 45 — staccato look 
+ 11.25 (1/864 @ 24) 
+
+ Result
+
+ Shutter speed
+ —
+ for this angle
+
+ 180° speed
+ —
+ the cinematic reference
+
+ 🎬 Reading: at fps the 180° shutter is . Set this and motion looks natural. Go wider (270–360°) for dreamy blur, narrower (90–45°) for crisp, staccato motion — but stay near 180° for the "film look".
+
+ Common frame rate × angle table
+
+ FPS 360° 270° 180° 90° 45° 
+
+ 24 1/24 s 1/32 s 1/48 s 1/96 s 1/192 s 
+
+ 25 1/25 s 1/33 s 1/50 s 1/100 s 1/200 s 
+
+ 30 1/30 s 1/40 s 1/60 s 1/120 s 1/240 s 
+
+ 50 1/50 s 1/67 s 1/100 s 1/200 s 1/400 s 
+
+ 60 1/60 s 1/80 s 1/120 s 1/240 s 1/480 s 
+
+ 120 1/120 s 1/160 s 1/240 s 1/480 s 1/960 s 
+
+ Worked example
+
+ You're shooting 24 fps and want the standard cinematic look: enter 180°, and the calculator returns 1/48 s — the classic rule (shutter = 1/(2×fps)). Switch to 60 fps for slow motion and it becomes 1/120 s. Now the creative choices: 360° (1/24 s) adds motion blur for dreamy pans, while 90° (1/96 s) makes action crisper and more staccato. Videographers memorize 180° because it sits at the sweet spot — enough blur for smooth motion, enough edge for detail. The calculator removes the mental math when you're juggling frame rates, resolutions and ND filters on set.
+
+ Related tools & guides
+
+ Video ND Filter Calculator
+ ND stops to hold the 180° shutter in daylight.
+ Open → 
+ Exposure Calculator
+ Aperture, shutter, ISO and EV conversions.
+ Open → 
+ Shutter Speed Chart
+ When to use which shutter speed.
+ Open → 
+
+ Shutter angle FAQ
+
+ Why 180 degrees? Shutter angle describes how long the shutter stays open per frame, as a fraction of a full rotation. At 180° it's open half the frame time, giving motion blur that matches how the eye tracks movement — too open (360°) blurs, too closed (45°) stutters.
+
+ What shutter speed for slow motion? Same rule: 1/(2 × fps). At 120 fps that's 1/240 s. Many cameras auto-set this when you select 180° in video mode — check your menu.
+
+ Does the 180° rule apply to stills? No — stills use shutter speed directly (1/focal length or faster for handheld). The angle system is a video/cinema convention, though the motion-blur logic is the same.
+
+ Shutter speed by frame rate and shutter angle
+
+ Short answer: the 180° shutter rule sets exposure
+time to half the frame interval, so 24 fps gives 1/48 s, 30 fps gives 1/60 s and 60 fps gives
+1/120 s. Multiply the frame rate by 360 and divide by the shutter angle to get the exact
+speed: 24 × 360 / 180 = 48.
+
+ Exact shutter speed. Cameras display the nearest standard value, so 23.976 fps at 180° shows 1/48. Frame rate 360° 180° 90° 45° 
+ 23.976 fps 1/24 s 1/48 s 1/100 s 1/200 s 
+ 24 fps 1/24 s 1/48 s 1/100 s 1/200 s 
+ 25 fps 1/25 s 1/50 s 1/100 s 1/200 s 
+ 29.97 fps 1/30 s 1/59 s 1/125 s 1/250 s 
+ 30 fps 1/30 s 1/59 s 1/125 s 1/250 s 
+ 48 fps 1/48 s 1/100 s 1/200 s 1/333 s 
+ 50 fps 1/50 s 1/100 s 1/200 s 1/333 s 
+ 59.94 fps 1/59 s 1/125 s 1/250 s 1/500 s 
+ 60 fps 1/59 s 1/125 s 1/250 s 1/500 s 
+ 120 fps 1/125 s 1/250 s 1/500 s 1/1000 s 
+ 180 fps 1/167 s 1/333 s 1/1000 s 1/1000 s 
+ 240 fps 1/250 s 1/500 s 1/1000 s 1/1000 s 
+
+ Why 180° is the default
+
+ A 180° shutter gives motion blur that matches how the eye reads movement at 24 fps. Narrow
+the angle (90°, 45°) and you get crisper frames that survive slow motion and look like Saving
+Private Ryan; open it to 360° and motion smears, which suits dream sequences and low light.
+
+ Frame rate and shutter angle together decide whether lights flicker. At 50 Hz mains, shoot
+25 or 50 fps; at 60 Hz, shoot 30 or 60 fps. On mixed or unknown lighting, a narrow angle lets
+you keep 24 fps without banding.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/star-trails.html
+TITLE: Free 500 Rule & NPF Calculator | ShutterMath
+SUMMARY: Free star trails calculator: max shutter time for sharp stars via the 500/400/300 rules and the accurate NPF rule, using your camera's crop factor and pixel size.
+
+Home › Star Trails Calculator 
+ Free 500 Rule & NPF Calculator
+
+ The 500 rule is the classic formula for the maximum shutter time before stars streak: 500 divided by the full-frame-equivalent focal length. The maximum shutter time before stars visibly trail — computed three ways: the classic 500 rule, the stricter 300 rule for high-res sensors, and the NPF rule , which accounts for your camera's actual pixel size and aperture.
+
+ Your setup
+
+ Camera 
+
+ Focal length (mm) 
+
+ Aperture (f/) 
+
+ Target declination (0° = celestial equator) Stars near the celestial pole move slower — NPF relaxes by up to 2× at ±60°. LonelySpeck-style declination-aware calculation.
+
+ Max exposure times
+
+ NPF rule (accurate)
+ —
+ pixel-size aware
+
+ 500 rule
+ —
+ classic, forgiving
+
+ 300 rule
+ —
+ safer for high-res
+
+ 600 rule
+ —
+ forgiving, film-era
+
+ 🌌 How to use it: set your shutter to (or just under), open the aperture fully, then raise ISO until the histogram is ⅓–½ from the left. Check at 100% zoom: if stars are still elongated, shorten by 20%.
+
+ Worked example
+
+ A 20 mm lens on a Sony A1 II (full frame, 4.17 µm pixels) at f/2: the 500 rule says 500/20 = 25 s , but the NPF rule — which accounts for your real pixel size — says (35×2 + 30×4.17) / 20 ≈ 9.8 s . That's the difference between tack-sharp stars at 100% zoom and faint trails you only notice in post. Use the 500 rule as a quick mental check, but trust NPF on a modern high-resolution sensor; if you're shooting 135 mm+, even NPF gets aggressive and the calculator's pixel-scale number (arcseconds per pixel) tells you whether your rig can actually resolve stars at all.
+
+ Which rule should you use?
+
+ NPF rule — the accurate one. Formula: t = (35·N + 30·p) / f, where N is aperture, p is pixel size in µm, and f is the full-frame equivalent focal length. It accounts for both your sensor's pixel density and lens speed. Use this.
+
+ 500 rule — t = 500 / (focal × crop). Fine for older, lower-resolution sensors; visibly trails on 24 MP+ cameras at 100% view.
+
+ 300 rule — t = 300 / (focal × crop). A safer general choice for modern high-res sensors.
+
+ All three assume you're shooting away from the celestial poles; pointing near Polaris (or Sigma Octantis) lets you push times 2–3× longer before trails appear.
+
+ Related tools & guides
+
+ Astro Pixel Scale Calculator
+ Is your sampling matched to your optics and seeing?
+ Open → 
+ Depth of Field for Astro
+ Focusing at infinity, the f-ratio trade-off, and stacking.
+ Read → 
+ Exposure Equivalence
+ Balance ISO and shutter to hit the exact exposure.
+ Open → 
+
+ 🎒 Want this as a laminated field card? The ShutterMath Field Kit has all six, print-ready.
+
+ Star exposure FAQ
+
+ Why do stars trail at long exposures? The Earth rotates ~15°/hour. A longer shutter moves each star across more pixels; when the movement exceeds about one pixel (or the pixel-size tolerance in NPF), the star becomes a streak instead of a point.
+
+ Does the 500 rule still work on my 45 MP camera? Poorly — it was calibrated for 12–16 MP sensors. At 45 MP the pixels are ~4.4 µm and trails are visible well before 500/f. The NPF rule (or 300/f) is the right choice for modern sensors.
+
+ What if I want star trails on purpose? Then ignore all rules — stack many long exposures (30 s–5 min each) and composite. The calculator's job is the opposite: keeping stars as points.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/video-nd.html
+TITLE: Video ND Calculator: Stops for the 180° Shutter Rule
+SUMMARY: Enter frame rate and shutter angle, then the shutter speed your meter gives. Get the exact ND stops and the nearest filter that keeps motion blur natural.
+
+Home › Video ND Filter Calculator 
+ Free Video ND Filter Calculator
+
+ The 180° rule sets video shutter speed at twice the frame rate — 1/48 s at 24 fps — and this calculator finds the ND strength needed to hold it in daylight. Video forces a fixed shutter speed (the 180° rule ) — so in daylight you can't stop down or speed up the shutter to fix exposure. The only lever left is a neutral density filter. This calculator tells you exactly how many stops and which filter.
+
+ Your shoot
+
+ Frame rate (fps) 
+ 23.976 (cinema) 
+ 24 
+ 25 (PAL) 
+ 30 
+ 50 (PAL) 
+ 60 
+ 120 (slow-mo) 
+
+ Shutter angle (°) 
+ 180 — the standard 
+ 270 — dreamier blur 
+ 90 — crisper motion 
+
+ Exposure without filter 
+
+ 1/2000 s — blazing sun 
+ 1/1000 s — bright sun 
+ 1/500 s — sunny, slight haze 
+ 1/250 s — bright overcast 
+ 1/125 s — overcast 
+ 1/60 s — heavy cloud 
+ 1/30 s — dusk 
+
+ Meter the scene without any filter at your chosen aperture and ISO (f/2.8 · ISO 100 typical).
+
+ Your aperture (for the f/2.8 rule of thumb) Only used for the note below — every stop wider needs one more ND stop.
+
+ Result
+
+ Required shutter
+ —
+ 180° rule target
+
+ ND stops needed
+ —
+ to hit the target
+
+ Use this filter
+ —
+ closest standard
+
+ 🎬 Reading: at fps your 180° shutter is . In daylight you need of neutral density — grab the . Variable NDs are the videographer's favorite for exactly this reason.
+
+ Why video needs ND filters
+
+ Stills photographers "fix" bright scenes with shutter speed and aperture. Videographers can't:
+
+ Shutter is locked by the 180° rule (1/48 s at 24 fps) — the motion blur is the look.
+
+ Aperture is limited — stop past f/8–f/11 and diffraction softens the image; plus you often want f/2.8 for shallow depth of field.
+
+ ISO bottom is limited — most cameras go to ISO 100, and going "below base" is impossible.
+
+ With a fixed 1/48 s shutter at base ISO in sunlight, the only thing left between you and overexposure is glass in front of the lens. A 6–10 stop variable ND covers nearly every daylight situation.
+
+ Related tools & guides
+
+ Shutter Angle Calculator
+ The 180° rule, computed for any frame rate.
+ Open → 
+ ND Filter Calculator
+ Stills long-exposure math — same stops, different use case.
+ Open → 
+ ND Filter Long Exposure Chart
+ The full stops reference table.
+ Read → 
+
+ Video ND FAQ
+
+ What ND strength should a videographer buy first? A variable ND 2–5 or 6–9 stops covers daylight at typical apertures. Pair it with a fixed ND64 (6 stops) for the rare case you need repeatable settings. Avoid cheap variables — they cause X-pattern color cast at the dark end.
+
+ Does the calculator work for log / flat profiles? Mostly — log profiles change the exposure curve but not the light math. You may find you need ⅓–⅔ stop more ND when exposing-to-the-right for log; check the histogram and add a third-stop if the highlights clip.
+
+ What if my base exposure is between two filters? Split the difference: open the aperture ⅓–½ stop, drop ISO one step if you're above base, or use a variable ND. The calculator shows the closest filter and the gap — a gap under ⅓ stop is usually fine.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/about.html
+TITLE: About ShutterMath — Free Photography Calculators
+SUMMARY: ShutterMath builds free, accurate photography calculators with a modern camera database. Why we exist, who runs it, and what we're trying to fix.
+
+Home › About 
+ About ShutterMath
+
+ ShutterMath exists because the tools photographers actually use are frozen in time. The depth-of-field calculator that ranks #1 in most searches has a camera database that stops around 2013 — it has never heard of mirrorless cameras, let alone the phone in your pocket. We built the version we wanted to use: accurate math, a camera list that includes what you can buy today, and results you can print and take into the field.
+
+ What we're trying to fix
+
+ Outdated camera data. Every calculator on this site uses the exact sensor dimensions of your camera — full frame, APS-C, Micro 4/3, and phone sensors included — with the standard circle-of-confusion convention (sensor diagonal ÷ 1500).
+
+ Black-box math. All formulas are the standard published ones (hyperfocal H = f²/(N·c) + f, ND time = base × 2^stops, GN = aperture × distance, pixel scale = 206.265 × µm ÷ mm), and we show them on the page so you can verify every result.
+
+ Nothing to install. These are plain web pages — they work on any device, load fast, and run entirely in your browser. Your saved setups live in your browser's local storage; we never see them.
+
+ Who runs this
+
+ ShutterMath is an independent, single-operator project. We're photographers first — the site is funded by unobtrusive advertising (only after your consent, and only where it doesn't get in the way of the tools) so it can stay free, fast, and independent.
+
+ Questions, corrections, or a camera we're missing? Get in touch — we add new cameras and tools regularly.
+
+ Our principles
+
+ Accuracy first. If a number is wrong, that's a bug — report it and we'll fix it.
+
+ Free forever. No accounts, no paywalls, no watermarks on printable cheat sheets.
+
+ Privacy by default. No tracking without consent; no data leaves your browser except what's needed to serve the page.
+
+ Useful without ads. Every tool works fully with ads blocked or declined. Ads only ever sit in clearly marked slots, never over the controls.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/aperture-explained.html
+TITLE: Aperture Explained: f-Stops, Depth of Field &amp; Light | Shut…
+SUMMARY: Aperture explained simply: what f-stops mean, why the numbers are 1.4, 2, 2.8, 4…, how aperture controls light and depth of field, and the best f-stop for every.
+
+Home › Guides › Aperture Explained 
+ Aperture Explained
+
+ What f-stops mean, why the numbers are 1.4, 2, 2.8, 4…, how aperture controls light and depth of field — and the best f-stop for every genre.
+
+ Aperture is the hole in your lens that lets light through. It does exactly two things: controls how much light reaches the sensor , and controls how much of the scene is sharp (depth of field). Everything else in photography is built on those two.
+
+ What the f-number means
+
+ The f-number is focal length ÷ aperture diameter . A 50 mm lens at f/2 has a 25 mm opening; at f/8 it's a 6.25 mm opening. Confusingly, smaller numbers = wider openings = more light. Each full stop doubles the light, and because the opening is a circle (area = πr²), the diameter must multiply by √2 ≈ 1.414 to double the area. That's why the scale looks like this:
+
+ f-stop f/1 f/1.4 f/2 f/2.8 f/4 f/5.6 f/8 f/11 f/16 f/22 f/32 
+
+ Light vs f/1 1× 1/2 1/4 1/8 1/16 1/32 1/64 1/128 1/256 1/512 1/1024 
+
+ Relative DoF 1× 1.4× 2× 2.8× 4× 5.6× 8× 11× 16× 22× 32× 
+
+ To trade one stop of aperture, you trade one stop of shutter or ISO. The free exposure calculator does these trades for you.
+
+ What aperture does to your photos
+
+ Wide open (f/1.2–f/2.8): lots of light, thin depth of field, dreamy backgrounds — but only a sliver of the subject is sharp, and edges may be soft.
+
+ Middle (f/4–f/8): the sharpest range on most lenses, still decent blur, enough light for most situations.
+
+ Stopped down (f/11–f/22): maximum depth of field, but light drops fast and diffraction starts softening detail past f/8–f/11.
+
+ Best aperture by genre
+
+ Genre Typical aperture Why 
+
+ Portrait f/1.8–f/2.8 Background blur, subject separation 
+
+ Landscape f/8–f/11 Front-to-back sharpness without diffraction 
+
+ Real estate f/8 Room-wide sharpness, sharpest setting 
+
+ Street / travel f/4–f/8 Balance of blur, sharpness and light 
+
+ Sports / action f/2.8–f/4 Fast shutter needs light; keep some DoF for focus errors 
+
+ Astro f/1.4–f/2.8 Maximum light for stars 
+
+ Macro f/8–f/16 Thin DoF at high magnification; stop down or stack 
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ See exactly how far sharpness extends at any f-stop, for your camera.
+ Open → 
+ Exposure Triangle Explained
+ Aperture, shutter and ISO as one system.
+ Read → 
+ Sharpest Aperture Guide
+ Diffraction limits computed for real cameras.
+ Read → 
+
+ Aperture FAQ
+
+ What does f-stop mean? The f-number is focal length ÷ aperture diameter. Lower number = wider opening = more light, shallower depth of field.
+
+ Why are f-stops 1.4, 2, 2.8, 4? Each stop doubles the light; area doubles, so diameter multiplies by √2 ≈ 1.414. The scale: 1, 1.4, 2, 2.8, 4, 5.6, 8, 11, 16, 22, 32.
+
+ What's the sharpest aperture? Usually f/4–f/8 on full frame — after that, diffraction softens pixels. See the diffraction guide for your camera's exact limit.
+
+ Does a wider aperture mean better photos? Not automatically. It means more light and more blur — and less of the scene in focus, plus softer edges wide open.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/camera-sensor-sizes.html
+TITLE: Camera Sensor Sizes Compared | ShutterMath
+SUMMARY: Camera sensor sizes compared: full frame, APS-C, Micro 4/3, 1-inch and phone sensors with exact dimensions, crop factors, and what each means.
+
+Home › Guides › Camera Sensor Sizes 
+ Camera Sensor Sizes Compared
+
+ Exact dimensions, crop factors, and what actually changes when you move between formats.
+
+ The formats, side by side
+
+ Format Width × height (mm) Diagonal (mm) Crop factor Area vs full frame Typical cameras 
+
+ Full frame 36 × 24 43.3 1.0× 100% Sony A7 IV, Canon R5 II, Nikon Z8, Panasonic S5 II 
+
+ APS-C (Sony/Nikon/Fuji) 23.5 × 15.6 28.2 1.5× ~42% Sony A6700, Fujifilm X-T5, Nikon Z50 II 
+
+ APS-C (Canon) 22.3 × 14.9 26.8 1.6× ~39% Canon EOS R7, R10 
+
+ Micro 4/3 17.3 × 13 21.6 2.0× ~26% Panasonic G9 II / GH7, OM System OM-1 II 
+
+ 1-inch 13.2 × 8.8 15.9 2.7× ~13% Compact cameras, some drones 
+
+ Phone main (~1/1.28″) 9.8 × 7.3 12.2 ~3.5× ~8% iPhone 16 Pro, Galaxy S25 Ultra, Pixel 9 Pro 
+
+ What the crop factor actually means
+
+ The 35 mm equivalent focal length is the focal length that gives the same framing on full frame. A 24 mm lens on APS-C (1.5×) frames like 36 mm on full frame; a 25 mm on Micro 4/3 (2×) frames like 50 mm. Our field of view calculator shows this for any combination.
+
+ Equivalent framing is not the same as equivalent look : at the same framing and aperture, the larger sensor gives shallower depth of field (see the portrait guide ) and gathers more total light.
+
+ Real differences that matter
+
+ Depth of field: for the same framing and f-stop, full frame has the shallowest DoF — that's the classic "full frame bokeh" advantage. Check the numbers with the DoF calculator .
+
+ Low light: at the same exposure settings, the larger sensor collects more light overall, which typically means less noise when you normalize for print size.
+
+ Size and reach: crop sensors give extra telephoto reach (a 400 mm lens on APS-C frames like 600 mm) in a smaller, lighter kit — one reason wildlife shooters choose APS-C and Micro 4/3.
+
+ Hyperfocal distance: smaller sensors have shorter hyperfocal distances, making "everything sharp" landscapes easier (see the hyperfocal chart ).
+
+ Related tools & guides
+
+ Crop Factor Explained
+ Full frame, APS-C and M4/3 equivalences.
+ Open → 
+ Field of View Calculator
+ Angle of view for any sensor + lens.
+ Open → 
+ Print Resolution Calculator
+ What resolution you need for each print size.
+ Open → 
+ ND Filter Long Exposure Chart
+ Base exposure → shutter time for every filter.
+ Open → 
+
+ Sensor size FAQ
+
+ Is a full-frame sensor always better? Better for low light and shallow DoF, yes — but it costs more, weighs more, and needs bigger lenses. APS-C and Micro 4/3 win on reach, size, and price. "Better" depends on what you shoot.
+
+ What does "crop factor 1.5×" mean for my 50 mm lens? It frames like a 75 mm lens on full frame. The lens itself doesn't change — the smaller sensor just captures a narrower part of its image circle.
+
+ Do phone cameras really have 1/1.28-inch sensors? Yes — the main cameras in current flagships use sensors around 9.8 × 7.3 mm (about 8% of a full-frame area). The "1/1.28″" naming is an old vidicon-tube convention, which is why the actual dimensions look surprising.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/circle-of-confusion.html
+TITLE: Circle of Confusion Explained | ShutterMath
+SUMMARY: What circle of confusion (CoC) is, why calculators disagree, and the standard CoC values for full frame, APS-C, Micro 4/3 and phone sensors.
+
+Home › Guides › Circle of Confusion 
+ Circle of Confusion Explained
+
+ The one number hiding inside every depth of field calculation — and the reason calculators disagree with each other.
+
+ What is the circle of confusion?
+
+ A lens focuses only one plane perfectly. Everything else is a slightly out-of-focus circle of light on the sensor — the "circle of confusion." If that circle is small enough, your eye perceives the point as sharp. The circle of confusion (CoC) is the largest blur spot that still looks like a point in the final print.
+
+ Two things decide it: how much you enlarge the image (a full-frame shot printed at 20×24 is enlarged ~8×; a phone shot at the same size is enlarged ~50×) and how close you view from . The classic assumption is an 8×10 print viewed from ~25 cm, which works out to a blur spot of about 1/1000 inch on the print.
+
+ The standard values
+
+ The most common convention is sensor diagonal ÷ 1500 (some use ÷ 1730 for an even stricter 8×10 standard). ShutterMath uses ÷ 1500 by default. That gives these values:
+
+ Sensor format Dimensions (mm) Diagonal (mm) CoC ÷1500 (mm) 
+
+ Full frame 36 × 24 43.3 0.029 
+
+ APS-C (Sony / Nikon / Fujifilm) 23.5 × 15.6 28.2 0.019 
+
+ APS-C (Canon) 22.3 × 14.9 26.8 0.018 
+
+ Micro 4/3 17.3 × 13 21.6 0.014 
+
+ 1-inch 13.2 × 8.8 15.9 0.011 
+
+ Phone main sensor (~1/1.28″) 9.8 × 7.3 12.2 0.008 
+
+ Why do calculators give different answers?
+
+ Different CoC standards. Diagonal ÷ 1500 vs ÷ 1730 vs a fixed 0.030 mm for everything vs pixel-based values. The stricter the CoC, the farther the hyperfocal distance and the smaller the depth of field.
+
+ Different sensor dimensions. Some calculators use 36×24 for "full frame" regardless of the camera; exact values (35.9×23.9 for many Nikons) shift results a little.
+
+ Formula variants. Older calculators omit the "+ f" term in the hyperfocal formula — negligible for wide lenses, a few percent for telephotos.
+
+ Should you use a stricter CoC?
+
+ If you pixel-peep at 100%, or print very large, the classic CoC is too generous. A common stricter choice is diagonal ÷ 2000 (full frame ≈ 0.022 mm). Because H = f²/(N·c), making the CoC one-third smaller makes the hyperfocal distance one-third larger and depth of field roughly one-third smaller. Our depth of field calculator lets you override the CoC — start with ÷2000 if you inspect images closely.
+
+ Related guides & tools
+
+ Depth of Field Calculator
+ Try the CoC override and watch near/far limits change live.
+ Open → 
+ Camera Sensor Sizes
+ Every format side by side with crop factors.
+ Read → 
+ Hyperfocal Distance Chart
+ Pre-computed values for the standard CoC.
+ Read → 
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ Near/far focus and total DoF, computed.
+ Open → 
+ Hyperfocal Distance Chart
+ Max-sharpness focus distance table.
+ Open → 
+ Aperture Explained
+ How f-stops control depth of field.
+ Open → 
+
+ Circle of confusion FAQ
+
+ Does my camera's pixel size set the circle of confusion? Not directly. CoC is about perceived sharpness in the final image, not pixel size. Pixel-based "CoC" values are sometimes used for astrophotography (where a star should ideally land within one pixel), but for general photography the viewing-standard CoC is the right tool.
+
+ What CoC does dofmaster or my camera's DoF preview use? Most classic calculators use diagonal ÷ 1500 (dofmaster lists ~0.029-0.030 mm for full frame). In-camera DoF previews use the lens's actual aperture and the sensor, but the on-screen preview is too small to judge precisely — calculators are more reliable for planning.
+
+ Is a smaller CoC always more accurate? No — it's a threshold, not a measurement. A "stricter" CoC is more conservative (less of the image counts as sharp). Pick the standard that matches how you view: ÷1500 for normal prints, ÷2000 for pixel-peeping and large prints.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/contact.html
+TITLE: Contact ShutterMath — Report a Bug or Request a Camera
+SUMMARY: Contact ShutterMath: report a calculation bug, request a camera or lens in the database, or suggest a new tool.
+
+Home › Contact 
+ Contact
+
+ Found a wrong number, want a camera added, or have an idea for a tool? Email us — we answer every message.
+
+ Email: hello@shuttermath.com 
+
+ For fastest help, include: the camera model, lens, aperture, focus distance, and what result you expected vs what you got.
+
+ Common requests
+
+ Add my camera — include the exact model name and sensor size if you know it (we verify before adding).
+
+ Bug report — a specific calculation that disagrees with another source.
+
+ Feature idea — a tool you wish existed (exposure calculator, print resolution, bokeh simulator…).
+
+ Ad/partnership inquiries — advertising or sponsored content questions.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/crop-factor-explained.html
+TITLE: Crop Factor Explained — Full Frame, APS-C & M4/3 | ShutterMath
+SUMMARY: What crop factor really means: focal length and aperture equivalence computed for full frame, APS-C, Micro 4/3 and phone cameras — and why exposure doesn't change.
+
+Home › Guides › Crop Factor Explained: Full Frame, APS-C & M4/3 Equivalents | ShutterMath 
+ Crop Factor Explained: Full Frame, APS-C & M4/3 Equivalents | ShutterMath
+
+ What crop factor really means: focal length and aperture equivalence computed for full frame, APS-C, Micro 4/3 and phone cameras — and why exposure doesn't change.
+
+ Crop factor is the diagonal of a full-frame sensor (43.27 mm) divided by your sensor's diagonal. It answers one question: how does my lens frame and blur compared with the same lens on full frame? 
+
+ Real crop factors, computed from sensor dimensions
+
+ Camera Sensor Crop factor 
+
+ Sony A1 II 36.0 × 24.0 mm 1.00× 
+ Sony A6700 23.5 × 15.6 mm 1.53× 
+ Canon EOS R7 22.3 × 14.9 mm 1.61× 
+ Fujifilm X-T5 23.5 × 15.6 mm 1.53× 
+ OM System OM-1 II 17.4 × 13.0 mm 1.99× 
+ iPhone 16 Pro 9.8 × 7.3 mm 3.54× 
+
+ Focal length equivalence (same framing)
+
+ A lens on a smaller sensor frames like a longer lens on full frame. To match full-frame framing, multiply the focal length by the crop factor:
+
+ Lens Full frame APS-C 1.52× Canon APS-C 1.6× M4/3 2× Phone 3.6× 
+
+ 24 mm 24 mm 36 mm 38 mm 48 mm 86 mm 
+ 35 mm 35 mm 53 mm 56 mm 70 mm 126 mm 
+ 50 mm 50 mm 76 mm 80 mm 100 mm 180 mm 
+ 85 mm 85 mm 129 mm 136 mm 170 mm 306 mm 
+ 135 mm 135 mm 205 mm 216 mm 270 mm 486 mm 
+
+ Aperture equivalence (same depth of field)
+
+ To match full-frame depth of field and background blur, multiply the aperture too. 50 mm f/1.8 on APS-C behaves like 75 mm f/2.7 on full frame — same framing, same blur:
+
+ On this camera Equivalent on APS-C (1.5×) Equivalent on full frame 
+
+ 50 mm f/1.8 75 mm f/2.7 100 mm f/3.6 
+ 35 mm f/1.4 52 mm f/2.1 70 mm f/2.8 
+ 85 mm f/1.2 128 mm f/1.8 170 mm f/2.4 
+
+ Full-frame users need 2× the focal length of M4/3 users, but also 2× the f-number for the same look. Compute your exact rig in the free depth of field calculator or field of view calculator .
+
+ Related tools & guides
+
+ Field of View Calculator
+ Angles of view for any sensor and lens, with equivalents.
+ Open → 
+ Depth of Field Calculator
+ DoF for your exact camera — no crop approximations.
+ Open → 
+ Camera Sensor Sizes
+ All formats compared side by side.
+ Read → 
+
+ Crop factor FAQ
+
+ What is crop factor? Full-frame diagonal (43.27 mm) ÷ your sensor diagonal. APS-C ≈ 1.5×, Canon APS-C ≈ 1.6×, Micro 4/3 = 2×.
+
+ Does crop factor change exposure? No — never. Same aperture, shutter and ISO = same exposure on any format. Crop factor only changes framing and depth of field.
+
+ Do lenses change focal length on crop sensors? No. A 50 mm lens is always 50 mm. It just frames like a 75 mm would on full frame.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/depth-of-field-astro.html
+TITLE: Astrophotography Focus &amp; Depth of Field | ShutterMath
+SUMMARY: Astrophotography focusing and DoF: why you focus at infinity (not the lens mark), the f-ratio trade-off for Milky Way shots, and the 500/NPF star-exposure rules.
+
+Home › Guides › Astro Focus & DoF 
+ Astrophotography Focus & Depth of Field
+
+ Stars are at infinity — so astro DoF is less about "how much is sharp" and more about two numbers: nailing infinity focus, and how long you can expose before stars trail.
+
+ Focusing at infinity, properly
+
+ The lens infinity mark is a lie — most lenses overshoot infinity (they're built to focus slightly past it for thermal drift), so trusting the mark gives you slightly soft stars. Do this instead:
+
+ Manual focus + live view at 10× on the brightest star you can find.
+
+ Turn the focus ring until the star is the smallest, tightest point — not a disk with a halo.
+
+ Focus-peaking (red highlight) makes this easy on mirrorless; tape the ring afterward if it drifts.
+
+ For lenses with no stars visible (city glow), focus on the moon, a distant light, or use the lens's hard infinity stop then back off 1–2 mm of ring travel.
+
+ A subtle point: a wide-angle at f/2.8 focused at 25 m instead of infinity still looks sharp because the hyperfocal distance is ~7 m — but a 135 mm lens at f/2 focused 1 m off infinity is visibly soft. Check your hyperfocal to know how much forgiveness you have.
+
+ The f-ratio trade-off (Milky Way)
+
+ Astro landscapes run the classic DoF trade-off against light collection:
+
+ Aperture DoF at 24 mm, 5 m focus (FF) Astro verdict 
+
+ f/1.4 ~4.0 m Maximum light, foreground risk — focus-stack foreground + sky 
+
+ f/2 ~6.6 m The classic Milky Way choice 
+
+ f/2.8 ~13.5 m Forgiving, still fast; hyperfocal ≈ 7 m 
+
+ f/4 ~620 m (≈ ∞) Half the light of f/2 — needs ISO or stacking 
+
+ The pro workflow: shoot the sky at f/1.8–f/2.8 focused at infinity, then shoot a foreground frame focused at 3–5 m and blend — you get maximum star light and a sharp foreground. That's DoF math applied to astro.
+
+ How long before stars trail?
+
+ Stars move ~15°/hour. The maximum exposure before visible trails depends on your lens and sensor:
+
+ 500 rule: 500 ÷ (focal × crop) — fine for old sensors, trails on 24 MP+.
+
+ 300 rule: 300 ÷ (focal × crop) — safer on modern high-res bodies.
+
+ NPF rule: (35·N + 30·p) ÷ focal equiv — accounts for pixel size and aperture; the accurate choice.
+
+ Example: 24 mm on a full-frame 45 MP camera (4.4 µm pixels) at f/2.8 → NPF ≈ (35×2.8 + 30×4.4) ÷ 24 = 9.6 s , vs the 500 rule's optimistic 20.8 s. Get your exact numbers in the star trails calculator .
+
+ Related tools & guides
+
+ Star Trails Calculator
+ 500/400/300 + NPF max exposures for your camera.
+ Open → 
+ Pixel Scale Calculator
+ Is your sampling matched to your optics and skies?
+ Open → 
+ Exposure Equivalence
+ Balance ISO vs shutter to hit the exposure.
+ Open → 
+
+ Astro focus FAQ
+
+ Should I use autofocus at night? AF usually fails on stars (too little contrast). Focus manually with live-view magnification; some newer cameras have a "star AF" mode that works — worth testing, but manual is the reliable default.
+
+ Why do my stars look like donuts? That's usually focus slightly off (the classic halo) or coma in the lens corners. Fix focus first; if corners still show it, stop down one stop and re-check.
+
+ Do I need a star tracker? Not for wide-field Milky Way (the 500/NPF times are enough). For deep-sky through a telescope — yes, tracking is required, and then the exposure-time question becomes about noise, not trails.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/depth-of-field-landscape.html
+TITLE: Depth of Field for Landscape Photography | ShutterMath
+SUMMARY: Depth of field for landscape photography: hyperfocal focusing, the f-stop sweet spot (f/8-f/11), focus stacking, and the real numbers for common wide-angle.
+
+Home › Guides › Landscape DoF 
+ Depth of Field for Landscape Photography
+
+ Landscape is the one genre where you usually want maximum depth of field. Here's the math that gets you there without guessing.
+
+ The classic answer: hyperfocal focusing
+
+ Focus at the hyperfocal distance and everything from half of it to infinity is acceptably sharp. For a 24 mm lens at f/8 on full frame (CoC 0.029 mm):
+
+ Hyperfocal distance: 2.5 m — focus at ~2.5 m
+
+ Sharp from 1.25 m to infinity 
+
+ Stop down to f/11 and the hyperfocal distance drops to 1.84 m (sharp from 0.92 m). On APS-C the same lens at f/8 gives a hyperfocal distance of ~1.7 m — even easier. The full pre-computed table is in the hyperfocal distance chart , and the exact value for your camera is one click away in the hyperfocal calculator .
+
+ The f-stop sweet spot
+
+ Stopping down increases depth of field, but diffraction softens detail. The practical sweet spot:
+
+ Format Sweet spot Diffraction visible beyond 
+
+ Full frame f/8 – f/11 ~f/16 (avoid f/22 unless necessary) 
+
+ APS-C f/5.6 – f/8 ~f/11 
+
+ Micro 4/3 f/4 – f/5.6 ~f/8 
+
+ Phone f/1.8 – f/2.8 (fixed) n/a — diffraction-free zone 
+
+ If f/8 on your format doesn't give enough depth of field, don't chase f/22 — use focus stacking instead (below).
+
+ When hyperfocal isn't enough
+
+ Two situations break the hyperfocal approach:
+
+ A very close foreground (a rock or flower 0.3 m from the lens) — even f/11 can't hold it and the horizon together. Set focus on the foreground and let the background blur, or…
+
+ Focus stacking : shoot a series focused from near to far (typically 3–7 frames at f/8, moving the focus point ~⅓ of the DoF depth between shots) and blend in post. This gives f/8 sharpness at f/22 depth — the standard approach for pro landscape work.
+
+ Practical workflow
+
+ Compose, then pick your aperture: f/8 on full frame, f/5.6–f/8 on APS-C .
+
+ Look up the hyperfocal distance (chart or calculator ) and set manual focus there.
+
+ If a foreground element sits closer than half the hyperfocal distance, decide: foreground-focused shot, or a focus stack.
+
+ Shoot, then check at 100%: if the nearest element is soft, focus nearer and reshoot — better than "fixing in post".
+
+ Related tools & guides
+
+ Hyperfocal Calculator
+ Your exact hyperfocal distance in one click.
+ Open → 
+ Hyperfocal Distance Chart
+ Pre-computed tables for all common formats.
+ Read → 
+ ND Filter Calculator
+ Long exposures for water and skies pair perfectly with f/8.
+ Open → 
+
+ Landscape DoF FAQ
+
+ Should I focus at infinity instead of hyperfocal? Only if the scene is entirely distant (mountains across a valley). Focusing at infinity wastes the depth of field in front of you — hyperfocal gives you sharp foregrounds for free.
+
+ Is the hyperfocal distance accurate on modern lenses? Most mirrorless lenses no longer print a distance scale, so set focus by looking at the lens-distance readout, using focus peaking, or by focusing on an object at the computed distance. The math is exact; your focus mechanism is the variable.
+
+ Do I need a tripod for hyperfocal landscape shots? For maximum sharpness, yes — it lets you use the sweet-spot aperture without raising ISO, and it's essential for focus stacking. A tripod plus 2-second timer (or remote) removes mirror/camera-shake variables entirely.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/depth-of-field-macro.html
+TITLE: Depth of Field for Macro Photography | ShutterMath
+SUMMARY: Macro depth of field explained: why DoF shrinks with magnification, effective aperture, and the focus-stacking workflow that gets whole subjects sharp at 1:1 and.
+
+Home › Guides › Macro DoF 
+ Depth of Field for Macro Photography
+
+ Macro is where depth of field stops being "a couple of meters" and becomes fractions of a millimeter. The math is different, the tools are different, and the workflow is focus stacking.
+
+ The magnification problem
+
+ At macro distances, depth of field follows DoF ≈ 2·N·c·(m+1)/m² , where m is magnification (1:1 = 1.0). The m² term is the killer — each doubling of magnification quarters the depth of field:
+
+ Magnification DoF at f/8 (full frame) Effective aperture 
+
+ 1:4 (0.25×) ~9.3 mm f/10 
+
+ 1:2 (0.5×) ~2.8 mm f/12 
+
+ 1:1 (1.0×) ~0.93 mm f/16 
+
+ 2:1 (2.0×) ~0.35 mm f/24 
+
+ 3:1 (3.0×) ~0.21 mm f/32 
+
+ An insect's eye sits maybe 1–2 mm from its wing — a 1:1 shot at f/8 can't hold both. And the effective aperture column shows the second problem: at 1:1, f/8 set is f/16 effective, losing two stops of light and gaining diffraction. Your exact numbers are in the macro DoF calculator .
+
+ Why stopping down fails
+
+ At 1:1, going from f/8 to f/16 doubles the DoF (0.93 → 1.86 mm) but the effective aperture hits f/32 — where diffraction has already softened everything to a similar blur as the DoF gain. The image looks "sharp" nowhere. This is why pro macro is done at f/5.6–f/11 with stacking, not f/32 single shots.
+
+ The focus-stacking workflow
+
+ Rig it: camera on a rail (or tripod with a focusing rail); subject still. Focus ring moves the lens, the rail moves the camera — for 1:1+ use the rail.
+
+ Shoot wide-ish: f/5.6–f/11 (f/8 typical) to minimize diffraction while keeping a usable step size.
+
+ Step by 80% of the DoF: the calculator's stacking step output is exactly this — move focus that far between frames. Overlap 20–30% so the stacking software has matching detail.
+
+ Merge: Helicon Focus or Photoshop (Edit → Auto-Blend Layers). Review edges for halos; if present, use a smaller step.
+
+ A 3 mm-deep subject at 1:1 with ~0.9 mm DoF needs roughly 4–6 frames . Live subjects (breathing, swaying) force a compromise: wider aperture, faster shutter, flash, and a smaller stack.
+
+ Lighting and exposure at high magnification
+
+ Effective aperture light loss: your camera meters through the lens so exposure is usually right — but manual flash math must add the stops (at 1:1, add 2 stops).
+
+ Diffusion beats power: a diffused flash near the lens (ring or twin-flash) gives the short, motion-freezing light macro needs; continuous light means slower shutter and more shake.
+
+ Focus at working aperture: focus wide open to see, stop down to shoot, or use focus peaking if available.
+
+ Related tools & guides
+
+ Macro DoF Calculator
+ DoF, effective aperture, and stacking step for your magnification.
+ Open → 
+ Shutter Speed Chart
+ Handheld macro needs 1/200 s or faster.
+ Read → 
+ Exposure Equivalence
+ Recompute exposure when effective aperture bites.
+ Open → 
+
+ Macro DoF FAQ
+
+ Do I need a macro lens for focus stacking? No — extension tubes, close-up filters, or reversing rings on a normal lens all work. What matters is controlled focus movement: a rail for 1:1+, or a lens with a smooth focus ring for lower magnifications.
+
+ Why does my 100 mm macro show more DoF than a 60 mm at the same magnification? At the same magnification, focal length mostly cancels out of the macro DoF formula — the difference you see is usually working distance (100 mm lets you shoot from farther, which helps light and skittish subjects, not DoF).
+
+ Can I stack handheld shots? Software can align handheld stacks, but success drops fast at 1:1 — the alignment quality suffers and steps become uneven. Tripod + rail until the subject forces you handheld, then burst-shoot and hope for 2–4 usable frames.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/depth-of-field-portrait.html
+TITLE: Depth of Field for Portrait Photography | ShutterMath
+SUMMARY: Portrait depth of field: how much background blur do you actually need, which lens/aperture/distance combos deliver it, and the real numbers for 50mm, 85mm and.
+
+Home › Guides › Portrait DoF 
+ Depth of Field for Portrait Photography
+
+ Portraits are the opposite of landscapes: you want shallow depth of field, placed so the eyes are sharp and the rest falls away. The numbers make it predictable.
+
+ How much DoF is actually right?
+
+ The classic portrait target is both eyes sharp — about 3–8 cm of depth of field at the eyes for a head-and-shoulders shot. Much less and one eye blurs; much more and the background starts competing with the subject.
+
+ Here's the real math (full frame, CoC 0.029 mm, subject at 2 m):
+
+ Lens Aperture Total DoF at 2 m Result 
+
+ 50 mm f/1.8 ~16 cm Good — safe for head-and-shoulders 
+
+ 85 mm f/1.8 ~5.5 cm Classic — both eyes sharp, hair softens 
+
+ 85 mm f/2.8 ~9 cm Forgiving group/candid choice 
+
+ 135 mm f/2 ~2 cm Very thin — focus on the near eye, recompose 
+
+ These come straight from the depth of field calculator — change the subject distance to 3 m and every number roughly doubles.
+
+ The three levers (and their limits)
+
+ Focal length: 85–135 mm compresses perspective and magnifies background blur. 50 mm needs to be close — which distorts features at very short distances.
+
+ Aperture: f/1.2–f/2 gives the thinnest DoF but the thinnest margin for focus error — at f/1.2 a 2 cm shift in the subject's pose can move their eyes out of the sharp zone.
+
+ Subject-to-background distance: the most underrated lever. Move the subject 2 m from the background and even f/4 produces creamy separation; with the subject against a wall, no lens can save it.
+
+ Focus technique for thin DoF
+
+ Focus on the near eye (single-point AF, eye-detection on mirrorless) — the near eye is what viewers lock onto.
+
+ Shoot at the widest aperture that keeps both eyes sharp for the framing — check the DoF number, don't guess.
+
+ Watch the ⅓–⅔ rule: about ⅓ of the DoF sits in front of the focus point, ⅔ behind — so focus slightly toward you if the far eye matters.
+
+ If using a 135 mm at f/2, shoot a quick burst and pick the sharpest frame — a 2 cm DoF moves with the subject's sway.
+
+ APS-C and Micro 4/3 portraits
+
+ On APS-C, an 85 mm f/1.8 at 2 m gives ~4 cm of DoF — still perfect for portraits; the crop just changes your working distance for the same framing (step back to ~2.7 m for head-and-shoulders, which widens DoF to ~7 cm). On Micro 4/3, a 45 mm f/1.8 behaves like a 90 mm full-frame field of view with roughly the DoF of an f/3.6 full-frame lens — the format's famous "two-stop" penalty. Same framing, more DoF than full frame; you compensate with faster lenses or more background distance.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ Your exact near/far limits for any lens, distance, and camera.
+ Open → 
+ Flash Guide Number Calculator
+ Keep the aperture you want and still get correct flash exposure.
+ Open → 
+ Camera Sensor Sizes
+ Why format changes the "look" of the same lens.
+ Read → 
+
+ Portrait DoF FAQ
+
+ Why do my f/1.8 portraits have one eye sharp and the other soft? At typical 85 mm f/1.8 portrait distances your total DoF is only ~5 cm — less than the distance between a subject's eyes when they turn their head. Solution: stop to f/2.8 (DoF ~9 cm) or ask for a slight profile angle so both eyes are in the same plane.
+
+ Does a 50 mm f/1.2 give the same blur as an 85 mm f/1.8? At the same subject framing and distance-to-background, no — background blur scales mostly with focal length and subject-to-background distance. The 85 mm compresses and blurs more, which is why it's the classic portrait focal length.
+
+ Is background blur the same as depth of field? Related but not identical. DoF is the sharp zone in front of/behind the subject; background blur is how strongly a background beyond the DoF falls off. A long lens can have both shallow DoF and heavy background blur; a fast wide lens has shallow DoF but mild background blur.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/depth-of-field-real-estate.html
+TITLE: Depth of Field for Real Estate Photography | ShutterMath
+SUMMARY: Real estate photography depth of field: the f/8 sweet spot, focus at the right third point, and why interior sharpness from wall to wall is a solved math problem.
+
+Home › Guides › Real Estate DoF 
+ Depth of Field for Real Estate Photography
+
+ Real estate is the opposite of portraits: you want everything sharp from the countertop to the back window. Good news — it's a solved math problem, and the answer is usually f/8.
+
+ The f/8 rule, with math
+
+ A 16 mm lens on full frame at f/8 has a hyperfocal distance of about 1.1 m — focus at 1.1 m and everything from 0.55 m to infinity is sharp. That covers an entire room. On APS-C, a 10–12 mm lens at f/8 is similar (~0.7–0.9 m hyperfocal). Get exact values in the hyperfocal calculator or the chart .
+
+ Focal length (FF) Hyperfocal @ f/8 Sharp from 
+
+ 14 mm 0.86 m 0.43 m → ∞ 
+
+ 16 mm 1.13 m 0.56 m → ∞ 
+
+ 20 mm 1.75 m 0.88 m → ∞ 
+
+ 24 mm 2.52 m 1.26 m → ∞ 
+
+ That's why f/8 is the real-estate default : f/5.6 risks a soft near edge, and f/11–f/16 buys almost nothing (the near limit barely moves) while adding diffraction. f/8 is the diffraction-free sweet spot with more than enough DoF.
+
+ Where to focus
+
+ The classic method: focus ⅓ into the room (not the back wall, not the floor). At hyperfocal it doesn't matter — focus at H and everything from H/2 to infinity is sharp. Practical workflow:
+
+ Compose the room, set f/8, focus on a point about ⅓ of the way into the frame (a chair arm, the middle of a counter).
+
+ If your lens has no distance scale (most mirrorless), focus-peak on something at the ⅓ point or use the hyperfocal number with the focus ring's readout.
+
+ For large rooms or angled shots where the nearest element is closer than H/2, focus on the nearest element and stop to f/11 if needed — or take two focus-bracketed shots.
+
+ Technique details that matter
+
+ Tripod, always. At f/8 and ISO 100 you'll be at 1/4–1 s indoors — no handheld margin. Level the camera (bubble or electronic level) so verticals stay straight.
+
+ HDR/Exposure blending: windows blow out at any single exposure. Shoot 3–5 brackets (±2 EV) and blend — the DoF math is identical for every frame, so brackets stack cleanly.
+
+ Vertical framing for tight spaces (bathrooms): tilt shift? No — keep the camera level and stitch two vertical frames later. Tilting the camera up ruins verticals even if DoF still covers the room.
+
+ Flash or ambient? HDR ambient is the norm; flash adds punch but complicates DoF (flash falloff needs higher ISO or more power, not aperture changes).
+
+ Related tools & guides
+
+ Hyperfocal Calculator
+ Your exact focus point for any lens + camera.
+ Open → 
+ Field of View Calculator
+ Pick the lens that fits the room you're shooting.
+ Open → 
+ Hyperfocal Chart
+ Pre-computed values, printable.
+ Read → 
+
+ Real estate DoF FAQ
+
+ Why does my real estate shot look sharp in the middle but soft at the edges? Lens field curvature or corner softness, not DoF — wide lenses are softest at the edges wide open. Stop to f/8–f/11 (where the lens is sharpest) and check if the corners recover; if not, it's lens quality, and no aperture change fixes it.
+
+ Should I shoot f/11 to be safe? Only if the nearest element is inside H/2. On full frame with a 16 mm lens that means closer than ~0.55 m — rare in a composed room shot. f/11's diffraction starts to soften overall detail for zero practical DoF gain. Use f/8 and a correct focus point.
+
+ Does a tilt-shift lens change the DoF math? Yes — tilt changes the plane of focus, so a tilted lens can have a "wedge" of sharpness covering a floor-to-ceiling scene at f/5.6 where a regular lens would need f/8+. The hyperfocal numbers here apply to regular (non-tilted) lenses.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/depth-of-field-sports.html
+TITLE: Depth of Field for Sports &amp; Action Photography | ShutterMath
+SUMMARY: Sports photography DoF and shutter strategy: freeze motion, track subjects, and keep the sharp zone where it matters — with real numbers for telephoto action.
+
+Home › Guides › Sports DoF 
+ Depth of Field for Sports & Action Photography
+
+ Action photography fights two battles at once: shutter speed fast enough to freeze motion, and aperture wide enough for light — which leaves you with a very thin depth of field that's moving. Here's how to win both.
+
+ The numbers you're fighting
+
+ A 70–200 mm f/2.8 on full frame, subject at 20 m, shot at f/2.8:
+
+ Focal length Aperture Total DoF @ 20 m Reality 
+
+ 70 mm f/2.8 ~2.1 m Forgiving — most of an athlete fits 
+
+ 135 mm f/2.8 ~0.57 m Eyes-to-knees tight; tracking must be good 
+
+ 200 mm f/2.8 ~0.26 m Sharp face, blurred everything else — focus must be nailed 
+
+ 200 mm f/5.6 ~0.52 m Double the DoF, one stop less light 
+
+ At 200 mm, a runner moving toward you can shift 0.5 m between your focus lock and shutter — that's the entire DoF. Run your own numbers for your lens and distance.
+
+ The shutter speed partner
+
+ DoF decisions only matter if motion is frozen. From the shutter speed chart : 1/1000–1/2000 s for most sports, 1/2000+ for birds in flight and ball-in-frame moments. Sports shooters live in the exposure triangle: wide aperture for light, fast shutter for freeze, ISO as the balancing valve (modern bodies handle 3200–6400 well — see the exposure calculator ).
+
+ Keeping the sharp zone on the subject
+
+ Track with AF-C and your best eye/face detection — let the camera chase the eye, not the jersey.
+
+ Prefocus at a known spot (goal line, finish line, hoop) and shoot when the action arrives — zero tracking risk, razor sharp.
+
+ Anticipate the plane: subjects moving across the frame keep a constant distance (DoF stays put); subjects moving toward you blow through the DoF — that's when burst + tracking matters most.
+
+ Stop down when you can: f/4 on a 200 mm gives ~0.37 m at 20 m and works in good light — a big margin gain for one stop of ISO.
+
+ Panning: blur as a tool
+
+ Sometimes you want the background blurred but the subject sharp: pan with the subject at 1/60–1/125 s. The DoF still applies (keep the subject in the sharp zone), but the background blur comes from motion, not aperture — so you can shoot f/5.6–f/8 for a wider safety margin.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ Your exact DoF at the distances you shoot.
+ Open → 
+ Shutter Speed Chart
+ Freeze speeds for every sport and subject.
+ Read → 
+ Exposure Equivalence
+ Balance f/4 vs f/2.8 vs ISO for the light you have.
+ Open → 
+
+ Sports DoF FAQ
+
+ Why are my action shots sharp on the jersey but soft on the face? Thin DoF + tracking lag. At 200 mm f/2.8 the sharp zone can be ~25 cm — enough for a face, not a face + chest. Use eye-detection AF, shoot at the peak of the action, and consider f/4 for a bigger margin.
+
+ Should I use back-button focus for sports? Many pros do — it separates focus from shutter so you can track continuously and shoot without refocusing. It's a habit change, but it removes the shutter-press refocus delay.
+
+ Is a 2.8 zoom worth it over f/4 for indoor sports? Indoors, one stop is often the difference between ISO 6400 and 12800. If you shoot gyms and arenas, f/2.8 (or primes) is worth it; outdoors in daylight, f/4 zooms are lighter and equally sharp.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/dof-table-135mm.html
+TITLE: 135mm Depth of Field Table — Near &amp; Far Limits | ShutterMath
+SUMMARY: 135mm depth of field table: near and far limits at f/1.2–f/8 and focus distances 0.5–10 m, for full frame and APS-C.
+
+Home › Guides › 135mm DoF Table 
+ 135mm Depth of Field Table
+
+ Near limit – far limit (and total depth of field) for a 135mm lens at every common aperture and focus distance. Compute your exact values with the depth of field calculator .
+
+ Full Frame (CoC 0.0288 mm) 
+
+ Focus distance f/1.2 f/1.4 f/1.8 f/2 f/2.8 f/4 f/5.6 f/8 
+
+ 0.5 m 50 cm – 50 cm (1 mm) 50 cm – 50 cm (1 mm) 50 cm – 50 cm (1 mm) 50 cm – 50 cm (1 mm) 50 cm – 50 cm (2 mm) 50 cm – 50 cm (2 mm) 50 cm – 50 cm (3 mm) 50 cm – 50 cm (5 mm) 
+ 1 m 100 cm – 1.00 m (3 mm) 100 cm – 1.00 m (4 mm) 100 cm – 1.00 m (5 mm) 100 cm – 1.00 m (5 mm) 100 cm – 1.00 m (8 mm) 99 cm – 1.01 m (11 mm) 99 cm – 1.01 m (15 mm) 99 cm – 1.01 m (22 mm) 
+ 2 m 1.99 m – 2.01 m (14 mm) 1.99 m – 2.01 m (17 mm) 1.99 m – 2.01 m (21 mm) 1.99 m – 2.01 m (24 mm) 1.98 m – 2.02 m (33 mm) 1.98 m – 2.02 m (47 mm) 1.97 m – 2.03 m (66 mm) 1.95 m – 2.05 m (94 mm) 
+ 3 m 2.98 m – 3.02 m (33 mm) 2.98 m – 3.02 m (38 mm) 2.98 m – 3.02 m (49 mm) 2.97 m – 3.03 m (54 mm) 2.96 m – 3.04 m (76 mm) 2.95 m – 3.06 m (11 cm) 2.93 m – 3.08 m (15 cm) 2.90 m – 3.11 m (22 cm) 
+ 5 m 4.95 m – 5.05 m (92 mm) 4.95 m – 5.05 m (11 cm) 4.93 m – 5.07 m (14 cm) 4.92 m – 5.08 m (15 cm) 4.89 m – 5.11 m (22 cm) 4.85 m – 5.16 m (31 cm) 4.79 m – 5.23 m (43 cm) 4.71 m – 5.33 m (62 cm) 
+ 10 m 9.82 m – 10 m (37 cm) 9.79 m – 10 m (44 cm) 9.73 m – 10 m (56 cm) 9.70 m – 10 m (62 cm) 9.58 m – 10 m (88 cm) 9.41 m – 11 m (1.25 m) 9.20 m – 11 m (1.76 m) 8.89 m – 11 m (2.53 m) 
+
+ APS-C (Sony/Nikon/Fuji) (CoC 0.0188 mm) 
+
+ Focus distance f/1.2 f/1.4 f/1.8 f/2 f/2.8 f/4 f/5.6 f/8 
+
+ 0.5 m 50 cm – 50 cm (0 mm) 50 cm – 50 cm (1 mm) 50 cm – 50 cm (1 mm) 50 cm – 50 cm (1 mm) 50 cm – 50 cm (1 mm) 50 cm – 50 cm (2 mm) 50 cm – 50 cm (2 mm) 50 cm – 50 cm (3 mm) 
+ 1 m 100 cm – 1.00 m (2 mm) 100 cm – 1.00 m (2 mm) 100 cm – 1.00 m (3 mm) 100 cm – 1.00 m (4 mm) 100 cm – 1.00 m (5 mm) 100 cm – 1.00 m (7 mm) 100 cm – 1.01 m (10 mm) 99 cm – 1.01 m (14 mm) 
+ 2 m 2.00 m – 2.00 m (9 mm) 1.99 m – 2.01 m (11 mm) 1.99 m – 2.01 m (14 mm) 1.99 m – 2.01 m (15 mm) 1.99 m – 2.01 m (22 mm) 1.98 m – 2.02 m (31 mm) 1.98 m – 2.02 m (43 mm) 1.97 m – 2.03 m (62 mm) 
+ 3 m 2.99 m – 3.01 m (21 mm) 2.99 m – 3.01 m (25 mm) 2.98 m – 3.02 m (32 mm) 2.98 m – 3.02 m (35 mm) 2.98 m – 3.03 m (50 mm) 2.96 m – 3.04 m (71 mm) 2.95 m – 3.05 m (99 mm) 2.93 m – 3.07 m (14 cm) 
+ 5 m 4.97 m – 5.03 m (60 mm) 4.97 m – 5.04 m (70 mm) 4.96 m – 5.05 m (90 mm) 4.95 m – 5.05 m (10 cm) 4.93 m – 5.07 m (14 cm) 4.90 m – 5.10 m (20 cm) 4.86 m – 5.14 m (28 cm) 4.81 m – 5.21 m (40 cm) 
+ 10 m 9.88 m – 10 m (24 cm) 9.86 m – 10 m (29 cm) 9.82 m – 10 m (37 cm) 9.80 m – 10 m (41 cm) 9.72 m – 10 m (57 cm) 9.61 m – 10 m (82 cm) 9.46 m – 11 m (1.14 m) 9.25 m – 11 m (1.64 m) 
+
+ How to read this table
+
+ Rows are focus distances, columns are apertures. Each cell shows near limit – far limit (total depth of field in brackets). Focus at the distance, and everything between near and far is acceptably sharp at the standard circle of confusion (sensor diagonal ÷ 1500).
+
+ Two patterns to notice: closing the aperture pushes the far limit out faster than the near limit moves (⅓ in front, ⅔ behind), and moving your focus distance further away multiplies the depth of field roughly with the square of distance.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ Your exact near/far limits for any camera, lens, and distance.
+ Open → 
+ Hyperfocal Distance Chart
+ Pre-computed hyperfocal values for every common format.
+ Read → 
+ Circle of Confusion Explained
+ Which CoC standard these tables use, and when to override it.
+ Read → 
+
+ FAQ
+
+ Are these tables exact for my lens? They use the standard formula H = f²/(N·c) + f with CoC = sensor diagonal ÷ 1500, which matches the classic published tables (dofmaster-style values). Real-world results vary slightly with lens breathing, focus accuracy, and your viewing standard — treat them as planning numbers, not promises.
+
+ Why is the depth of field different on APS-C? Two reasons: the smaller sensor needs a shorter lens for the same framing (which we account for by using the same focal length — so on APS-C you're effectively seeing a tighter crop), and its circle of confusion is smaller, which shortens the near/far spread. For same-framing comparisons, mentally multiply the APS-C aperture by 1.5.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/dof-table-24mm.html
+TITLE: 24mm Depth of Field Table — Near &amp; Far Limits | ShutterMath
+SUMMARY: 24mm depth of field table: near and far limits at f/1.2–f/8 and focus distances 0.5–10 m, for full frame and APS-C.
+
+Home › Guides › 24mm DoF Table 
+ 24mm Depth of Field Table
+
+ Near limit – far limit (and total depth of field) for a 24mm lens at every common aperture and focus distance. Compute your exact values with the depth of field calculator .
+
+ Full Frame (CoC 0.0288 mm) 
+
+ Focus distance f/1.2 f/1.4 f/1.8 f/2 f/2.8 f/4 f/5.6 f/8 
+
+ 0.5 m 49 cm – 51 cm (29 mm) 48 cm – 52 cm (33 mm) 48 cm – 52 cm (43 mm) 48 cm – 52 cm (48 mm) 47 cm – 54 cm (67 mm) 46 cm – 55 cm (96 mm) 44 cm – 58 cm (13 cm) 42 cm – 62 cm (20 cm) 
+ 1 m 94 cm – 1.06 m (12 cm) 94 cm – 1.07 m (14 cm) 92 cm – 1.10 m (18 cm) 91 cm – 1.11 m (20 cm) 88 cm – 1.16 m (28 cm) 84 cm – 1.24 m (40 cm) 79 cm – 1.37 m (59 cm) 72 cm – 1.63 m (91 cm) 
+ 2 m 1.79 m – 2.27 m (48 cm) 1.76 m – 2.32 m (56 cm) 1.70 m – 2.43 m (73 cm) 1.67 m – 2.49 m (82 cm) 1.57 m – 2.76 m (1.20 m) 1.43 m – 3.30 m (1.87 m) 1.29 m – 4.45 m (3.16 m) 1.12 m – 9.26 m (8.14 m) 
+ 3 m 2.55 m – 3.65 m (1.11 m) 2.48 m – 3.79 m (1.31 m) 2.37 m – 4.10 m (1.73 m) 2.31 m – 4.27 m (1.96 m) 2.12 m – 5.14 m (3.02 m) 1.88 m – 7.38 m (5.49 m) 1.64 m – 18 m (16 m) 1.26 m – ∞ 
+ 5 m 3.85 m – 7.13 m (3.28 m) 3.71 m – 7.67 m (3.96 m) 3.45 m – 9.05 m (5.60 m) 3.34 m – 9.94 m (6.60 m) 2.95 m – 16 m (13 m) 2.51 m – 622 m (620 m) 1.79 m – ∞ 1.26 m – ∞ 
+ 10 m 6.26 m – 25 m (19 m) 5.89 m – 33 m (27 m) 5.27 m – 97 m (92 m) 5.01 m – 3070 m (3065 m) 3.58 m – ∞ 2.51 m – ∞ 1.79 m – ∞ 1.26 m – ∞ 
+
+ APS-C (Sony/Nikon/Fuji) (CoC 0.0188 mm) 
+
+ Focus distance f/1.2 f/1.4 f/1.8 f/2 f/2.8 f/4 f/5.6 f/8 
+
+ 0.5 m 49 cm – 51 cm (19 mm) 49 cm – 51 cm (22 mm) 49 cm – 51 cm (28 mm) 48 cm – 52 cm (31 mm) 48 cm – 52 cm (43 mm) 47 cm – 53 cm (62 mm) 46 cm – 55 cm (87 mm) 45 cm – 57 cm (13 cm) 
+ 1 m 96 cm – 1.04 m (77 mm) 96 cm – 1.05 m (89 mm) 95 cm – 1.06 m (11 cm) 94 cm – 1.07 m (13 cm) 92 cm – 1.10 m (18 cm) 89 cm – 1.15 m (26 cm) 85 cm – 1.22 m (37 cm) 80 cm – 1.34 m (54 cm) 
+ 2 m 1.86 m – 2.17 m (31 cm) 1.83 m – 2.20 m (36 cm) 1.79 m – 2.26 m (47 cm) 1.77 m – 2.30 m (52 cm) 1.69 m – 2.44 m (75 cm) 1.59 m – 2.69 m (1.10 m) 1.47 m – 3.12 m (1.65 m) 1.32 m – 4.11 m (2.78 m) 
+ 3 m 2.69 m – 3.40 m (71 cm) 2.64 m – 3.47 m (83 cm) 2.55 m – 3.63 m (1.08 m) 2.51 m – 3.72 m (1.21 m) 2.36 m – 4.12 m (1.76 m) 2.16 m – 4.90 m (2.73 m) 1.95 m – 6.55 m (4.60 m) 1.69 m – 13 m (11 m) 
+ 5 m 4.18 m – 6.21 m (2.02 m) 4.07 m – 6.47 m (2.40 m) 3.87 m – 7.06 m (3.19 m) 3.78 m – 7.40 m (3.63 m) 3.44 m – 9.16 m (5.72 m) 3.03 m – 14 m (11 m) 2.62 m – 53 m (50 m) 1.93 m – ∞ 
+ 10 m 7.19 m – 16 m (9.21 m) 6.87 m – 18 m (11 m) 6.31 m – 24 m (18 m) 6.06 m – 29 m (23 m) 5.24 m – 111 m (106 m) 3.84 m – ∞ 2.75 m – ∞ 1.93 m – ∞ 
+
+ How to read this table
+
+ Rows are focus distances, columns are apertures. Each cell shows near limit – far limit (total depth of field in brackets). Focus at the distance, and everything between near and far is acceptably sharp at the standard circle of confusion (sensor diagonal ÷ 1500).
+
+ Two patterns to notice: closing the aperture pushes the far limit out faster than the near limit moves (⅓ in front, ⅔ behind), and moving your focus distance further away multiplies the depth of field roughly with the square of distance.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ Your exact near/far limits for any camera, lens, and distance.
+ Open → 
+ Hyperfocal Distance Chart
+ Pre-computed hyperfocal values for every common format.
+ Read → 
+ Circle of Confusion Explained
+ Which CoC standard these tables use, and when to override it.
+ Read → 
+
+ FAQ
+
+ Are these tables exact for my lens? They use the standard formula H = f²/(N·c) + f with CoC = sensor diagonal ÷ 1500, which matches the classic published tables (dofmaster-style values). Real-world results vary slightly with lens breathing, focus accuracy, and your viewing standard — treat them as planning numbers, not promises.
+
+ Why is the depth of field different on APS-C? Two reasons: the smaller sensor needs a shorter lens for the same framing (which we account for by using the same focal length — so on APS-C you're effectively seeing a tighter crop), and its circle of confusion is smaller, which shortens the near/far spread. For same-framing comparisons, mentally multiply the APS-C aperture by 1.5.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/dof-table-35mm.html
+TITLE: 35mm Depth of Field Table — Near &amp; Far Limits | ShutterMath
+SUMMARY: 35mm depth of field table: near and far limits at f/1.2–f/8 and focus distances 0.5–10 m, for full frame and APS-C.
+
+Home › Guides › 35mm DoF Table 
+ 35mm Depth of Field Table
+
+ Near limit – far limit (and total depth of field) for a 35mm lens at every common aperture and focus distance. Compute your exact values with the depth of field calculator .
+
+ Full Frame (CoC 0.0288 mm) 
+
+ Focus distance f/1.2 f/1.4 f/1.8 f/2 f/2.8 f/4 f/5.6 f/8 
+
+ 0.5 m 49 cm – 51 cm (13 mm) 49 cm – 51 cm (15 mm) 49 cm – 51 cm (20 mm) 49 cm – 51 cm (22 mm) 49 cm – 52 cm (31 mm) 48 cm – 52 cm (44 mm) 47 cm – 53 cm (61 mm) 46 cm – 55 cm (88 mm) 
+ 1 m 97 cm – 1.03 m (55 mm) 97 cm – 1.03 m (64 mm) 96 cm – 1.04 m (82 mm) 96 cm – 1.05 m (91 mm) 94 cm – 1.07 m (13 cm) 92 cm – 1.10 m (18 cm) 89 cm – 1.15 m (26 cm) 85 cm – 1.22 m (37 cm) 
+ 2 m 1.89 m – 2.12 m (22 cm) 1.88 m – 2.14 m (26 cm) 1.85 m – 2.18 m (33 cm) 1.83 m – 2.20 m (37 cm) 1.77 m – 2.30 m (53 cm) 1.69 m – 2.45 m (76 cm) 1.59 m – 2.70 m (1.11 m) 1.46 m – 3.16 m (1.70 m) 
+ 3 m 2.77 m – 3.27 m (51 cm) 2.73 m – 3.32 m (59 cm) 2.67 m – 3.43 m (76 cm) 2.63 m – 3.49 m (85 cm) 2.51 m – 3.73 m (1.22 m) 2.35 m – 4.16 m (1.81 m) 2.16 m – 4.91 m (2.75 m) 1.93 m – 6.74 m (4.81 m) 
+ 5 m 4.39 m – 5.81 m (1.43 m) 4.30 m – 5.98 m (1.68 m) 4.13 m – 6.33 m (2.20 m) 4.05 m – 6.52 m (2.47 m) 3.77 m – 7.42 m (3.66 m) 3.41 m – 9.36 m (5.95 m) 3.03 m – 14 m (11 m) 2.59 m – 71 m (68 m) 
+ 10 m 7.80 m – 14 m (6.11 m) 7.53 m – 15 m (7.35 m) 7.03 m – 17 m (10 m) 6.81 m – 19 m (12 m) 6.04 m – 29 m (23 m) 5.17 m – 155 m (150 m) 3.81 m – ∞ 2.67 m – ∞ 
+
+ APS-C (Sony/Nikon/Fuji) (CoC 0.0188 mm) 
+
+ Focus distance f/1.2 f/1.4 f/1.8 f/2 f/2.8 f/4 f/5.6 f/8 
+
+ 0.5 m 50 cm – 50 cm (9 mm) 50 cm – 51 cm (10 mm) 49 cm – 51 cm (13 mm) 49 cm – 51 cm (14 mm) 49 cm – 51 cm (20 mm) 49 cm – 51 cm (29 mm) 48 cm – 52 cm (40 mm) 47 cm – 53 cm (57 mm) 
+ 1 m 98 cm – 1.02 m (36 mm) 98 cm – 1.02 m (41 mm) 97 cm – 1.03 m (53 mm) 97 cm – 1.03 m (59 mm) 96 cm – 1.04 m (83 mm) 94 cm – 1.06 m (12 cm) 92 cm – 1.09 m (17 cm) 89 cm – 1.13 m (24 cm) 
+ 2 m 1.93 m – 2.08 m (14 cm) 1.92 m – 2.09 m (17 cm) 1.90 m – 2.11 m (22 cm) 1.89 m – 2.13 m (24 cm) 1.84 m – 2.18 m (34 cm) 1.79 m – 2.27 m (49 cm) 1.71 m – 2.41 m (69 cm) 1.61 m – 2.63 m (1.02 m) 
+ 3 m 2.84 m – 3.17 m (33 cm) 2.82 m – 3.20 m (38 cm) 2.77 m – 3.27 m (49 cm) 2.75 m – 3.30 m (55 cm) 2.66 m – 3.44 m (78 cm) 2.54 m – 3.67 m (1.13 m) 2.39 m – 4.02 m (1.63 m) 2.20 m – 4.71 m (2.50 m) 
+ 5 m 4.58 m – 5.50 m (92 cm) 4.52 m – 5.60 m (1.08 m) 4.40 m – 5.79 m (1.40 m) 4.34 m – 5.90 m (1.56 m) 4.12 m – 6.35 m (2.23 m) 3.83 m – 7.19 m (3.35 m) 3.51 m – 8.70 m (5.20 m) 3.11 m – 13 m (9.62 m) 
+ 10 m 8.45 m – 12 m (3.80 m) 8.24 m – 13 m (4.49 m) 7.84 m – 14 m (5.95 m) 7.66 m – 14 m (6.74 m) 7.00 m – 17 m (10 m) 6.21 m – 26 m (19 m) 5.39 m – 69 m (63 m) 4.09 m – ∞ 
+
+ How to read this table
+
+ Rows are focus distances, columns are apertures. Each cell shows near limit – far limit (total depth of field in brackets). Focus at the distance, and everything between near and far is acceptably sharp at the standard circle of confusion (sensor diagonal ÷ 1500).
+
+ Two patterns to notice: closing the aperture pushes the far limit out faster than the near limit moves (⅓ in front, ⅔ behind), and moving your focus distance further away multiplies the depth of field roughly with the square of distance.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ Your exact near/far limits for any camera, lens, and distance.
+ Open → 
+ Hyperfocal Distance Chart
+ Pre-computed hyperfocal values for every common format.
+ Read → 
+ Circle of Confusion Explained
+ Which CoC standard these tables use, and when to override it.
+ Read → 
+
+ FAQ
+
+ Are these tables exact for my lens? They use the standard formula H = f²/(N·c) + f with CoC = sensor diagonal ÷ 1500, which matches the classic published tables (dofmaster-style values). Real-world results vary slightly with lens breathing, focus accuracy, and your viewing standard — treat them as planning numbers, not promises.
+
+ Why is the depth of field different on APS-C? Two reasons: the smaller sensor needs a shorter lens for the same framing (which we account for by using the same focal length — so on APS-C you're effectively seeing a tighter crop), and its circle of confusion is smaller, which shortens the near/far spread. For same-framing comparisons, mentally multiply the APS-C aperture by 1.5.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/dof-table-50mm.html
+TITLE: 50mm Depth of Field Table — Near &amp; Far Limits | ShutterMath
+SUMMARY: 50mm depth of field table: near and far limits at f/1.2–f/8 and focus distances 0.5–10 m, for full frame and APS-C.
+
+Home › Guides › 50mm DoF Table 
+ 50mm Depth of Field Table
+
+ Near limit – far limit (and total depth of field) for a 50mm lens at every common aperture and focus distance. Compute your exact values with the depth of field calculator .
+
+ Full Frame (CoC 0.0288 mm) 
+
+ Focus distance f/1.2 f/1.4 f/1.8 f/2 f/2.8 f/4 f/5.6 f/8 
+
+ 0.5 m 50 cm – 50 cm (6 mm) 50 cm – 50 cm (7 mm) 50 cm – 50 cm (9 mm) 49 cm – 51 cm (10 mm) 49 cm – 51 cm (15 mm) 49 cm – 51 cm (21 mm) 49 cm – 51 cm (29 mm) 48 cm – 52 cm (41 mm) 
+ 1 m 99 cm – 1.01 m (26 mm) 98 cm – 1.02 m (31 mm) 98 cm – 1.02 m (39 mm) 98 cm – 1.02 m (44 mm) 97 cm – 1.03 m (61 mm) 96 cm – 1.05 m (88 mm) 94 cm – 1.07 m (12 cm) 92 cm – 1.10 m (18 cm) 
+ 2 m 1.95 m – 2.06 m (11 cm) 1.94 m – 2.06 m (13 cm) 1.92 m – 2.08 m (16 cm) 1.91 m – 2.09 m (18 cm) 1.88 m – 2.13 m (25 cm) 1.84 m – 2.20 m (36 cm) 1.78 m – 2.29 m (51 cm) 1.70 m – 2.44 m (74 cm) 
+ 3 m 2.88 m – 3.13 m (25 cm) 2.86 m – 3.15 m (29 cm) 2.83 m – 3.20 m (37 cm) 2.81 m – 3.22 m (41 cm) 2.74 m – 3.32 m (58 cm) 2.64 m – 3.47 m (83 cm) 2.52 m – 3.70 m (1.18 m) 2.36 m – 4.12 m (1.76 m) 
+ 5 m 4.68 m – 5.37 m (69 cm) 4.63 m – 5.43 m (80 cm) 4.53 m – 5.57 m (1.04 m) 4.49 m – 5.64 m (1.16 m) 4.31 m – 5.95 m (1.64 m) 4.07 m – 6.48 m (2.40 m) 3.79 m – 7.34 m (3.55 m) 3.44 m – 9.17 m (5.73 m) 
+ 10 m 8.79 m – 12 m (2.81 m) 8.62 m – 12 m (3.30 m) 8.29 m – 13 m (4.31 m) 8.13 m – 13 m (4.84 m) 7.57 m – 15 m (7.16 m) 6.86 m – 18 m (12 m) 6.09 m – 28 m (22 m) 5.22 m – 117 m (111 m) 
+
+ APS-C (Sony/Nikon/Fuji) (CoC 0.0188 mm) 
+
+ Focus distance f/1.2 f/1.4 f/1.8 f/2 f/2.8 f/4 f/5.6 f/8 
+
+ 0.5 m 50 cm – 50 cm (4 mm) 50 cm – 50 cm (5 mm) 50 cm – 50 cm (6 mm) 50 cm – 50 cm (7 mm) 50 cm – 50 cm (9 mm) 49 cm – 51 cm (14 mm) 49 cm – 51 cm (19 mm) 49 cm – 51 cm (27 mm) 
+ 1 m 99 cm – 1.01 m (17 mm) 99 cm – 1.01 m (20 mm) 99 cm – 1.01 m (26 mm) 99 cm – 1.01 m (29 mm) 98 cm – 1.02 m (40 mm) 97 cm – 1.03 m (57 mm) 96 cm – 1.04 m (80 mm) 95 cm – 1.06 m (11 cm) 
+ 2 m 1.97 m – 2.04 m (70 mm) 1.96 m – 2.04 m (82 mm) 1.95 m – 2.05 m (11 cm) 1.94 m – 2.06 m (12 cm) 1.92 m – 2.09 m (16 cm) 1.89 m – 2.12 m (24 cm) 1.85 m – 2.18 m (33 cm) 1.79 m – 2.26 m (47 cm) 
+ 3 m 2.92 m – 3.08 m (16 cm) 2.91 m – 3.10 m (19 cm) 2.88 m – 3.12 m (24 cm) 2.87 m – 3.14 m (27 cm) 2.82 m – 3.20 m (37 cm) 2.76 m – 3.29 m (54 cm) 2.67 m – 3.42 m (76 cm) 2.55 m – 3.65 m (1.10 m) 
+ 5 m 4.79 m – 5.23 m (45 cm) 4.75 m – 5.27 m (52 cm) 4.69 m – 5.36 m (67 cm) 4.65 m – 5.40 m (75 cm) 4.53 m – 5.58 m (1.05 m) 4.35 m – 5.87 m (1.52 m) 4.14 m – 6.31 m (2.17 m) 3.86 m – 7.11 m (3.26 m) 
+ 10 m 9.18 m – 11 m (1.81 m) 9.05 m – 11 m (2.12 m) 8.81 m – 12 m (2.74 m) 8.70 m – 12 m (3.06 m) 8.27 m – 13 m (4.38 m) 7.70 m – 14 m (6.56 m) 7.05 m – 17 m (10 m) 6.26 m – 25 m (19 m) 
+
+ How to read this table
+
+ Rows are focus distances, columns are apertures. Each cell shows near limit – far limit (total depth of field in brackets). Focus at the distance, and everything between near and far is acceptably sharp at the standard circle of confusion (sensor diagonal ÷ 1500).
+
+ Two patterns to notice: closing the aperture pushes the far limit out faster than the near limit moves (⅓ in front, ⅔ behind), and moving your focus distance further away multiplies the depth of field roughly with the square of distance.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ Your exact near/far limits for any camera, lens, and distance.
+ Open → 
+ Hyperfocal Distance Chart
+ Pre-computed hyperfocal values for every common format.
+ Read → 
+ Circle of Confusion Explained
+ Which CoC standard these tables use, and when to override it.
+ Read → 
+
+ FAQ
+
+ Are these tables exact for my lens? They use the standard formula H = f²/(N·c) + f with CoC = sensor diagonal ÷ 1500, which matches the classic published tables (dofmaster-style values). Real-world results vary slightly with lens breathing, focus accuracy, and your viewing standard — treat them as planning numbers, not promises.
+
+ Why is the depth of field different on APS-C? Two reasons: the smaller sensor needs a shorter lens for the same framing (which we account for by using the same focal length — so on APS-C you're effectively seeing a tighter crop), and its circle of confusion is smaller, which shortens the near/far spread. For same-framing comparisons, mentally multiply the APS-C aperture by 1.5.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/dof-table-85mm.html
+TITLE: 85mm Depth of Field Table — Near &amp; Far Limits | ShutterMath
+SUMMARY: 85mm depth of field table: near and far limits at f/1.2–f/8 and focus distances 0.5–10 m, for full frame and APS-C.
+
+Home › Guides › 85mm DoF Table 
+ 85mm Depth of Field Table
+
+ Near limit – far limit (and total depth of field) for a 85mm lens at every common aperture and focus distance. Compute your exact values with the depth of field calculator .
+
+ Full Frame (CoC 0.0288 mm) 
+
+ Focus distance f/1.2 f/1.4 f/1.8 f/2 f/2.8 f/4 f/5.6 f/8 
+
+ 0.5 m 50 cm – 50 cm (2 mm) 50 cm – 50 cm (2 mm) 50 cm – 50 cm (3 mm) 50 cm – 50 cm (3 mm) 50 cm – 50 cm (5 mm) 50 cm – 50 cm (7 mm) 50 cm – 50 cm (9 mm) 49 cm – 51 cm (13 mm) 
+ 1 m 100 cm – 1.00 m (9 mm) 99 cm – 1.01 m (10 mm) 99 cm – 1.01 m (13 mm) 99 cm – 1.01 m (15 mm) 99 cm – 1.01 m (20 mm) 99 cm – 1.01 m (29 mm) 98 cm – 1.02 m (41 mm) 97 cm – 1.03 m (58 mm) 
+ 2 m 1.98 m – 2.02 m (37 mm) 1.98 m – 2.02 m (43 mm) 1.97 m – 2.03 m (55 mm) 1.97 m – 2.03 m (61 mm) 1.96 m – 2.04 m (86 mm) 1.94 m – 2.06 m (12 cm) 1.92 m – 2.09 m (17 cm) 1.89 m – 2.13 m (24 cm) 
+ 3 m 2.96 m – 3.04 m (84 mm) 2.95 m – 3.05 m (98 mm) 2.94 m – 3.06 m (13 cm) 2.93 m – 3.07 m (14 cm) 2.91 m – 3.10 m (20 cm) 2.87 m – 3.15 m (28 cm) 2.82 m – 3.21 m (39 cm) 2.75 m – 3.31 m (56 cm) 
+ 5 m 4.89 m – 5.12 m (24 cm) 4.87 m – 5.14 m (27 cm) 4.83 m – 5.18 m (35 cm) 4.81 m – 5.20 m (39 cm) 4.74 m – 5.29 m (55 cm) 4.64 m – 5.43 m (79 cm) 4.51 m – 5.62 m (1.11 m) 4.32 m – 5.93 m (1.60 m) 
+ 10 m 9.55 m – 10 m (95 cm) 9.48 m – 11 m (1.11 m) 9.34 m – 11 m (1.43 m) 9.27 m – 11 m (1.59 m) 9.00 m – 11 m (2.24 m) 8.63 m – 12 m (3.24 m) 8.19 m – 13 m (4.65 m) 7.60 m – 15 m (7.02 m) 
+
+ APS-C (Sony/Nikon/Fuji) (CoC 0.0188 mm) 
+
+ Focus distance f/1.2 f/1.4 f/1.8 f/2 f/2.8 f/4 f/5.6 f/8 
+
+ 0.5 m 50 cm – 50 cm (1 mm) 50 cm – 50 cm (2 mm) 50 cm – 50 cm (2 mm) 50 cm – 50 cm (2 mm) 50 cm – 50 cm (3 mm) 50 cm – 50 cm (4 mm) 50 cm – 50 cm (6 mm) 50 cm – 50 cm (9 mm) 
+ 1 m 100 cm – 1.00 m (6 mm) 100 cm – 1.00 m (7 mm) 100 cm – 1.00 m (9 mm) 100 cm – 1.00 m (10 mm) 99 cm – 1.01 m (13 mm) 99 cm – 1.01 m (19 mm) 99 cm – 1.01 m (27 mm) 98 cm – 1.02 m (38 mm) 
+ 2 m 1.99 m – 2.01 m (24 mm) 1.99 m – 2.01 m (28 mm) 1.98 m – 2.02 m (36 mm) 1.98 m – 2.02 m (40 mm) 1.97 m – 2.03 m (56 mm) 1.96 m – 2.04 m (80 mm) 1.95 m – 2.06 m (11 cm) 1.92 m – 2.08 m (16 cm) 
+ 3 m 2.97 m – 3.03 m (55 mm) 2.97 m – 3.03 m (64 mm) 2.96 m – 3.04 m (82 mm) 2.96 m – 3.05 m (91 mm) 2.94 m – 3.07 m (13 cm) 2.91 m – 3.09 m (18 cm) 2.88 m – 3.13 m (26 cm) 2.83 m – 3.19 m (36 cm) 
+ 5 m 4.92 m – 5.08 m (15 cm) 4.91 m – 5.09 m (18 cm) 4.89 m – 5.12 m (23 cm) 4.88 m – 5.13 m (26 cm) 4.83 m – 5.19 m (36 cm) 4.76 m – 5.27 m (51 cm) 4.67 m – 5.39 m (72 cm) 4.54 m – 5.57 m (1.03 m) 
+ 10 m 9.70 m – 10 m (62 cm) 9.65 m – 10 m (72 cm) 9.56 m – 10 m (93 cm) 9.51 m – 11 m (1.03 m) 9.33 m – 11 m (1.45 m) 9.07 m – 11 m (2.08 m) 8.74 m – 12 m (2.95 m) 8.29 m – 13 m (4.30 m) 
+
+ How to read this table
+
+ Rows are focus distances, columns are apertures. Each cell shows near limit – far limit (total depth of field in brackets). Focus at the distance, and everything between near and far is acceptably sharp at the standard circle of confusion (sensor diagonal ÷ 1500).
+
+ Two patterns to notice: closing the aperture pushes the far limit out faster than the near limit moves (⅓ in front, ⅔ behind), and moving your focus distance further away multiplies the depth of field roughly with the square of distance.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ Your exact near/far limits for any camera, lens, and distance.
+ Open → 
+ Hyperfocal Distance Chart
+ Pre-computed hyperfocal values for every common format.
+ Read → 
+ Circle of Confusion Explained
+ Which CoC standard these tables use, and when to override it.
+ Read → 
+
+ FAQ
+
+ Are these tables exact for my lens? They use the standard formula H = f²/(N·c) + f with CoC = sensor diagonal ÷ 1500, which matches the classic published tables (dofmaster-style values). Real-world results vary slightly with lens breathing, focus accuracy, and your viewing standard — treat them as planning numbers, not promises.
+
+ Why is the depth of field different on APS-C? Two reasons: the smaller sensor needs a shorter lens for the same framing (which we account for by using the same focal length — so on APS-C you're effectively seeing a tighter crop), and its circle of confusion is smaller, which shortens the near/far spread. For same-framing comparisons, mentally multiply the APS-C aperture by 1.5.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/exposure-triangle.html
+TITLE: Exposure Triangle Explained | ShutterMath
+SUMMARY: The exposure triangle explained with real numbers: what aperture, shutter speed and ISO each do, how they trade off to keep the same exposure, and which to.
+
+Home › Guides › Exposure Triangle 
+ Exposure Triangle Explained
+
+ Three controls, one result: the amount of light that reaches your sensor. Here's what each one does, how they trade off, and which to change first — with numbers you can verify in the exposure equivalence calculator .
+
+ The three corners
+
+ Control What it changes Cost of overdoing it One stop = 
+
+ Aperture (f/) Amount of light + depth of field Narrow apertures → diffraction softness f/2.8 → f/4 → f/5.6 → f/8… (each halves the light) 
+
+ Shutter speed (s) Amount of light + motion blur Slow speeds → camera shake and subject blur 1/500 → 1/250 → 1/125 → 1/60… (each doubles the light) 
+
+ ISO Amplification of the captured light High ISO → visible noise 100 → 200 → 400 → 800 (each doubles sensitivity) 
+
+ The trade-off, with real numbers
+
+ Say your meter says f/4 · 1/250 s · ISO 100 . That's an exposure value of EV100 = 12. Every combination below captures the same amount of light :
+
+ Aperture Shutter ISO Result 
+
+ f/4 1/250 s 100 Starting point — balanced 
+
+ f/2.8 1/500 s 100 Shallower DoF, freezes motion 
+
+ f/5.6 1/125 s 100 More DoF, risk of blur 
+
+ f/4 1/500 s 200 Faster shutter, ISO doubles 
+
+ f/8 1/60 s 100 Maximum DoF, needs steady camera 
+
+ Every row is identically bright. The only differences are aesthetic : depth of field, motion blur, and noise. That's why "correct exposure" is a creative choice, not a number.
+
+ Which corner to change first (priority order)
+
+ Shutter speed first — set the slowest speed that still freezes your subject (1/focal length handheld, or the subject chart ). Motion blur is the one mistake you can't fix.
+
+ Aperture second — dial the depth of field your shot needs (f/1.8 portrait vs f/8 landscape), then…
+
+ ISO last — raise ISO only to make up the remaining difference. Modern cameras are clean up to ISO 1600–3200; noise beats blur.
+
+ Common exposure mistakes
+
+ "I'll fix it in post." Raising exposure in editing amplifies noise and clips highlights. Better to expose right (or deliberately overexpose by ⅓–⅔ stop for shadows, then recover — the "expose to the right" technique).
+
+ Chasing shallow DoF everywhere. f/1.2 portraits with drifting focus are soft; the portrait guide shows when to stop down.
+
+ ISO fear. On a modern camera, ISO 3200 in low light is usually better than a 1/15 s blurry shot at ISO 100.
+
+ Related tools & guides
+
+ Exposure Equivalence Calculator
+ Generate every equivalent exposure for your settings.
+ Open → 
+ Shutter Speed Chart
+ The right shutter for every subject.
+ Read → 
+ Depth of Field Calculator
+ See exactly what your aperture choice does.
+ Open → 
+
+ Exposure triangle FAQ
+
+ Does ISO really belong in the "exposure" triangle? Strictly, exposure is light only (aperture × shutter). ISO is amplification applied after capture. But in practice the three work together to set final brightness, so the triangle is the useful mental model — with the caveat that ISO doesn't add light, it adds noise.
+
+ What is "stopping down" and "opening up"? One stop = doubling or halving the light. Opening up (wider aperture, slower shutter, higher ISO) doubles light; stopping down halves it. The exposure equivalence calculator does the bookkeeping for you.
+
+ Why do my photos look different at the same exposure? Because exposure isn't the whole picture — the character changes with settings: bokeh from aperture, blur from shutter, grain from ISO. Same brightness, different image. That's exactly why the triangle matters.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/exposure-value-chart.html
+TITLE: Exposure Value (EV) Chart — Reference for Any Light | ShutterMath
+SUMMARY: Printable exposure value chart: EV -6 to +17 with scene examples, the shutter speed at f/1.0, and the aperture needed for 1/125 s — all at ISO 100.
+
+Home › Guides › Exposure Value (EV) Chart 
+ Exposure Value (EV) Chart
+
+ Printable exposure value chart: EV -6 to +17 with scene examples, the shutter speed at f/1.0, and the aperture needed for 1/125 s — all at ISO 100.
+
+ Exposure value (EV) is a single number that describes how bright a scene is. The formula, at ISO 100, is EV = log₂(N²/t) , where N is the f-number and t the shutter time in seconds. Each step of +1 EV doubles the light. Every row below is computed from that formula — nothing approximate.
+
+ EV reference table (ISO 100)
+
+ EV Typical scene (approx.) Shutter at f/1.0 Aperture for 1/125 s 
+
+ -6 Starlit night sky 64 s — 
+
+ -5 Aurora / deep twilight 32 s — 
+
+ -4 Night landscape, faint aurora 16 s — 
+
+ -3 Night under bright moonlight 8 s — 
+
+ -2 Full-moon night landscape 4 s — 
+
+ -1 Late dusk, lit skyline 2 s — 
+
+ 0 Very dim interior / candlelight at distance 1 s — 
+
+ 1 Candlelit close-up 1/2 s — 
+
+ 2 Dim indoor lighting 1/4 s — 
+
+ 3 City night, street-lit 1/8 s — 
+
+ 4 Home interiors at night 1/16 s — 
+
+ 5 Bright indoor / dusk sports 1/32 s — 
+
+ 6 Overcast evening / office light 1/64 s — 
+
+ 7 Open shade, late sun 1/128 s f/1.0 
+
+ 8 Overcast day / bright shade 1/256 s f/1.4 
+
+ 9 Bright overcast 1/512 s f/2.0 
+
+ 10 Hazy sun 1/1024 s f/2.9 
+
+ 11 Light clouds, sunlight 1/2048 s f/4.0 
+
+ 12 Bright daylight 1/4096 s f/5.7 
+
+ 13 Sunny, light haze 1/8192 s f/8.1 
+
+ 14 Full sun, light sand or snow 1/16384 s f/11.4 
+
+ 15 Bright sun (sunny 16) 1/32768 s f/16.2 
+
+ 16 Snow or beach in full sun 1/65536 s f/22.9 
+
+ 17 Very bright snow or water 1/131072 s — 
+
+ How to use it
+
+ Meter the scene (your camera shows EV in some modes, or estimate from the table), then pick any aperture/shutter pair on the same EV line. Want the exact equivalents — including ISO changes? Use the free exposure calculator , which does this for your camera in one click.
+
+ Related tools & guides
+
+ Exposure Equivalence Calculator
+ EV and equivalent aperture/shutter/ISO combinations, live.
+ Open → 
+ ND Filter Calculator
+ Turn a base exposure into the shutter time for any filter.
+ Open → 
+ Exposure Triangle Explained
+ Aperture, shutter and ISO — how they trade off.
+ Read → 
+ Shutter Speed Chart
+ The right speed for every subject, printable.
+ Read → 
+
+ EV FAQ
+
+ What is exposure value (EV)? EV = log₂(N²/t) at ISO 100 — one number that encodes aperture and shutter together. Brighter scene = higher EV.
+
+ Why is EV measured at ISO 100? Convention. The same scene has the same EV regardless of ISO; your ISO choice just changes which aperture/shutter pairs keep the exposure correct.
+
+ What is sunny 16? In bright sun at f/16, the correct shutter is 1/ISO seconds — that's EV 15 at ISO 100. The chart shows EV 15 ↔ f/16 at 1/125 s for ISO 100.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/focal-length-explained.html
+TITLE: Focal Length Explained: 24mm to 200mm | ShutterMath
+SUMMARY: Focal length explained: angles of view for 14–200 mm, wide vs normal vs telephoto, what 24/35/50/85 mm are each for, and why perspective comes from distance, not.
+
+Home › Guides › Focal Length Explained 
+ Focal Length Explained
+
+ Angles of view for 14–200 mm, what wide/normal/telephoto each do, and why perspective comes from where you stand — not your lens.
+
+ Focal length is the distance in millimetres between the lens's optical center and the sensor when focused at infinity. It sets one thing: angle of view . Short focal lengths show a wide scene; long ones magnify a narrow slice. Everything else about lens choice follows from that.
+
+ Angle of view by focal length (full frame)
+
+ Focal length Horizontal angle of view Typical use 
+
+ 14 mm 104.3° Ultra-wide: architecture, astro, dramatic interiors 
+
+ 20 mm 84.0° Wide: landscape, real estate, tight interiors 
+
+ 24 mm 73.7° Wide: landscape, street, vlogging 
+
+ 28 mm 65.5° Wide-normal: documentary, travel 
+
+ 35 mm 54.4° Normal-wide: street, environmental portraits, reportage 
+
+ 50 mm 39.6° Normal: the natural look, portraits, everything 
+
+ 85 mm 23.9° Short tele: classic portrait length, compression 
+
+ 100 mm 20.4° Tele: portraits, macro, headshots 
+
+ 135 mm 15.2° Tele: headshots, sports, isolation 
+
+ 200 mm 10.3° Tele: wildlife, sports, compression 
+
+ Angles computed with the standard formula AOV = 2·arctan(sensor width / (2·focal length)). On APS-C, Micro 4/3 or phones, the same lens frames differently — see the crop factor guide .
+
+ What each focal length is for
+
+ Ultra-wide (14–24 mm): space, drama, context. Great for real estate and astro, but easy to make empty scenes look empty.
+
+ Wide (24–35 mm): the travel/street range. Fits more story in frame while keeping a natural look.
+
+ Normal (50 mm): what your eye roughly sees. Unflattering to features up close, flattering at distance — the classic all-rounder.
+
+ Short tele (85–135 mm): the portrait range. Compresses features, flatters faces, and backgrounds blur beautifully.
+
+ Tele (135 mm+): reach and isolation for wildlife, sports, and candid shots.
+
+ The perspective myth
+
+ A wide lens doesn't "exaggerate" and a telephoto doesn't "compress" — distance does both . Photograph a face at 24 mm from 30 cm and at 135 mm from 3 m, then crop the wide shot to match the telephoto: the perspective is identical. Lenses only change what fits in the frame; where you stand changes the picture.
+
+ Related tools & guides
+
+ Field of View Calculator
+ Exact angles for any camera + lens combo, with 35 mm equivalents.
+ Open → 
+ Crop Factor Explained
+ How your sensor changes the effective framing.
+ Read → 
+ Aperture Explained
+ f-stops, light and depth of field.
+ Read → 
+
+ Focal length FAQ
+
+ What does focal length mean? The mm distance from lens to sensor at infinity focus — it sets angle of view: shorter = wider, longer = more magnified.
+
+ What is a normal lens? About 50 mm on full frame, 35 mm on APS-C — the natural, unexaggerated look.
+
+ Does focal length change perspective? No. Distance changes perspective. Focal length only changes how much fits in the frame.
+
+ What is 35 mm equivalent? Your lens's focal length on full frame, given the same field of view: multiply by your sensor's crop factor .
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/free-photography-calculators.html
+TITLE: Free Photography Calculators — No Sign-Up | ShutterMath
+SUMMARY: Free photography calculators, all of them: depth of field, hyperfocal distance, ND filter, exposure equivalence, flash guide number, star trails, macro DoF.
+
+Free Photography Calculators — No Sign-Up | ShutterMath 
+
+ 🎁 ">
+
+ Shutter Math Depth of Field Hyperfocal ND Filter Flash GN Pixel Scale Shutter Angle Blur Guides &#9776; 
+
+ Home › Free Photography Calculators 
+ Free Photography Calculators
+
+ Every ShutterMath tool in one place — free forever, no sign-up, no watermarks, no limits . Accurate to the exact sensor of the camera you own, from mirrorless flagships to the phone in your pocket.
+
+ 🎁 The whole point: photography math should be free. These tools run entirely in your browser, work offline once loaded, and print clean cheat sheets for your bag. If a site makes you pay for a depth of field calculator — leave.
+
+ All 12 free calculators
+
+ 📐
+ Free Depth of Field
+ Near/far limits, total DoF, hyperfocal, visual focus bar — knows your exact sensor.
+ Open calculator → 
+ 🌄
+ Free Hyperfocal
+ Focus at H and everything from half that distance to infinity is sharp.
+ Open calculator → 
+ 🔬
+ Free Macro DoF
+ Magnification math, effective aperture, and the stacking step size.
+ Open calculator → 
+ 🎛️
+ Free Exposure Calculator
+ EV and equivalent aperture/shutter/ISO combinations — the exposure triangle, computed.
+ Open calculator → 
+ 🌑
+ Free ND Filter Calculator
+ Exact shutter times for ND2 to ND100000, with exposure compensation.
+ Open calculator → 
+ ⚡
+ Free Flash GN Calculator
+ Aperture, distance, or required guide number — with ISO scaling.
+ Open calculator → 
+ ✨
+ Free Star Trails Calculator
+ 500/400/300 and NPF max exposures for sharp stars, pixel-size aware.
+ Open calculator → 
+ 🔭
+ Free Pixel Scale Calculator
+ Arcseconds per pixel for astro setups, with the 1–2″/px sweet spot.
+ Open calculator → 
+ 🖼️
+ Free FOV Calculator
+ Angles of view for any sensor and lens, with 35 mm equivalent.
+ Open calculator → 
+ 🎬
+ Free Shutter Angle Calculator
+ The 180° rule computed for any frame rate, 24 to 120 fps.
+ Open calculator → 
+ 🌫️ Which ND Filter Do I Need?
+ Exact stops needed + filter recommendation for any desired shutter time.
+ Open → 
+ 🌙 Moon Exposure Calculator
+ Looney 11 rule + phase stops — the exact shutter for moon photos.
+ Open → 
+ 🖼️ Print Size Planner
+ Megapixels required for any print size, checked against your camera.
+ Open → 
+ 🌸 Background Blur Calculator
+ Blur disk size in mm and % of frame height for any camera, lens and distance.
+ Open → 
+ 🌫️
+ Free Video ND Calculator
+ How many ND stops for the 180° shutter in daylight — and which filter.
+ Open calculator → 
+ 🖨️
+ Free Print Resolution Calculator
+ Megapixels → print size at any DPI, with the full printable chart.
+ Open calculator → 
+
+ ShutterMath 
+Photography calculators that know the camera you own
+ Free Tools Field Kit About Contact Privacy Policy Terms
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/guides.html
+TITLE: Photography Guides & Reference Charts | ShutterMath
+SUMMARY: Photography guides and printable reference charts: exposure triangle, shutter speed by subject, hyperfocal charts, ND filter charts, depth of field by genre.
+
+Home › Guides 
+ Photography Guides & Reference Charts
+
+ Every guide on ShutterMath — the reference material behind the calculators. Print any chart and take it in your bag.
+
+ Reference charts
+
+ Hyperfocal Distance Chart
+ Full frame, APS-C, Canon APS-C and Micro 4/3 — focal lengths 14–200 mm, f/2.8–f/16.
+ Read → 
+ ND Filter Long Exposure Chart
+ Base exposure → shutter time for every filter from ND2 to ND64000.
+ Read → 
+ Shutter Speed Chart
+ What shutter speed for birds, sports, street, waterfalls, and video.
+ Read → 
+ Camera Sensor Sizes
+ Every format with exact dimensions and crop factors.
+ Read → 
+
+ Per-lens depth of field tables
+
+ 24mm DoF Table
+ Read → 
+ 35mm DoF Table
+ Read → 
+ 50mm DoF Table
+ Read → 
+ 85mm DoF Table
+ Read → 
+ 135mm DoF Table
+ Read → 
+
+ Concepts explained
+
+ Exposure Triangle Explained
+ Aperture, shutter, ISO — what each does and how they trade off.
+ Read → 
+ Circle of Confusion Explained
+ The number inside every DoF calculation, and which standard to use.
+ Read → 
+ Long Exposure Guide
+ Silky water and light trails — the full settings workflow.
+ Read → 
+ Low Light Settings
+ Noise vs blur, ISO strategy, and real EV numbers.
+ Read → 
+ Aperture Explained
+ f-stops, light, depth of field — and the best f-stop for every genre.
+ Read → 
+ Focal Length Explained
+ What 24/35/50/85 mm really mean, with angles of view.
+ Read → 
+ Crop Factor Explained
+ APS-C, M4/3 and phone equivalence — computed for real cameras.
+ Read → 
+ Exposure Value Chart
+ EV −6 to +17 with scene examples, computed at ISO 100.
+ Read → 
+ Sharpest Aperture
+ Diffraction limits computed for real cameras, pixel by pixel.
+ Read → 
+
+ Depth of field by genre
+
+ Landscape DoF
+ Hyperfocal focusing, the f/8–f/11 sweet spot, and focus stacking.
+ Read → 
+ Portrait DoF
+ How much blur is right, which lens, and where to focus.
+ Read → 
+ Macro DoF
+ Magnification math, effective aperture, and stacking step size.
+ Read → 
+ Astro DoF & Focus
+ Focusing at infinity, f-ratio trade-offs, and star-exposure rules.
+ Read → 
+ Sports & Action DoF
+ Freezing motion, tracking focus, and staying sharp in the chaos.
+ Read → 
+ Real Estate DoF
+ Interior sharpness from wall to wall at the right f-stop.
+ Read → 
+
+ All calculators
+
+ Depth of Field
+ Open → 
+ Hyperfocal
+ Open → 
+ ND Filter
+ Open → 
+ Exposure Equivalence
+ Open → 
+ Print Resolution
+ Open → 
+ Star Trails (500/NPF)
+ Open → 
+ Macro DoF
+ Open → 
+ Shutter Angle
+ Open → 
+ Flash GN
+ Open → 
+ Pixel Scale
+ Open → 
+ Field of View
+ Open → 
+ Video ND Filter
+ Open → 
+
+ Depth of field by camera
+
+ All 48 cameras
+ DoF tables, hyperfocal and CoC for all 48 bodies in the database.
+ Browse → 
+ Sony A7 IV
+ Near/far limits and hyperfocal for the all-rounder.
+ Open → 
+ Canon EOS R5 II
+ 45 MP full frame, computed.
+ Open → 
+ Fujifilm X-T5
+ APS-C tables with the right crop factor.
+ Open → 
+ OM System OM-1 II
+ Micro 4/3 — twice the crop, twice the depth.
+ Open → 
+ iPhone 16 Pro
+ Phone sensor DoF — yes, it's computable.
+ Open →
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/hyperfocal-chart.html
+TITLE: Free Hyperfocal Distance Chart | ShutterMath
+SUMMARY: Free printable hyperfocal distance chart for full frame, APS-C and Micro 4/3 — focal lengths 14–200 mm, f/2.8–f/16, values in metres.
+
+Home › Hyperfocal Distance Chart 
+
+ Hyperfocal Distance Chart
+
+ The hyperfocal distance (metres) for the four most common sensor formats. Focus at the distance in the table and everything from half that distance to infinity is acceptably sharp. Values computed with CoC = sensor diagonal ÷ 1500.
+
+ Full Frame (CoC 0.0288 mm) 
+
+ Focal length f/2.8 f/4 f/5.6 f/8 f/11 f/16 
+
+ 14 mm 2.44 1.71 1.23 0.86 0.63 0.44 
+ 16 mm 3.19 2.23 1.6 1.13 0.82 0.57 
+ 20 mm 4.97 3.49 2.5 1.75 1.28 0.89 
+ 24 mm 7.16 5.02 3.59 2.52 1.84 1.27 
+ 28 mm 9.74 6.82 4.88 3.43 2.5 1.73 
+ 35 mm 15.2 10.65 7.62 5.34 3.9 2.69 
+ 50 mm 31.0 21.72 15.53 10.88 7.93 5.47 
+ 85 mm 89.54 62.71 44.81 31.4 22.86 15.74 
+ 100 mm 123.92 86.77 62.01 43.44 31.62 21.77 
+ 135 mm 225.79 158.09 112.96 79.11 57.57 39.62 
+ 200 mm 495.47 346.89 247.83 173.54 126.27 86.87 
+
+ APS-C (Sony/Nikon/Fuji) (CoC 0.0188 mm) 
+
+ Focal length f/2.8 f/4 f/5.6 f/8 f/11 f/16 
+
+ 14 mm 3.74 2.62 1.88 1.32 0.96 0.67 
+ 16 mm 4.88 3.42 2.45 1.72 1.25 0.87 
+ 20 mm 7.62 5.34 3.82 2.68 1.95 1.35 
+ 24 mm 10.96 7.68 5.49 3.85 2.81 1.94 
+ 28 mm 14.92 10.45 7.47 5.24 3.82 2.63 
+ 35 mm 23.3 16.32 11.67 8.18 5.96 4.11 
+ 50 mm 47.53 33.29 23.79 16.67 12.14 8.36 
+ 85 mm 137.31 96.14 68.7 48.11 35.01 24.1 
+ 100 mm 190.03 133.05 95.06 66.57 48.44 33.34 
+ 135 mm 346.27 242.43 173.2 121.28 88.24 60.71 
+ 200 mm 759.9 531.99 380.05 266.1 193.58 133.15 
+
+ APS-C (Canon) (CoC 0.0179 mm) 
+
+ Focal length f/2.8 f/4 f/5.6 f/8 f/11 f/16 
+
+ 14 mm 3.93 2.75 1.97 1.38 1.01 0.7 
+ 16 mm 5.13 3.6 2.57 1.81 1.32 0.91 
+ 20 mm 8.01 5.61 4.01 2.82 2.05 1.42 
+ 24 mm 11.53 8.08 5.78 4.05 2.95 2.04 
+ 28 mm 15.69 10.99 7.86 5.51 4.01 2.77 
+ 35 mm 24.5 17.16 12.27 8.6 6.26 4.32 
+ 50 mm 49.99 35.01 25.02 17.53 12.76 8.79 
+ 85 mm 144.4 101.11 72.24 50.6 36.82 25.34 
+ 100 mm 199.85 139.92 99.97 70.01 50.94 35.06 
+ 135 mm 364.17 254.96 182.15 127.55 92.8 63.84 
+ 200 mm 799.18 559.49 399.69 279.84 203.58 140.02 
+
+ Micro 4/3 (CoC 0.0144 mm) 
+
+ Focal length f/2.8 f/4 f/5.6 f/8 f/11 f/16 
+
+ 14 mm 4.87 3.41 2.44 1.71 1.25 0.86 
+ 16 mm 6.35 4.45 3.18 2.23 1.63 1.13 
+ 20 mm 9.92 6.95 4.97 3.49 2.54 1.75 
+ 24 mm 14.28 10.01 7.15 5.01 3.65 2.52 
+ 28 mm 19.44 13.61 9.73 6.82 4.97 3.42 
+ 35 mm 30.36 21.26 15.2 10.65 7.75 5.34 
+ 50 mm 61.94 43.37 30.99 21.71 15.8 10.88 
+ 85 mm 178.95 125.29 89.52 62.69 45.61 31.39 
+ 100 mm 247.66 173.39 123.88 86.75 63.11 43.42 
+ 135 mm 451.31 315.96 225.72 158.05 114.98 79.09 
+ 200 mm 990.43 693.36 495.31 346.78 252.26 173.49 
+
+ 💡 Reading the chart: pick your sensor column, your focal length row, and your aperture — the number is the hyperfocal distance in metres. Focus your lens there (manual focus + distance scale) and everything from half that distance to infinity is sharp.
+
+ Related tools
+
+ Hyperfocal Calculator
+ Exact value for any camera, lens, and aperture — including cameras not on this chart.
+ Open → 
+ Depth of Field Calculator
+ Near/far limits and total DoF for any focus distance.
+ Open → 
+ Depth of Field for Landscape
+ Hyperfocal, focus stacking, and the f-stop sweet spot.
+ Read → 
+
+ Hyperfocal distance FAQ
+
+ Are these distances exact? They use the standard circle-of-confusion convention (sensor diagonal ÷ 1500) and the formula H = f²/(N·c) + f, rounded to two decimal places. On very high-resolution sensors a stricter CoC pushes the numbers ~33% farther.
+
+ Why is hyperfocal distance shorter on smaller sensors? Smaller sensors have smaller circles of confusion (the blur threshold scales with the sensor), and for the same framing they use shorter focal lengths. Both effects pull the hyperfocal distance closer — one reason phone cameras are sharp from near to far.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/long-exposure.html
+TITLE: Long Exposure Photography — Settings & ND | ShutterMath
+SUMMARY: Long exposure photography settings: the exact workflow from meter to shutter release, which ND filter strength for which effect, and the exposure math that makes.
+
+Home › Guides › Long Exposure 
+ Long Exposure Photography — Settings & Workflow
+
+ Silky waterfalls, empty streets, streaking car lights: all the same trick — keep the shutter open long enough that motion becomes blur. Here's the exact workflow, with the math at each step.
+
+ The workflow, step by step
+
+ Compose and focus — focus, then switch to manual. Autofocus at f/11 in the dark will hunt.
+
+ Set aperture + ISO: f/8–f/11 for depth of field (see landscape DoF ), ISO 100 always.
+
+ Meter without the filter — note the shutter speed your meter wants (e.g. 1/60 s at f/11).
+
+ Decide your target time — how blurred do you want the motion?
+
+ Find the ND stops: stops = log₂(target ÷ base). 1/60 s → 15 s needs log₂(900) ≈ 9.8 stops → an ND1000 (10 stops) gets you to ~17 s.
+
+ Mount the filter, set bulb (or the computed speed), release — remote release or 2-second timer, never your finger.
+
+ Check the histogram — if highlights clip, add a stop of ND or shorten; the first frame is a test frame.
+
+ Which effect needs which exposure
+
+ Effect Typical time ND needed (from 1/60 s base) Notes 
+
+ Slight motion in water ¼ – 1 s ND8–ND16 (3–4 stops) Mist starts; keep rocks crisp 
+
+ Silky waterfall 2 – 8 s ND64–ND1000 (6–10 stops) The classic look 
+
+ Empty streets / crowds gone 15 – 60 s ND1000+ (10+ stops) People vanish; car lights streak 
+
+ Light trails 10 – 30 s ND1000 (10 stops) Night — often no ND needed 
+
+ Clouds streaking 1 – 5 min ND1000+ stacked Check for sensor hotspots 
+
+ Run your own numbers with the ND filter calculator or read straight off the long exposure chart .
+
+ The three mistakes that ruin long exposures
+
+ Shooting at f/22 "for sharpness." Diffraction beats the DoF gain; f/8–f/11 is sharper. If you need more depth, focus-stack.
+
+ Trusting the filter's rated density. Budget NDs can be off by a third of a stop — meter through the filter when possible, or bracket.
+
+ Camera shake you can't see. Tripod + remote + mirror lockup (DSLRs) + switch off image stabilization on the tripod (it can hunt and add micro-shake).
+
+ Long exposure math, plainly
+
+ Each ND stop doubles the shutter time: 1/60 → 1/30 → 1/15 → 1/8 → ¼ → ½ → 1 s → 2 s → 4 s → 8 s → 16 s → 32 s. Ten stops (ND1000) turns 1/60 s into ~17 s. That's the entire calculation — the calculator and chart just do it for you, including the awkward fractions.
+
+ Related tools & guides
+
+ ND Filter Calculator
+ Exact shutter for any filter and base exposure.
+ Open → 
+ ND Filter Long Exposure Chart
+ The full pre-computed table, printable.
+ Read → 
+ Shutter Speed Chart
+ Waterfall times and everything else in one table.
+ Read → 
+
+ Long exposure FAQ
+
+ Do I need a 10-stop ND, or is 6 enough? It depends on the effect. ND64 (6 stops) takes 1/60 s to ~1 s — fine for misty water. ND1000 (10 stops) reaches 15–30 s — the crowd-removing, cloud-streaking territory. Most photographers own both; a variable ND covers the middle.
+
+ Why is my long exposure purple or green? Color cast from the ND filter — cheap filters shift toward magenta/green. Fix in post with a white-balance eyedropper on a neutral area, or buy higher-quality glass. Stacking two cheap filters worsens the cast.
+
+ Can I do long exposures on a phone? Modern phones have built-in long exposure / light-trail modes that stack frames instead of opening the shutter — different technique, same look. The composition and subject advice here applies identically.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/low-light.html
+TITLE: Low Light Photography — Noise vs Blur Settings | ShutterMath
+SUMMARY: Low light photography settings: the noise-vs-blur trade-off, which ISO to use, real EV numbers for night scenes, and when a tripod beats every sensor.
+
+Home › Guides › Low Light 
+ Low Light Photography — Noise vs Blur
+
+ Every low-light shot is a trade: raise ISO and get noise, slow the shutter and get blur, open the aperture and lose depth of field. Here's how to pick the least-bad option — with the numbers.
+
+ How dark is "low light"? (EV reality check)
+
+ Exposure value (EV100) is the shorthand. The exposure calculator computes it; here's the map:
+
+ EV100 Scene Handheld settings (f/1.8, ISO 3200) 
+
+ 15 Bright sun 1/8000 s — you'll never see this 
+
+ 10 Overcast day 1/250 s 
+
+ 7 Sunset / bright interior 1/30 s — edge of handheld 
+
+ 5 City night / lit street 1/8 s — needs a tripod or IBIS 
+
+ 3 Home interior, evening 1/2 s — tripod territory 
+
+ 0 Full moon night landscape 8 s — tripod, or see astro 
+
+ -3 Starlight only 60 s+ — astrophotography 
+
+ The decision order
+
+ Is the camera still? Tripod → use base ISO and whatever shutter/aperture you like; noise becomes irrelevant. This is the single biggest low-light upgrade, and it's free.
+
+ Handheld? Set the slowest safe shutter first (1/focal length, or 2–4 stops slower with stabilization — see the shutter speed chart ). Blur from camera shake is unrecoverable; noise is at least manageable.
+
+ Open the aperture as far as your depth of field allows (f/1.8 portrait vs f/5.6 group shot — the DoF calculator shows the cost).
+
+ Then raise ISO last , until the meter is happy. Modern full-frame bodies are clean to 6400; APS-C to ~3200; phones fake it with multi-frame stacking.
+
+ ISO: the honest guide
+
+ Base ISO (100–200): always when on a tripod.
+
+ ISO 800–1600: invisible on most cameras. Free light for handheld shots.
+
+ ISO 3200–6400: fine for full frame and good APS-C; noise is visible but printable. Better than a blurry ISO 400 shot. 
+
+ ISO 12800+: emergency only — or embrace the grain; monochrome conversion hides it beautifully.
+
+ Two practical low-light recipes
+
+ Situation Settings Why 
+
+ Night street, handheld f/2.8 · 1/60 s · ISO 3200 Fast enough to freeze people; IBIS helps at 1/60 
+
+ Night street, tripod f/8 · 8 s · ISO 100 Maximum DoF, zero noise; car lights streak 
+
+ Indoor party, handheld f/1.8 · 1/125 s · ISO 1600–3200 Thin DoF accepted; motion frozen 
+
+ Milky Way (wide) f/2 · 10–15 s · ISO 3200 See the star trails calculator for the max time 
+
+ Related tools & guides
+
+ Exposure Equivalence
+ Trade ISO, shutter, and aperture with the math done.
+ Open → 
+ Shutter Speed Chart
+ The slowest safe handheld speed for your lens.
+ Read → 
+ Star Trails Calculator
+ Max shutter time before stars trail at night.
+ Open → 
+
+ Low light FAQ
+
+ Is high ISO noise or underexposure noise? Both. Noise is mostly set by how little light the sensor captures (underexposure), then amplified by ISO. "Expose to the right" — brighten the exposure in camera (via ISO or shutter) to keep signal high, then recover in post. Noise reduction software works best on properly exposed frames.
+
+ Does image stabilization help moving subjects? No — IBIS/lens IS only cancels your shake, not subject motion. A person walking needs 1/60–1/125 regardless of stabilization. Stabilization buys handheld capability for static subjects (buildings, night streets).
+
+ Why does my phone take better night shots than my camera? Phones stack many short exposures (computational photography) to cancel noise, then sharpen with AI. Your camera can do the same: bracket 5–10 shots on a tripod and average them in post — the "poor man's astro" technique that works for night cityscapes too.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/nd-filter-long-exposure-chart.html
+TITLE: Free ND Filter Long Exposure Chart | ShutterMath
+SUMMARY: Free printable ND filter chart: shutter time for every base exposure from 1/2000 s to 30 s and filter from ND2 to ND64000. The long-exposure cheat sheet.
+
+Home › ND Filter Long Exposure Chart 
+
+ ND Filter Long Exposure Chart
+
+ Meter your scene without the filter, find your base exposure in the left column, then read across to your filter: that's your shutter time. Works for any scene — this is the same math as the ND filter calculator , pre-computed.
+
+ Base exposure ND2 ND4 ND8 ND16 ND32 ND64 ND100 ND256 ND400 ND1000 ND4000 ND64000 
+
+ 1/2000 1/1000 s 1/500 s 1/250 s 1/125 s 1/62 s 1/31 s 1/19 s 1/8 s 1/5 s 1/2 s 2 s 32.8 s 
+ 1/1000 1/500 s 1/250 s 1/125 s 1/62 s 1/31 s 1/16 s 1/10 s 1/4 s 1/2 s 1 s 4.1 s 1 min 5.5 s 
+ 1/500 1/250 s 1/125 s 1/62 s 1/31 s 1/16 s 1/8 s 1/5 s 1/2 s 1/1 s 2 s 8.2 s 2 min 11.1 s 
+ 1/250 1/125 s 1/62 s 1/31 s 1/16 s 1/8 s 1/4 s 1/2 s 1 s 1.7 s 4.1 s 16.4 s 4 min 22.1 s 
+ 1/125 1/62 s 1/31 s 1/16 s 1/8 s 1/4 s 1/2 s 1/1 s 2 s 3.3 s 8.2 s 32.8 s 8 min 44.3 s 
+ 1/60 1/30 s 1/15 s 1/8 s 1/4 s 1/2 s 1.1 s 1.7 s 4.3 s 6.9 s 17.1 s 1 min 8.3 s 18 min 12.3 s 
+ 1/30 1/15 s 1/8 s 1/4 s 1/2 s 1.1 s 2.1 s 3.5 s 8.5 s 13.9 s 34.1 s 2 min 16.5 s 36 min 24.5 s 
+ 1/15 1/8 s 1/4 s 1/2 s 1.1 s 2.1 s 4.3 s 6.9 s 17.1 s 27.7 s 1 min 8.3 s 4 min 33.1 s 72 min 49.1 s 
+ 1/8 1/4 s 1/2 s 1 s 2 s 4 s 8 s 13 s 32 s 52 s 2 min 8 s 8 min 32 s 136 min 32 s 
+ 1/4 1/2 s 1 s 2 s 4 s 8 s 16 s 26 s 1 min 4 s 1 min 44 s 4 min 16 s 17 min 4 s 273 min 4 s 
+ 1/2 1 s 2 s 4 s 8 s 16 s 32 s 52 s 2 min 8 s 3 min 27.9 s 8 min 32 s 34 min 8 s 546 min 8 s 
+ 1 s 2 s 4 s 8 s 16 s 32 s 1 min 4 s 1 min 44 s 4 min 16 s 6 min 55.9 s 17 min 4 s 68 min 16 s 1092 min 16 s 
+ 2 s 4 s 8 s 16 s 32 s 1 min 4 s 2 min 8 s 3 min 27.9 s 8 min 32 s 13 min 51.7 s 34 min 8 s 136 min 32 s 2184 min 32 s 
+ 4 s 8 s 16 s 32 s 1 min 4 s 2 min 8 s 4 min 16 s 6 min 55.9 s 17 min 4 s 27 min 43.5 s 68 min 16 s 273 min 4 s 4369 min 4 s 
+ 8 s 16 s 32 s 1 min 4 s 2 min 8 s 4 min 16 s 8 min 32 s 13 min 51.7 s 34 min 8 s 55 min 27 s 136 min 32 s 546 min 8 s 8738 min 8 s 
+ 15 s 30 s 1 min 2 min 4 min 8 min 16 min 25 min 59.5 s 64 min 103 min 58.1 s 256 min 1024 min 16384 min 
+ 30 s 1 min 2 min 4 min 8 min 16 min 32 min 51 min 59 s 128 min 207 min 56.2 s 512 min 2048 min 32768 min 
+
+ ⚠️ Reality check: these times assume the filter's rated density. Budget filters can be off by a third of a stop, and long exposures suffer reciprocity failure on some films (not sensors). Bracket ±1 stop and check the histogram.
+
+ Related tools
+
+ ND Filter Calculator
+ Exact shutter time for any filter and any base — including filters not on this chart.
+ Open → 
+ Depth of Field Calculator
+ Pair the long exposure with the aperture your scene needs.
+ Open →
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/privacy.html
+TITLE: Privacy Policy — ShutterMath
+SUMMARY: ShutterMath privacy policy: what we collect (privacy-friendly analytics), how cookies and consent work, and how advertising is handled.
+
+Home › Privacy Policy 
+ Privacy Policy
+
+ Last updated: August 3, 2026
+
+ 1. Who we are
+
+ ShutterMath ("we", "us") is an independent website providing free photography calculators. This policy explains what data we process and why. Contact: hello@shuttermath.com .
+
+ 2. Data we process
+
+ a. Calculator inputs and saved setups
+
+ Everything you type into a calculator is processed entirely in your browser . "Saved setups" are stored in your browser's local storage and never transmitted to us. We cannot see your camera, lens, or distance values.
+
+ b. Privacy-friendly analytics
+
+ We use lightweight, privacy-respecting analytics (no advertising cookies, no cross-site tracking, no personal identifiers such as IPs retained in identifiable form) to understand which tools and pages are useful. Analytics data is aggregate: page views, rough country, device type, referrer.
+
+ c. Advertising (only with your consent)
+
+ We may display ads served by Google AdSense only after you click "Accept" on the consent banner (or where you are not in the EEA/UK and no consent is required by law). If you consent, Google and its partners may use cookies to personalize ads, measure ad performance, and deliver relevant advertising, as described in Google's Privacy & Terms. You can withdraw consent at any time by clearing your browser storage for this site.
+
+ Third-party vendor disclosure: Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to this website or other websites. Users may opt out of personalised advertising by visiting Google Ads Settings . Users may also opt out of some third-party vendors' use of cookies for personalised advertising by visiting www.aboutads.info (the Digital Advertising Alliance opt-out page) or the Network Advertising Initiative opt-out page . To opt out of Google Analytics Advertising Features, visit Google Analytics Opt-out .
+
+ For visitors in the EEA/UK, we use a Google-certified consent management platform to obtain and record your choices under GDPR and the ePrivacy Directive before any advertising or personalization cookies load.
+
+ 3. Cookies we use
+
+ Cookie / storage Purpose Required? 
+
+ Local storage: fc-consent Records your consent choice Yes (for consent) 
+
+ Local storage: fc-presets Your saved calculator setups No (only if you save) 
+
+ Analytics cookies Aggregate usage statistics No 
+
+ Advertiser cookies (AdSense) Personalized ads No — consent only 
+
+ 4. Legal bases (GDPR)
+
+ We process consent-related storage under your consent (Art. 6(1)(a)), analytics under our legitimate interest in improving the site (Art. 6(1)(f)), and we honor opt-outs via the consent banner.
+
+ 5. Your rights
+
+ Under GDPR you may request access, rectification, erasure, restriction, or portability of personal data, and withdraw consent at any time. Since we hold almost no personal data, most requests resolve by clearing browser storage. Contact us at hello@shuttermath.com for anything else. You may also lodge a complaint with your supervisory authority.
+
+ 6. Children
+
+ This site is not directed at children under 13 and we do not knowingly collect their data.
+
+ 7. Changes
+
+ Material changes to this policy will be announced on this page with an updated date.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/sharpest-aperture.html
+TITLE: Sharpest Aperture — Diffraction Explained | ShutterMath
+SUMMARY: Every lens has a sweet spot. Diffraction-limited apertures computed for real cameras: where the Airy disk meets your sensor's pixel pitch — and the practical.
+
+Home › Guides › Sharpest Aperture for Every Camera 
+ Sharpest Aperture for Every Camera
+
+ Every lens has a sweet spot. Diffraction-limited apertures computed for real cameras: where the Airy disk meets your sensor's pixel pitch — and the practical f-stops to use.
+
+ Every lens has a sharpness sweet spot. Wide open, optical aberrations soften the edges; stop down and they improve — but eventually diffraction takes over and the image softens again. The balance point is different for every camera, and it's computable.
+
+ The Airy disk: where softness comes from
+
+ Light passing through a circular aperture doesn't focus to a point — it spreads into a blur disc called the Airy disk, diameter 2.44 × λ × N (λ ≈ 0.55 µm for green light). When that disk grows larger than your sensor's pixels, diffraction is visible at 100%:
+
+ Aperture Airy disk diameter 
+
+ f/1.4 1.9 µm 
+ f/2 2.7 µm 
+ f/2.8 3.8 µm 
+ f/4 5.4 µm 
+ f/5.6 7.5 µm 
+ f/8 10.7 µm 
+ f/11 14.8 µm 
+ f/16 21.5 µm 
+ f/22 29.5 µm 
+
+ Diffraction-limited aperture for real cameras
+
+ Pixels are smaller on high-resolution sensors, so they hit the diffraction wall sooner. The table shows each camera's pixel pitch and the f-stop where the Airy disk reaches about two pixels — the practical point of visible softening:
+
+ Camera Sensor Pixel pitch Diffraction-limited ≈ 
+
+ Sony A1 II 36.0 × 24.0 mm 4.17 µm ≈ f/8 
+ Sony A7 IV 36.0 × 24.0 mm 5.14 µm ≈ f/8 
+ Canon EOS R5 II 36.0 × 24.0 mm 4.39 µm ≈ f/8 
+ Fujifilm X-T5 23.5 × 15.6 mm 3.03 µm ≈ f/5.6 
+ OM System OM-1 II 17.4 × 13.0 mm 3.35 µm ≈ f/5.6 
+ iPhone 16 Pro 9.8 × 7.3 mm 1.21 µm ≈ f/2 
+
+ Practical sweet spots
+
+ Portraits: f/1.8–f/2.8 — sharpness isn't the point; blur is.
+
+ Landscapes (tripod): f/8–f/11 — f/8 is the safe sweet spot, f/11 for extra DoF.
+
+ Real estate / interiors: f/8 — enough depth, still pixel-sharp.
+
+ Macro: stop down freely; focus stacking beats diffraction.
+
+ Want the numbers for your exact camera and lens? The free depth of field calculator pairs any body in the database with any aperture.
+
+ Related tools & guides
+
+ Depth of Field Calculator
+ DoF and hyperfocal for your exact sensor.
+ Open → 
+ Camera Sensor Sizes
+ Why pixel pitch and format matter.
+ Read → 
+ DoF for Landscape
+ Hyperfocal, stacking and the f-stop sweet spot.
+ Read → 
+
+ Diffraction FAQ
+
+ What is the sharpest aperture? Usually f/4–f/8 on full frame. Past f/8–f/11 diffraction starts softening detail at the pixel level.
+
+ Is f/16 unusable? No. At print sizes the softening is invisible; f/16 is fine when you need maximum depth of field and can't stack.
+
+ Do phone cameras diffract? Yes, and much earlier — a 48 MP phone sensor is diffraction-limited around f/1.8–f/2. That's why phone lenses stay wide open.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/shutter-speed-chart.html
+TITLE: Shutter Speed Chart | ShutterMath
+SUMMARY: Printable shutter speed chart: freeze birds in flight, pan a race car, smooth a waterfall, or follow the 180-degree video rule. Recommended speeds for every.
+
+Home › Guides › Shutter Speed Chart 
+ Shutter Speed Chart
+
+ The shutter speed that freezes your subject depends on how fast it moves across the frame — not just its real speed. These are proven starting points; check sharpness at 100% and adjust.
+
+ Freeze or blur: recommended speeds
+
+ Subject Recommended Notes 
+
+ Birds in flight 1/2000 – 1/4000 s Fast wings need the fastest speeds; use burst + tracking 
+
+ Motorsport / racing 1/1000 – 1/2000 s Or 1/60 – 1/125 s for a panning shot with blurred background 
+
+ Ball sports (tennis, soccer) 1/1000 – 1/2000 s Ball in frame = go faster 
+
+ Kids & pets playing 1/500 – 1/1000 s Unpredictable movement; fast enough to save candid shots 
+
+ Street / documentary 1/250 s Freezes walking subjects; wide enough for available light 
+
+ Portraits 1/125 – 1/250 s People pose; this beats camera shake with stabilization 
+
+ Handheld landscapes 1/focal length (or 2× for APS-C) With stabilization you can go 2–4 stops slower 
+
+ Macro (handheld) 1/200 s or faster Magnification amplifies shake — see the macro guide 
+
+ Waterfall — silky 1/2 – 2 s Tripod + ND filter; use the ND calculator 
+
+ Waterfall — frozen 1/500 – 1/1000 s Bright day, fast shutter 
+
+ City lights / night 2 – 30 s Tripod; bulb mode for longer 
+
+ Star points (astro) see 500/NPF rule Max time before trails — use the star calculator 
+
+ Video: the 180° rule
+
+ For video, shutter is set by the 180° rule: 1/(2 × frame rate) . The full math is in the shutter angle calculator :
+
+ Frame rate 180° shutter 
+
+ 24 fps 1/48 s 
+
+ 30 fps 1/60 s 
+
+ 60 fps 1/120 s 
+
+ 120 fps (slow-mo) 1/240 s 
+
+ Handheld rule of thumb
+
+ The classic anti-shake rule: shutter ≥ 1 ÷ focal length (35 mm equivalent). A 200 mm lens needs ≥ 1/200 s; a 24 mm can go as slow as 1/24 s. Modern image stabilization buys you 2–4 extra stops — but only for your shake, not subject movement.
+
+ Related tools & guides
+
+ Exposure Equivalence
+ Trade shutter for aperture/ISO without changing brightness.
+ Open → 
+ ND Filter Calculator
+ Get slow shutter speeds in daylight.
+ Open → 
+ Sports & Action DoF
+ Pair the right shutter with the right aperture.
+ Read → 
+
+ Shutter speed FAQ
+
+ Why do I need a faster shutter for a flying bird than a running dog? It's about speed across the frame, which depends on distance and lens magnification too. A bird at 10 m with a 400 mm lens crosses the frame much faster than a dog at 5 m with a 35 mm lens — hence 1/2000+.
+
+ Is a slower shutter ever better? Yes — when you want motion blur: panning with a car (1/60–1/125 s), silky water (1/2–2 s), light trails (seconds), or intentional camera movement. Blur tells the story of motion; freezing erases it.
+
+ Does image stabilization let me ignore the rule? For static subjects, yes — you can go 2–4 stops slower handheld. For moving subjects, no: stabilization counters your shake, not the subject's motion. Keep the subject speed, not the rule.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/pages/terms.html
+TITLE: Terms of Use — ShutterMath
+SUMMARY: ShutterMath terms of use: acceptable use, accuracy disclaimer, intellectual property, and liability.
+
+Home › Terms of Use 
+ Terms of Use
+
+ Last updated: August 3, 2026
+
+ 1. Acceptance
+
+ By using ShutterMath you agree to these terms. If you do not agree, please do not use the site.
+
+ 2. The service
+
+ ShutterMath provides free, browser-based photography calculators. The tools are provided "as is" without warranty of any kind, express or implied, including accuracy, fitness for a particular purpose, or non-infringement.
+
+ 3. Accuracy disclaimer
+
+ We compute results using standard published photographic formulas and verify our camera database, but we do not guarantee that any result is correct for every lens, firmware, or shooting condition. Real-world results depend on your equipment's tolerances, focus accuracy, and viewing standards. Always verify critical exposure and focus decisions using your camera's own metering and review functions. To the maximum extent permitted by law, ShutterMath is not liable for any loss arising from use of the tools.
+
+ 4. Acceptable use
+
+ You may use the calculators freely for personal and commercial photography work. You may not: scrape the site at scale, republish the tool code or database as a competing product, or use the site in any way that violates applicable law.
+
+ 5. Intellectual property
+
+ The site design, text, and tool code are © ShutterMath. Camera, lens, and brand names belong to their respective owners and are used only to identify compatible equipment. The mathematical formulas used are standard public-domain optics.
+
+ 6. Advertising
+
+ Advertising shown on the site is clearly labeled and never required for the tools to function. Advertisers are responsible for their own content and claims.
+
+ 7. Changes & contact
+
+ We may update these terms; the date above reflects the latest version. Questions: hello@shuttermath.com .
