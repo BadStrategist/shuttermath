@@ -450,6 +450,24 @@ Home › Exposure Equivalence Calculator
 
  How does ISO fit into EV? ISO doesn't change the light — it changes amplification. The scene-brightness value is EV100 − log₂(ISO/100): at ISO 400 (2 stops), the same scene reads as 2 EVs lower, which is why you can shoot at 1/4 the shutter speed or 2 stops narrower aperture.
 
+ Exposure value chart: what EV means in practice
+ Short answer: EV measures the light, not the camera settings. EV 15 is bright sun, EV 8 is a lit street at night, and each EV step is one stop of shutter, aperture or ISO. At ISO 100, EV = log2(N squared / t).
+
+ Starting exposures at ISO 100, rounded to real shutter speeds. Meter, then adjust for the subject. Scene EV at ISO 100 Start at f/2.8 Start at f/8 
+ Bright sun, clear sky 16 f/2.8 at 1/8000 f/8 at 1/1000 
+ Sunny, hazy or thin cloud 15 f/2.8 at 1/4000 f/8 at 1/500 
+ Cloudy bright, open shade 14 f/2.8 at 1/2000 f/8 at 1/250 
+ Overcast 13 f/2.8 at 1/1000 f/8 at 1/125 
+ Heavy overcast, deep shade 12 f/2.8 at 1/500 f/8 at 1/60 
+ Sunset, sun on the horizon 12 f/2.8 at 1/500 f/8 at 1/60 
+ After sunset, warm afterglow 9 f/2.8 at 1/60 f/8 at 1/8 
+ Night street with lit signs 8 f/2.8 at 1/30 f/8 at 1/4 
+ Full moon 15 f/2.8 at 1/4000 f/8 at 1/500 
+ Milky Way, dark sky 2 f/2.8 at 2 s f/8 at 15 s 
+
+ Read this as a sanity check. A grey card in bright sun sits at EV 15; snow and white sand need +1 to +2 EV of compensation because the meter wants to render them grey, and a dark forest or a backlit subject needs -1 EV.
+ One EV is one stop, so equivalent exposures share an EV: f/2.8 at 1/500 s, f/8 at 1/60 s and f/11 at 1/30 s are the same brightness. The calculator above converts between them without changing the exposure.
+
 
 ------------------------------------------------------------------------------
 SOURCE: https://shuttermath.com/tools/field-of-view.html
@@ -665,6 +683,18 @@ Home › Flash Guide Number Calculator
  Do softboxes and bounce reduce effective GN? Yes, a lot. A softbox typically costs 1–2 stops (GN ÷ 1.4–2), bouncing off a ceiling costs 2–4 stops. Add those losses before trusting the calculator for off-camera work.
 
  Why does my camera meter differently than this? TTL metering measures the actual reflected flash and is usually more accurate for close work. The GN math is the planning tool — it tells you if the flash can reach before you set anything up.
+
+ Guide number chart: how far the flash reaches
+ Short answer: distance = guide number divided by f-number. A flash with GN 60 m at ISO 100 reaches 7.5 m at f/8 and 21.4 m at f/2.8. Double the ISO and the guide number rises by 1.4 times.
+
+ Maximum distance in metres at ISO 100 for common guide numbers. Flash f/2.8 f/4 f/5.6 f/8 
+ GN 30 m 10.7 m 7.5 m 5.4 m 3.8 m 
+ GN 40 m 14.3 m 10.0 m 7.1 m 5.0 m 
+ GN 50 m 17.9 m 12.5 m 8.9 m 6.2 m 
+ GN 60 m 21.4 m 15.0 m 10.7 m 7.5 m 
+
+ Guide numbers are quoted at ISO 100 and a specific zoom position, usually the widest the head covers. Zooming the head concentrates the light and raises the effective guide number; a diffuser spreads it and cuts it by roughly a stop. Bounce flash loses two to three stops because the ceiling is a poor reflector.
+ At ISO 400 the guide number doubles, so the same flash reaches twice as far at the same aperture. That is why high ISO plus a small aperture is the usual way to light a large room from one speedlight.
 
 
 ------------------------------------------------------------------------------
@@ -1236,6 +1266,26 @@ Home › ND Filter Calculator
 
  Does stacking two filters add their stops? Yes — optical densities add, so ND8 (3 stops) + ND64 (6 stops) = 9 stops total. Watch for vignetting and color cast when stacking.
 
+ ND filter chart: stops to shutter speed
+ Short answer: each stop doubles the exposure time. A 10 stop filter multiplies a 1/15 s exposure by 1024, which is 68 seconds. A 3 stop filter turns 1/60 s into 1/8 s.
+
+ Exposure multiplication for each ND strength. The name is the transmission, so ND1000 passes 1/1000 of the light. Strength Filter name Light factor 1 s becomes 1/15 s becomes 
+ 1 stop ND2 2x 2 s 1/8 
+ 2 stops ND4 4x 4 s 1/4 
+ 3 stops ND8 8x 8 s 0.5 s 
+ 4 stops ND16 16x 16 s 1 s 
+ 5 stops ND32 32x 32 s 2 s 
+ 6 stops ND64 64x 1 min 4 s 
+ 7 stops ND128 128x 2 min 9 s 
+ 8 stops ND256 256x 4 min 17 s 
+ 9 stops ND512 512x 9 min 34 s 
+ 10 stops ND1000 1024x 17 min 1 min 
+ 13 stops ND8000 8192x 137 min 9 min 
+ 15 stops ND32000 32768x 546 min 36 min 
+
+ Filter names and stops are often confused. ND8 is 3 stops, not 8. ND1000 is 10 stops, and some makers label it ND3.0 or 10 stop. The number after ND is the transmission factor, and stops = log2(factor).
+ Stacking filters adds stops: a 6 stop and a 3 stop together give 9 stops, a factor of 512. Add the stops, never the filter names. Vignetting and colour cast grow with the stack, so prefer one strong filter.
+
 
 ------------------------------------------------------------------------------
 SOURCE: https://shuttermath.com/tools/pixel-scale.html
@@ -1483,6 +1533,23 @@ Home › Print Resolution Calculator
  Is 300 DPI always better than 150 DPI? For the same print size, higher DPI means more detail only if the viewing distance is close. A 40-inch print viewed from 6 feet at 150 DPI looks identical to 300 DPI to most eyes. Choose DPI by viewing distance, not by the maximum number.
 
  What DPI should I use for a canvas or metal print? Canvas: 150 DPI is the norm (the texture hides detail anyway). Metal and acrylic: 240–300 DPI recommended since they're glossy and often viewed close.
+
+ How many megapixels a print size needs
+ Short answer: multiply inches by dots per inch. An 8 x 10 in print at 300 dpi needs 2400 x 3000 pixels, which is 7.2 megapixels. At 150 dpi the same print needs only 1.8 megapixels, and at normal viewing distance that is still sharp.
+
+ Pixels and megapixels required for each print size. Pixels are width x height. Print size Pixels at 300 dpi 300 dpi 240 dpi 150 dpi 
+ 4 x 6 in 1200 x 1800 2.2 MP 1.4 MP 0.5 MP 
+ 5 x 7 in 1500 x 2100 3.2 MP 2.0 MP 0.8 MP 
+ 6 x 9 in 1800 x 2700 4.9 MP 3.1 MP 1.2 MP 
+ 8 x 10 in 2400 x 3000 7.2 MP 4.6 MP 1.8 MP 
+ 8 x 12 in 2400 x 3600 8.6 MP 5.5 MP 2.2 MP 
+ 11 x 14 in 3300 x 4200 13.9 MP 8.9 MP 3.5 MP 
+ 16 x 20 in 4800 x 6000 28.8 MP 18.4 MP 7.2 MP 
+ 20 x 30 in 6000 x 9000 54.0 MP 34.6 MP 13.5 MP 
+ 24 x 36 in 7200 x 10800 77.8 MP 49.8 MP 19.4 MP 
+
+ 300 dpi is the print industry default for anything held in the hand. Wall prints are viewed from further away, so 240 dpi covers a 16 x 20 and 150 dpi is acceptable at 24 x 36 when the print hangs behind a sofa. What matters is pixels per degree of view, not a fixed number.
+ Upscaling adds pixels, not detail. If the calculator says you are short by a factor of two, a sharper lens, a longer exposure on a tripod or a stitched panorama will do more than any resize algorithm.
 
 
 ------------------------------------------------------------------------------
