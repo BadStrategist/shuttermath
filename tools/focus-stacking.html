@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Focus Stacking Calculator: How Many Shots You Need</title>
+<meta name="description" content="Enter your lens, aperture and the near and far limits you want sharp to get the number of focus stacked frames and the step between them. Includes a full frame step table.">
+<link rel="canonical" href="https://shuttermath.com/tools/focus-stacking.html">
+<meta property="og:title" content="Focus Stacking Calculator: How Many Shots You Need">
+<meta property="og:description" content="Frame count and focus step for a sharp focus stack, from macro to landscape.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://shuttermath.com/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>.aeo-tbl{width:100%;border-collapse:collapse;margin:.6rem 0 1rem;font-size:.9rem}
+.aeo-tbl th,.aeo-tbl td{border-bottom:1px solid #e5e7eb;padding:.45rem .5rem;text-align:right;white-space:nowrap}
+.aeo-tbl th:first-child,.aeo-tbl td:first-child{text-align:left}
+.aeo-tbl thead th{background:#f6f8fb;font-weight:700}
+.aeo-tbl caption{text-align:left;font-size:.8rem;color:#5b6577;padding-bottom:.3rem;white-space:normal}
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+.aeo-answer{border-left:4px solid #2563eb;background:#f6f8fb;padding:.8rem 1rem;border-radius:6px;margin:1rem 0}</style>
+<!-- SEO:LINKS:START --><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' font-weight='700' fill='%23fff' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E"><link rel="apple-touch-icon" href="/assets/img/thumbnail.png"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"><meta property="og:url" content="https://shuttermath.com/tools/focus-stacking.html"><meta property="og:site_name" content="ShutterMath"><meta name="twitter:title" content="Focus Stacking Calculator: How Many Shots You Need"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://shuttermath.com/#organization","name":"ShutterMath","url":"https://shuttermath.com/","logo":"https://shuttermath.com/assets/img/og.png","description":"Free, sensor-accurate photography calculators and reference charts for depth of field, hyperfocal distance, exposure, ND filters, field of view and video shutter angle."},{"@type":"BreadcrumbList","@id":"https://shuttermath.com/tools/focus-stacking.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shuttermath.com/"},{"@type":"ListItem","position":2,"name":"Calculators","item":"/tools/index.html"},{"@type":"ListItem","position":3,"name":"Focus Stacking","item":"https://shuttermath.com/tools/focus-stacking.html"}]},{"@type":"WebPage","@id":"https://shuttermath.com/tools/focus-stacking.html#webpage","url":"https://shuttermath.com/tools/focus-stacking.html","name":"Focus Stacking Calculator: How Many Shots You Need","dateModified":"2026-10-30","isPartOf":{"@id":"https://shuttermath.com/#organization"},"breadcrumb":{"@id":"https://shuttermath.com/tools/focus-stacking.html#breadcrumb"}}]}</script><!-- SEO:LINKS:END -->
+</head>
+<body>
+<header class="site-header"><!-- CHROME:HEADER:START --><div class="container"><a class="brand" href="/">Shutter<span>Math</span></a><nav class="nav" aria-label="Main navigation"><a href="/tools/depth-of-field.html">Depth of Field</a><a href="/tools/hyperfocal.html">Hyperfocal</a><a href="/tools/nd-filter.html">ND Filter</a><a href="/tools/flash-guide-number.html">Flash GN</a><a href="/tools/pixel-scale.html">Pixel Scale</a><a href="/tools/shutter-angle.html">Shutter Angle</a><a href="/tools/crop-factor.html">Crop Factor</a><a href="/tools/background-blur.html">Blur</a><a href="/pages/guides.html">Guides</a></nav><button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button></div><!-- CHROME:HEADER:END --></header>
+<main class="container">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/tools/index.html">Calculators</a> › Focus Stacking Calculator</nav>
+  <h1>Focus Stacking Calculator</h1>
+  <p class="muted">Focus stacking works when each frame overlaps the next by about 30%. This calculator turns your near and far limits into a frame count and a focus step, so you stop guessing at 20 shots and hoping.</p>
+
+  <div class="tool-wrap mt1">
+    <section class="panel" aria-label="Calculator inputs">
+      <h2>Lens and scene</h2>
+      <div class="row2">
+        <div class="field"><label for="focal">Focal length (mm)</label><input id="focal" type="number" min="4" max="1200" step="any" value="50" inputmode="decimal"></div>
+        <div class="field"><label for="aperture">Aperture (f-number)</label><input id="aperture" type="number" min="1.4" max="45" step="any" value="8" inputmode="decimal"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="near">Nearest point to be sharp (m)</label><input id="near" type="number" min="0.01" max="100000" step="any" value="0.5" inputmode="decimal"></div>
+        <div class="field"><label for="far">Farthest point to be sharp (m)</label><input id="far" type="number" min="0.02" max="100000" step="any" value="2" inputmode="decimal"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="coc">Circle of confusion (mm)</label>
+          <select id="coc">
+            <option value="0.030" selected>0.030, full frame, standard</option>
+            <option value="0.029">0.029, full frame, 24 MP</option>
+            <option value="0.020">0.020, APS-C</option>
+            <option value="0.015">0.015, Micro Four Thirds</option>
+            <option value="0.011">0.011, 1 inch sensor</option>
+          </select>
+        </div>
+        <div class="field"><label for="overlap">Frame overlap</label>
+          <select id="overlap">
+            <option value="0.30" selected>30% (recommended)</option>
+            <option value="0.20">20% (fewer frames)</option>
+            <option value="0.50">50% (safest, handheld)</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" aria-label="Results">
+      <h2>Result</h2>
+      <div class="result-grid">
+        <div class="result warn"><div class="k">Frames needed</div><div class="v" id="r-frames">—</div><div class="s">shots in the stack</div></div>
+        <div class="result"><div class="k">Focus step</div><div class="v" id="r-step">—</div><div class="s">between frames</div></div>
+        <div class="result inf"><div class="k">Depth per frame</div><div class="v" id="r-dof">—</div><div class="s">at the middle of the range</div></div>
+        <div class="result"><div class="k">First and last focus</div><div class="v" id="r-limits">—</div><div class="s">metres</div></div>
+      </div>
+      <div class="callout good mt1" id="r-note">—</div>
+    </section>
+  </div>
+
+  <h2>How many shots does a focus stack need?</h2>
+  <div class="aeo-answer"><p><strong>Short answer:</strong> divide the distance you must cover by about 70% of the depth of field each frame already gives you, then add one. At 50 mm and f/8 on full frame, covering 0.5 m to 2 m needs 9 frames, with a focus step of about 20 cm. The same range at 100 mm needs 33 frames.</p></div>
+  <p>The step is the whole trick. Each frame is sharp over a slab of depth. If the next frame starts where the last one ended, the merge has nothing to blend and small alignment errors become visible bands. Overlap the slabs by 30% and the software has room to work:</p>
+  <ul>
+    <li><strong>Depth per frame</strong> comes from the depth of field formula at the middle of the range, not at the near end. Depth grows with distance, so a fixed step calculated at the near end leaves the far end under-covered.</li>
+    <li><strong>Frame count</strong> = ceil(range ÷ step) + 1. The extra frame covers the far limit itself, where depth runs out.</li>
+    <li><strong>Aperture:</strong> stopping down is not a substitute. Diffraction softens every frame in the stack, and no amount of merging removes it.</li>
+    <li><strong>Rail versus lens:</strong> a focusing rail moves the camera and changes perspective; turning the focus ring keeps perspective fixed. For anything within about a metre, the rail gives more even steps.</li>
+  </ul>
+
+  <h2>Typical stacks, full frame</h2>
+  <div class="tbl-scroll"><table class="aeo-tbl">
+    <caption>Frames at 30% overlap, 0.030 mm circle of confusion, focus ring method</caption>
+    <thead><tr><th>Subject</th><th>Lens and aperture</th><th>Range</th><th>Frames</th><th>Step</th></tr></thead>
+    <tbody>
+      <tr><td>Watch face, macro</td><td>100 mm, f/8</td><td>0.30 to 0.35 m</td><td>22</td><td>2.5 mm</td></tr>
+      <tr><td>Flower head</td><td>100 mm, f/8</td><td>0.40 to 0.52 m</td><td>23</td><td>5.6 mm</td></tr>
+      <tr><td>Product shot</td><td>50 mm, f/8</td><td>0.5 to 2 m</td><td>9</td><td>0.20 m</td></tr>
+      <tr><td>Furniture</td><td>35 mm, f/8</td><td>1 to 4 m</td><td>3</td><td>2.2 m</td></tr>
+      <tr><td>Landscape foreground</td><td>24 mm, f/5.6</td><td>0.5 to 3 m</td><td>3</td><td>1.6 m</td></tr>
+    </tbody>
+  </table></div>
+  <p class="hint">Set the calculator to your own values before trusting these: the step depends on the sensor, the aperture and the distance, and a change from f/8 to f/5.6 roughly halves the depth per frame.</p>
+
+  <h2>Common questions</h2>
+  <h3>How many photos do I need for focus stacking?</h3>
+  <p>Between 3 and 12 for most subjects. Close macro work at 100 mm needs 20 to 40 frames, because depth per frame at half a metre is only a few millimetres. A wide landscape stack needs 2 or 3.</p>
+  <h3>Can I focus stack handheld?</h3>
+  <p>Yes, if you shoot a burst and let the software align the frames. Use a 50% overlap, a shutter speed fast enough to freeze movement, and expect to discard frames where the camera drifted. Static subjects on a tripod always merge better.</p>
+  <h3>Does focus stacking work with a moving subject?</h3>
+  <p>No. The subject must be still for the whole sequence, or the merge shows ghost edges. Wind, water and people are the usual reasons a stack fails.</p>
+
+  <h2>Related tools and guides</h2>
+  <div class="grid grid-3">
+    <a class="card" href="/tools/macro-dof.html"><h3>Macro Depth of Field</h3><p>Magnification, working distance and the thin slab that is sharp.</p></a>
+    <a class="card" href="/tools/depth-of-field.html"><h3>Depth of Field Calculator</h3><p>Near and far limits for any sensor, lens and distance.</p></a>
+    <a class="card" href="/tools/hyperfocal.html"><h3>Hyperfocal Distance</h3><p>When one frame is enough and the stack is not needed.</p></a>
+  </div>
+</main>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Focus Stacking Calculator","url":"https://shuttermath.com/tools/focus-stacking.html","applicationCategory":"UtilityApplication","operatingSystem":"Any","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How many photos do I need for focus stacking?","acceptedAnswer":{"@type":"Answer","text":"Between 3 and 12 for most subjects. Close macro at 100 mm needs 20 to 40 frames, a wide landscape stack needs 2 or 3."}},
+{"@type":"Question","name":"Can I focus stack handheld?","acceptedAnswer":{"@type":"Answer","text":"Yes with a burst and automatic alignment, using 50% overlap and a fast shutter speed. A tripod always merges better."}},
+{"@type":"Question","name":"Does focus stacking work with a moving subject?","acceptedAnswer":{"@type":"Answer","text":"No. The subject must stay still for the whole sequence or the merge shows ghost edges."}},
+{"@type":"Question","name":"Should I stop down instead of stacking?","acceptedAnswer":{"@type":"Answer","text":"No. Stopping down adds diffraction to every frame in the stack and merging cannot remove it."}}
+]}
+</script>
+<script>
+(function () {
+  var el = function (id) { return document.getElementById(id); };
+  var MM = 1000;
+  function dofAt(f, N, c, s) { // all in mm, s = focus distance
+    var H = (f * f) / (N * c) + f;
+    var near = (H * s) / (H + (s - f));
+    var den = H - (s - f);
+    var far = den > 0 ? (H * s) / den : Infinity;
+    return [near, far, far === Infinity ? Infinity : far - near];
+  }
+  function fmt(m) {
+    if (!isFinite(m)) return "\u221e";
+    if (Math.abs(m) < 0.01) return Math.round(m * 1000) + " mm";
+    if (Math.abs(m) < 1) return (m * 100).toFixed(1) + " cm";
+    return (m < 10 ? m.toFixed(2) : Math.round(m)) + " m";
+  }
+  function compute() {
+    var f = parseFloat(el("focal").value), N = parseFloat(el("aperture").value);
+    var c = parseFloat(el("coc").value), ov = parseFloat(el("overlap").value);
+    var n = parseFloat(el("near").value) * MM, fa = parseFloat(el("far").value) * MM;
+    if (!(f > 0) || !(N > 0) || !(n > 0) || !(fa > n)) {
+      el("r-note").textContent = "Enter a focal length, an aperture and a far point greater than the near point.";
+      return;
+    }
+    var mid = (n + fa) / 2;
+    var d = dofAt(f, N, c, mid);
+    var dofMid = d[2];
+    if (!isFinite(dofMid)) { el("r-frames").textContent = "1"; el("r-note").textContent = "One frame covers this range: focus beyond the hyperfocal distance."; return; }
+    var step = dofMid * (1 - ov);
+    var frames = Math.ceil((fa - n) / step) + 1;
+    el("r-frames").textContent = frames + (frames === 1 ? " frame" : " frames");
+    el("r-step").textContent = fmt(step / MM);
+    el("r-dof").textContent = fmt(dofMid / MM);
+    el("r-limits").textContent = fmt(n / MM) + " to " + fmt(fa / MM);
+    var note = "Start focused at " + fmt(n / MM) + ", then step back by about " + fmt(step / MM) + " per frame. "
+             + "Depth per frame at " + fmt(mid / MM) + " is " + fmt(dofMid / MM) + ", and the " + Math.round(ov * 100) + "% overlap hides alignment errors.";
+    if (dofMid / MM > (fa - n) / MM) note = "One frame already covers " + fmt(n / MM) + " to " + fmt(fa / MM) + " at f/" + N + ". Stacking adds nothing here.";
+    el("r-note").textContent = note;
+  }
+  ["focal", "aperture", "coc", "overlap", "near", "far"].forEach(function (id) {
+    el(id).addEventListener("input", compute);
+    el(id).addEventListener("change", compute);
+  });
+  var P = new URLSearchParams(location.search);
+  ["focal", "aperture", "coc", "overlap", "near", "far"].forEach(function (k) { if (P.get(k)) el(k).value = P.get(k); });
+  compute();
+})();
+</script>
+<footer class="site-footer"><!-- CHROME:FOOTER:START --><div class="container"><div><strong style="color:#fff">ShutterMath</strong><br>Photography calculators that know the camera you own</div><nav class="fnav" aria-label="Footer navigation"><a href="/pages/free-photography-calculators.html">Free Tools</a><a href="/products.html">Field Kit</a><a href="/pages/about.html">About</a><a href="/pages/contact.html">Contact</a><a href="/pages/privacy.html">Privacy Policy</a><a href="/pages/terms.html">Terms</a></nav></div><!-- CHROME:FOOTER:END --></footer>
+</body>
+</html>

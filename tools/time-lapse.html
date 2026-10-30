@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Time Lapse Calculator: Interval, Shots and Clip Length</title>
+<meta name="description" content="Work out the time lapse interval, the number of photos and the real world shooting time for a clip of any length. Convert 24 fps playback to a 10 second clip in one step.">
+<link rel="canonical" href="https://shuttermath.com/tools/time-lapse.html">
+<meta property="og:title" content="Time Lapse Calculator: Interval, Shots and Clip Length">
+<meta property="og:description" content="Interval, frame count and shooting time for any time lapse clip.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://shuttermath.com/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>.aeo-tbl{width:100%;border-collapse:collapse;margin:.6rem 0 1rem;font-size:.9rem}
+.aeo-tbl th,.aeo-tbl td{border-bottom:1px solid #e5e7eb;padding:.45rem .5rem;text-align:right;white-space:nowrap}
+.aeo-tbl th:first-child,.aeo-tbl td:first-child{text-align:left}
+.aeo-tbl thead th{background:#f6f8fb;font-weight:700}
+.aeo-tbl caption{text-align:left;font-size:.8rem;color:#5b6577;padding-bottom:.3rem;white-space:normal}
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+.aeo-answer{border-left:4px solid #2563eb;background:#f6f8fb;padding:.8rem 1rem;border-radius:6px;margin:1rem 0}</style>
+<!-- SEO:LINKS:START --><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' font-weight='700' fill='%23fff' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E"><link rel="apple-touch-icon" href="/assets/img/thumbnail.png"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"><meta property="og:url" content="https://shuttermath.com/tools/time-lapse.html"><meta property="og:site_name" content="ShutterMath"><meta name="twitter:title" content="Time Lapse Calculator: Interval, Shots and Clip Length"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://shuttermath.com/#organization","name":"ShutterMath","url":"https://shuttermath.com/","logo":"https://shuttermath.com/assets/img/og.png","description":"Free, sensor-accurate photography calculators and reference charts for depth of field, hyperfocal distance, exposure, ND filters, field of view and video shutter angle."},{"@type":"BreadcrumbList","@id":"https://shuttermath.com/tools/time-lapse.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shuttermath.com/"},{"@type":"ListItem","position":2,"name":"Calculators","item":"/tools/index.html"},{"@type":"ListItem","position":3,"name":"Time Lapse","item":"https://shuttermath.com/tools/time-lapse.html"}]},{"@type":"WebPage","@id":"https://shuttermath.com/tools/time-lapse.html#webpage","url":"https://shuttermath.com/tools/time-lapse.html","name":"Time Lapse Calculator: Interval, Shots and Clip Length","dateModified":"2026-10-30","isPartOf":{"@id":"https://shuttermath.com/#organization"},"breadcrumb":{"@id":"https://shuttermath.com/tools/time-lapse.html#breadcrumb"}}]}</script><!-- SEO:LINKS:END -->
+</head>
+<body>
+<header class="site-header"><!-- CHROME:HEADER:START --><div class="container"><a class="brand" href="/">Shutter<span>Math</span></a><nav class="nav" aria-label="Main navigation"><a href="/tools/depth-of-field.html">Depth of Field</a><a href="/tools/hyperfocal.html">Hyperfocal</a><a href="/tools/nd-filter.html">ND Filter</a><a href="/tools/flash-guide-number.html">Flash GN</a><a href="/tools/pixel-scale.html">Pixel Scale</a><a href="/tools/shutter-angle.html">Shutter Angle</a><a href="/tools/crop-factor.html">Crop Factor</a><a href="/tools/background-blur.html">Blur</a><a href="/pages/guides.html">Guides</a></nav><button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button></div><!-- CHROME:HEADER:END --></header>
+<main class="container">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="/tools/index.html">Calculators</a> › Time Lapse Calculator</nav>
+  <h1>Time Lapse Calculator</h1>
+  <p class="muted">A time lapse is just arithmetic: clip length × frame rate gives the photos you need, and photos × interval gives the time you must stand there. Set any three values below and the fourth follows.</p>
+
+  <div class="tool-wrap mt1">
+    <section class="panel" aria-label="Calculator inputs">
+      <h2>Your clip</h2>
+      <div class="row2">
+        <div class="field"><label for="len">Clip length (seconds)</label><input id="len" type="number" min="0.5" max="600" step="any" value="10" inputmode="decimal"></div>
+        <div class="field"><label for="fps">Playback frame rate</label>
+          <select id="fps">
+            <option value="24" selected>24 fps (cinema)</option>
+            <option value="25">25 fps (PAL)</option>
+            <option value="30">30 fps (NTSC)</option>
+            <option value="60">60 fps</option>
+          </select>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="interval">Interval between photos (seconds)</label><input id="interval" type="number" min="0.5" max="86400" step="any" value="2" inputmode="decimal"></div>
+        <div class="field"><label for="window">Time available to shoot (minutes)</label><input id="window" type="number" min="1" max="14400" step="any" value="30" inputmode="decimal"></div>
+      </div>
+      <div class="hint">Cinema habit: use an interval a whole multiple of the interval at which the scene changes. Quick clouds 1 to 3 s, sunsets 3 to 10 s, shadows 30 to 60 s, stars 15 to 30 s.</div>
+    </section>
+
+    <section class="panel" aria-label="Results">
+      <h2>Result</h2>
+      <div class="result-grid">
+        <div class="result warn"><div class="k">Photos needed</div><div class="v" id="r-frames">—</div><div class="s">frames for the clip</div></div>
+        <div class="result"><div class="k">Shooting time</div><div class="v" id="r-time">—</div><div class="s">real world duration</div></div>
+        <div class="result inf"><div class="k">Speed up</div><div class="v" id="r-speed">—</div><div class="s">× real time</div></div>
+        <div class="result"><div class="k">Fits your window?</div><div class="v" id="r-fit">—</div><div class="s">at this interval</div></div>
+      </div>
+      <div class="callout good mt1" id="r-note">—</div>
+    </section>
+  </div>
+
+  <h2>How the numbers work</h2>
+  <div class="aeo-answer"><p><strong>Short answer:</strong> photos = clip length × frame rate. Shooting time = photos × interval. A 10 second clip at 24 fps needs 240 photos, which at a 2 second interval takes 8 minutes of real time, a 48× speed up.</p></div>
+  <ul>
+    <li><strong>Photos:</strong> 10 s × 24 fps = 240 frames. Round up, always, because a clip one frame short shows as a stutter at the end.</li>
+    <li><strong>Shooting time:</strong> 240 × 2 s = 480 s = 8 minutes. The interval is measured from the start of one exposure to the start of the next, so add your shutter speed to the interval if the camera cannot overlap them.</li>
+    <li><strong>Speed up:</strong> shooting time ÷ clip length. 8 minutes into 10 seconds is 48×.</li>
+    <li><strong>Long exposures:</strong> if the exposure is longer than the interval, the interval becomes the exposure. Keep exposures under half the interval or the camera never returns to the start position in time.</li>
+  </ul>
+
+  <h2>Common clips worked out</h2>
+  <div class="tbl-scroll"><table class="aeo-tbl">
+    <caption>Photos and shooting time at 24 fps, with the interval needed to fit a fixed window</caption>
+    <thead><tr><th>Clip (24 fps)</th><th>Photos</th><th>2 s interval</th><th>5 s interval</th><th>10 s interval</th><th>30 s interval</th></tr></thead>
+    <tbody>
+      <tr><td>5 seconds</td><td>120</td><td>4 min</td><td>10 min</td><td>20 min</td><td>1 h 0 min</td></tr>
+      <tr><td>10 seconds</td><td>240</td><td>8 min</td><td>20 min</td><td>40 min</td><td>2 h 0 min</td></tr>
+      <tr><td>15 seconds</td><td>360</td><td>12 min</td><td>30 min</td><td>1 h 0 min</td><td>3 h 0 min</td></tr>
+      <tr><td>20 seconds</td><td>480</td><td>16 min</td><td>40 min</td><td>1 h 20 min</td><td>4 h 0 min</td></tr>
+      <tr><td>30 seconds</td><td>720</td><td>24 min</td><td>1 h 0 min</td><td>2 h 0 min</td><td>6 h 0 min</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Common questions</h2>
+  <h3>What interval should I use for a sunset time lapse?</h3>
+  <p>3 to 10 seconds. At a 5 second interval a 10 second clip needs 240 photos and 20 minutes of shooting, which covers the gap between the sun touching the horizon and the afterglow fading. Shorter clips of 4 to 6 seconds are often enough for social media.</p>
+  <h3>How many photos do I need for a 10 second time lapse?</h3>
+  <p>240 at 24 fps, 250 at 25 fps, 300 at 30 fps and 600 at 60 fps. Shoot about 10% extra so you can trim frames where someone walked into the shot.</p>
+  <h3>Does the interval include the exposure time?</h3>
+  <p>On most cameras the interval is the start to start time. If your shutter speed is 1 s and the interval is 1 s, the camera drops frames. Keep the exposure at or below half the interval, and turn off long exposure noise reduction, which doubles the black frame time.</p>
+
+  <h2>Related tools and guides</h2>
+  <div class="grid grid-3">
+    <a class="card" href="/tools/shutter-angle.html"><h3>Shutter Angle Calculator</h3><p>The 180 degree rule for video and time lapse.</p></a>
+    <a class="card" href="/tools/star-trails.html"><h3>Star Trails Calculator</h3><p>Exposures and total time for night sky sequences.</p></a>
+    <a class="card" href="/pages/long-exposure.html"><h3>Long Exposure Guide</h3><p>Timing, ND filters and the maths behind both.</p></a>
+  </div>
+</main>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Time Lapse Calculator","url":"https://shuttermath.com/tools/time-lapse.html","applicationCategory":"UtilityApplication","operatingSystem":"Any","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How many photos do I need for a 10 second time lapse?","acceptedAnswer":{"@type":"Answer","text":"240 photos at 24 fps, 250 at 25 fps, 300 at 30 fps and 600 at 60 fps. Clip length multiplied by frame rate gives the count."}},
+{"@type":"Question","name":"What interval should I use for a sunset time lapse?","acceptedAnswer":{"@type":"Answer","text":"3 to 10 seconds. A 5 second interval gives a 10 second clip in 20 minutes of shooting."}},
+{"@type":"Question","name":"Does the interval include the exposure time?","acceptedAnswer":{"@type":"Answer","text":"The interval is normally start to start. Keep the shutter speed at or below half the interval or the camera drops frames."}},
+{"@type":"Question","name":"How long does a time lapse take to shoot?","acceptedAnswer":{"@type":"Answer","text":"Shooting time equals photos multiplied by interval. 240 photos at a 2 second interval take 8 minutes."}}
+]}
+</script>
+<script>
+(function () {
+  var el = function (id) { return document.getElementById(id); };
+  function hms(sec) {
+    sec = Math.round(sec);
+    var h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60;
+    if (h > 0) return h + " h " + m + " min";
+    if (m > 0) return s ? m + " min " + s + " s" : m + " min";
+    return s + " s";
+  }
+  function compute() {
+    var len = parseFloat(el("len").value), fps = parseFloat(el("fps").value);
+    var iv = parseFloat(el("interval").value), win = parseFloat(el("window").value) * 60;
+    if (!(len > 0) || !(fps > 0) || !(iv > 0)) return;
+    var frames = Math.ceil(len * fps);
+    var total = frames * iv;
+    el("r-frames").textContent = frames.toLocaleString() + " photos";
+    el("r-time").textContent = hms(total);
+    el("r-speed").textContent = Math.round(total / len) + "\u00d7";
+    var fits = total <= win;
+    el("r-fit").textContent = fits ? "Yes" : "No";
+    var note;
+    if (fits) {
+      var spare = win - total;
+      note = "You need " + hms(total) + " at a " + iv + " s interval, leaving " + hms(spare) + " spare. "
+           + "Shoot " + Math.ceil(frames * 0.1) + " extra frames for trimming.";
+    } else {
+      var need = win / frames;
+      note = "That needs " + hms(total) + ", which is " + hms(total - win) + " too long. "
+           + "Use a " + (need >= 1 ? need.toFixed(1) + " s" : Math.round(need * 1000) + " ms") + " interval to finish inside your window, "
+           + "or cut the clip to " + Math.floor(win / iv / fps * 10) / 10 + " s.";
+    }
+    el("r-note").textContent = note;
+  }
+  ["len", "fps", "interval", "window"].forEach(function (id) { el(id).addEventListener("input", compute); el(id).addEventListener("change", compute); });
+  var P = new URLSearchParams(location.search);
+  if (P.get("len")) el("len").value = P.get("len");
+  if (P.get("fps")) el("fps").value = P.get("fps");
+  if (P.get("interval")) el("interval").value = P.get("interval");
+  if (P.get("window")) el("window").value = P.get("window");
+  compute();
+})();
+</script>
+<footer class="site-footer"><!-- CHROME:FOOTER:START --><div class="container"><div><strong style="color:#fff">ShutterMath</strong><br>Photography calculators that know the camera you own</div><nav class="fnav" aria-label="Footer navigation"><a href="/pages/free-photography-calculators.html">Free Tools</a><a href="/products.html">Field Kit</a><a href="/pages/about.html">About</a><a href="/pages/contact.html">Contact</a><a href="/pages/privacy.html">Privacy Policy</a><a href="/pages/terms.html">Terms</a></nav></div><!-- CHROME:FOOTER:END --></footer>
+</body>
+</html>

@@ -668,6 +668,117 @@ Home › Flash Guide Number Calculator
 
 
 ------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/focus-stacking.html
+TITLE: Focus Stacking Calculator: How Many Shots You Need
+SUMMARY: Enter your lens, aperture and the near and far limits you want sharp to get the number of focus stacked frames and the step between them. Includes a full frame step table.
+
+Home › Calculators › Focus Stacking Calculator 
+ Focus Stacking Calculator
+
+ Focus stacking works when each frame overlaps the next by about 30%. This calculator turns your near and far limits into a frame count and a focus step, so you stop guessing at 20 shots and hoping.
+
+ Lens and scene
+
+ Focal length (mm) 
+
+ Aperture (f-number) 
+
+ Nearest point to be sharp (m) 
+
+ Farthest point to be sharp (m) 
+
+ Circle of confusion (mm) 
+
+ 0.030, full frame, standard 
+ 0.029, full frame, 24 MP 
+ 0.020, APS-C 
+ 0.015, Micro Four Thirds 
+ 0.011, 1 inch sensor 
+
+ Frame overlap 
+
+ 30% (recommended) 
+ 20% (fewer frames) 
+ 50% (safest, handheld) 
+
+ Result
+
+ Frames needed
+ —
+ shots in the stack
+
+ Focus step
+ —
+ between frames
+
+ Depth per frame
+ —
+ at the middle of the range
+
+ First and last focus
+ —
+ metres
+
+ —
+
+ How many shots does a focus stack need?
+
+ Short answer: divide the distance you must cover by about 70% of the depth of field each frame already gives you, then add one. At 50 mm and f/8 on full frame, covering 0.5 m to 2 m needs 9 frames, with a focus step of about 20 cm. The same range at 100 mm needs 33 frames.
+
+ The step is the whole trick. Each frame is sharp over a slab of depth. If the next frame starts where the last one ended, the merge has nothing to blend and small alignment errors become visible bands. Overlap the slabs by 30% and the software has room to work:
+
+ Depth per frame comes from the depth of field formula at the middle of the range, not at the near end. Depth grows with distance, so a fixed step calculated at the near end leaves the far end under-covered.
+
+ Frame count = ceil(range ÷ step) + 1. The extra frame covers the far limit itself, where depth runs out.
+
+ Aperture: stopping down is not a substitute. Diffraction softens every frame in the stack, and no amount of merging removes it.
+
+ Rail versus lens: a focusing rail moves the camera and changes perspective; turning the focus ring keeps perspective fixed. For anything within about a metre, the rail gives more even steps.
+
+ Typical stacks, full frame
+
+ Frames at 30% overlap, 0.030 mm circle of confusion, focus ring method 
+ Subject Lens and aperture Range Frames Step 
+
+ Watch face, macro 100 mm, f/8 0.30 to 0.35 m 22 2.5 mm 
+
+ Flower head 100 mm, f/8 0.40 to 0.52 m 23 5.6 mm 
+
+ Product shot 50 mm, f/8 0.5 to 2 m 9 0.20 m 
+
+ Furniture 35 mm, f/8 1 to 4 m 3 2.2 m 
+
+ Landscape foreground 24 mm, f/5.6 0.5 to 3 m 3 1.6 m 
+
+ Set the calculator to your own values before trusting these: the step depends on the sensor, the aperture and the distance, and a change from f/8 to f/5.6 roughly halves the depth per frame.
+
+ Common questions
+
+ How many photos do I need for focus stacking?
+
+ Between 3 and 12 for most subjects. Close macro work at 100 mm needs 20 to 40 frames, because depth per frame at half a metre is only a few millimetres. A wide landscape stack needs 2 or 3.
+
+ Can I focus stack handheld?
+
+ Yes, if you shoot a burst and let the software align the frames. Use a 50% overlap, a shutter speed fast enough to freeze movement, and expect to discard frames where the camera drifted. Static subjects on a tripod always merge better.
+
+ Does focus stacking work with a moving subject?
+
+ No. The subject must be still for the whole sequence, or the merge shows ghost edges. Wind, water and people are the usual reasons a stack fails.
+
+ Related tools and guides
+
+ Macro Depth of Field
+ Magnification, working distance and the thin slab that is sharp.
+
+ Depth of Field Calculator
+ Near and far limits for any sensor, lens and distance.
+
+ Hyperfocal Distance
+ When one frame is enough and the stack is not needed.
+
+
+------------------------------------------------------------------------------
 SOURCE: https://shuttermath.com/tools/hyperfocal.html
 TITLE: Hyperfocal Distance Calculator: Focus Once, Sharp to Infinity
 SUMMARY: 24mm at f/8 on full frame is hyperfocal at 2.5 m, so everything from 1.25 m to infinity is sharp. Enter your focal length, aperture and sensor for the exact distance.
@@ -1562,6 +1673,106 @@ Home › Star Trails Calculator
  Does the 500 rule still work on my 45 MP camera? Poorly — it was calibrated for 12–16 MP sensors. At 45 MP the pixels are ~4.4 µm and trails are visible well before 500/f. The NPF rule (or 300/f) is the right choice for modern sensors.
 
  What if I want star trails on purpose? Then ignore all rules — stack many long exposures (30 s–5 min each) and composite. The calculator's job is the opposite: keeping stars as points.
+
+
+------------------------------------------------------------------------------
+SOURCE: https://shuttermath.com/tools/time-lapse.html
+TITLE: Time Lapse Calculator: Interval, Shots and Clip Length
+SUMMARY: Work out the time lapse interval, the number of photos and the real world shooting time for a clip of any length. Convert 24 fps playback to a 10 second clip in one step.
+
+Home › Calculators › Time Lapse Calculator 
+ Time Lapse Calculator
+
+ A time lapse is just arithmetic: clip length × frame rate gives the photos you need, and photos × interval gives the time you must stand there. Set any three values below and the fourth follows.
+
+ Your clip
+
+ Clip length (seconds) 
+
+ Playback frame rate 
+
+ 24 fps (cinema) 
+ 25 fps (PAL) 
+ 30 fps (NTSC) 
+ 60 fps 
+
+ Interval between photos (seconds) 
+
+ Time available to shoot (minutes) 
+
+ Cinema habit: use an interval a whole multiple of the interval at which the scene changes. Quick clouds 1 to 3 s, sunsets 3 to 10 s, shadows 30 to 60 s, stars 15 to 30 s.
+
+ Result
+
+ Photos needed
+ —
+ frames for the clip
+
+ Shooting time
+ —
+ real world duration
+
+ Speed up
+ —
+ × real time
+
+ Fits your window?
+ —
+ at this interval
+
+ —
+
+ How the numbers work
+
+ Short answer: photos = clip length × frame rate. Shooting time = photos × interval. A 10 second clip at 24 fps needs 240 photos, which at a 2 second interval takes 8 minutes of real time, a 48× speed up.
+
+ Photos: 10 s × 24 fps = 240 frames. Round up, always, because a clip one frame short shows as a stutter at the end.
+
+ Shooting time: 240 × 2 s = 480 s = 8 minutes. The interval is measured from the start of one exposure to the start of the next, so add your shutter speed to the interval if the camera cannot overlap them.
+
+ Speed up: shooting time ÷ clip length. 8 minutes into 10 seconds is 48×.
+
+ Long exposures: if the exposure is longer than the interval, the interval becomes the exposure. Keep exposures under half the interval or the camera never returns to the start position in time.
+
+ Common clips worked out
+
+ Photos and shooting time at 24 fps, with the interval needed to fit a fixed window 
+ Clip (24 fps) Photos 2 s interval 5 s interval 10 s interval 30 s interval 
+
+ 5 seconds 120 4 min 10 min 20 min 1 h 0 min 
+
+ 10 seconds 240 8 min 20 min 40 min 2 h 0 min 
+
+ 15 seconds 360 12 min 30 min 1 h 0 min 3 h 0 min 
+
+ 20 seconds 480 16 min 40 min 1 h 20 min 4 h 0 min 
+
+ 30 seconds 720 24 min 1 h 0 min 2 h 0 min 6 h 0 min 
+
+ Common questions
+
+ What interval should I use for a sunset time lapse?
+
+ 3 to 10 seconds. At a 5 second interval a 10 second clip needs 240 photos and 20 minutes of shooting, which covers the gap between the sun touching the horizon and the afterglow fading. Shorter clips of 4 to 6 seconds are often enough for social media.
+
+ How many photos do I need for a 10 second time lapse?
+
+ 240 at 24 fps, 250 at 25 fps, 300 at 30 fps and 600 at 60 fps. Shoot about 10% extra so you can trim frames where someone walked into the shot.
+
+ Does the interval include the exposure time?
+
+ On most cameras the interval is the start to start time. If your shutter speed is 1 s and the interval is 1 s, the camera drops frames. Keep the exposure at or below half the interval, and turn off long exposure noise reduction, which doubles the black frame time.
+
+ Related tools and guides
+
+ Shutter Angle Calculator
+ The 180 degree rule for video and time lapse.
+
+ Star Trails Calculator
+ Exposures and total time for night sky sequences.
+
+ Long Exposure Guide
+ Timing, ND filters and the maths behind both.
 
 
 ------------------------------------------------------------------------------
@@ -2959,7 +3170,7 @@ SUMMARY: Free photography calculators, all of them: depth of field, hyperfocal d
 
 Free Photography Calculators — No Sign-Up | ShutterMath 
 
- Shutter Math Depth of Field Hyperfocal ND Filter Flash GN Pixel Scale Shutter Angle Blur Guides &#9776; 
+ Shutter Math Depth of Field Hyperfocal ND Filter Flash GN Pixel Scale Shutter Angle Crop Factor Blur Guides &#9776; 
 
  Home › Free Photography Calculators 
  Free Photography Calculators
